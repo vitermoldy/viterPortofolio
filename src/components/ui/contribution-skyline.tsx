@@ -748,3 +748,4 @@ export default function ContributionSkyline({
         const o = i * 24
         // top
         polys[o] = px(x0, y0); polys[o + 1] = py(x0, y0, z)
+        polys[o + 2] = px(x1, y0); polys[o + 3] = py(x1, y0, z)
