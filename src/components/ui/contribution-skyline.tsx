@@ -1071,3 +1071,4 @@ export default function ContributionSkyline({
     retheme()
     relayout()
 
+    // The 3D view rises out of the flat one the first time it is seen.
