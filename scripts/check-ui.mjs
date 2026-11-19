@@ -138,3 +138,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
       if (/ on /.test(t)) found = t
     }
     expect(found, 'no tooltip')
+    return found.replace(/\s+/g, ' ')
