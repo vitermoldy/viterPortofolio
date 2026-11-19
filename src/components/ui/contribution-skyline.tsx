@@ -1222,3 +1222,4 @@ export default function ContributionSkyline({
               aria-hidden="true"
               className="absolute top-0.5 bottom-0.5 left-0.5 w-11 transition-transform duration-500 motion-reduce:transition-none"
               style={{
+                background: "var(--color-foreground, #171717)",
