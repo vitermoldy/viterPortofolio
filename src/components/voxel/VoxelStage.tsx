@@ -145,3 +145,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
           showCanvas ? 'opacity-0' : status === 'loading' ? 'opacity-60' : 'opacity-100',
         )}
       />
+      <canvas
