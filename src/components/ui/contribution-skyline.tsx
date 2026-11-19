@@ -250,3 +250,4 @@ export const luminance = (c: RGB): number => (0.2126 * c[0] + 0.7152 * c[1] + 0.
 export type PaletteName = "github" | "halloween" | "ocean" | "ember" | "grape" | "mono"
 export type PaletteInput = PaletteName | string[] | { light: string[]; dark: string[] }
 
+/** Four colours per theme, lightest activity → heaviest. */
