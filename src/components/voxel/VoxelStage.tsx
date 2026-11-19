@@ -123,3 +123,5 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
     return () => {
       stale = true
     }
+  }, [engineReady, picture.src, picture.w, picture.h, relief, base, wave, attempt])
+
