@@ -65,3 +65,4 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'agentic-factory',
+    name: 'Agentic Factory',
