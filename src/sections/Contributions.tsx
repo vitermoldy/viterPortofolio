@@ -94,3 +94,4 @@ export function Contributions({ state }: { state: LoadState }) {
                   key={String(range)}
                   data={view.data}
                   endDate={view.endDate}
+                  palette={HUTAN}
