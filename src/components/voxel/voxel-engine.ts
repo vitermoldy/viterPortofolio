@@ -368,3 +368,4 @@ export class VoxelEngine {
       this.morph = this.reduced ? 1 : Math.min(1, this.morph + dt / this.morphSeconds)
       moving = true
     }
+    const k = this.reduced ? 1 : 1 - Math.exp(-dt * 9)
