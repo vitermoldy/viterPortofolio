@@ -24,3 +24,4 @@ export type Profile = {
   followers: number
   following: number
   publicRepos: number
+  createdAt: string
