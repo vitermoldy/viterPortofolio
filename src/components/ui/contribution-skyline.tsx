@@ -1374,3 +1374,4 @@ export default function ContributionSkyline({
           ) : (
             <span className="flex-1">{footer}</span>
           )}
+          {showLegend && (
