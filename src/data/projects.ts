@@ -102,3 +102,4 @@ export const PROJECTS: Project[] = [
     repos: [
       { label: 'v1 repository', name: 'PixelFolio' },
       { label: 'v2 repository', name: 'PixelFoliov2' },
+    ],
