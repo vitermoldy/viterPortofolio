@@ -17,3 +17,4 @@ export function Header() {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         setOpen(false)
+        toggleRef.current?.focus()
