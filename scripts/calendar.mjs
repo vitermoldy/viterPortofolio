@@ -21,3 +21,4 @@ export function parseCalendar(html) {
   const days = new Map()
   for (const [tag] of html.matchAll(DAY)) {
     const date = attr(tag, 'data-date')
+    if (!date || !/^\d{4}-\d{2}-\d{2}$/.test(date)) continue
