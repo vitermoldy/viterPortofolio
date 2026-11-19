@@ -583,3 +583,4 @@ export default function ContributionSkyline({
     let hovered = -1
     let pinned = -1
     let activeIdx = -1
+    let tipW = 0
