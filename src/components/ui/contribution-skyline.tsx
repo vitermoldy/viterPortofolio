@@ -55,3 +55,4 @@ export const smoothstep = (a: number, b: number, x: number): number => {
 export const toKey = (ms: number): string => new Date(ms).toISOString().slice(0, 10)
 
 /**
+ * Any date-ish value → UTC midnight of its calendar day. "YYYY-MM-DD" strings
