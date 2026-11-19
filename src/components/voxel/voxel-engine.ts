@@ -44,3 +44,4 @@ void main() {
   float ang = (1.0 - a) * (aRand.y * 6.0 - 3.0);
   mat2 R = mat2(cos(ang), -sin(ang), sin(ang), cos(ang));
   local.xz = R * local.xz;
+  vec3 n = normal;
