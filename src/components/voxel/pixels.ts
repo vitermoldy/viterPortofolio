@@ -80,3 +80,4 @@ export async function loadPixels(url: string, w: number, h: number): Promise<Pix
   const canvas = document.createElement('canvas')
   canvas.width = w
   canvas.height = h
+  const ctx = canvas.getContext('2d', { willReadFrequently: true })
