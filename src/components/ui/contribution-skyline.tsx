@@ -682,3 +682,4 @@ export default function ContributionSkyline({
       if (!w || !n) return
       W = w
       // Narrow cards give the weekday names' column to the grid instead; rows get too tight to label.
+      gutter = W < 520 ? 0 : labelW
