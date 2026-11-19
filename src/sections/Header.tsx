@@ -5,3 +5,4 @@ const NAV = [
   { href: '#contributions', label: 'Contributions' },
   { href: '#pixel-art', label: 'Pixel art' },
   { href: '#projects', label: 'Projects' },
+  { href: '#contact', label: 'Contact' },
