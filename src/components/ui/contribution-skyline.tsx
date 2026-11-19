@@ -1259,3 +1259,4 @@ export default function ContributionSkyline({
               ref={canvasRef}
               tabIndex={0}
               role="img"
+              aria-label={
