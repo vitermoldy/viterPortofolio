@@ -198,3 +198,4 @@
   .seg > button + button {
     border-left: 2px solid var(--color-moss);
   }
+  .seg > button:hover {
