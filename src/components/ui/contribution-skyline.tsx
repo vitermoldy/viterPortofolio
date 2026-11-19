@@ -710,3 +710,4 @@ export default function ContributionSkyline({
       }
       for (let i = 0; i < n; i++) zs[i] = riseAt(t, wk[i], weeks, dy[i]) * hgt[i]
       const b = extent(cam, e, false)
+      const pad = lerp(2, 20, e)
