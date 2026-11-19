@@ -510,3 +510,4 @@ export default function ContributionSkyline({
   const engine = React.useRef<{ kick: () => void; load: () => void; retheme: () => void; tipWidth: (w: number) => void } | null>(null)
 
   const plural = unitPlural ?? unit + "s"
+  const nf = React.useMemo(() => new Intl.NumberFormat(locale), [locale])
