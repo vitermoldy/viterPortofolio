@@ -1264,3 +1264,4 @@ export default function ContributionSkyline({
                 ", shown as a " + (is3d ? "3D skyline" : "heat map") + ". Use the arrow keys to read individual days."
               }
               className="absolute top-0 left-0 block outline-none"
+              style={{ maxWidth: "none", touchAction: is3d && orbit ? "pan-y" : "auto" }}
