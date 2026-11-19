@@ -855,3 +855,4 @@ export default function ContributionSkyline({
         const ty = Math.min(py(wk[i] + off, dy[i] + off, z), py(wk[i] + off + w, dy[i] + off, z), py(wk[i] + off, dy[i] + off + w, z))
         const half = tipW / 2
         const cx = Math.min(W - half - 2, Math.max(half + 2, tx))
+        tip.style.transform = "translate(" + (cx - half).toFixed(1) + "px," + (ty - 8).toFixed(1) + "px) translateY(-100%)"
