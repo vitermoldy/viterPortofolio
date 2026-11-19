@@ -44,3 +44,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 shows beside the busiest
                 {view.busiest ? `, ${num(view.busiest[1])} on ${day(view.busiest[0])}` : ''}.
               </p>
+            ) : (
