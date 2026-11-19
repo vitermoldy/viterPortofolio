@@ -10,3 +10,4 @@ My GitHub profile in 3D: **https://vitermoldy.github.io/viterPortofolio/**
   scale so a quiet day still shows beside a day of thousands. Flat heat map or 3D, the last 12 months or a past
   year, hover a day for its count.
 - **The pixel art** of my README (the room, StudyCabin at night, the sunset field) read pixel by pixel into a
+  relief you can turn.
