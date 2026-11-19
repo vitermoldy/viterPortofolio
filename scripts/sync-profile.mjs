@@ -117,3 +117,4 @@ function pixel() {
   return Promise.all(
     PIXEL.map(async (file) => {
       if (existsSync(join(local, file))) return copyFileSync(join(local, file), join(out, file))
+      const res = await fetch(`https://raw.githubusercontent.com/${USER}/${USER}/main/assets/pixel/${file}`, { headers: { 'User-Agent': UA } })
