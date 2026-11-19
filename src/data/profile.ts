@@ -11,3 +11,4 @@ export type Repo = {
   language: string | null
   stars: number
   forks: number
+  pushedAt: string
