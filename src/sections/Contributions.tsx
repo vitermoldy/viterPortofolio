@@ -29,3 +29,4 @@ export function Contributions({ state }: { state: LoadState }) {
     return { pastYears, data, endDate, total, busiest, quietest: Number.isFinite(quietest) ? quietest : 0 }
   }, [c, range])
 
+  return (
