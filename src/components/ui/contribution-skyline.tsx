@@ -530,3 +530,4 @@ export default function ContributionSkyline({
     const stage = stageRef.current
     const canvas = canvasRef.current
     const tip = tipRef.current
+    if (!root || !stage || !canvas || !tip) return
