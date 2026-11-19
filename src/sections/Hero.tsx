@@ -58,3 +58,5 @@ export function Hero({ state }: { state: LoadState }) {
               See the commit skyline
             </a>
           </div>
+        </div>
+
