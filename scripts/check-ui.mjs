@@ -133,3 +133,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     let found = ''
     for (let i = 0; i < 40 && !found; i++) {
       await page.mouse.move(box.x + box.width * (0.2 + (i % 8) * 0.08), box.y + box.height * (0.3 + Math.floor(i / 8) * 0.1))
+      await page.waitForTimeout(60)
