@@ -20,3 +20,4 @@ const TYPES = {
   '.txt': 'text/plain; charset=utf-8',
 }
 
+export function serve(port = 5189) {
