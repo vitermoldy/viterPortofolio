@@ -458,3 +458,4 @@ export class VoxelEngine {
     this.kick()
   }
 
+  private onKey = (ev: KeyboardEvent) => {
