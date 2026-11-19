@@ -1324,3 +1324,4 @@ export default function ContributionSkyline({
             )}
             <span
               aria-hidden="true"
+              className="absolute top-full h-0 w-0"
