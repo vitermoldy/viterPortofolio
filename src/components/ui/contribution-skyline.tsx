@@ -1065,3 +1065,5 @@ export default function ContributionSkyline({
         canvas.style.cursor = cfg.current.orbit && target === 1 ? "grab" : "default"
         kick()
       }
+    }
+
