@@ -429,3 +429,4 @@ export class VoxelEngine {
     if (this.aim(ev)) {
       this.pushDecay = false
       this.pushGoal = 1
+      this.kick()
