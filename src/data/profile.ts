@@ -76,3 +76,4 @@ export function useProfileData(): LoadState {
   return state
 }
 
+/** Sum of the last 365 days up to `today`, the number GitHub prints above the graph. */
