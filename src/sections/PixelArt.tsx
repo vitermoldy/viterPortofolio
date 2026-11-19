@@ -10,3 +10,4 @@ const SCENES: Scene[] = [
   {
     id: 'room',
     name: 'The room',
+    src: asset('pixel/room.svg'),
