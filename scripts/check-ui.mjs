@@ -210,3 +210,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
       expect(Math.abs(top) < 140 || id === 'contact', `${id} top at ${top}`)
     }
   })
+  await check('keyboard: Tab reaches the skip link first', async () => {
