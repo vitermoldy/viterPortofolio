@@ -19,3 +19,4 @@ const FOOTER_ART = {
   alt: 'Pixel grass with fireflies: thanks for stopping by.',
 }
 
+export function Contact() {
