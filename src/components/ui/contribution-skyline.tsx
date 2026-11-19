@@ -578,3 +578,4 @@ export default function ContributionSkyline({
     let faces = new Uint8Array(0)
     let order: number[] = []
     let months: { week: number; label: string }[] = []
+    let weekdayRows: { day: number; label: string }[] = []
