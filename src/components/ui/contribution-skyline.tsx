@@ -429,3 +429,4 @@ function Stat({
         <>
           <div className="text-right text-[13px] leading-tight" style={{ color: MUTED }}>
             {label}
+          </div>
