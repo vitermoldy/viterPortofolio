@@ -215,3 +215,4 @@
     color: var(--color-paper);
     text-decoration: underline;
     text-decoration-color: var(--color-moss);
+    text-decoration-thickness: 2px;
