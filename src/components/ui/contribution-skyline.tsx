@@ -927,3 +927,4 @@ export default function ContributionSkyline({
       kick()
     }
 
+    const hit = (x: number, y: number): number => {
