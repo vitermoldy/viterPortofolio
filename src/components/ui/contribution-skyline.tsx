@@ -738,3 +738,4 @@ export default function ContributionSkyline({
       const ey = col[1]
       const ez = col[2]
 
+      for (let k = 0; k < n; k++) {
