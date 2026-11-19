@@ -66,3 +66,4 @@ export function useProfileData(): LoadState {
         setState({
           status: 'error',
           message: err instanceof Error ? err.message : String(err),
+          retry: () => setAttempt((a) => a + 1),
