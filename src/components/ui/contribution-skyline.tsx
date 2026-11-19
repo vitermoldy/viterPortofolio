@@ -1376,3 +1376,4 @@ export default function ContributionSkyline({
           )}
           {showLegend && (
             <div className="flex items-center" onMouseLeave={() => setLegendLevel(-1)}>
+              <span className="mr-1">Less</span>
