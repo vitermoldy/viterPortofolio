@@ -555,3 +555,4 @@ export default function ContributionSkyline({
     let lastH = -1
     let dpr = 1
     let gutter = 30
+    let labelW = 30
