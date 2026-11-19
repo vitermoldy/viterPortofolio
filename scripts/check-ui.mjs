@@ -107,3 +107,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     expect(Buffer.compare(a, b) !== 0 && Buffer.compare(b, d) !== 0, 'keys did not move the camera')
   })
   await check('hero: "See the commit skyline" scrolls to it', async () => {
+    await page.getByRole('link', { name: 'See the commit skyline' }).click()
