@@ -57,3 +57,4 @@ export function Header() {
           onClick={() => setOpen((o) => !o)}
         >
           {open ? 'Close menu' : 'Menu'}
+        </button>
