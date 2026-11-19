@@ -1381,3 +1381,4 @@ export default function ContributionSkyline({
                 <button
                   key={i}
                   type="button"
+                  aria-label={"Highlight " + levelNames[i].toLowerCase() + " days"}
