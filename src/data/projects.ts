@@ -95,3 +95,4 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'pixelfolio',
+    name: 'PixelFolio',
