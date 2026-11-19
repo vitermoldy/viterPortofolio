@@ -1313,3 +1313,4 @@ export default function ContributionSkyline({
             }}
           >
             {active >= 0 && model.cells[active] ? (
+              <>
