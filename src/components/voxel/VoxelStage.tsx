@@ -5,3 +5,4 @@ import type { View, VoxelEngine } from './voxel-engine'
 
 export type VoxelPicture = {
   /** Image file in public/, already resolved against the base path. */
+  src: string
