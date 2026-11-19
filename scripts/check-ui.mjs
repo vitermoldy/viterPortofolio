@@ -62,3 +62,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
 
   await check('hero: real GitHub numbers', async () => {
     await page.waitForFunction(() => !document.querySelector('#top dl[aria-busy="true"]'))
+    const facts = await page.locator('#top dd').allInnerTexts()
