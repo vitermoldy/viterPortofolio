@@ -603,3 +603,4 @@ export default function ContributionSkyline({
         faces = new Uint8Array(n)
         order = Array.from({ length: n }, (_, i) => i)
       }
+      for (let i = 0; i < n; i++) {
