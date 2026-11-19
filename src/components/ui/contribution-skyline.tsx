@@ -772,3 +772,4 @@ export default function ContributionSkyline({
         let r = col[L]
         let g = col[L + 1]
         let bl = col[L + 2]
+        const d = dim[i]
