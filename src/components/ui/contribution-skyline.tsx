@@ -1269,3 +1269,4 @@ export default function ContributionSkyline({
 
             {showStats && corners && (
               <>
+                <div
