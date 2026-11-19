@@ -311,3 +311,4 @@ export interface ContributionSkylineProps {
   className?: string
 }
 
+const FG_FALLBACK: RGB = [23, 23, 23]
