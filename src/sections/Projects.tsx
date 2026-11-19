@@ -67,3 +67,4 @@ export function Projects({ state }: { state: LoadState }) {
                 <li key={p.id}>
                   <button
                     type="button"
+                    aria-pressed={on}
