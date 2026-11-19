@@ -30,3 +30,4 @@ export function Hero({ state }: { state: LoadState }) {
         <div className="md:col-span-6 lg:col-span-5" data-enter>
           <h1 id="hero-title" className="h-pixel text-[clamp(2.75rem,7vw,4.75rem)]">
             Viter Moldy Kesuma
+          </h1>
