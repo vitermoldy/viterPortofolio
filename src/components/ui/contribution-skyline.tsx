@@ -916,3 +916,5 @@ export default function ContributionSkyline({
       if (raf) return
       last = performance.now()
       raf = requestAnimationFrame(tick)
+    }
+
