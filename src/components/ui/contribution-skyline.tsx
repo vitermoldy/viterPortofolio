@@ -904,3 +904,4 @@ export default function ContributionSkyline({
         }
         if (d !== dg) {
           dim[i] = Math.abs(dg - d) < 0.003 ? dg : d + (dg - d) * kd
+          moving = true
