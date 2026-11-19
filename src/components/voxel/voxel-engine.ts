@@ -96,3 +96,4 @@ export type EngineOptions = {
 }
 
 export class VoxelEngine {
+  private renderer: THREE.WebGLRenderer
