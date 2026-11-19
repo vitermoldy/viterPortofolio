@@ -92,3 +92,4 @@ export function Projects({ state }: { state: LoadState }) {
         </div>
       </div>
     </section>
+  )
