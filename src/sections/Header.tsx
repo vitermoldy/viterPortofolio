@@ -64,3 +64,4 @@ export function Header() {
         id="menu"
         hidden={!open}
         className={cn('fixed inset-x-0 top-16 bottom-0 z-40 bg-ink md:hidden')}
+      >
