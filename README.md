@@ -24,3 +24,5 @@ every build and once a day, so the skyline grows on its own.
 
 ## Run it
 
+Node 22 or newer.
+
