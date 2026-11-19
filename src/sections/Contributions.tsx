@@ -17,3 +17,4 @@ export function Contributions({ state }: { state: LoadState }) {
     const thisYear = Number(c.today.slice(0, 4))
     const pastYears = yearsOf(c).filter((y) => y < thisYear)
     const rows = range === 'last' ? c.days : c.days.filter(([d]) => d.startsWith(String(range)))
+    const data: ContributionDay[] = rows.map(([date, count, level]) => ({ date, count, level }))
