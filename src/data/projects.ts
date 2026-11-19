@@ -62,3 +62,4 @@ export const PROJECTS: Project[] = [
       { label: 'v1 repository', name: 'Nyxborn' },
       { label: 'v2 repository', name: 'Nyxborn-v2' },
     ],
+  },
