@@ -52,3 +52,4 @@ const pressed = (loc) => loc.getAttribute('aria-pressed')
 const stageReady = (page, sel) =>
   page.waitForFunction((s) => {
     const c = document.querySelector(s + ' canvas')
+    return c && getComputedStyle(c).opacity === '1'
