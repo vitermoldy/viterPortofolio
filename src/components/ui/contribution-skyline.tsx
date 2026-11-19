@@ -798,3 +798,4 @@ export default function ContributionSkyline({
           ctx.fill()
         }
         ctx.beginPath()
+        quadPath(ctx, polys, o, radius)
