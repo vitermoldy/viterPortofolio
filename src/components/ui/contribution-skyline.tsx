@@ -525,3 +525,4 @@ export default function ContributionSkyline({
   const cfg = React.useRef({ model, duration, heightScale, heightCurve, orbit, palette, legendLevel, onCellClick, target: view === "3d" ? 1 : 0, setActive, setWidth, setTheme, setAnnounce, describe })
   cfg.current = { model, duration, heightScale, heightCurve, orbit, palette, legendLevel, onCellClick, target: view === "3d" ? 1 : 0, setActive, setWidth, setTheme, setAnnounce, describe }
 
+  React.useEffect(() => {
