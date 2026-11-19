@@ -23,3 +23,5 @@ export type VoxelOptions = {
   base?: number
 }
 
+export const luma = (r: number, g: number, b: number) => (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255
+
