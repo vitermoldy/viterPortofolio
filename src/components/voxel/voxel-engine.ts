@@ -51,3 +51,4 @@ void main() {
   vec3 world = mix(from, vec3(aXY, 0.0), a) + local;
 
   vColor = col;
+  vNormal = n;
