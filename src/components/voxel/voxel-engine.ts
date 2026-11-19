@@ -149,3 +149,4 @@ export class VoxelEngine {
       uniforms: {
         uAssemble: { value: 1 },
         uMorph: { value: 1 },
+        uSpan: { value: 100 },
