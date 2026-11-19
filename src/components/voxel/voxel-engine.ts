@@ -20,3 +20,4 @@ uniform vec2 uWaveFrom;
 uniform vec3 uPointer;
 uniform float uPointerR;
 uniform float uPush;
+uniform float uBump;
