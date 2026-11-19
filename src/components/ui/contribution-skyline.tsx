@@ -1226,3 +1226,4 @@ export default function ContributionSkyline({
                 transform: is3d ? "translateX(100%)" : "translateX(0)",
                 transitionTimingFunction: ease,
               }}
+            />
