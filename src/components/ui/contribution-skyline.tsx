@@ -819,3 +819,4 @@ export default function ContributionSkyline({
       const a2 = 1 - smoothstep(0, 0.4, e)
       const a3 = smoothstep(0.62, 1, e)
       if (a2 > 0.004) {
+        ctx.fillStyle = "rgba(" + Math.round(muted[0]) + "," + Math.round(muted[1]) + "," + Math.round(muted[2]) + "," + a2.toFixed(3) + ")"
