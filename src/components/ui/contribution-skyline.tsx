@@ -881,3 +881,4 @@ export default function ContributionSkyline({
         elev = elevGoal
       }
 
+      const kc = reduced ? 1 : 1 - Math.exp(-dt * 7)
