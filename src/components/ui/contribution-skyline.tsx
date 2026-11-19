@@ -215,3 +215,5 @@ export const WAVE = 0.42
 export const riseAt = (t: number, week: number, weeks: number, day: number): number => {
   const d = (weeks > 1 ? week / (weeks - 1) : 0) * 0.36 + (day / 6) * 0.06
   return easeOutCubic((t - d) / (1 - WAVE))
+}
+
