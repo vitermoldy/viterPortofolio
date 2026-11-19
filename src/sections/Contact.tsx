@@ -57,3 +57,4 @@ export function Contact() {
 
 export function Footer({ state }: { state: LoadState }) {
   const fetchedAt = state.status === 'ready' ? state.data.profile.fetchedAt : null
+  return (
