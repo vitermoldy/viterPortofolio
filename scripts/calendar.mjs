@@ -24,3 +24,4 @@ export function parseCalendar(html) {
     if (!date || !/^\d{4}-\d{2}-\d{2}$/.test(date)) continue
     const level = Math.max(0, Math.min(4, Number(attr(tag, 'data-level') ?? 0) || 0))
     days.set(date, [tips.get(attr(tag, 'id') ?? '') ?? 0, level])
+  }
