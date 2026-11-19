@@ -226,3 +226,4 @@ for (const width of [390, 320]) {
     await settle(page)
     const over = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)
     expect(over <= 0, 'overflow ' + over + 'px')
+    await page.screenshot({ path: join(OUT, `${width}-hero.png`), fullPage: false })
