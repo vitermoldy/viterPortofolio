@@ -341,3 +341,4 @@ export class VoxelEngine {
     if (!this.current) return
     const u = this.material.uniforms
     u.uAssemble.value = this.assemble
+    u.uMorph.value = this.morph
