@@ -112,3 +112,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     const top = await page.locator('#contributions').evaluate((el) => el.getBoundingClientRect().top)
     expect(Math.abs(top) < 120, 'section top at ' + top)
   })
+  await check('skyline: draws the real calendar', async () => {
