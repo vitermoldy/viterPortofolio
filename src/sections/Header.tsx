@@ -18,3 +18,4 @@ export function Header() {
       if (e.key === 'Escape') {
         setOpen(false)
         toggleRef.current?.focus()
+      }
