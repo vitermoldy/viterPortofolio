@@ -977,3 +977,4 @@ export default function ContributionSkyline({
       const [x, y] = local(ev)
       const i = hit(x, y)
       if (i !== hovered) {
+        hovered = i
