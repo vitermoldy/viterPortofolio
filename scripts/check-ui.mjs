@@ -232,3 +232,4 @@ for (const width of [390, 320]) {
     const wide = await page.evaluate(() =>
       [...document.querySelectorAll('main *')]
         .filter((el) => {
+          const r = el.getBoundingClientRect()
