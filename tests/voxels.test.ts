@@ -68,3 +68,4 @@ describe('skyline with GitHub levels and a log scale', () => {
       end,
     )
     expect(computeStats(cells).current.days).toBe(3)
+  })
