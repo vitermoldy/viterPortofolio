@@ -91,3 +91,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 </div>
               ) : (
                 <ContributionSkyline
+                  key={String(range)}
