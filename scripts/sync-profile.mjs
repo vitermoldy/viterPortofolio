@@ -32,3 +32,4 @@ const PIXEL = [
   'character.svg',
   'footer.svg',
   'card-evit.svg',
+  'card-convertion.svg',
