@@ -57,3 +57,4 @@ describe('project links', () => {
     const studycabin = PROJECTS.find((p) => p.id === 'studycabin')!
     const links = publicLinks(studycabin, [{ name: 'StudyCabin-v2', url: 'https://github.com/x/StudyCabin-v2' }])
     expect(links).toEqual([{ label: 'v2 repository', url: 'https://github.com/x/StudyCabin-v2' }])
+    const evit = PROJECTS.find((p) => p.id === 'evit')!
