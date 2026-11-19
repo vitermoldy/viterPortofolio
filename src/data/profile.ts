@@ -69,3 +69,4 @@ export function useProfileData(): LoadState {
           retry: () => setAttempt((a) => a + 1),
         })
       })
+    return () => {
