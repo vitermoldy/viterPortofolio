@@ -121,3 +121,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   })
   await check('skyline: 2D view and back', async () => {
     await page.getByRole('button', { name: 'Flat heat map' }).click()
+    await page.waitForTimeout(1800)
