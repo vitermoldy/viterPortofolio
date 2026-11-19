@@ -49,3 +49,4 @@ export function PixelArt() {
           </h2>
           <p className="mt-5 mb-0 text-lg">
             The pictures from my README, read pixel by pixel. The brighter a pixel, the further its block stands out, so
+            the lit screens, the windows and the sun come forward and the night stays at the wall.
