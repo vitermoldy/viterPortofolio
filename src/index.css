@@ -108,3 +108,4 @@
   .h-block {
     display: flex;
     align-items: baseline;
+    gap: 0.45em;
