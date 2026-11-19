@@ -260,3 +260,4 @@ for (const width of [390, 320]) {
         await page.locator('#' + id).screenshot({ path: join(OUT, `390-${id}.png`) })
       })
     }
+    await check('390: tap targets at least 44px', async () => {
