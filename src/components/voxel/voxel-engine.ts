@@ -310,3 +310,4 @@ export class VoxelEngine {
    */
   private place() {
     const v = this.current
+    if (!v) return
