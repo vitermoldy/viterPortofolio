@@ -85,3 +85,4 @@ async function profile() {
       .filter((r) => !r.fork)
       .map((r) => ({
         name: r.name,
+        description: r.description,
