@@ -474,3 +474,4 @@ export default function ContributionSkyline({
   showToggle = true,
   footer,
   locale = "en-US",
+  seed = 7,
