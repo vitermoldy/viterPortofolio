@@ -469,3 +469,4 @@ export default function ContributionSkyline({
   duration = 1300,
   weekStart = 0,
   orbit = true,
+  showStats = true,
