@@ -161,3 +161,4 @@ export class VoxelEngine {
     canvas.addEventListener('pointermove', this.onMove)
     canvas.addEventListener('pointerup', this.onUp)
     canvas.addEventListener('pointercancel', this.onCancel)
+    canvas.addEventListener('pointerleave', this.onLeave)
