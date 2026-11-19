@@ -821,3 +821,4 @@ export default function ContributionSkyline({
       if (a2 > 0.004) {
         ctx.fillStyle = "rgba(" + Math.round(muted[0]) + "," + Math.round(muted[1]) + "," + Math.round(muted[2]) + "," + a2.toFixed(3) + ")"
         ctx.textAlign = "left"
+        ctx.textBaseline = "bottom"
