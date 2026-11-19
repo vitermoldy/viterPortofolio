@@ -23,3 +23,4 @@ export function Contributions({ state }: { state: LoadState }) {
     let busiest: [string, number] | null = null
     let quietest = Infinity
     for (const [d, n] of c.days) {
+      if (n > 0 && n < quietest) quietest = n
