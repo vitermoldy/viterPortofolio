@@ -11,3 +11,4 @@ const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d)
 export default defineConfig(({ command }) => ({
   root,
   base: command === 'build' ? (process.env.SITE_BASE ?? '/viterPortofolio/') : '/',
+  server: { port: 5189, strictPort: true },
