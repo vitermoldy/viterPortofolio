@@ -51,3 +51,4 @@ export const smoothstep = (a: number, b: number, x: number): number => {
   return t * t * (3 - 2 * t)
 }
 
+/** UTC midnight → "YYYY-MM-DD". */
