@@ -278,3 +278,5 @@ export class VoxelEngine {
     g.boundingSphere = new THREE.Sphere(new THREE.Vector3(0, 0, span * 0.2), span * 1.6)
     this.mesh = new THREE.Mesh(g, this.material)
     this.mesh.frustumCulled = false
+    this.scene.add(this.mesh)
+
