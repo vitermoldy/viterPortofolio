@@ -402,3 +402,4 @@ function Stat({
   size: number
   align: "start" | "end" | "stack"
 }) {
+  if (align === "stack") {
