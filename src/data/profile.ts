@@ -33,3 +33,4 @@ export type DayRow = [date: string, count: number, level: number]
 
 export type Contributions = {
   fetchedAt: string
+  login: string
