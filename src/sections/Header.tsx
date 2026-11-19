@@ -8,3 +8,4 @@ const NAV = [
   { href: '#contact', label: 'Contact' },
 ]
 
+export function Header() {
