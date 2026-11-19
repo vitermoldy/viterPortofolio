@@ -14,3 +14,4 @@ attribute vec3 aDgaA;
 attribute vec3 aDgaB;
 attribute vec4 aRand;
 uniform float uAssemble;
+uniform float uMorph;
