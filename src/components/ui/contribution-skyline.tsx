@@ -1023,3 +1023,4 @@ export default function ContributionSkyline({
       ev.preventDefault()
       if (ev.key === "Escape") {
         pinned = -1
+        hovered = -1
