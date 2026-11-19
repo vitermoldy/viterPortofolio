@@ -131,3 +131,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     const cv = page.locator('#contributions canvas')
     const box = await cv.boundingBox()
     let found = ''
+    for (let i = 0; i < 40 && !found; i++) {
