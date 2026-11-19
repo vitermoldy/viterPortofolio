@@ -1326,3 +1326,4 @@ export default function ContributionSkyline({
               aria-hidden="true"
               className="absolute top-full h-0 w-0"
               style={{
+                left: "var(--arrow, 50%)",
