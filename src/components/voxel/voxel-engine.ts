@@ -394,3 +394,4 @@ export class VoxelEngine {
       this.material.uniforms.uPointer.value.x = this.hitPoint.x
       this.material.uniforms.uPointer.value.y = this.hitPoint.y
       return true
+    }
