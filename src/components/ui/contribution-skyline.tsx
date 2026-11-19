@@ -594,3 +594,4 @@ export default function ContributionSkyline({
       if (wk.length !== n) {
         wk = new Float32Array(n)
         dy = new Float32Array(n)
+        lv = new Uint8Array(n)
