@@ -1270,3 +1270,4 @@ export default function ContributionSkyline({
             {showStats && corners && (
               <>
                 <div
+                  aria-hidden={!is3d}
