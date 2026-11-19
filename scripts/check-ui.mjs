@@ -252,3 +252,4 @@ for (const width of [390, 320]) {
       await page.locator('#menu a[href="#projects"]').click()
       await page.waitForTimeout(900)
       expect(await page.locator('#menu').isHidden(), 'menu still open after a link')
+    })
