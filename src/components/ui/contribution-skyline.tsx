@@ -685,3 +685,4 @@ export default function ContributionSkyline({
       gutter = W < 520 ? 0 : labelW
       dpr = Math.min(2, window.devicePixelRatio || 1)
       const b2 = extent(camera(0), 0, true)
+      H2 = 20 + 4 + ((b2.maxy - b2.miny) / (b2.maxx - b2.minx)) * (W - gutter - 4)
