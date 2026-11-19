@@ -1009,3 +1009,5 @@ export default function ContributionSkyline({
       if (drag) return
       hovered = -1
       refreshActive()
+    }
+
