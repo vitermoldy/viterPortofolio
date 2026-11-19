@@ -328,3 +328,4 @@ export class VoxelEngine {
         if (this.probe.z > 1 || Math.abs(this.probe.x) > limit || Math.abs(this.probe.y) > limit) return false
       }
       return true
+    }
