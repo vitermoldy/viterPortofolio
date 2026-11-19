@@ -156,3 +156,4 @@
     border-color: var(--color-sun);
   }
   .btn-main:active {
+    transform: translate(3px, 3px);
