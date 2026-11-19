@@ -400,3 +400,4 @@ function Stat({
   sub: string
   accent: string
   size: number
+  align: "start" | "end" | "stack"
