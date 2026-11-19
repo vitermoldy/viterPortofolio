@@ -1088,3 +1088,4 @@ export default function ContributionSkyline({
           }
         },
         { threshold: 0.35 },
+      )
