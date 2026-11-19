@@ -70,3 +70,4 @@ export function Footer({ state }: { state: LoadState }) {
           </a>
         </div>
       </footer>
+  )
