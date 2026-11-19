@@ -1153,3 +1153,4 @@ export default function ContributionSkyline({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [locale])
 
+  React.useEffect(() => {
