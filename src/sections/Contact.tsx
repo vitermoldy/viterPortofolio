@@ -42,3 +42,4 @@ export function Contact() {
                 <a href={l.href} rel="noopener" className="contact-link flex min-h-16 flex-col justify-center gap-1 py-4 pr-4 no-underline">
                   <span className="font-pixel text-xl text-paper">{l.label}</span>
                   <span className="text-sm break-all text-muted">{l.value}</span>
+                </a>
