@@ -1191,3 +1191,5 @@ export default function ContributionSkyline({
   const levelNames = ["No " + plural, "Light", "Moderate", "Heavy", "Heaviest"]
 
   const hints = ["Hover a day for its count, or walk the days with the arrow keys", "Drag to orbit, double-click to reset"]
+  const hint = hints[is3d && orbit ? 1 : 0]
+
