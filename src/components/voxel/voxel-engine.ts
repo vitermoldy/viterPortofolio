@@ -269,3 +269,4 @@ export class VoxelEngine {
     }
     g.setAttribute('aXY', new THREE.InstancedBufferAttribute(v.xy, 2))
     g.setAttribute('aColA', new THREE.InstancedBufferAttribute(v.col.slice(), 3))
+    g.setAttribute('aColB', new THREE.InstancedBufferAttribute(v.col.slice(), 3))
