@@ -1391,3 +1391,4 @@ export default function ContributionSkyline({
                   className="group grid h-11 w-8 cursor-pointer place-items-center border-0 bg-transparent p-0 focus-visible:outline-2 focus-visible:-outline-offset-2 sm:w-7"
                   style={{ outlineColor: "var(--color-foreground, #171717)" }}
                 >
+                  <span
