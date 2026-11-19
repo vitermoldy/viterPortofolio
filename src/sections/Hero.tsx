@@ -36,3 +36,4 @@ export function Hero({ state }: { state: LoadState }) {
             rises into a skyline, and each project card turns into a relief you can turn and press.
           </p>
 
+          <dl className="mt-8 mb-0 grid max-w-[34rem] grid-cols-3 gap-4 border-y-2 border-forest py-5" aria-busy={state.status === 'loading'}>
