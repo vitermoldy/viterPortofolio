@@ -62,3 +62,4 @@ describe('skyline with GitHub levels and a log scale', () => {
     const { cells } = buildGrid(
       [
         { date: '2026-11-17', count: 3 },
+        { date: '2026-11-18', count: 1 },
