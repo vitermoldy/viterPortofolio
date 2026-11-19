@@ -58,3 +58,5 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
 
 // Desktop
 {
+  const { context, page } = await open({ width: 1440, height: 900 })
+
