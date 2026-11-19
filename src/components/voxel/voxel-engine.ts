@@ -248,3 +248,5 @@ export class VoxelEngine {
     this.box.dispose()
     this.material.dispose()
     this.renderer.dispose()
+  }
+
