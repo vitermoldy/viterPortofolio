@@ -564,3 +564,4 @@ export default function ContributionSkyline({
     let fg: RGB = FG_FALLBACK
     let bg: RGB = BG_FALLBACK
     let isDark = false
+    // cells
