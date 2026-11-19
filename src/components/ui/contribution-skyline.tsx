@@ -1227,3 +1227,4 @@ export default function ContributionSkyline({
                 transitionTimingFunction: ease,
               }}
             />
+            {(["2d", "3d"] as const).map((v) => (
