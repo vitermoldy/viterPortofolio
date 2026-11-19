@@ -480,3 +480,4 @@ export default function ContributionSkyline({
 }: ContributionSkylineProps) {
   const endKey = endDate == null ? null : dayMs(endDate)
   const model = React.useMemo(() => {
+    const dates = (data ?? []).map((d) => dayMs(d.date)).filter(Number.isFinite)
