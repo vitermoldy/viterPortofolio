@@ -447,3 +447,4 @@ export class VoxelEngine {
     }
   }
 
+  private onCancel = () => {
