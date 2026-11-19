@@ -89,3 +89,4 @@ function Fact({ label, value, state, small }: { label: string; value: string | n
         {value ?? <span className="text-base text-muted">{state === 'loading' ? 'Loading' : 'Not loaded'}</span>}
       </dd>
     </div>
+  )
