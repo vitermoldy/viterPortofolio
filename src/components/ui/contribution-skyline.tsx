@@ -476,3 +476,4 @@ export default function ContributionSkyline({
   locale = "en-US",
   seed = 7,
   onCellClick,
+  className = "",
