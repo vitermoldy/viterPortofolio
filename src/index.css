@@ -200,3 +200,4 @@
   }
   .seg > button:hover {
     color: var(--color-paper);
+    background: var(--color-forest);
