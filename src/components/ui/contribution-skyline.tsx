@@ -577,3 +577,4 @@ export default function ContributionSkyline({
     let polys = new Float32Array(0)
     let faces = new Uint8Array(0)
     let order: number[] = []
+    let months: { week: number; label: string }[] = []
