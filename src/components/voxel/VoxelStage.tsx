@@ -168,3 +168,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
           </button>
         </div>
       )}
+      {status === 'flat' && (
