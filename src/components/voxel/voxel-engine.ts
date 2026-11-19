@@ -179,3 +179,4 @@ export class VoxelEngine {
   setVoxels(v: Voxels, wave: 'corner' | 'centre' = 'corner') {
     const same = this.current && this.mesh && this.current.w === v.w && this.current.h === v.h
     if (same && this.mesh) {
+      const g = this.mesh.geometry
