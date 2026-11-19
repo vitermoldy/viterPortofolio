@@ -228,3 +228,4 @@ export class VoxelEngine {
 
   /** Turns the relief by a step, for the keyboard. */
   turn(dYaw: number, dPitch: number) {
+    this.yawGoal = clamp(this.yawGoal + dYaw, YAW_LIMIT)
