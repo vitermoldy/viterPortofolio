@@ -46,3 +46,4 @@ const PIXEL = [
 ]
 
 async function get(url, { json = false, tries = 3 } = {}) {
+  const headers = { 'User-Agent': UA }
