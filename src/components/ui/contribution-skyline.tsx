@@ -282,3 +282,4 @@ export interface ContributionSkylineProps {
   /** A preset, four colours, or `{ light, dark }` sets of four. */
   palette?: PaletteInput
   /** Heading. Defaults to "{total} contributions in the last year". */
+  title?: React.ReactNode
