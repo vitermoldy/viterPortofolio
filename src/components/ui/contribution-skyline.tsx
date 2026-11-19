@@ -725,3 +725,5 @@ export default function ContributionSkyline({
       const py = (x: number, y: number, z: number) => oy + ((x * sn + y * cs) * se - z * ce) * s
 
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
+      ctx.clearRect(0, 0, W, Hmax)
+
