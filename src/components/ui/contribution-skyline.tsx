@@ -1215,3 +1215,4 @@ export default function ContributionSkyline({
           <div
             role="group"
             aria-label="Chart view"
+            className="relative inline-flex border p-0.5"
