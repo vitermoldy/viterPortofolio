@@ -60,3 +60,4 @@ export function Projects({ state }: { state: LoadState }) {
           <div className="stage-frame">
             <VoxelStage picture={picture} options={{ relief: 0.06 }} />
           </div>
+          <ul className="mt-5 mb-0 grid list-none grid-cols-3 gap-2 p-0 sm:grid-cols-4" aria-label="Project cards">
