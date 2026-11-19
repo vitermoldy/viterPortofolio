@@ -45,3 +45,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
   const relief = options?.relief
   const base = options?.base
 
+  // The engine lives as long as the stage. three.js is loaded with it, so the first screen paints first.
