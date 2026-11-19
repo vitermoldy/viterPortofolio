@@ -96,3 +96,4 @@ export function Contributions({ state }: { state: LoadState }) {
                   endDate={view.endDate}
                   palette={HUTAN}
                   accent="#fff36b"
+                  heightCurve="log"
