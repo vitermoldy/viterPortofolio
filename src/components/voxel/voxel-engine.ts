@@ -380,3 +380,5 @@ export class VoxelEngine {
     const kp = 1 - Math.exp(-dt * 10)
     this.push += (this.pushGoal - this.push) * kp
     if (Math.abs(this.pushGoal - this.push) > 1e-3 || (this.pushDecay && this.pushGoal > 0)) moving = true
+    else this.push = this.pushGoal
+
