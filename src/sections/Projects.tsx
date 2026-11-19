@@ -85,3 +85,4 @@ export function Projects({ state }: { state: LoadState }) {
                       className="pixelated block h-auto w-full"
                     />
                   </button>
+                </li>
