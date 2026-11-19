@@ -32,3 +32,4 @@ const check = async (name, fn) => {
     log(name, false, String(err?.message ?? err).split('\n')[0])
   }
 }
+const expect = (cond, msg) => {
