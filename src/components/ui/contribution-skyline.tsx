@@ -811,3 +811,5 @@ export default function ContributionSkyline({
           ctx.lineWidth = 1.5
           ctx.stroke()
         }
+      }
+
