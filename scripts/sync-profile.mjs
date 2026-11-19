@@ -72,3 +72,4 @@ async function profile() {
     if (batch.length < 100) break
   }
   return {
+    login: u.login,
