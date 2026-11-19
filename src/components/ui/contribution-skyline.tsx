@@ -42,3 +42,4 @@ export const DAY_MS = 86400000
 export const clamp01 = (v: number): number => (v > 0 ? (v < 1 ? v : 1) : 0)
 export const lerp = (a: number, b: number, t: number): number => a + (b - a) * t
 export const easeInOutCubic = (x: number): number => {
+  const t = clamp01(x)
