@@ -183,3 +183,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     const seen = []
     for (let i = 0; i < n; i++) {
       await cards.nth(i).click()
+      const name = await page.locator('#projects h3').innerText()
