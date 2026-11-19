@@ -559,3 +559,4 @@ export default function ContributionSkyline({
     let font = "10px sans-serif"
     // colours: [empty, l1, l2, l3, l4] × rgb, eased toward the goal
     const col = new Float32Array(15)
+    const colGoal = new Float32Array(15)
