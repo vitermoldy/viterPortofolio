@@ -121,3 +121,4 @@ export class VoxelEngine {
   private visible = true
   private assemble = 1
   private assembling = false
+  private morph = 1
