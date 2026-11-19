@@ -45,3 +45,4 @@ export function serve(port = 5189) {
     res.writeHead(200, { 'Content-Type': TYPES[extname(file)] ?? 'application/octet-stream', 'Cache-Control': 'no-cache' })
     createReadStream(file).pipe(res)
   })
+  return new Promise((resolve) => server.listen(port, 'localhost', () => resolve(server)))
