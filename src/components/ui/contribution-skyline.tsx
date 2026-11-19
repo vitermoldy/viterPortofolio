@@ -503,3 +503,4 @@ export default function ContributionSkyline({
   const [legendLevel, setLegendLevel] = React.useState(-1)
   const [announce, setAnnounce] = React.useState("")
 
+  const rootRef = React.useRef<HTMLElement>(null)
