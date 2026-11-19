@@ -1367,3 +1367,4 @@ export default function ContributionSkyline({
                   className="[grid-area:1/1] transition-opacity duration-500 motion-reduce:transition-none"
                   style={{ opacity: h === hint ? 1 : 0 }}
                 >
+                  {h}
