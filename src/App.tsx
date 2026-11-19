@@ -19,3 +19,4 @@ export function App() {
         <Contributions state={state} />
         <PixelArt />
         <Projects state={state} />
+        <Contact />
