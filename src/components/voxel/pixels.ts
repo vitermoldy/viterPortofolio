@@ -36,3 +36,4 @@ const smooth = (a: number, b: number, x: number) => {
  * Transparent pixels keep their slot (alpha 0) so two pictures of one size can morph block by block.
  */
 export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
+  const { w, h, data } = grid
