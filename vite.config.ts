@@ -17,3 +17,4 @@ export default defineConfig(({ command }) => ({
   resolve: {
     alias: { '@': root + 'src' },
     dedupe: ['react', 'react-dom'],
+  },
