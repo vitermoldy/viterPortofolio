@@ -203,3 +203,4 @@
     background: var(--color-forest);
   }
   .seg > button[aria-pressed='true'] {
+    color: var(--color-ink);
