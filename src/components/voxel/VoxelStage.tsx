@@ -152,3 +152,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         aria-label={picture.alt + ' Built from blocks: drag or use the arrow keys to turn it, double-click or Home to face it again.'}
         className={cn(
           'absolute inset-0 block h-full w-full cursor-grab touch-pan-y transition-opacity duration-500 motion-reduce:transition-none',
+          showCanvas ? 'opacity-100' : 'pointer-events-none opacity-0',
