@@ -65,3 +65,4 @@ export function useProfileData(): LoadState {
         if (stale) return
         setState({
           status: 'error',
+          message: err instanceof Error ? err.message : String(err),
