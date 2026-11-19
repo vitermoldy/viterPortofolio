@@ -48,3 +48,4 @@ export function serve(port = 5189) {
   return new Promise((resolve) => server.listen(port, 'localhost', () => resolve(server)))
 }
 
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
