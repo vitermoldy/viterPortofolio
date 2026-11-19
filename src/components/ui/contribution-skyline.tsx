@@ -703,3 +703,4 @@ export default function ContributionSkyline({
       if (!W || !n) return
       const e = easeInOutCubic(t)
       const cam = camera(e, yaw, elev)
+      const Hc = lerp(H2, H3, e)
