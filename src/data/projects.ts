@@ -9,3 +9,4 @@ export type Project = {
   name: string
   stack: string
   card: string
+  text: string
