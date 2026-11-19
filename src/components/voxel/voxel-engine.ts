@@ -209,3 +209,4 @@ export class VoxelEngine {
 
   setVisible(v: boolean) {
     this.visible = v
+    if (v) this.kick()
