@@ -237,3 +237,4 @@
     background-size: 0 2px;
     background-position: 0.8rem calc(100% - 8px);
     background-repeat: no-repeat;
+    transition: color 160ms ease-out, background-size 220ms ease-out;
