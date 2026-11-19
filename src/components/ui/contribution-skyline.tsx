@@ -925,3 +925,5 @@ export default function ContributionSkyline({
       activeIdx = next
       cfg.current.setActive(next)
       kick()
+    }
+
