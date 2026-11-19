@@ -48,3 +48,4 @@ export const PROJECTS: Project[] = [
     id: 'netsim',
     name: 'Network Simulation',
     stack: 'three.js and MySQL',
+    card: card('netsim'),
