@@ -36,3 +36,4 @@ const PIXEL = [
   'card-mixer.svg',
   'card-netsim.svg',
   'card-nyxborne.svg',
+  'card-agentic-factory.svg',
