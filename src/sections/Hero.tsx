@@ -45,3 +45,4 @@ export function Hero({ state }: { state: LoadState }) {
             <p className="mt-3 mb-0 text-sm text-muted" role="alert">
               The GitHub numbers did not load.{' '}
               <button type="button" className="link border-0 bg-transparent p-0 text-sm" onClick={state.retry}>
+                Load them again
