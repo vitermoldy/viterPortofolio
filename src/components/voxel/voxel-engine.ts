@@ -413,3 +413,4 @@ export class VoxelEngine {
   private onMove = (ev: PointerEvent) => {
     const d = this.drag
     if (d && ev.pointerId === d.id) {
+      const dx = ev.clientX - d.x
