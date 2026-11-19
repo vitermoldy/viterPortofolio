@@ -78,3 +78,4 @@ export function useProfileData(): LoadState {
 
 /** Sum of the last 365 days up to `today`, the number GitHub prints above the graph. */
 export function lastYearTotal(c: Contributions): number {
+  const end = Date.parse(c.today + 'T00:00:00Z')
