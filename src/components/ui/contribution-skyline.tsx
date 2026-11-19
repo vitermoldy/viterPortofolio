@@ -106,3 +106,5 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
     out.push({ date: toKey(ms), count })
   }
   return out
+}
+
