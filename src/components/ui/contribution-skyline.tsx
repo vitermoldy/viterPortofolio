@@ -1069,3 +1069,5 @@ export default function ContributionSkyline({
 
     load()
     retheme()
+    relayout()
+
