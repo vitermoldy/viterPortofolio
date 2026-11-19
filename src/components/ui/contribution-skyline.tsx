@@ -622,3 +622,4 @@ export default function ContributionSkyline({
     }
 
     const retheme = () => {
+      const cs = getComputedStyle(root)
