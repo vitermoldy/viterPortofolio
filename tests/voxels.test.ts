@@ -32,3 +32,4 @@ describe('voxelize', () => {
     expect(depth(1)).toBeGreaterThan(depth(2))
     expect(depth(2)).toBeGreaterThan(depth(0))
   })
+  it('keeps transparent pixels as hidden slots so two pictures can morph', () => {
