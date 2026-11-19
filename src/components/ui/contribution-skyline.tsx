@@ -212,3 +212,4 @@ export const barHeight = (count: number, max: number, scale = 1, curve: HeightCu
 export const WAVE = 0.42
 
 /** 0 → 1 as a bar rises during the morph. Every bar is flat at t=0 and fully up at t=1. */
+export const riseAt = (t: number, week: number, weeks: number, day: number): number => {
