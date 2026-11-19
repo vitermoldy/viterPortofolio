@@ -23,3 +23,4 @@ const TYPES = {
 export function serve(port = 5189) {
   const server = createServer((req, res) => {
     const url = new URL(req.url ?? '/', 'http://localhost')
+    if (url.pathname === '/' || url.pathname === BASE.slice(0, -1)) {
