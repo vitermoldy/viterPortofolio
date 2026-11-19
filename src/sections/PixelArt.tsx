@@ -81,3 +81,4 @@ export function PixelArt() {
         </div>
 
         <div className="lg:sticky lg:top-24 lg:col-span-8 lg:self-start lg:pt-2">
+          <div className="stage-frame">
