@@ -53,3 +53,4 @@ async function get(url, { json = false, tries = 3 } = {}) {
   }
   for (let attempt = 1; ; attempt++) {
     try {
+      const res = await fetch(url, { headers })
