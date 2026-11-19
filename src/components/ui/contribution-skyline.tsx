@@ -322,3 +322,4 @@ const toRGB = (color: string, fallback: RGB | null): RGB | null => {
     c.width = c.height = 1
     probe = c.getContext("2d", { willReadFrequently: true })
   }
+  if (!probe) return fallback
