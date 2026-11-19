@@ -29,3 +29,4 @@ export function Header() {
   }, [open])
 
   return (
+    <header className="sticky top-0 z-40 border-b-2 border-moss bg-ink/95">
