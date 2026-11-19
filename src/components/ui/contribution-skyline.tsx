@@ -329,3 +329,4 @@ const toRGB = (color: string, fallback: RGB | null): RGB | null => {
   probe.fillRect(0, 0, 1, 1)
   const d = probe.getImageData(0, 0, 1, 1).data
   if (d[3] < 8) return fallback
+  return [d[0], d[1], d[2]]
