@@ -45,3 +45,4 @@ export type LoadState =
   | { status: 'error'; message: string; retry: () => void }
   | { status: 'ready'; data: ProfileData }
 
+async function getJson<T>(path: string): Promise<T> {
