@@ -1182,3 +1182,4 @@ export default function ContributionSkyline({
   const bigSize = Math.round(Math.max(30, Math.min(56, width * 0.058)))
   const statBlocks = [
     { label: "1 year total", value: nf.format(stats.total), unit: noun(stats.total), sub: range(stats.first, stats.last, true) },
+    { label: "Busiest day", value: nf.format(stats.busiest.count), unit: noun(stats.busiest.count), sub: stats.busiest.date ? df.format(dayMs(stats.busiest.date)) : "None" },
