@@ -16,3 +16,4 @@ export function Projects({ state }: { state: LoadState }) {
 
   return (
     <section id="projects" aria-labelledby="projects-title" className="border-t-2 border-forest py-20 md:py-28">
+      <div className="wrap grid gap-10 lg:grid-cols-12 lg:gap-x-8 lg:gap-y-8">
