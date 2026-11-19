@@ -29,3 +29,4 @@ const check = async (name, fn) => {
     const detail = await Promise.race([fn(), limit]).finally(() => clearTimeout(timer))
     log(name, true, typeof detail === 'string' ? detail : '')
   } catch (err) {
+    log(name, false, String(err?.message ?? err).split('\n')[0])
