@@ -43,3 +43,4 @@ export function Hero({ state }: { state: LoadState }) {
           </dl>
           {state.status === 'error' && (
             <p className="mt-3 mb-0 text-sm text-muted" role="alert">
+              The GitHub numbers did not load.{' '}
