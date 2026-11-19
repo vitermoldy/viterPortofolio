@@ -155,3 +155,4 @@
     background: var(--color-sun);
     border-color: var(--color-sun);
   }
+  .btn-main:active {
