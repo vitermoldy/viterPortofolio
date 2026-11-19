@@ -138,3 +138,5 @@ export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0)
   const busy = nz.length ? nz[Math.floor(0.95 * (nz.length - 1))] : 0
   for (const c of cells) c.level = c.count > 0 && given.has(c.date) ? given.get(c.date)! : levelOf(c.count, busy)
   return { cells, weeks: cells.length ? cells[cells.length - 1].week + 1 : 0, max: nz.length ? nz[nz.length - 1] : 0 }
+}
+
