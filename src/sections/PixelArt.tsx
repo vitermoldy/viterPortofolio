@@ -86,3 +86,4 @@ export function PixelArt() {
           </div>
           <p className="mt-4 mb-0 text-sm text-muted">Drag to turn it, double-click to face it again.</p>
         </div>
+      </div>
