@@ -315,3 +315,4 @@ export class VoxelEngine {
     const dx = Math.sin(this.yaw) * Math.cos(this.pitch)
     const dy = Math.sin(this.pitch)
     const dz = Math.cos(this.yaw) * Math.cos(this.pitch)
+    const t = Math.tan((this.camera.fov * Math.PI) / 360)
