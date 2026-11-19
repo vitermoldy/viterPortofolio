@@ -39,3 +39,4 @@ export function Contributions({ state }: { state: LoadState }) {
             </h2>
             {c && view ? (
               <p className="mt-5 mb-0 max-w-[40rem] text-lg">
+                {num(allTimeTotal(c))} contributions since {day(c.days[0][0])}. Each day is one block in GitHub&rsquo;s own
