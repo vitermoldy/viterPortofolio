@@ -291,3 +291,4 @@
   [data-enter] > *:nth-child(2) {
     animation-delay: 80ms;
   }
+  [data-enter] > *:nth-child(3) {
