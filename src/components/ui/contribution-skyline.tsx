@@ -1341,3 +1341,4 @@ export default function ContributionSkyline({
             aria-hidden={!showRow}
             className="grid transition-[grid-template-rows,opacity] motion-reduce:transition-none"
             style={{
+              gridTemplateRows: showRow ? "1fr" : "0fr",
