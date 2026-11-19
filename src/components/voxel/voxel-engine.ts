@@ -399,3 +399,4 @@ export class VoxelEngine {
   }
 
   private onDown = (ev: PointerEvent) => {
+    if (ev.button !== 0) return
