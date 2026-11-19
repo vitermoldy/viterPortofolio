@@ -410,3 +410,4 @@ function Stat({
         </div>
         <div className="mt-1 flex flex-wrap items-baseline gap-x-1.5">
           <span
+            className="font-semibold tabular-nums transition-colors duration-500 motion-reduce:transition-none"
