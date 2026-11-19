@@ -227,3 +227,4 @@ export type Cam = { cs: number; sn: number; se: number; ce: number }
 /**
  * e=0 looks straight down (yaw 0, elevation 90°): x across, y down, height
  * invisible — a plain heat map. e=1 is the isometric corner view. Orbit
+ * offsets only apply in proportion to e, so the flat view never tilts.
