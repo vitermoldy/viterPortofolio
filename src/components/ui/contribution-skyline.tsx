@@ -156,3 +156,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
     total += c.count
     if (c.count > best) {
       best = c.count
+      bestDate = c.date
