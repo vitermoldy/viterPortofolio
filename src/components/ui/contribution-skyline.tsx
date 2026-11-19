@@ -1231,3 +1231,4 @@ export default function ContributionSkyline({
               <button
                 key={v}
                 type="button"
+                aria-pressed={view === v}
