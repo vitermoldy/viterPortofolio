@@ -177,3 +177,4 @@ export class VoxelEngine {
 
   /** Shows a picture: a same-size picture morphs in a wave, anything else flies in block by block. */
   setVoxels(v: Voxels, wave: 'corner' | 'centre' = 'corner') {
+    const same = this.current && this.mesh && this.current.w === v.w && this.current.h === v.h
