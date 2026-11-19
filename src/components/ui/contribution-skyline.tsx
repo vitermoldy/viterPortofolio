@@ -853,3 +853,4 @@ export default function ContributionSkyline({
         const z = zs[i] + hover[i] * lift
         const tx = px(wk[i] + 0.5, dy[i] + 0.5)
         const ty = Math.min(py(wk[i] + off, dy[i] + off, z), py(wk[i] + off + w, dy[i] + off, z), py(wk[i] + off, dy[i] + off + w, z))
+        const half = tipW / 2
