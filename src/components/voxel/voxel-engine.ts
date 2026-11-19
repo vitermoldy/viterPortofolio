@@ -416,3 +416,4 @@ export class VoxelEngine {
       const dx = ev.clientX - d.x
       const dy = ev.clientY - d.y
       if (d.moved || Math.hypot(dx, dy) > 4) {
+        d.moved = true
