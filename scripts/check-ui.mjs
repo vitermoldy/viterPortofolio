@@ -53,3 +53,4 @@ const stageReady = (page, sel) =>
   page.waitForFunction((s) => {
     const c = document.querySelector(s + ' canvas')
     return c && getComputedStyle(c).opacity === '1'
+  }, sel, { timeout: 20000 })
