@@ -56,3 +56,4 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const port = Number(process.env.PORT ?? 5189)
   await serve(port)
   console.log(`Serving dist/ at http://localhost:${port}${BASE}`)
+}
