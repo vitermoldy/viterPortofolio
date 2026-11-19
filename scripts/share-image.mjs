@@ -12,3 +12,4 @@ const browser = await chromium.launch({ executablePath: CHROME, headless: true, 
 const page = await browser.newPage({ viewport: { width: 1200, height: 630 } })
 await page.goto(`http://localhost:${server.address().port}/viterPortofolio/`, { waitUntil: 'networkidle' })
 await page.waitForFunction(() => {
+  const c = document.querySelector('#top canvas')
