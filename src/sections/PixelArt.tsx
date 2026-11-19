@@ -46,3 +46,4 @@ export function PixelArt() {
         <div className="lg:col-span-4">
           <h2 id="pixel-title" className="h-pixel h-block text-[clamp(2rem,4.5vw,3.25rem)]">
             The pixel art, in blocks
+          </h2>
