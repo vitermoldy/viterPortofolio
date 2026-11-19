@@ -24,3 +24,5 @@ type Props = {
   view?: View
   className?: string
   onVoxels?: (v: Voxels) => void
+}
+
