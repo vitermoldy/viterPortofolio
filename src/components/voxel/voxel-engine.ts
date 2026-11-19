@@ -87,3 +87,4 @@ const YAW_LIMIT: [number, number] = [-1.05, 1.05]
 const PITCH_LIMIT: [number, number] = [-0.45, 0.8]
 
 export type EngineOptions = {
+  reducedMotion: boolean
