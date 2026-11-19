@@ -31,3 +31,4 @@ export function Hero({ state }: { state: LoadState }) {
           <h1 id="hero-title" className="h-pixel text-[clamp(2.75rem,7vw,4.75rem)]">
             Viter Moldy Kesuma
           </h1>
+          <p className="mt-6 mb-0 max-w-[34rem] text-lg text-paper">
