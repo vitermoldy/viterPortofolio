@@ -810,3 +810,4 @@ export default function ContributionSkyline({
           ctx.strokeStyle = "rgba(" + fg[0] + "," + fg[1] + "," + fg[2] + "," + (0.85 * hv).toFixed(3) + ")"
           ctx.lineWidth = 1.5
           ctx.stroke()
+        }
