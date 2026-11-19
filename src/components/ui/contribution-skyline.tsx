@@ -609,3 +609,4 @@ export default function ContributionSkyline({
         dy[i] = c.day
         lv[i] = c.level
         hgt[i] = barHeight(c.count, m.max, cfg.current.heightScale, cfg.current.heightCurve)
+      }
