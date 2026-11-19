@@ -660,3 +660,4 @@ export default function ContributionSkyline({
         if (p[1] < miny) miny = p[1]
         if (p[1] > maxy) maxy = p[1]
       }
+      for (let i = 0; i < n; i++) {
