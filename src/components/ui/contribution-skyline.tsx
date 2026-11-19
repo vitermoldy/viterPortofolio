@@ -626,3 +626,4 @@ export default function ContributionSkyline({
       fg = toRGB(cs.color, FG_FALLBACK) ?? FG_FALLBACK
       const b = toRGB(cs.backgroundColor, null)
       bg = b ?? (luminance(fg) > 0.5 ? [10, 10, 10] : BG_FALLBACK)
+      isDark = luminance(bg) < 0.45
