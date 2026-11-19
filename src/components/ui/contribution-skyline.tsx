@@ -251,3 +251,4 @@ export type PaletteName = "github" | "halloween" | "ocean" | "ember" | "grape" |
 export type PaletteInput = PaletteName | string[] | { light: string[]; dark: string[] }
 
 /** Four colours per theme, lightest activity → heaviest. */
+export const PALETTES: Record<PaletteName, { light: string[]; dark: string[] }> = {
