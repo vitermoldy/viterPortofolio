@@ -71,3 +71,4 @@ export function PixelArt() {
                       <span className="shrink-0 text-sm text-muted">
                         {s.w} by {s.h}, {num(s.w * s.h)} blocks
                       </span>
+                    </span>
