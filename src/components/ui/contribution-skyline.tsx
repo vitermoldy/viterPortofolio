@@ -1240,3 +1240,4 @@ export default function ContributionSkyline({
                   color: view === v ? "var(--color-background, #ffffff)" : MUTED,
                   outlineColor: "var(--color-foreground, #171717)",
                 }}
+              >
