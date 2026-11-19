@@ -50,3 +50,4 @@ export function Header() {
 
         <button
           ref={toggleRef}
+          type="button"
