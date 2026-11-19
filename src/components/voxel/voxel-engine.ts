@@ -255,3 +255,4 @@ export class VoxelEngine {
       this.scene.remove(this.mesh)
       this.mesh.geometry.dispose()
     }
+    const g = new THREE.InstancedBufferGeometry()
