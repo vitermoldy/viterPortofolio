@@ -1129,3 +1129,4 @@ export default function ContributionSkyline({
       tipWidth: (w: number) => {
         tipW = w
         draw()
+      },
