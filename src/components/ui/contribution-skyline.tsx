@@ -831,3 +831,4 @@ export default function ContributionSkyline({
           edge = x + tw + 6
         }
         ctx.textAlign = "right"
+        ctx.textBaseline = "middle"
