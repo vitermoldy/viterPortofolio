@@ -986,3 +986,4 @@ export default function ContributionSkyline({
     const onUp = (ev: PointerEvent) => {
       if (!drag || ev.pointerId !== drag.id) return
       const wasMoved = drag.moved
+      drag = null
