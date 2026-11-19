@@ -1258,3 +1258,4 @@ export default function ContributionSkyline({
             <canvas
               ref={canvasRef}
               tabIndex={0}
+              role="img"
