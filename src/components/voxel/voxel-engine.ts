@@ -398,3 +398,4 @@ export class VoxelEngine {
     return false
   }
 
+  private onDown = (ev: PointerEvent) => {
