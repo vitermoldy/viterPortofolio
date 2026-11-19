@@ -30,3 +30,4 @@ export type Streak = { days: number; start: string | null; end: string | null }
 export type ContributionStats = {
   total: number
   first: string | null
+  last: string | null
