@@ -263,3 +263,4 @@ export const PALETTES: Record<PaletteName, { light: string[]; dark: string[] }> 
 export const resolvePalette = (p: PaletteInput | undefined, dark: boolean): string[] => {
   const pick = Array.isArray(p) ? p : typeof p === "object" && p ? (dark ? p.dark : p.light) : PALETTES[(p as PaletteName) ?? "github"] ? PALETTES[p as PaletteName][dark ? "dark" : "light"] : PALETTES.github[dark ? "dark" : "light"]
   const base = PALETTES.github[dark ? "dark" : "light"]
+  return [0, 1, 2, 3].map((i) => pick[i] ?? pick[pick.length - 1] ?? base[i])
