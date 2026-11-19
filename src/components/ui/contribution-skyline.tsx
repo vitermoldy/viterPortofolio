@@ -670,3 +670,4 @@ export default function ContributionSkyline({
         add(x0 + w, y0 + w, 0)
         add(x0, y0 + w, 0)
         add(x0 + w, y0, 0)
+      }
