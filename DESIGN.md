@@ -34,3 +34,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 - Switching a picture of the same size is a wave from a corner (cards) or the centre (portrait).
 - The skyline folds up from the flat heat map when it first shows.
 - Pointer: drag turns a stage, moving across it presses the pins, a tap presses and springs back.
+- Nothing moves on its own after it lands, so no pause control is needed. Under `prefers-reduced-motion` every
