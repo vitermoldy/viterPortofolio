@@ -45,3 +45,4 @@ export const PROJECTS: Project[] = [
     repos: [{ label: 'Repository', name: 'Mixer-Simulation' }],
   },
   {
+    id: 'netsim',
