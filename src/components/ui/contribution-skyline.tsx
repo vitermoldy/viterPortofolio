@@ -1021,3 +1021,4 @@ export default function ContributionSkyline({
       const keys = ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End", "Escape", "Enter", " "]
       if (!keys.includes(ev.key) || !n) return
       ev.preventDefault()
+      if (ev.key === "Escape") {
