@@ -1362,3 +1362,4 @@ export default function ContributionSkyline({
             <span className="relative grid min-w-[13rem] flex-1">
               {hints.map((h) => (
                 <span
+                  key={h}
