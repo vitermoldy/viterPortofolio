@@ -74,3 +74,4 @@ export const PROJECTS: Project[] = [
   {
     id: 'studycabin',
     name: 'StudyCabin',
+    stack: 'three.js and Vite',
