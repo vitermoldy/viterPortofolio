@@ -16,3 +16,4 @@ const OUT = join(root, '.shots')
 const CHROME = process.env.CHROME ?? 'C:/Program Files/Google/Chrome/Application/chrome.exe'
 mkdirSync(OUT, { recursive: true })
 
+const results = []
