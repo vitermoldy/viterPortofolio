@@ -961,3 +961,4 @@ export default function ContributionSkyline({
     const onMove = (ev: PointerEvent) => {
       if (drag && drag.orbit && ev.pointerId === drag.id) {
         const dx = ev.clientX - drag.x
+        const dyy = ev.clientY - drag.y
