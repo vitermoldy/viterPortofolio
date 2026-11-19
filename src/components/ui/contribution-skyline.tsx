@@ -484,3 +484,4 @@ export default function ContributionSkyline({
     const end = endKey ?? (dates.length ? Math.max(...dates) : dayMs(new Date()))
     const days = data ?? generateContributions(end, seed)
     const grid = buildGrid(days, end, weekStart)
+    return { ...grid, stats: computeStats(grid.cells), months: monthLabels(grid.cells, grid.weeks, locale) }
