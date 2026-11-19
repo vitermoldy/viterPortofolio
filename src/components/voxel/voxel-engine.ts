@@ -192,3 +192,4 @@ export class VoxelEngine {
       this.current = v
       this.measure(v)
       this.kick()
+      return
