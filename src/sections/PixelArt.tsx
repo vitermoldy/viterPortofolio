@@ -5,3 +5,4 @@ import { asset } from '@/lib/utils'
 
 type Scene = VoxelPicture & { id: string; name: string; text: string }
 
+// The three big pieces of the profile README, with the README's own descriptions.
