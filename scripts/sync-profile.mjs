@@ -6,3 +6,4 @@
 //
 // The contribution calendar is the public one the profile page shows (github.com/users/<name>/contributions),
 // read year by year, so it needs no token. The account and its public repositories come from the REST API;
+// GITHUB_TOKEN, when set (it is in GitHub Actions), only raises the rate limit.
