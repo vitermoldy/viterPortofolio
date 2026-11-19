@@ -774,3 +774,4 @@ export default function ContributionSkyline({
         let bl = col[L + 2]
         const d = dim[i]
         if (d > 0.002) {
+          r += (ex - r) * 0.72 * d
