@@ -11,3 +11,4 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..', 'dist')
 const BASE = '/viterPortofolio/'
 const TYPES = {
   '.html': 'text/html; charset=utf-8',
+  '.js': 'text/javascript; charset=utf-8',
