@@ -39,3 +39,4 @@ const c: Contributions = {
   ],
 }
 
+describe('contribution totals', () => {
