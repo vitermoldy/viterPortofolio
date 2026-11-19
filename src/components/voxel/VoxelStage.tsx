@@ -65,3 +65,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         } catch {
           setStatus('flat')
           return
+        }
