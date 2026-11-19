@@ -86,3 +86,5 @@ export function lastYearTotal(c: Contributions): number {
     if (t >= start && t <= end) total += count
   }
   return total
+}
+
