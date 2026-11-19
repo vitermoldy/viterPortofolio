@@ -410,3 +410,4 @@ export class VoxelEngine {
     }
   }
 
+  private onMove = (ev: PointerEvent) => {
