@@ -203,3 +203,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   })
   await check('nav: every link lands on its section', async () => {
     await page.evaluate(() => window.scrollTo(0, 0))
+    for (const id of ['contributions', 'pixel-art', 'projects', 'contact']) {
