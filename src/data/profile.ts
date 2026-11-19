@@ -71,3 +71,4 @@ export function useProfileData(): LoadState {
       })
     return () => {
       stale = true
+    }
