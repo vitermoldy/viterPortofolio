@@ -460,3 +460,4 @@ export default function ContributionSkyline({
   defaultView = "3d",
   onViewChange,
   palette = "github",
+  title,
