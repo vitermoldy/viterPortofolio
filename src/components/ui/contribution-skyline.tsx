@@ -1346,3 +1346,4 @@ export default function ContributionSkyline({
               transitionDuration: duration + "ms",
               transitionTimingFunction: ease,
             }}
+          >
