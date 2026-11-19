@@ -134,3 +134,4 @@ export class VoxelEngine {
 
   constructor(canvas: HTMLCanvasElement, opts: EngineOptions) {
     this.canvas = canvas
+    this.reduced = opts.reducedMotion
