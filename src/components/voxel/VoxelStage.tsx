@@ -76,3 +76,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
             const on = entries.some((e) => e.isIntersecting)
             engine.setVisible(on)
             if (on) engine.play()
+          },
