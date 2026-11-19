@@ -66,3 +66,4 @@ export const PROJECTS: Project[] = [
   {
     id: 'agentic-factory',
     name: 'Agentic Factory',
+    stack: 'three.js and React',
