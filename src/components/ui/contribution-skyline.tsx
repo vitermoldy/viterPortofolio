@@ -943,3 +943,5 @@ export default function ContributionSkyline({
       return [ev.clientX - r.left, ev.clientY - r.top] as const
     }
 
+    let drag: { id: number; x: number; y: number; yaw: number; elev: number; moved: boolean; orbit: boolean; mouse: boolean } | null = null
+
