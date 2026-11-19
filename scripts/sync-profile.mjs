@@ -127,3 +127,4 @@ function pixel() {
 const p = await profile()
 const c = await contributions(p.createdAt)
 const fetchedAt = new Date().toISOString()
+mkdirSync(join(root, 'public', 'data'), { recursive: true })
