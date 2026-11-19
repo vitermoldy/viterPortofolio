@@ -181,3 +181,4 @@
   .seg {
     display: inline-flex;
     flex-wrap: wrap;
+    border: 2px solid var(--color-moss);
