@@ -433,3 +433,4 @@ function Stat({
           <div />
         </>
       ) : (
+        <div className="col-span-2 text-[13px] leading-tight" style={{ color: MUTED }}>
