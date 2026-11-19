@@ -68,3 +68,4 @@ export function Hero({ state }: { state: LoadState }) {
             <div className="seg" role="group" aria-label="Sky behind the portrait">
               <button type="button" aria-pressed={sky === 'moon'} onClick={() => setSky('moon')}>
                 Moon
+              </button>
