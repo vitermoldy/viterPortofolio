@@ -222,3 +222,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
 // Phone
 for (const width of [390, 320]) {
   const { context, page } = await open({ width, height: 844 })
+  await check(`${width}: no sideways scroll`, async () => {
