@@ -377,3 +377,4 @@ export class VoxelEngine {
       this.pitch = this.pitchGoal
     }
     if (this.pushDecay && this.pushGoal > 0) this.pushGoal = Math.max(0, this.pushGoal - dt * 1.4)
+    const kp = 1 - Math.exp(-dt * 10)
