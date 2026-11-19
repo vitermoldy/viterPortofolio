@@ -438,3 +438,4 @@ function Stat({
         </div>
       )}
       <div
+        className="text-right font-semibold tabular-nums transition-colors duration-500 motion-reduce:transition-none"
