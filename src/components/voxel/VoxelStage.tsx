@@ -102,3 +102,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
   React.useEffect(() => {
     if (!engineReady) return
     let stale = false
+    loadPixels(picture.src, picture.w, picture.h)
