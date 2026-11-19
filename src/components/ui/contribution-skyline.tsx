@@ -261,3 +261,4 @@ export const PALETTES: Record<PaletteName, { light: string[]; dark: string[] }> 
 }
 
 export const resolvePalette = (p: PaletteInput | undefined, dark: boolean): string[] => {
+  const pick = Array.isArray(p) ? p : typeof p === "object" && p ? (dark ? p.dark : p.light) : PALETTES[(p as PaletteName) ?? "github"] ? PALETTES[p as PaletteName][dark ? "dark" : "light"] : PALETTES.github[dark ? "dark" : "light"]
