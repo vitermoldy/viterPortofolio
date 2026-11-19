@@ -353,3 +353,4 @@ export class VoxelEngine {
     this.raf = requestAnimationFrame(this.tick)
   }
 
+  private tick = (now: number) => {
