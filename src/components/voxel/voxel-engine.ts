@@ -387,3 +387,4 @@ export class VoxelEngine {
   }
 
   private aim(ev: PointerEvent) {
+    const r = this.canvas.getBoundingClientRect()
