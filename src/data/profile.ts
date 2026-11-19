@@ -95,3 +95,4 @@ export function allTimeTotal(c: Contributions): number {
 /** Years that hold at least one day, newest first. */
 export function yearsOf(c: Contributions): number[] {
   const years = new Set<number>()
+  for (const [date] of c.days) years.add(Number(date.slice(0, 4)))
