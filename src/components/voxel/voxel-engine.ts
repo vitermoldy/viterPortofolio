@@ -17,3 +17,4 @@ uniform float uAssemble;
 uniform float uMorph;
 uniform float uSpan;
 uniform vec2 uWaveFrom;
+uniform vec3 uPointer;
