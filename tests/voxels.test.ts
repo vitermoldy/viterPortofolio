@@ -28,3 +28,4 @@ describe('voxelize', () => {
   it('pushes brighter pixels further out', () => {
     const depth = (k: number) => v.dga[k * 3]
     expect(depth(0)).toBeCloseTo(0.6)
+    expect(depth(1)).toBeCloseTo(0.6 + 0.5 * 2)
