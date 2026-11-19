@@ -78,3 +78,4 @@ export async function loadPixels(url: string, w: number, h: number): Promise<Pix
   img.src = url
   await img.decode()
   const canvas = document.createElement('canvas')
+  canvas.width = w
