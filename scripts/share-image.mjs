@@ -5,3 +5,4 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { serve } from './serve.mjs'
 
+const root = join(dirname(fileURLToPath(import.meta.url)), '..')
