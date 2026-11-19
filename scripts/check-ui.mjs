@@ -201,3 +201,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await page.screenshot({ path: join(OUT, '1440-contact.png') })
     return hrefs.length + ' links'
   })
+  await check('nav: every link lands on its section', async () => {
