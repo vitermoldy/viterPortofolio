@@ -318,3 +318,4 @@ const BG_FALLBACK: RGB = [255, 255, 255]
 let probe: CanvasRenderingContext2D | null = null
 const toRGB = (color: string, fallback: RGB | null): RGB | null => {
   if (!probe) {
+    const c = document.createElement("canvas")
