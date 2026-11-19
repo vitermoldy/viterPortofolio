@@ -983,3 +983,4 @@ export default function ContributionSkyline({
       canvas.style.cursor = cfg.current.orbit && target === 1 ? "grab" : i >= 0 ? "pointer" : "default"
     }
 
+    const onUp = (ev: PointerEvent) => {
