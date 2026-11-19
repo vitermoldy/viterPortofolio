@@ -166,3 +166,4 @@ export class VoxelEngine {
     canvas.addEventListener('keydown', this.onKey)
   }
 
+  get isEmpty() {
