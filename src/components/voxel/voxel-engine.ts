@@ -103,3 +103,4 @@ export class VoxelEngine {
   private mesh: THREE.Mesh<THREE.InstancedBufferGeometry, THREE.ShaderMaterial> | null = null
   private box = new THREE.BoxGeometry(1, 1, 1)
   private current: Voxels | null = null
+  private raycaster = new THREE.Raycaster()
