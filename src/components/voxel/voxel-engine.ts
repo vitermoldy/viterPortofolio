@@ -454,3 +454,4 @@ export class VoxelEngine {
 
   private onLeave = () => {
     if (this.drag) return
+    this.pushGoal = 0
