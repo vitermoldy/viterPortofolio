@@ -554,3 +554,4 @@ export default function ContributionSkyline({
     let Hmax = 0
     let lastH = -1
     let dpr = 1
+    let gutter = 30
