@@ -119,3 +119,4 @@
     box-shadow:
       0.12em 0.12em 0 var(--color-moss),
       0.24em 0.24em 0 var(--color-forest);
+    transform: translateY(-0.08em);
