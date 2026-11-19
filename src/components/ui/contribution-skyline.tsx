@@ -1082,3 +1082,4 @@ export default function ContributionSkyline({
     if ("IntersectionObserver" in window) {
       io = new IntersectionObserver(
         (entries) => {
+          if (entries.some((en) => en.isIntersecting)) {
