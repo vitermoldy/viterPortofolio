@@ -67,3 +67,4 @@ export function PixelArt() {
                     }
                   >
                     <span className="flex items-baseline justify-between gap-3">
+                      <span className={'font-pixel text-xl ' + (on ? 'text-sun' : 'text-paper')}>{s.name}</span>
