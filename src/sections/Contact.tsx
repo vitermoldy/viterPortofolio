@@ -21,3 +21,4 @@ const FOOTER_ART = {
 
 export function Contact() {
   return (
+      <section id="contact" aria-labelledby="contact-title" className="border-t-2 border-forest pt-20 md:pt-28">
