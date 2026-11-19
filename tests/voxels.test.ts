@@ -53,3 +53,4 @@ describe('skyline with GitHub levels and a log scale', () => {
   })
   it('keeps a quiet day visible beside a huge one on the log curve', () => {
     const small = barHeight(2, 23752, 1, 'log')
+    const big = barHeight(23752, 23752, 1, 'log')
