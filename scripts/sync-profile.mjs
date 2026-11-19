@@ -22,3 +22,5 @@ const arg = (name) => {
 }
 const USER = arg('--user') ?? 'vitermoldy'
 const SKIP_PIXEL = process.argv.includes('--skip-pixel')
+const UA = 'viterPortofolio-sync'
+
