@@ -424,3 +424,4 @@ function Stat({
     )
   }
   return (
+    <div className="grid grid-cols-[auto_auto] items-end gap-x-2" style={{ justifyContent: align }}>
