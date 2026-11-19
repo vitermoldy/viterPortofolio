@@ -73,3 +73,4 @@
     outline-offset: -2px;
   }
   ::selection {
+    background: var(--color-sun);
