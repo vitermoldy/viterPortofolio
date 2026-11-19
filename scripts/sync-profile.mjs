@@ -57,3 +57,4 @@ async function get(url, { json = false, tries = 3 } = {}) {
       if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`)
       return json ? res.json() : res.text()
     } catch (err) {
+      if (attempt >= tries) throw err
