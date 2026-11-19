@@ -963,3 +963,4 @@ export default function ContributionSkyline({
         const dx = ev.clientX - drag.x
         const dyy = ev.clientY - drag.y
         if (drag.moved || Math.hypot(dx, dyy) > 4) {
+          drag.moved = true
