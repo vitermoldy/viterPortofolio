@@ -55,3 +55,4 @@ describe('skyline with GitHub levels and a log scale', () => {
     const small = barHeight(2, 23752, 1, 'log')
     const big = barHeight(23752, 23752, 1, 'log')
     expect(big).toBeCloseTo(7.6)
+    expect(small).toBeGreaterThan(1)
