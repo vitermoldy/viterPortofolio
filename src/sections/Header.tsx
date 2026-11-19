@@ -19,3 +19,4 @@ export function Header() {
         setOpen(false)
         toggleRef.current?.focus()
       }
+    }
