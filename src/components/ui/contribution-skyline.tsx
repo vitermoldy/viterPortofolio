@@ -439,3 +439,4 @@ function Stat({
       )}
       <div
         className="text-right font-semibold tabular-nums transition-colors duration-500 motion-reduce:transition-none"
+        style={{ color: accent, fontSize: size, lineHeight: 0.95, letterSpacing: "-0.02em" }}
