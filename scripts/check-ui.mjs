@@ -4,3 +4,4 @@
 // Every control is used the way a person would: nav, the sky switch, the skyline's view and range, the
 // pictures, the project cards, the phone menu, the keyboard on a 3D stage, and the page at 390 and 320.
 import { chromium } from 'playwright-core'
+import { mkdirSync } from 'node:fs'
