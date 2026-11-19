@@ -7,3 +7,4 @@ export type VoxelPicture = {
   /** Image file in public/, already resolved against the base path. */
   src: string
   /** Pixel-art size: the SVG's viewBox, or the PNG's cell count. */
+  w: number
