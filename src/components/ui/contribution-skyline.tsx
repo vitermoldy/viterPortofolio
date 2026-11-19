@@ -467,3 +467,4 @@ export default function ContributionSkyline({
   heightCurve = "power",
   accent,
   duration = 1300,
+  weekStart = 0,
