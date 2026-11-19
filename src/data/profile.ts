@@ -61,3 +61,4 @@ export function useProfileData(): LoadState {
       .then(([profile, contributions]) => {
         if (!stale) setState({ status: 'ready', data: { profile, contributions } })
       })
+      .catch((err: unknown) => {
