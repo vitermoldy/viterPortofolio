@@ -94,3 +94,4 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    id: 'pixelfolio',
