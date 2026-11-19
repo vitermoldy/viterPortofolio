@@ -79,3 +79,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 <p className="mt-0 mb-4">The contribution calendar did not load ({state.message}).</p>
                 <button type="button" className="btn btn-quiet" onClick={state.retry}>
                   Load the calendar again
+                </button>
