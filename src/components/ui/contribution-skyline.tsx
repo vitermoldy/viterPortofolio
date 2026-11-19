@@ -96,3 +96,4 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
     const dow = new Date(ms).getUTCDay()
     const weekend = dow === 0 || dow === 6
     let heat = 0.2
+    for (const b of bursts) heat += b.gain * Math.exp(-((x - b.at) ** 2) / (2 * b.width ** 2))
