@@ -1190,3 +1190,4 @@ export default function ContributionSkyline({
   const ease = "cubic-bezier(0.65, 0, 0.35, 1)"
   const levelNames = ["No " + plural, "Light", "Moderate", "Heavy", "Heaviest"]
 
+  const hints = ["Hover a day for its count, or walk the days with the arrow keys", "Drag to orbit, double-click to reset"]
