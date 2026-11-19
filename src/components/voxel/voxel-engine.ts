@@ -47,3 +47,4 @@ void main() {
   vec3 n = normal;
   n.xz = R * n.xz;
 
+  vec3 from = vec3(aXY * 1.35 + (aRand.yz - 0.5) * uSpan * 0.7, uSpan * (0.45 + aRand.w * 0.6));
