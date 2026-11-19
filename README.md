@@ -11,3 +11,5 @@ My GitHub profile in 3D: **https://vitermoldy.github.io/viterPortofolio/**
   year, hover a day for its count.
 - **The pixel art** of my README (the room, StudyCabin at night, the sunset field) read pixel by pixel into a
   relief you can turn.
+- **Every project card** from the README as a relief. Public repositories get their links; private ones say so.
+
