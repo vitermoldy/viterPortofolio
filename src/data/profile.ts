@@ -82,3 +82,4 @@ export function lastYearTotal(c: Contributions): number {
   const start = end - 364 * 86400000
   let total = 0
   for (const [date, count] of c.days) {
+    const t = Date.parse(date + 'T00:00:00Z')
