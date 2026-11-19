@@ -442,3 +442,4 @@ function Stat({
         style={{ color: accent, fontSize: size, lineHeight: 0.95, letterSpacing: "-0.02em" }}
       >
         {value}
+      </div>
