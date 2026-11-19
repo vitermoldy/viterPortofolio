@@ -347,3 +347,4 @@ export class VoxelEngine {
     this.renderer.render(this.scene, this.camera)
   }
 
+  private kick() {
