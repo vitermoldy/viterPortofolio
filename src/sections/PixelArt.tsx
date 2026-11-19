@@ -43,3 +43,4 @@ export function PixelArt() {
   return (
     <section id="pixel-art" aria-labelledby="pixel-title" className="border-t-2 border-forest bg-ink-2 py-20 md:py-28">
       <div className="wrap grid gap-10 lg:grid-cols-12 lg:gap-8">
+        <div className="lg:col-span-4">
