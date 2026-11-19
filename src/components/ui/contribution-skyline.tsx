@@ -1046,3 +1046,5 @@ export default function ContributionSkyline({
       hovered = -1
       refreshActive()
       cfg.current.setAnnounce(cfg.current.describe(i))
+    }
+
