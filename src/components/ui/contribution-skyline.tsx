@@ -826,3 +826,4 @@ export default function ContributionSkyline({
         for (const m of months) {
           const x = px(m.week + off, -0.3)
           const tw = ctx.measureText(m.label).width
+          if (x < edge || x + tw > W) continue
