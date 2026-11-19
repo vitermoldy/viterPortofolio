@@ -936,3 +936,5 @@ export default function ContributionSkyline({
         if (faces[i] & 2 && pointInQuad(polys, o + 16, x, y)) return i
       }
       return -1
+    }
+
