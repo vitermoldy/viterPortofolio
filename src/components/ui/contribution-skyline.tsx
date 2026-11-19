@@ -791,3 +791,4 @@ export default function ContributionSkyline({
           ctx.fillStyle = rgbString(r * 0.84, g * 0.84, bl * 0.84)
           ctx.fill()
         }
+        if (f & 2) {
