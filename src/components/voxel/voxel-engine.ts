@@ -158,3 +158,4 @@ export class VoxelEngine {
       },
     })
     canvas.addEventListener('pointerdown', this.onDown)
+    canvas.addEventListener('pointermove', this.onMove)
