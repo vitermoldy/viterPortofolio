@@ -509,3 +509,4 @@ export default function ContributionSkyline({
   const tipRef = React.useRef<HTMLDivElement>(null)
   const engine = React.useRef<{ kick: () => void; load: () => void; retheme: () => void; tipWidth: (w: number) => void } | null>(null)
 
+  const plural = unitPlural ?? unit + "s"
