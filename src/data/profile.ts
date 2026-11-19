@@ -90,3 +90,5 @@ export function lastYearTotal(c: Contributions): number {
 
 export function allTimeTotal(c: Contributions): number {
   return c.days.reduce((s, d) => s + d[1], 0)
+}
+
