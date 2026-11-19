@@ -86,3 +86,4 @@ async function profile() {
       .map((r) => ({
         name: r.name,
         description: r.description,
+        url: r.html_url,
