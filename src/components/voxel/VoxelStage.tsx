@@ -130,3 +130,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
   return (
     <div
       ref={boxRef}
+      className={cn('voxel-stage relative w-full overflow-hidden', className)}
