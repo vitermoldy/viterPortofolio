@@ -65,3 +65,4 @@ async function get(url, { json = false, tries = 3 } = {}) {
 
 async function profile() {
   const u = await get(`https://api.github.com/users/${USER}`, { json: true })
+  const repos = []
