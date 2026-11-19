@@ -1320,3 +1320,4 @@ export default function ContributionSkyline({
                 <span className="opacity-75"> on {dfy.format(dayMs(model.cells[active].date))}</span>
               </>
             ) : (
+              " "
