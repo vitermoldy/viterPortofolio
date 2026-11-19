@@ -52,3 +52,4 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   if (!existsSync(join(root, 'index.html'))) {
     console.error('No build yet: run npm run build first.')
     process.exit(1)
+  }
