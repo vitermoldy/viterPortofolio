@@ -1039,3 +1039,4 @@ export default function ContributionSkyline({
         if (ev.key === "ArrowUp") i -= 1
         if (ev.key === "ArrowDown") i += 1
         if (ev.key === "Home") i = 0
+        if (ev.key === "End") i = n - 1
