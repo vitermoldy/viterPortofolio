@@ -83,3 +83,4 @@ async function profile() {
     createdAt: u.created_at,
     repos: repos
       .filter((r) => !r.fork)
+      .map((r) => ({
