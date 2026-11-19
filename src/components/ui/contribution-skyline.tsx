@@ -265,3 +265,5 @@ export const resolvePalette = (p: PaletteInput | undefined, dark: boolean): stri
   const base = PALETTES.github[dark ? "dark" : "light"]
   return [0, 1, 2, 3].map((i) => pick[i] ?? pick[pick.length - 1] ?? base[i])
 }
+// #endregion
+
