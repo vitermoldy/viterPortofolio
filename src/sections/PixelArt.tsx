@@ -57,3 +57,4 @@ export function PixelArt() {
               const on = s.id === scene.id
               return (
                 <li key={s.id}>
+                  <button
