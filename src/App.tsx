@@ -7,3 +7,4 @@ import { PixelArt } from '@/sections/PixelArt'
 import { Projects } from '@/sections/Projects'
 
 export function App() {
+  const state = useProfileData()
