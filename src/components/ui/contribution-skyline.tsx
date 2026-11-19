@@ -550,3 +550,4 @@ export default function ContributionSkyline({
     // layout
     let W = 0
     let H2 = 0
+    let H3 = 0
