@@ -40,3 +40,4 @@ export function Header() {
           <ul className="m-0 flex list-none items-center gap-1 p-0">
             {NAV.map((n) => (
               <li key={n.href}>
+                <a href={n.href} className="nav-link">
