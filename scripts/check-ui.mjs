@@ -191,3 +191,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     }
     await settle(page, 1800)
     await page.locator('#projects .stage-frame').screenshot({ path: join(OUT, '1440-project-last.png') })
+    return seen.join(', ')
