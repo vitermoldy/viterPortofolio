@@ -418,3 +418,4 @@ function Stat({
           <span className="text-[14px]">{unit}</span>
         </div>
         <div className="mt-0.5 truncate text-[12px]" style={{ color: MUTED }}>
+          {sub}
