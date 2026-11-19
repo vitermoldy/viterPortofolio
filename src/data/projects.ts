@@ -33,3 +33,4 @@ export const PROJECTS: Project[] = [
     name: 'Convertion',
     stack: 'React, Python and PyMuPDF',
     card: card('convertion'),
+    text: 'A PDF toolkit that runs on my own laptop, with 34 tools: merge, split, compress, OCR, sign, redact, compare, Word, Excel and PowerPoint to PDF and back, plus summaries and layout-keeping translation from a local Qwen model and a background remover for photos.',
