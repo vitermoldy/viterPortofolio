@@ -26,3 +26,5 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 | Block depth follows pixel brightness | Lit screens, the moon and the neon come forward; the night stays at the wall. Seen head-on, the front faces are the exact pixel art |
 | Skyline heights on a log scale, colours from GitHub's own levels | The calendar spans 1 to 23,752 a day; linear heights would hide every quiet day. The shades match the profile page exactly |
 | Same-size pictures morph in a wave (portrait sky, project cards); other sizes fly in | Shows that the blocks are the pixels: the same 4,096 or 27,200 blocks re-press into the next picture |
+| Section layouts vary: split hero, full-width skyline, list beside a sticky stage, stage beside a detail, big type contact | RHYTHM 2: one system, a different composition per content |
+
