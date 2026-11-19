@@ -66,3 +66,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
           setStatus('flat')
           return
         }
+        engineRef.current = engine
