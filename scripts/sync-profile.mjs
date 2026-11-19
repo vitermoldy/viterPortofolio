@@ -80,3 +80,4 @@ async function profile() {
     followers: u.followers,
     following: u.following,
     publicRepos: u.public_repos,
+    createdAt: u.created_at,
