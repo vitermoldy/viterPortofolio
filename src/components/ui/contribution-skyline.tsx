@@ -1370,3 +1370,4 @@ export default function ContributionSkyline({
                   {h}
                 </span>
               ))}
+            </span>
