@@ -449,3 +449,4 @@ export class VoxelEngine {
 
   private onCancel = () => {
     this.drag = null
+    this.canvas.style.cursor = ''
