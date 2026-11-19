@@ -46,3 +46,4 @@ export function Contributions({ state }: { state: LoadState }) {
               </p>
             ) : (
               <p className="mt-5 mb-0 max-w-[40rem] text-lg">
+                Each day of the contribution graph is one block in GitHub&rsquo;s own shade, and its height follows the
