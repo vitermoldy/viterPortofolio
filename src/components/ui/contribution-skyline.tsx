@@ -894,3 +894,4 @@ export default function ContributionSkyline({
       const kd = reduced ? 1 : 1 - Math.exp(-dt * 10)
       const leg = cfg.current.legendLevel
       for (let i = 0; i < n; i++) {
+        const hg = i === activeIdx ? 1 : 0
