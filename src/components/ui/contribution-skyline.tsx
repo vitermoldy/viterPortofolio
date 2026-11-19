@@ -830,3 +830,4 @@ export default function ContributionSkyline({
           ctx.fillText(m.label, x, py(m.week + off, -0.3, 0) - 3)
           edge = x + tw + 6
         }
+        ctx.textAlign = "right"
