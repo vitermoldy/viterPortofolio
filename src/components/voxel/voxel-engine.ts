@@ -98,3 +98,4 @@ export type EngineOptions = {
 export class VoxelEngine {
   private renderer: THREE.WebGLRenderer
   private scene = new THREE.Scene()
+  private camera = new THREE.PerspectiveCamera(32, 1, 0.5, 5000)
