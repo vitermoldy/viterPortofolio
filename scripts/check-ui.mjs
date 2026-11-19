@@ -293,3 +293,4 @@ for (const width of [390, 320]) {
 log('no console errors', errors.length === 0, errors.slice(0, 5).join(' | '))
 await browser.close()
 server?.close()
+const failed = results.filter((r) => !r.ok).length
