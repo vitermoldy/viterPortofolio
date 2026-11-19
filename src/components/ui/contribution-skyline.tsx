@@ -523,3 +523,5 @@ export default function ContributionSkyline({
 
   // Everything the render loop reads, refreshed every render so the loop never closes over stale props.
   const cfg = React.useRef({ model, duration, heightScale, heightCurve, orbit, palette, legendLevel, onCellClick, target: view === "3d" ? 1 : 0, setActive, setWidth, setTheme, setAnnounce, describe })
+  cfg.current = { model, duration, heightScale, heightCurve, orbit, palette, legendLevel, onCellClick, target: view === "3d" ? 1 : 0, setActive, setWidth, setTheme, setAnnounce, describe }
+
