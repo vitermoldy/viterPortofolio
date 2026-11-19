@@ -66,3 +66,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     expect(facts.length === 3 && facts.every((f) => f && !/Loading|Not loaded/.test(f)), 'facts: ' + facts.join(' | '))
     return facts.join(' | ')
   })
+  await check('hero: avatar blocks fly in', async () => {
