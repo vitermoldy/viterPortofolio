@@ -128,3 +128,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await page.waitForTimeout(1600)
   })
   await check('skyline: hover a day shows its count', async () => {
+    const cv = page.locator('#contributions canvas')
