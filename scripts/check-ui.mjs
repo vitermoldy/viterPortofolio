@@ -56,3 +56,4 @@ const stageReady = (page, sel) =>
   }, sel, { timeout: 20000 })
 const settle = (page, ms = 3200) => page.waitForTimeout(ms)
 
+// Desktop
