@@ -10,3 +10,4 @@ const page = `
 <td tabindex="-1" data-ix="1" data-date="2026-11-12" id="contribution-day-component-0-1" data-level="0" role="gridcell" class="ContributionCalendar-day"></td>
 <tool-tip id="tooltip-2" for="contribution-day-component-0-1" class="sr-only">No contributions on November 12th.</tool-tip>
 <td data-date="2026-11-13" id="contribution-day-component-0-2" data-level="1" class="ContributionCalendar-day"></td>
+<tool-tip for="contribution-day-component-0-2" class="sr-only">1 contribution on November 13th.</tool-tip>
