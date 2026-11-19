@@ -38,3 +38,4 @@ const PIXEL = [
   'card-nyxborne.svg',
   'card-agentic-factory.svg',
   'card-studycabin.svg',
+  'card-songplay.svg',
