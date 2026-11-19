@@ -1229,3 +1229,4 @@ export default function ContributionSkyline({
             />
             {(["2d", "3d"] as const).map((v) => (
               <button
+                key={v}
