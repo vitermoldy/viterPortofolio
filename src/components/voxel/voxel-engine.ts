@@ -141,3 +141,4 @@ export class VoxelEngine {
     this.yaw = this.yawGoal = this.base.yaw
     this.pitch = this.pitchGoal = this.base.pitch
     this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'high-performance' })
+    this.renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1))
