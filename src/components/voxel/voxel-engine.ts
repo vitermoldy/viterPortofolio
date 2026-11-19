@@ -110,3 +110,4 @@ export class VoxelEngine {
   private corners = Array.from({ length: 8 }, () => new THREE.Vector3())
   private probe = new THREE.Vector3()
   private target = new THREE.Vector3()
+  private depthMax = 1
