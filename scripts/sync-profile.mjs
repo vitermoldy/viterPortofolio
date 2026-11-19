@@ -108,3 +108,5 @@ async function contributions(createdAt) {
   }
   const sorted = [...days.entries()].sort((a, b) => (a[0] < b[0] ? -1 : 1)).map(([date, [count, level]]) => [date, count, level])
   return { today, days: sorted }
+}
+
