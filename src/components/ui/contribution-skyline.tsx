@@ -110,3 +110,4 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
 
 /**
  * The grid: columns are weeks, rows are weekdays (row 0 = `weekStart`). It
+ * ends on `endMs` and starts on the week containing the day one year earlier.
