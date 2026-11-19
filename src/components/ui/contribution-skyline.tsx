@@ -44,3 +44,4 @@ export const lerp = (a: number, b: number, t: number): number => a + (b - a) * t
 export const easeInOutCubic = (x: number): number => {
   const t = clamp01(x)
   return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2
+}
