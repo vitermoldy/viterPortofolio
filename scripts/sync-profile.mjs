@@ -3,3 +3,4 @@
 //   node scripts/sync-profile.mjs                  profile, repositories, contributions and pixel art
 //   node scripts/sync-profile.mjs --user someone   another account
 //   node scripts/sync-profile.mjs --skip-pixel     data only (the pixel art is already in public/pixel)
+//
