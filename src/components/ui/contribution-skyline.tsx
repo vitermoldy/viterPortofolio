@@ -1219,3 +1219,4 @@ export default function ContributionSkyline({
             style={{ borderColor: "var(--color-border, #e5e5e5)" }}
           >
             <span
+              aria-hidden="true"
