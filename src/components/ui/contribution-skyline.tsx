@@ -1036,3 +1036,4 @@ export default function ContributionSkyline({
       if (pinned >= 0 || activeIdx >= 0) {
         if (ev.key === "ArrowLeft") i -= 7
         if (ev.key === "ArrowRight") i += 7
+        if (ev.key === "ArrowUp") i -= 1
