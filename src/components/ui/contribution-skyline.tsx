@@ -863,3 +863,4 @@ export default function ContributionSkyline({
     const tick = (now: number) => {
       raf = 0
       const dt = Math.min(0.05, Math.max(0, (now - last) / 1000))
+      last = now
