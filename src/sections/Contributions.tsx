@@ -49,3 +49,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 Each day of the contribution graph is one block in GitHub&rsquo;s own shade, and its height follows the
                 count.
               </p>
+            )}
