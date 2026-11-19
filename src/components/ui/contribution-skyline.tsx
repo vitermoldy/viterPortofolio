@@ -782,3 +782,4 @@ export default function ContributionSkyline({
         if (hv > 0.002) {
           const m = 0.16 * hv
           r += (fg[0] - r) * m
+          g += (fg[1] - g) * m
