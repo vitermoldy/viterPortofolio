@@ -1013,3 +1013,4 @@ export default function ContributionSkyline({
 
     const onDbl = () => {
       yawGoal = 0
+      elevGoal = 0
