@@ -235,3 +235,4 @@ export const camera = (e: number, dYaw = 0, dElev = 0): Cam => {
   return { cs: Math.cos(yaw), sn: Math.sin(yaw), se: Math.sin(elev), ce: Math.cos(elev) }
 }
 
+/** World (x = week, y = weekday, z = up) → screen, before scale/offset. */
