@@ -3,3 +3,5 @@
 import { chromium } from 'playwright-core'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { serve } from './serve.mjs'
+
