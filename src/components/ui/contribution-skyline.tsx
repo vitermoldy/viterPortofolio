@@ -780,3 +780,4 @@ export default function ContributionSkyline({
         }
         const hv = hover[i]
         if (hv > 0.002) {
+          const m = 0.16 * hv
