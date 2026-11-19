@@ -58,3 +58,4 @@ export const PROJECTS: Project[] = [
     stack: 'React, canvas and MySQL',
     card: card('nyxborne'),
     text: 'A dark-fantasy summoner RPG in pixel art. The hunter wears whatever you equip, 36 monsters walk and strike, and every sprite is painted by code. Beaten monsters rise as Nyxborne and stack into colonies hundreds strong, across 124 sub-gates from rank E to Monarch, with match results kept in MySQL.',
+    repos: [
