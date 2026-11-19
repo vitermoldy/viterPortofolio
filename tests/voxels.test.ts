@@ -10,3 +10,4 @@ const grid = (w: number, h: number, px: [number, number, number, number][]): Pix
 
 describe('voxelize', () => {
   const g = grid(2, 2, [
+    [0, 0, 0, 255],
