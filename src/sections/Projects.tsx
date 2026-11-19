@@ -79,3 +79,4 @@ export function Projects({ state }: { state: LoadState }) {
                       src={p.card}
                       width={CARD_SIZE.w}
                       height={CARD_SIZE.h}
+                      alt=""
