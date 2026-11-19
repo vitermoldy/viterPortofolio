@@ -971,3 +971,4 @@ export default function ContributionSkyline({
           refreshActive()
           kick()
           return
+        }
