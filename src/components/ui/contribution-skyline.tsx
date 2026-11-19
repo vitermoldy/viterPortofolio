@@ -941,3 +941,5 @@ export default function ContributionSkyline({
     const local = (ev: PointerEvent | MouseEvent) => {
       const r = canvas.getBoundingClientRect()
       return [ev.clientX - r.left, ev.clientY - r.top] as const
+    }
+
