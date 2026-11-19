@@ -280,3 +280,4 @@ export interface ContributionSkylineProps {
   defaultView?: View
   onViewChange?: (view: View) => void
   /** A preset, four colours, or `{ light, dark }` sets of four. */
+  palette?: PaletteInput
