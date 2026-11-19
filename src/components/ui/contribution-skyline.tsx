@@ -1118,3 +1118,4 @@ export default function ContributionSkyline({
     engine.current = {
       kick: () => {
         setTarget()
+        kick()
