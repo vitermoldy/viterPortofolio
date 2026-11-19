@@ -59,3 +59,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
     import('./voxel-engine')
       .then(({ VoxelEngine }) => {
         if (disposed) return
+        let engine: VoxelEngine
