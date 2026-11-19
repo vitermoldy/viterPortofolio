@@ -59,3 +59,4 @@ void main() {
 `
 
 const FRAG = /* glsl */ `
+varying vec3 vColor;
