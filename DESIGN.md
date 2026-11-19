@@ -37,3 +37,5 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 - Nothing moves on its own after it lands, so no pause control is needed. Under `prefers-reduced-motion` every
   picture appears in place, switches are instant and the hero text does not rise.
 
+## Rules kept on purpose
+
