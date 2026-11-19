@@ -10,3 +10,4 @@
 // The pixel art is copied from the profile repository next to this one (../vitermoldy/assets/pixel) when it
 // is there, and downloaded from that repository on GitHub when it is not.
 // Standard library only. If GitHub cannot be read the script stops before writing, so the last good files stay.
+import { copyFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs'
