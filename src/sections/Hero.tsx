@@ -27,3 +27,4 @@ export function Hero({ state }: { state: LoadState }) {
   return (
     <section id="top" aria-labelledby="hero-title" className="relative">
       <div className="wrap grid items-center gap-10 pt-10 pb-16 md:min-h-[calc(100svh-4rem)] md:grid-cols-12 md:gap-8 md:py-12">
+        <div className="md:col-span-6 lg:col-span-5" data-enter>
