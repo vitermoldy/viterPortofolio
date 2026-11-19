@@ -75,3 +75,4 @@ export function Projects({ state }: { state: LoadState }) {
                       (on ? 'border-sun' : 'border-moss hover:border-leaf')
                     }
                   >
+                    <img
