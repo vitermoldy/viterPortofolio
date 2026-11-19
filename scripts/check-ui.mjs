@@ -161,3 +161,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   await check('pixel art: the room in blocks', async () => {
     await page.locator('#pixel-art').scrollIntoViewIfNeeded()
     await stageReady(page, '#pixel-art')
+    await settle(page)
