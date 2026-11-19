@@ -195,3 +195,4 @@
       background-color 160ms ease-out,
       color 160ms ease-out;
   }
+  .seg > button + button {
