@@ -494,3 +494,4 @@ export default function ContributionSkyline({
     onViewChange?.(v)
   }
 
+  const [theme, setTheme] = React.useState<{ dark: boolean; swatches: string[]; accent: string }>(() => {
