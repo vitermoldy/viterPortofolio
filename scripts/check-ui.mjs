@@ -217,3 +217,5 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     expect(t === 'Skip to the profile', 'first Tab on ' + t)
   })
   await context.close()
+}
+
