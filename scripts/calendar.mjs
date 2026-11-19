@@ -2,3 +2,4 @@
 // Each day is a <td class="ContributionCalendar-day" data-date data-level id> and its count sits in the
 // <tool-tip for="<id>"> that follows ("12 contributions on November 3rd." or "No contributions on ...").
 // The level (0 to 4) is GitHub's own shade for that day, so the site can colour days exactly as the
+// profile page does.
