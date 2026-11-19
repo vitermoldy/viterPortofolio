@@ -40,3 +40,4 @@ describe('voxelize', () => {
 
 describe('skyline with GitHub levels and a log scale', () => {
   const end = Date.UTC(2026, 10, 19)
+  it('uses the level GitHub gave a day', () => {
