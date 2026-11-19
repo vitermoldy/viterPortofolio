@@ -40,3 +40,4 @@ export function PixelArt() {
   const [id, setId] = React.useState(SCENES[0].id)
   const scene = SCENES.find((s) => s.id === id) ?? SCENES[0]
 
+  return (
