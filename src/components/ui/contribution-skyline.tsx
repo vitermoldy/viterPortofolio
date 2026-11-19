@@ -504,3 +504,4 @@ export default function ContributionSkyline({
   const [announce, setAnnounce] = React.useState("")
 
   const rootRef = React.useRef<HTMLElement>(null)
+  const stageRef = React.useRef<HTMLDivElement>(null)
