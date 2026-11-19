@@ -240,3 +240,4 @@
     transition: color 160ms ease-out, background-size 220ms ease-out;
   }
   .nav-link:hover {
+    color: var(--color-paper);
