@@ -35,3 +35,4 @@ export function Projects({ state }: { state: LoadState }) {
           <p className="mt-2 mb-0 text-sm text-leaf">{project.stack}</p>
           <p className="mt-4 mb-0">{project.text}</p>
           <div className="mt-5">
+            {state.status === 'loading' && <p className="m-0 text-sm text-muted">Checking the repository on GitHub</p>}
