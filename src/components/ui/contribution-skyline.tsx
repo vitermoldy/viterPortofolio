@@ -599,3 +599,4 @@ export default function ContributionSkyline({
         zs = new Float32Array(n)
         hover = new Float32Array(n)
         dim = new Float32Array(n)
+        polys = new Float32Array(n * 24)
