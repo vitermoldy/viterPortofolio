@@ -24,3 +24,4 @@ export const PROJECTS: Project[] = [
     id: 'evit',
     name: 'eVit',
     stack: 'React, WebGL and PyTorch',
+    card: card('evit'),
