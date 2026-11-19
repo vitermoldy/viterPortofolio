@@ -86,3 +86,4 @@ export function Contributions({ state }: { state: LoadState }) {
           {c && view && (
             <>
               {view.data.every((d) => d.count === 0) ? (
+                <div className="grid min-h-[380px] place-items-center border-2 border-moss" role="status">
