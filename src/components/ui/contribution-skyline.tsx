@@ -588,3 +588,4 @@ export default function ContributionSkyline({
     let last = 0
 
     const load = () => {
+      const m = cfg.current.model
