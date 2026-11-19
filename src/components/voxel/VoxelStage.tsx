@@ -13,3 +13,5 @@ export type VoxelPicture = {
   alt: string
 }
 
+type Status = 'loading' | 'ready' | 'flat' | 'error'
+
