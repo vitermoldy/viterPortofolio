@@ -1130,3 +1130,5 @@ export default function ContributionSkyline({
         tipW = w
         draw()
       },
+    }
+
