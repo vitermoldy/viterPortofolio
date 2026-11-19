@@ -45,3 +45,4 @@ describe('contribution totals', () => {
     expect(lastYearTotal(c)).toBe(9)
   })
   it('sums every day', () => {
+    expect(allTimeTotal(c)).toBe(23)
