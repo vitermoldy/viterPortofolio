@@ -447,3 +447,4 @@ function Stat({
         <div className="text-[15px]">{unit}</div>
         <div className="whitespace-nowrap text-[13px]" style={{ color: MUTED }}>
           {sub}
+        </div>
