@@ -287,3 +287,4 @@ export class VoxelEngine {
     u.uBump.value = span * 0.035
     this.current = v
     this.measure(v)
+    this.morph = 1
