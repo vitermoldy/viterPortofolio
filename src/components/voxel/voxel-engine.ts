@@ -43,3 +43,4 @@ void main() {
   vec3 local = vec3(position.xy * 0.94 * alpha, (position.z + 0.5) * depth * alpha);
   float ang = (1.0 - a) * (aRand.y * 6.0 - 3.0);
   mat2 R = mat2(cos(ang), -sin(ang), sin(ang), cos(ang));
+  local.xz = R * local.xz;
