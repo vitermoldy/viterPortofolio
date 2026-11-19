@@ -66,3 +66,4 @@ export const dayMs = (v: string | number | Date): number => {
     if (m) return Date.UTC(+m[1], +m[2] - 1, +m[3])
     v = new Date(v)
   }
+  return Date.UTC(v.getFullYear(), v.getMonth(), v.getDate())
