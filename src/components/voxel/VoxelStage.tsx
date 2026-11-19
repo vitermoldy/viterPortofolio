@@ -10,3 +10,4 @@ export type VoxelPicture = {
   w: number
   h: number
   /** Read out for screen readers; the same words as the picture's alt text on the profile. */
+  alt: string
