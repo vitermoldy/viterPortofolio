@@ -31,3 +31,4 @@ float easeInOut(float t) { return t < 0.5 ? 4.0 * t * t * t : 1.0 - pow(-2.0 * t
 
 void main() {
   float d = clamp(length(aXY - uWaveFrom) / uSpan, 0.0, 1.0);
+  float m = easeInOut(clamp(uMorph * 1.6 - d * 0.6, 0.0, 1.0));
