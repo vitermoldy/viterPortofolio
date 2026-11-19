@@ -35,3 +35,5 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 - The skyline folds up from the flat heat map when it first shows.
 - Pointer: drag turns a stage, moving across it presses the pins, a tap presses and springs back.
 - Nothing moves on its own after it lands, so no pause control is needed. Under `prefers-reduced-motion` every
+  picture appears in place, switches are instant and the hero text does not rise.
+
