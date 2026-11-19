@@ -340,3 +340,4 @@ export class VoxelEngine {
   private render() {
     if (!this.current) return
     const u = this.material.uniforms
+    u.uAssemble.value = this.assemble
