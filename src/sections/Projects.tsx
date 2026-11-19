@@ -54,3 +54,5 @@ export function Projects({ state }: { state: LoadState }) {
                 <p className="m-0 text-sm text-muted">{PRIVATE_NOTE}</p>
               ))}
           </div>
+        </div>
+
