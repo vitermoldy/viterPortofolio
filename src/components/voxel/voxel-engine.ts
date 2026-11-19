@@ -268,3 +268,4 @@ export class VoxelEngine {
       rand[k * 4] = Math.min(1, (x * 0.55 + y * 0.45) * 0.7 + rand[k * 4] * 0.3)
     }
     g.setAttribute('aXY', new THREE.InstancedBufferAttribute(v.xy, 2))
+    g.setAttribute('aColA', new THREE.InstancedBufferAttribute(v.col.slice(), 3))
