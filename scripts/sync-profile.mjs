@@ -61,3 +61,5 @@ async function get(url, { json = false, tries = 3 } = {}) {
       await new Promise((r) => setTimeout(r, 2000 * attempt))
     }
   }
+}
+
