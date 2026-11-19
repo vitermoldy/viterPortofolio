@@ -20,3 +20,4 @@ export type Profile = {
   name: string | null
   bio: string | null
   url: string
+  blog: string | null
