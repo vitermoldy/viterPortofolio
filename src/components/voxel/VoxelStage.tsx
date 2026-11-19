@@ -125,3 +125,5 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
     }
   }, [engineReady, picture.src, picture.w, picture.h, relief, base, wave, attempt])
 
+  const showCanvas = status === 'ready'
+
