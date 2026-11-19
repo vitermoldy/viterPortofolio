@@ -165,3 +165,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
     } else run = 0
   }
   let j = cells.length - 1
+  if (j >= 0 && cells[j].count === 0) j--
