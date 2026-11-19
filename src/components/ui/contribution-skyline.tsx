@@ -427,3 +427,4 @@ function Stat({
     <div className="grid grid-cols-[auto_auto] items-end gap-x-2" style={{ justifyContent: align }}>
       {align === "end" ? (
         <>
+          <div className="text-right text-[13px] leading-tight" style={{ color: MUTED }}>
