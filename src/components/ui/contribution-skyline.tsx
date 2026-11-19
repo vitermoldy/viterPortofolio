@@ -1026,3 +1026,4 @@ export default function ContributionSkyline({
         hovered = -1
         refreshActive()
         return
+      }
