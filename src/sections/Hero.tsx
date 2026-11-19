@@ -9,3 +9,4 @@ const AVATARS: Record<'moon' | 'sunset', VoxelPicture> = {
     src: asset('pixel/avatar.png'),
     w: 64,
     h: 64,
+    alt: 'Pixel-art portrait of Viter in a green hoodie with headphones round the neck, in front of a big moon over the forest at night.',
