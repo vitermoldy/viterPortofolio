@@ -17,3 +17,4 @@ export function parseCalendar(html) {
   for (const [, id, text] of html.matchAll(TIP)) {
     const m = /([\d,]+)\s+contribution/.exec(text)
     tips.set(id, m ? Number(m[1].replace(/,/g, '')) : 0)
+  }
