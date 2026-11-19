@@ -64,3 +64,4 @@ describe('project links', () => {
     expect(new Set(PROJECTS.map((p) => p.id)).size).toBe(PROJECTS.length)
     expect(PROJECTS.every((p) => p.card.endsWith(`card-${p.id}.svg`))).toBe(true)
   })
+})
