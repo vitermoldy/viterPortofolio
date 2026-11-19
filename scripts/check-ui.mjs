@@ -23,3 +23,4 @@ const log = (name, ok, detail = '') => {
   console.log(`${ok ? 'PASS' : 'FAIL'}  ${name}${detail ? `: ${detail}` : ''}`)
 }
 const check = async (name, fn) => {
+  try {
