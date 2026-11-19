@@ -265,3 +265,4 @@ for (const width of [390, 320]) {
         [...document.querySelectorAll('a[href], button')]
           .filter((el) => {
             const r = el.getBoundingClientRect()
+            const inText = el.closest('p') && el.tagName === 'A'
