@@ -4,3 +4,5 @@
 // The level (0 to 4) is GitHub's own shade for that day, so the site can colour days exactly as the
 // profile page does.
 const DAY = /<td\b[^>]*\bContributionCalendar-day\b[^>]*>/g
+const TIP = /<tool-tip\b[^>]*\bfor="([^"]+)"[^>]*>([^<]*)<\/tool-tip>/g
+
