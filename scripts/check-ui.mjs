@@ -140,3 +140,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     expect(found, 'no tooltip')
     return found.replace(/\s+/g, ' ')
   })
+  await check('skyline: legend isolates a level', async () => {
