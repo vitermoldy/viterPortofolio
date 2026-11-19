@@ -20,3 +20,4 @@ export default defineConfig(({ command }) => ({
   },
   build: {
     chunkSizeWarningLimit: 900,
+  },
