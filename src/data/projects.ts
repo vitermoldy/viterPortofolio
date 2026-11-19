@@ -113,3 +113,4 @@ export const PROJECTS: Project[] = [
     repos: [{ label: 'Repository', name: 'Viygo-Salon-Web' }],
   },
   {
+    id: 'lanskara',
