@@ -207,3 +207,4 @@
     background: var(--color-leaf);
   }
   .seg > button:focus-visible {
+    outline-offset: -4px;
