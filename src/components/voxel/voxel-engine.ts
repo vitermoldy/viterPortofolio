@@ -370,3 +370,4 @@ export class VoxelEngine {
     }
     const k = this.reduced ? 1 : 1 - Math.exp(-dt * 9)
     this.yaw += (this.yawGoal - this.yaw) * k
+    this.pitch += (this.pitchGoal - this.pitch) * k
