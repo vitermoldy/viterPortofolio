@@ -51,3 +51,4 @@ export function Contributions({ state }: { state: LoadState }) {
               </p>
             )}
           </div>
+          {view && view.pastYears.length > 0 && (
