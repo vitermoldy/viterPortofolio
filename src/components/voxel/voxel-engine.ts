@@ -24,3 +24,5 @@ uniform float uBump;
 varying vec3 vColor;
 varying vec3 vNormal;
 varying float vGlow;
+varying float vZ;
+
