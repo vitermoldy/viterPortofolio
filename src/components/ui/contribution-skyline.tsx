@@ -323,3 +323,4 @@ const toRGB = (color: string, fallback: RGB | null): RGB | null => {
     probe = c.getContext("2d", { willReadFrequently: true })
   }
   if (!probe) return fallback
+  probe.clearRect(0, 0, 1, 1)
