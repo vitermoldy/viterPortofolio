@@ -19,3 +19,4 @@ type Props = {
   picture: VoxelPicture
   options?: VoxelOptions
   /** Where a same-size switch starts its wave. */
+  wave?: 'corner' | 'centre'
