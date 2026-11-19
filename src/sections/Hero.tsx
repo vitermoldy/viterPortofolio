@@ -7,3 +7,4 @@ import { asset } from '@/lib/utils'
 const AVATARS: Record<'moon' | 'sunset', VoxelPicture> = {
   moon: {
     src: asset('pixel/avatar.png'),
+    w: 64,
