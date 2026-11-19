@@ -184,3 +184,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
 export const monthLabels = (cells: Cell[], weeks: number, locale = "en-US") => {
   const fmt = new Intl.DateTimeFormat(locale, { month: "short", timeZone: "UTC" })
   const out: { week: number; label: string }[] = []
+  let prev = -1
