@@ -93,3 +93,4 @@ async function profile() {
         forks: r.forks_count,
         pushedAt: r.pushed_at,
       })),
+  }
