@@ -743,3 +743,4 @@ export default function ContributionSkyline({
         const x0 = wk[i] + off
         const y0 = dy[i] + off
         const x1 = x0 + w
+        const y1 = y0 + w
