@@ -17,3 +17,4 @@ await page.waitForFunction(() => {
 })
 await page.waitForTimeout(3500)
 await page.screenshot({ path: join(root, 'public', 'share.png') })
+await browser.close()
