@@ -71,3 +71,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await settle(page)
     await page.screenshot({ path: join(OUT, '1440-hero.png') })
   })
+  await check('hero: Sunset switches the portrait', async () => {
