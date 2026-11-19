@@ -6,3 +6,4 @@
 const DAY = /<td\b[^>]*\bContributionCalendar-day\b[^>]*>/g
 const TIP = /<tool-tip\b[^>]*\bfor="([^"]+)"[^>]*>([^<]*)<\/tool-tip>/g
 
+const attr = (tag, name) => {
