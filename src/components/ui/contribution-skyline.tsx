@@ -1195,3 +1195,4 @@ export default function ContributionSkyline({
 
   return (
     <section
+      ref={rootRef}
