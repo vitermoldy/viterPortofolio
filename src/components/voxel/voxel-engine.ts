@@ -218,3 +218,5 @@ export class VoxelEngine {
     this.camera.aspect = w / h
     this.camera.updateProjectionMatrix()
     this.render()
+  }
+
