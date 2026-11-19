@@ -28,3 +28,4 @@ export type Profile = {
   repos: Repo[]
 }
 
+/** One row per day: date, count, and GitHub's own shade for it (0 to 4). */
