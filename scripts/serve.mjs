@@ -53,3 +53,4 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
     console.error('No build yet: run npm run build first.')
     process.exit(1)
   }
+  const port = Number(process.env.PORT ?? 5189)
