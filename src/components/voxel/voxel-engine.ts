@@ -133,3 +133,4 @@ export class VoxelEngine {
   private canvas: HTMLCanvasElement
 
   constructor(canvas: HTMLCanvasElement, opts: EngineOptions) {
+    this.canvas = canvas
