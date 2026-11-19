@@ -81,3 +81,4 @@ export function Projects({ state }: { state: LoadState }) {
                       height={CARD_SIZE.h}
                       alt=""
                       loading="lazy"
+                      decoding="async"
