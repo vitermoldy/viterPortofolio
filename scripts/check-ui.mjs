@@ -280,3 +280,4 @@ for (const width of [390, 320]) {
 {
   const context = await browser.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce' })
   const page = await context.newPage()
+  page.on('pageerror', (e) => errors.push(`reduced: ${e}`))
