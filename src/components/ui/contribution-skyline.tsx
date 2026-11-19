@@ -783,3 +783,4 @@ export default function ContributionSkyline({
           const m = 0.16 * hv
           r += (fg[0] - r) * m
           g += (fg[1] - g) * m
+          bl += (fg[2] - bl) * m
