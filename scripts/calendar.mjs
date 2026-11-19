@@ -14,3 +14,4 @@ const attr = (tag, name) => {
 /** @param {string} html @returns {Map<string, [number, number]>} */
 export function parseCalendar(html) {
   const tips = new Map()
+  for (const [, id, text] of html.matchAll(TIP)) {
