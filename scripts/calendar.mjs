@@ -8,3 +8,4 @@ const TIP = /<tool-tip\b[^>]*\bfor="([^"]+)"[^>]*>([^<]*)<\/tool-tip>/g
 
 const attr = (tag, name) => {
   const m = new RegExp(`\\b${name}="([^"]*)"`).exec(tag)
+  return m ? m[1] : null
