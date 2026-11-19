@@ -401,3 +401,4 @@ function Stat({
   accent: string
   size: number
   align: "start" | "end" | "stack"
+}) {
