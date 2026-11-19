@@ -804,3 +804,4 @@ export default function ContributionSkyline({
         if (outline > 0.004) {
           ctx.strokeStyle = "rgba(" + fg[0] + "," + fg[1] + "," + fg[2] + "," + outline.toFixed(3) + ")"
           ctx.lineWidth = 1
+          ctx.stroke()
