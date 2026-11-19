@@ -73,3 +73,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         ro.observe(box)
         io = new IntersectionObserver(
           (entries) => {
+            const on = entries.some((e) => e.isIntersecting)
