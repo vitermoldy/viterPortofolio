@@ -192,3 +192,4 @@
     background: transparent;
     border: 0;
     transition:
+      background-color 160ms ease-out,
