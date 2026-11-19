@@ -76,3 +76,4 @@ void main() {
     shade *= mix(0.5, 1.0, vZ);
     shade = mix(shade, 1.0, vGlow * 0.85);
   }
+  gl_FragColor = vec4(vColor * shade, 1.0);
