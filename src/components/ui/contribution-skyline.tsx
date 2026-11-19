@@ -657,3 +657,4 @@ export default function ContributionSkyline({
         const p = project(cam, x, y, z)
         if (p[0] < minx) minx = p[0]
         if (p[0] > maxx) maxx = p[0]
+        if (p[1] < miny) miny = p[1]
