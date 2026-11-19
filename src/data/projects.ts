@@ -108,3 +108,4 @@ export const PROJECTS: Project[] = [
     id: 'viygo',
     name: 'Viygo',
     stack: 'Laravel 12 and MySQL',
+    card: card('viygo'),
