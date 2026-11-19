@@ -1385,3 +1385,4 @@ export default function ContributionSkyline({
                   aria-pressed={legendLevel === i}
                   title={levelNames[i]}
                   onMouseEnter={() => setLegendLevel(i)}
+                  onFocus={() => setLegendLevel(i)}
