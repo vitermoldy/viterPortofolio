@@ -23,3 +23,4 @@ describe('voxelize', () => {
   })
   it('keeps the exact colour on each block', () => {
     expect(Array.from(v.col.slice(3, 6))).toEqual([1, 1, 1])
+    expect(Array.from(v.col.slice(6, 9))).toEqual([1, 0, 0])
