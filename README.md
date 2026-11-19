@@ -15,3 +15,5 @@ My GitHub profile in 3D: **https://vitermoldy.github.io/viterPortofolio/**
 
 Drag to turn any of them, double-click to face it again, or focus it and use the arrow keys.
 
+## How the numbers stay current
+
