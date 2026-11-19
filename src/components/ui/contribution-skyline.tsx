@@ -1352,3 +1352,4 @@ export default function ContributionSkyline({
                 {statBlocks.map((b) => (
                   <Stat key={b.label} {...b} accent={accent ?? theme.accent} size={28} align="stack" />
                 ))}
+              </div>
