@@ -41,3 +41,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 
 - English copy, like every text on the profile.
 - A repository is linked only when GitHub lists it public (`profile.json`); a private one shows the README's
+  note "Still in development, so the repository is private for now." (the owner's rule of 15 November 2026).
