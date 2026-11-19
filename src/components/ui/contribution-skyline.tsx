@@ -1030,3 +1030,4 @@ export default function ContributionSkyline({
       let i = pinned >= 0 ? pinned : activeIdx >= 0 ? activeIdx : n - 1
       if (ev.key === "Enter" || ev.key === " ") {
         const c = cfg.current.model.cells[i]
+        cfg.current.onCellClick?.({ date: c.date, count: c.count })
