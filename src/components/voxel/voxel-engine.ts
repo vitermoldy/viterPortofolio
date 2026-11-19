@@ -357,3 +357,5 @@ export class VoxelEngine {
     this.raf = 0
     const dt = Math.min(0.05, Math.max(0, (now - this.last) / 1000))
     this.last = now
+    let moving = false
+
