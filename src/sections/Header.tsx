@@ -26,3 +26,5 @@ export function Header() {
       document.removeEventListener('keydown', onKey)
       document.body.style.overflow = ''
     }
+  }, [open])
+
