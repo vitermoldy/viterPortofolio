@@ -354,3 +354,4 @@ export class VoxelEngine {
   }
 
   private tick = (now: number) => {
+    this.raf = 0
