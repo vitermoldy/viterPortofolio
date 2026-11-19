@@ -151,3 +151,4 @@ export class VoxelEngine {
         uMorph: { value: 1 },
         uSpan: { value: 100 },
         uWaveFrom: { value: new THREE.Vector2() },
+        uPointer: { value: new THREE.Vector3(0, 0, 0) },
