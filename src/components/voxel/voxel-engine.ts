@@ -203,3 +203,4 @@ export class VoxelEngine {
     if (this.reduced) {
       this.assemble = 1
       this.assembling = false
+    }
