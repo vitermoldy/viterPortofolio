@@ -340,3 +340,4 @@ const pointInQuad = (p: Float32Array, o: number, x: number, y: number): boolean 
     const ax = p[o + k * 2]
     const ay = p[o + k * 2 + 1]
     const bx = p[o + ((k + 1) % 4) * 2]
+    const by = p[o + ((k + 1) % 4) * 2 + 1]
