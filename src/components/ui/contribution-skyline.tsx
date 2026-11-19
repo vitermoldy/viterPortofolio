@@ -1037,3 +1037,4 @@ export default function ContributionSkyline({
         if (ev.key === "ArrowLeft") i -= 7
         if (ev.key === "ArrowRight") i += 7
         if (ev.key === "ArrowUp") i -= 1
+        if (ev.key === "ArrowDown") i += 1
