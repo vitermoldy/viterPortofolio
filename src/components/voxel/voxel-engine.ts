@@ -16,3 +16,4 @@ attribute vec4 aRand;
 uniform float uAssemble;
 uniform float uMorph;
 uniform float uSpan;
+uniform vec2 uWaveFrom;
