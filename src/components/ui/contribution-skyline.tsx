@@ -1235,3 +1235,4 @@ export default function ContributionSkyline({
                 aria-label={v === "2d" ? "Flat heat map" : "3D skyline"}
                 title={v === "2d" ? "Flat heat map" : "3D skyline"}
                 onClick={() => setView(v)}
+                className="relative z-10 grid h-11 w-11 cursor-pointer place-items-center border-0 bg-transparent p-0 transition-colors duration-500 focus-visible:outline-2 focus-visible:outline-offset-2 motion-reduce:transition-none"
