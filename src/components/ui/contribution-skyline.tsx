@@ -477,3 +477,4 @@ export default function ContributionSkyline({
   seed = 7,
   onCellClick,
   className = "",
+}: ContributionSkylineProps) {
