@@ -43,3 +43,5 @@ export type ProfileData = { profile: Profile; contributions: Contributions }
 export type LoadState =
   | { status: 'loading' }
   | { status: 'error'; message: string; retry: () => void }
+  | { status: 'ready'; data: ProfileData }
+
