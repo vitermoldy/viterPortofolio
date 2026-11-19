@@ -1218,3 +1218,4 @@ export default function ContributionSkyline({
             className="relative inline-flex border p-0.5"
             style={{ borderColor: "var(--color-border, #e5e5e5)" }}
           >
+            <span
