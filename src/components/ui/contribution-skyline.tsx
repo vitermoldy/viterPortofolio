@@ -1238,3 +1238,4 @@ export default function ContributionSkyline({
                 className="relative z-10 grid h-11 w-11 cursor-pointer place-items-center border-0 bg-transparent p-0 transition-colors duration-500 focus-visible:outline-2 focus-visible:outline-offset-2 motion-reduce:transition-none"
                 style={{
                   color: view === v ? "var(--color-background, #ffffff)" : MUTED,
+                  outlineColor: "var(--color-foreground, #171717)",
