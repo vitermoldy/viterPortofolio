@@ -285,3 +285,4 @@ export class VoxelEngine {
     u.uPointerR.value = span * 0.055
     u.uPush.value = span * 0.06
     u.uBump.value = span * 0.035
+    this.current = v
