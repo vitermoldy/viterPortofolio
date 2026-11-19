@@ -4,3 +4,4 @@
 export type PixelGrid = { w: number; h: number; data: Uint8ClampedArray | Uint8Array }
 
 /**
+ * One block per pixel. `xy` is the block's centre on the wall (y up, the picture centred on 0),
