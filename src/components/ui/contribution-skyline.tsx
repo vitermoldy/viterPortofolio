@@ -1248,3 +1248,4 @@ export default function ContributionSkyline({
         )}
       </header>
 
+      <div className="relative border" style={{ borderColor: "var(--color-border, #e5e5e5)" }}>
