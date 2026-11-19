@@ -28,3 +28,4 @@ Node 22 or newer.
 
 ```bash
 npm install
+npm run dev          # http://localhost:5189
