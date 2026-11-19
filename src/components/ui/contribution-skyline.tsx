@@ -607,3 +607,4 @@ export default function ContributionSkyline({
         const c = m.cells[i]
         wk[i] = c.week
         dy[i] = c.day
+        lv[i] = c.level
