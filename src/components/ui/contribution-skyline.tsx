@@ -387,3 +387,4 @@ const MUTED = "var(--color-muted-foreground, #737373)"
 
 function Stat({
   label,
+  value,
