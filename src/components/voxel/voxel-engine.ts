@@ -212,3 +212,4 @@ export class VoxelEngine {
     if (v) this.kick()
   }
 
+  resize(w: number, h: number) {
