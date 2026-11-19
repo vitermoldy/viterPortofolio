@@ -269,3 +269,4 @@ for (const width of [390, 320]) {
             return r.width > 0 && r.height > 0 && !inText && (r.height < 43.5 || r.width < 24)
           })
           .map((el) => `${el.tagName} "${(el.getAttribute('aria-label') || el.textContent || '').trim().slice(0, 30)}" ${Math.round(el.getBoundingClientRect().width)}x${Math.round(el.getBoundingClientRect().height)}`),
+      )
