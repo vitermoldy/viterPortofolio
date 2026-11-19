@@ -79,3 +79,4 @@ export const PROJECTS: Project[] = [
     text: 'A study room in a live 3D cabin. A day lasts 24 minutes, with weather, five seasons, animals and your own YouTube music.',
     repos: [
       { label: 'v1 repository', name: 'StudyCabin-v1' },
+      { label: 'v2 repository', name: 'StudyCabin-v2' },
