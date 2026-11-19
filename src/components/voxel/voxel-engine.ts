@@ -86,3 +86,4 @@ const DEFAULT_VIEW: View = { yaw: -0.34, pitch: 0.2 }
 const YAW_LIMIT: [number, number] = [-1.05, 1.05]
 const PITCH_LIMIT: [number, number] = [-0.45, 0.8]
 
+export type EngineOptions = {
