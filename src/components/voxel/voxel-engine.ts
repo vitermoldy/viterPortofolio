@@ -404,3 +404,4 @@ export class VoxelEngine {
     if (ev.pointerType === 'mouse') {
       try {
         this.canvas.setPointerCapture(ev.pointerId)
+      } catch {
