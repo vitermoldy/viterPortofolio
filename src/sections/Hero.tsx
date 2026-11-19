@@ -39,3 +39,4 @@ export function Hero({ state }: { state: LoadState }) {
           <dl className="mt-8 mb-0 grid max-w-[34rem] grid-cols-3 gap-4 border-y-2 border-forest py-5" aria-busy={state.status === 'loading'}>
             <Fact label="Contributions, last 12 months" value={ready ? num(lastYearTotal(ready.contributions)) : null} state={state.status} />
             <Fact label="Public repositories" value={profile ? num(profile.publicRepos) : null} state={state.status} />
+            <Fact label="On GitHub since" value={profile ? month(profile.createdAt) : null} state={state.status} small />
