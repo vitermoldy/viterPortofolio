@@ -90,3 +90,4 @@ async function profile() {
         homepage: r.homepage || null,
         language: r.language,
         stars: r.stargazers_count,
+        forks: r.forks_count,
