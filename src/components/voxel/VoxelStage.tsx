@@ -39,3 +39,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
   const [status, setStatus] = React.useState<Status>('loading')
   const [attempt, setAttempt] = React.useState(0)
   const [engineReady, setEngineReady] = React.useState(false)
+  const onVoxelsRef = React.useRef(onVoxels)
