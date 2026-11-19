@@ -42,3 +42,4 @@ export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
   const count = w * h
   const xy = new Float32Array(count * 2)
   const col = new Float32Array(count * 3)
+  const dga = new Float32Array(count * 3)
