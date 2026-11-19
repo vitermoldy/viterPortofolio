@@ -157,3 +157,4 @@ export class VoxelEngine {
         uBump: { value: 3 },
       },
     })
+    canvas.addEventListener('pointerdown', this.onDown)
