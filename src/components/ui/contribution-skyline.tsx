@@ -890,3 +890,4 @@ export default function ContributionSkyline({
         } else col[k] = colGoal[k]
       }
 
+      const kh = reduced ? 1 : 1 - Math.exp(-dt * 16)
