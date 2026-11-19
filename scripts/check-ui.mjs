@@ -27,3 +27,4 @@ const check = async (name, fn) => {
     let timer
     const limit = new Promise((_, reject) => (timer = setTimeout(() => reject(new Error('took over 60 s')), 60000)))
     const detail = await Promise.race([fn(), limit]).finally(() => clearTimeout(timer))
+    log(name, true, typeof detail === 'string' ? detail : '')
