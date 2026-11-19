@@ -365,3 +365,5 @@ const quadPath = (ctx: CanvasRenderingContext2D, p: Float32Array, o: number, r: 
     ctx.arcTo(p[o + k * 2], p[o + k * 2 + 1], p[o + b * 2], p[o + b * 2 + 1], r)
   }
   ctx.closePath()
+}
+
