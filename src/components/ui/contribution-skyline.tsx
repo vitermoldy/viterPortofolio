@@ -1162,3 +1162,4 @@ export default function ContributionSkyline({
   }, [model, heightScale, heightCurve])
 
   React.useEffect(() => {
+    engine.current?.retheme()
