@@ -448,3 +448,4 @@ export class VoxelEngine {
   }
 
   private onCancel = () => {
+    this.drag = null
