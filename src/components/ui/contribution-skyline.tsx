@@ -700,3 +700,4 @@ export default function ContributionSkyline({
     }
 
     const draw = () => {
+      if (!W || !n) return
