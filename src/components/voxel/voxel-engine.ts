@@ -466,3 +466,4 @@ export class VoxelEngine {
     else if (ev.key === 'ArrowDown') this.turn(0, -step)
     else if (ev.key === 'Home' || ev.key === 'Escape') this.reset()
     else return
+    ev.preventDefault()
