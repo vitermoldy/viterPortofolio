@@ -82,3 +82,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         io.observe(box)
         mq.addEventListener('change', onReduce)
         setEngineReady(true)
+      })
