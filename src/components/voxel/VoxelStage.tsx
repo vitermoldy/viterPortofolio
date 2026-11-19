@@ -140,3 +140,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         alt={status === 'ready' ? '' : picture.alt}
         aria-hidden={status === 'ready' ? true : undefined}
         decoding="async"
+        className={cn(
