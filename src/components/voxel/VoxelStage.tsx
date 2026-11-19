@@ -37,3 +37,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
   const canvasRef = React.useRef<HTMLCanvasElement>(null)
   const engineRef = React.useRef<VoxelEngine | null>(null)
   const [status, setStatus] = React.useState<Status>('loading')
+  const [attempt, setAttempt] = React.useState(0)
