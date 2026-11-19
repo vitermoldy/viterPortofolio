@@ -241,3 +241,4 @@
   }
   .nav-link:hover {
     color: var(--color-paper);
+    background-size: calc(100% - 1.6rem) 2px;
