@@ -48,3 +48,4 @@ export function Projects({ state }: { state: LoadState }) {
                         Open the {project.name} {l.label.toLowerCase()}
                       </a>
                     </li>
+                  ))}
