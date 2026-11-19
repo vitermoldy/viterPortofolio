@@ -37,3 +37,4 @@ export function Contact() {
           </a>
 
           <ul className="mt-12 mb-0 grid list-none gap-0 border-t-2 border-forest p-0 sm:grid-cols-2 lg:grid-cols-4">
+            {LINKS.map((l) => (
