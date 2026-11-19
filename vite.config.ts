@@ -13,3 +13,4 @@ export default defineConfig(({ command }) => ({
   base: command === 'build' ? (process.env.SITE_BASE ?? '/viterPortofolio/') : '/',
   server: { port: 5189, strictPort: true },
   preview: { port: 5189, strictPort: true },
+  plugins: [react(), tailwindcss()],
