@@ -6,3 +6,4 @@ import type { Voxels } from './pixels'
 // block; a picture of another size flies in instead. The front face of every block keeps the pixel's
 // exact colour, so seen head-on the relief is the original pixel art.
 
+const VERT = /* glsl */ `
