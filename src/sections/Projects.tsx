@@ -49,3 +49,4 @@ export function Projects({ state }: { state: LoadState }) {
                       </a>
                     </li>
                   ))}
+                </ul>
