@@ -174,3 +174,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     })
   }
   await check('projects: every card picks and its links are right', async () => {
+    await page.locator('#projects').scrollIntoViewIfNeeded()
