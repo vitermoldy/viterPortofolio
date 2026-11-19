@@ -217,3 +217,4 @@ export const riseAt = (t: number, week: number, weeks: number, day: number): num
   return easeOutCubic((t - d) / (1 - WAVE))
 }
 
+export const YAW_3D = Math.PI / 4
