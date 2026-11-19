@@ -705,3 +705,4 @@ export default function ContributionSkyline({
       const cam = camera(e, yaw, elev)
       const Hc = lerp(H2, H3, e)
       if (Math.abs(Hc - lastH) > 0.2) {
+        stage.style.height = Hc.toFixed(1) + "px"
