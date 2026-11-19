@@ -70,3 +70,4 @@
     outline-offset: 3px;
   }
   canvas:focus-visible {
+    outline-offset: -2px;
