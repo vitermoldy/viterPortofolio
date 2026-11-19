@@ -84,3 +84,4 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'songplay',
+    name: 'SongPlay',
