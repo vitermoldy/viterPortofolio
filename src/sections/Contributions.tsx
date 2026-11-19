@@ -62,3 +62,4 @@ export function Contributions({ state }: { state: LoadState }) {
                     {y}
                   </button>
                 ))}
+              </div>
