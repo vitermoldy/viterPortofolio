@@ -1265,3 +1265,5 @@ export default function ContributionSkyline({
               }
               className="absolute top-0 left-0 block outline-none"
               style={{ maxWidth: "none", touchAction: is3d && orbit ? "pan-y" : "auto" }}
+            />
+
