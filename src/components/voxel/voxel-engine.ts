@@ -362,3 +362,4 @@ export class VoxelEngine {
     if (this.assembling) {
       this.assemble = Math.min(1, this.assemble + dt / this.assembleSeconds)
       if (this.assemble >= 1) this.assembling = false
+      moving = true
