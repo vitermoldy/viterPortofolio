@@ -25,3 +25,4 @@ export function Contact() {
         <div className="wrap">
           <h2 id="contact-title" className="h-pixel h-block text-[clamp(2rem,4.5vw,3.25rem)]">
             Write to me
+          </h2>
