@@ -8,3 +8,4 @@ import { serve } from './serve.mjs'
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const CHROME = process.env.CHROME ?? 'C:/Program Files/Google/Chrome/Application/chrome.exe'
 const server = await serve(0)
+const browser = await chromium.launch({ executablePath: CHROME, headless: true, args: ['--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })
