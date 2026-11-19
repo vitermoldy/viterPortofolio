@@ -63,3 +63,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         try {
           engine = new VoxelEngine(canvas, { reducedMotion: mq.matches, view: viewRef.current })
         } catch {
+          setStatus('flat')
