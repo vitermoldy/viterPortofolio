@@ -1345,3 +1345,4 @@ export default function ContributionSkyline({
               opacity: showRow ? 1 : 0,
               transitionDuration: duration + "ms",
               transitionTimingFunction: ease,
+            }}
