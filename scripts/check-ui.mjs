@@ -257,3 +257,4 @@ for (const width of [390, 320]) {
       await check(`390: ${id} shot`, async () => {
         await page.locator('#' + id).scrollIntoViewIfNeeded()
         await settle(page, 2600)
+        await page.locator('#' + id).screenshot({ path: join(OUT, `390-${id}.png`) })
