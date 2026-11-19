@@ -111,3 +111,5 @@ export class VoxelEngine {
   private probe = new THREE.Vector3()
   private target = new THREE.Vector3()
   private depthMax = 1
+  private base: View
+
