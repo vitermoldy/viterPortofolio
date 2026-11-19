@@ -40,3 +40,4 @@ export type Contributions = {
 
 export type ProfileData = { profile: Profile; contributions: Contributions }
 
+export type LoadState =
