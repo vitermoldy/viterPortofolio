@@ -63,3 +63,4 @@ export function Hero({ state }: { state: LoadState }) {
         <div className="md:col-span-6 lg:col-span-7" data-enter>
           <div className="stage-frame mx-auto w-full max-w-[600px]">
             <VoxelStage picture={AVATARS[sky]} options={{ relief: 0.09 }} wave="centre" />
+          </div>
