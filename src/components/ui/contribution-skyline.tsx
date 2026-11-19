@@ -561,3 +561,4 @@ export default function ContributionSkyline({
     const col = new Float32Array(15)
     const colGoal = new Float32Array(15)
     let colReady = false
+    let fg: RGB = FG_FALLBACK
