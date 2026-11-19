@@ -60,3 +60,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
       .then(({ VoxelEngine }) => {
         if (disposed) return
         let engine: VoxelEngine
+        try {
