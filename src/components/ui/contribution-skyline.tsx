@@ -631,3 +631,4 @@ export default function ContributionSkyline({
       const pal = resolvePalette(cfg.current.palette, isDark)
       const empty = mixRGB(bg, fg, isDark ? 0.11 : 0.075)
       const all: RGB[] = [empty, ...pal.map((c) => toRGB(c, FG_FALLBACK) ?? FG_FALLBACK)]
+      for (let k = 0; k < 5; k++) for (let ch = 0; ch < 3; ch++) colGoal[k * 3 + ch] = all[k][ch]
