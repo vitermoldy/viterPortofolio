@@ -199,3 +199,4 @@ export const monthLabels = (cells: Cell[], weeks: number, locale = "en-US") => {
 export type HeightCurve = "power" | "log"
 
 /**
+ * Box height in grid units. Empty days are thin slabs; the busiest day is ~7.6 cells tall.
