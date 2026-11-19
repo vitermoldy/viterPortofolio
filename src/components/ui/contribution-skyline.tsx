@@ -1408,3 +1408,4 @@ export default function ContributionSkyline({
         {announce}
       </p>
     </section>
+  )
