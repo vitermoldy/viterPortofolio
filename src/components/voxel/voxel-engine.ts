@@ -240,3 +240,4 @@ export class VoxelEngine {
     c.removeEventListener('pointerdown', this.onDown)
     c.removeEventListener('pointermove', this.onMove)
     c.removeEventListener('pointerup', this.onUp)
+    c.removeEventListener('pointercancel', this.onCancel)
