@@ -73,3 +73,4 @@ export function PixelArt() {
                       </span>
                     </span>
                     <span className="mt-2 block text-sm leading-relaxed text-muted">{s.text}</span>
+                  </button>
