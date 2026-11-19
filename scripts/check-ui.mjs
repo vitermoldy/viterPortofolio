@@ -93,3 +93,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     expect(Buffer.compare(before, after) !== 0, 'canvas did not change')
     await page.locator('#top .stage-frame').screenshot({ path: join(OUT, '1440-hero-turned.png') })
   })
+  await check('hero: arrow keys turn it and Home faces it again', async () => {
