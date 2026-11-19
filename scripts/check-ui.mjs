@@ -246,3 +246,4 @@ for (const width of [390, 320]) {
       await toggle.click()
       expect((await toggle.getAttribute('aria-expanded')) === 'true', 'not expanded')
       await page.screenshot({ path: join(OUT, '390-menu.png') })
+      await page.keyboard.press('Escape')
