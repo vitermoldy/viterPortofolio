@@ -20,3 +20,4 @@ export function parseCalendar(html) {
   }
   const days = new Map()
   for (const [tag] of html.matchAll(DAY)) {
+    const date = attr(tag, 'data-date')
