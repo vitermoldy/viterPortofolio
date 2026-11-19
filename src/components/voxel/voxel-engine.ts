@@ -296,3 +296,4 @@ export class VoxelEngine {
 
   private measure(v: Voxels) {
     let deepest = 0
+    for (let k = 0; k < v.count; k++) if (v.dga[k * 3 + 2] > 0.5 && v.dga[k * 3] > deepest) deepest = v.dga[k * 3]
