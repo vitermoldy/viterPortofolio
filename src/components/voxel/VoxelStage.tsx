@@ -15,3 +15,4 @@ export type VoxelPicture = {
 
 type Status = 'loading' | 'ready' | 'flat' | 'error'
 
+type Props = {
