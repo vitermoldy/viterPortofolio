@@ -52,3 +52,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
     if (!canvas || !box) return
     let disposed = false
     let ro: ResizeObserver | null = null
+    let io: IntersectionObserver | null = null
