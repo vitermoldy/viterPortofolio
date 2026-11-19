@@ -75,3 +75,4 @@ export const rng = (seed: number) => {
   return (): number => {
     a = (a + 0x6d2b79f5) >>> 0
     let t = a
+    t = Math.imul(t ^ (t >>> 15), t | 1)
