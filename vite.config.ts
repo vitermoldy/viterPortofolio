@@ -19,3 +19,4 @@ export default defineConfig(({ command }) => ({
     dedupe: ['react', 'react-dom'],
   },
   build: {
+    chunkSizeWarningLimit: 900,
