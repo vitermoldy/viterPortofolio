@@ -154,3 +154,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
   let longest: Streak = { days: 0, start: null, end: null }
   for (const c of cells) {
     total += c.count
+    if (c.count > best) {
