@@ -50,3 +50,4 @@ export function Projects({ state }: { state: LoadState }) {
                     </li>
                   ))}
                 </ul>
+              ) : (
