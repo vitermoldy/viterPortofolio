@@ -44,3 +44,4 @@ export function PixelArt() {
     <section id="pixel-art" aria-labelledby="pixel-title" className="border-t-2 border-forest bg-ink-2 py-20 md:py-28">
       <div className="wrap grid gap-10 lg:grid-cols-12 lg:gap-8">
         <div className="lg:col-span-4">
+          <h2 id="pixel-title" className="h-pixel h-block text-[clamp(2rem,4.5vw,3.25rem)]">
