@@ -270,3 +270,4 @@ for (const width of [390, 320]) {
           })
           .map((el) => `${el.tagName} "${(el.getAttribute('aria-label') || el.textContent || '').trim().slice(0, 30)}" ${Math.round(el.getBoundingClientRect().width)}x${Math.round(el.getBoundingClientRect().height)}`),
       )
+      expect(small.length === 0, small.slice(0, 6).join('; '))
