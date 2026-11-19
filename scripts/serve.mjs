@@ -32,3 +32,4 @@ export function serve(port = 5189) {
       return res.end('Not found')
     }
     let rel = decodeURIComponent(url.pathname.slice(BASE.length)) || 'index.html'
+    let file = normalize(join(root, rel))
