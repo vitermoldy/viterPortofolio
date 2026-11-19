@@ -204,3 +204,4 @@ export type HeightCurve = "power" | "log"
  */
 export const barHeight = (count: number, max: number, scale = 1, curve: HeightCurve = "power"): number => {
   if (!(count > 0 && max > 0)) return 0.2
+  const share = curve === "log" ? Math.log1p(count) / Math.log1p(max) : Math.pow(count / max, 0.85)
