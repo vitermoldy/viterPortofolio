@@ -10,3 +10,4 @@ export function Projects({ state }: { state: LoadState }) {
   const repos = state.status === 'ready' ? state.data.profile.repos : null
   const links = repos ? publicLinks(project, repos) : []
   const picture = React.useMemo(
+    () => ({ src: project.card, ...CARD_SIZE, alt: `Pixel card: ${project.name}, ${project.stack}.` }),
