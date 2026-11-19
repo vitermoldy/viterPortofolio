@@ -150,3 +150,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
   let best = 0
   let bestDate: string | null = null
   let run = 0
+  let runStart: string | null = null
