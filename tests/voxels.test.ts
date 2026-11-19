@@ -26,3 +26,4 @@ describe('voxelize', () => {
     expect(Array.from(v.col.slice(6, 9))).toEqual([1, 0, 0])
   })
   it('pushes brighter pixels further out', () => {
+    const depth = (k: number) => v.dga[k * 3]
