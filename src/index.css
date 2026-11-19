@@ -209,3 +209,5 @@
   .seg > button:focus-visible {
     outline-offset: -4px;
     outline-color: var(--color-sun);
+  }
+
