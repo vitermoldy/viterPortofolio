@@ -12,3 +12,4 @@ import * as React from "react"
  * bars rise (or settle) in a wave from the oldest week to the newest, so the
  * flat heat map visibly becomes the skyline — nothing is swapped or cut.
  *
+ * Hover or tap a day for its count, arrow keys walk the grid, hover a legend
