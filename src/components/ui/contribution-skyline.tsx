@@ -406,3 +406,4 @@ function Stat({
     return (
       <div className="min-w-0">
         <div className="text-[13px] leading-tight" style={{ color: MUTED }}>
+          {label}
