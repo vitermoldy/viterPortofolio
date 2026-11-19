@@ -40,3 +40,4 @@ const c: Contributions = {
 }
 
 describe('contribution totals', () => {
+  it('counts the last 365 days like the profile graph', () => {
