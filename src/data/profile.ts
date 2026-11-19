@@ -51,3 +51,4 @@ async function getJson<T>(path: string): Promise<T> {
   return (await res.json()) as T
 }
 
+export function useProfileData(): LoadState {
