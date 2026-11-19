@@ -4,3 +4,4 @@ import { allTimeTotal, lastYearTotal, yearsOf, type Contributions } from '../src
 import { PROJECTS, publicLinks } from '../src/data/projects'
 
 const page = `
+<table><tbody><tr>
