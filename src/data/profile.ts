@@ -18,3 +18,4 @@ export type Profile = {
   fetchedAt: string
   login: string
   name: string | null
+  bio: string | null
