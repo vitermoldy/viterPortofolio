@@ -82,3 +82,4 @@ export async function loadPixels(url: string, w: number, h: number): Promise<Pix
   canvas.height = h
   const ctx = canvas.getContext('2d', { willReadFrequently: true })
   if (!ctx) throw new Error('2D canvas unavailable')
+  ctx.imageSmoothingEnabled = false
