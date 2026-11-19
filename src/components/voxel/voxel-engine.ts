@@ -119,3 +119,4 @@ export class VoxelEngine {
   private raf = 0
   private last = 0
   private visible = true
+  private assemble = 1
