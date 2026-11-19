@@ -62,3 +62,4 @@ export function PixelArt() {
                     aria-pressed={on}
                     onClick={() => setId(s.id)}
                     className={
+                      'scene-pick w-full border-2 p-4 text-left transition-colors duration-150 ' +
