@@ -92,3 +92,4 @@ async function profile() {
         stars: r.stargazers_count,
         forks: r.forks_count,
         pushedAt: r.pushed_at,
+      })),
