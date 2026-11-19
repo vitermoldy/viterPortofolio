@@ -52,3 +52,4 @@ void main() {
 
   vColor = col;
   vNormal = n;
+  vGlow = dga.y;
