@@ -61,3 +61,4 @@ export function Hero({ state }: { state: LoadState }) {
         </div>
 
         <div className="md:col-span-6 lg:col-span-7" data-enter>
+          <div className="stage-frame mx-auto w-full max-w-[600px]">
