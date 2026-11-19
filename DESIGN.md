@@ -17,3 +17,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 | Hutan palette: ink `#121a14`, greens `#0f3d2e` `#1f6e44` `#52c879`, yellows `#f0b429` `#fff36b`, paper `#eef0e6`, muted `#aab6a5` | The profile's palette, so the 3D page and the README read as one piece |
 | Dark only, no theme switch | Every pixel piece is a night scene on the profile's ink plates (moon portrait, room at night, aurora banner), and the lit blocks only read as light against dark |
 | Tiny5 for headings, numbers and buttons | The profile's pixel face; its letters are pixels, like the blocks |
+| GitHub's system font stack for body text | The descriptions are the README's own words and read as they do on github.com |
