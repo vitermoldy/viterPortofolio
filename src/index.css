@@ -33,3 +33,4 @@
 
 @layer base {
   html {
+    background: var(--color-ink);
