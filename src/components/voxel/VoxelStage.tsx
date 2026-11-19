@@ -150,3 +150,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         tabIndex={showCanvas ? 0 : -1}
         role="img"
         aria-label={picture.alt + ' Built from blocks: drag or use the arrow keys to turn it, double-click or Home to face it again.'}
+        className={cn(
