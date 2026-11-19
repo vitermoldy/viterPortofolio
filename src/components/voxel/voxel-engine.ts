@@ -321,3 +321,4 @@ export class VoxelEngine {
     const limit = 0.92
     const fits = (d: number) => {
       this.camera.position.set(this.target.x + dx * d, this.target.y + dy * d, this.target.z + dz * d)
+      this.camera.lookAt(this.target)
