@@ -379,3 +379,4 @@ export class VoxelEngine {
     if (this.pushDecay && this.pushGoal > 0) this.pushGoal = Math.max(0, this.pushGoal - dt * 1.4)
     const kp = 1 - Math.exp(-dt * 10)
     this.push += (this.pushGoal - this.push) * kp
+    if (Math.abs(this.pushGoal - this.push) > 1e-3 || (this.pushDecay && this.pushGoal > 0)) moving = true
