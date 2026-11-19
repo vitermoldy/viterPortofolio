@@ -33,3 +33,4 @@ const reducedQuery = '(prefers-reduced-motion: reduce)'
  * the fallback when WebGL is missing), then the blocks fly in over it once the stage is on screen.
  */
 export function VoxelStage({ picture, options, wave = 'corner', view, className, onVoxels }: Props) {
+  const boxRef = React.useRef<HTMLDivElement>(null)
