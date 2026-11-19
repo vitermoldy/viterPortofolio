@@ -175,3 +175,4 @@ export class VoxelEngine {
     this.kick()
   }
 
+  /** Shows a picture: a same-size picture morphs in a wave, anything else flies in block by block. */
