@@ -690,3 +690,4 @@ export default function ContributionSkyline({
       const natural = ((b3.maxy - b3.miny) / (b3.maxx - b3.minx)) * (W - 40) + 40
       H3 = Math.max(Math.min(natural, W * 0.72, 620), Math.min(natural, 240))
       Hmax = Math.ceil(Math.max(H2, H3))
+      canvas.width = Math.round(W * dpr)
