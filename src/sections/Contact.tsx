@@ -30,3 +30,4 @@ export function Contact() {
             For a project, an internship or a question about three.js, Laravel, PHP or MySQL, email reaches me first.
           </p>
           <a
+            href={`mailto:${EMAIL}`}
