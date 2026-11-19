@@ -70,3 +70,4 @@ export const dayMs = (v: string | number | Date): number => {
 }
 
 /** mulberry32 — small, fast, deterministic. */
+export const rng = (seed: number) => {
