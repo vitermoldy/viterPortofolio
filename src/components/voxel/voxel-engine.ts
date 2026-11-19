@@ -244,3 +244,4 @@ export class VoxelEngine {
     c.removeEventListener('pointerleave', this.onLeave)
     c.removeEventListener('dblclick', this.reset)
     c.removeEventListener('keydown', this.onKey)
+    this.mesh?.geometry.dispose()
