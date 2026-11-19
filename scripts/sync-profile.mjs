@@ -78,3 +78,4 @@ async function profile() {
     url: u.html_url,
     blog: u.blog || null,
     followers: u.followers,
+    following: u.following,
