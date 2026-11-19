@@ -46,3 +46,4 @@ describe('skyline with GitHub levels and a log scale', () => {
         { date: '2026-11-18', count: 1730, level: 1 },
         { date: '2026-11-19', count: 2, level: 1 },
       ],
+      end,
