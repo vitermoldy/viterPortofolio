@@ -338,3 +338,4 @@ const pointInQuad = (p: Float32Array, o: number, x: number, y: number): boolean 
   let sign = 0
   for (let k = 0; k < 4; k++) {
     const ax = p[o + k * 2]
+    const ay = p[o + k * 2 + 1]
