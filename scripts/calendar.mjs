@@ -11,3 +11,4 @@ const attr = (tag, name) => {
   return m ? m[1] : null
 }
 
+/** @param {string} html @returns {Map<string, [number, number]>} */
