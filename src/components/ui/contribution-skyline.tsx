@@ -60,3 +60,4 @@ export const toKey = (ms: number): string => new Date(ms).toISOString().slice(0,
  * numbers as UTC timestamps.
  */
 export const dayMs = (v: string | number | Date): number => {
+  if (typeof v === "number") return Math.floor(v / DAY_MS) * DAY_MS
