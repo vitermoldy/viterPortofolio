@@ -271,3 +271,4 @@ type View = "2d" | "3d"
 
 export interface ContributionSkylineProps {
   /** One entry per day, `YYYY-MM-DD`. Repeated dates add up. Omit for a generated sample year. */
+  data?: ContributionDay[]
