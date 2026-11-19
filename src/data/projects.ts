@@ -120,3 +120,4 @@ export const PROJECTS: Project[] = [
     text: 'A landing page for a web studio: a design-canvas hero with labelled cursors, a statement that lights up word by word as you scroll, and a block that turns the whole page dark.',
     repos: [{ label: 'Repository', name: 'LandingPage-sitev1' }],
   },
+  {
