@@ -52,3 +52,4 @@ describe('skyline with GitHub levels and a log scale', () => {
     expect(cells.find((c) => c.date === '2026-11-19')!.level).toBe(1)
   })
   it('keeps a quiet day visible beside a huge one on the log curve', () => {
+    const small = barHeight(2, 23752, 1, 'log')
