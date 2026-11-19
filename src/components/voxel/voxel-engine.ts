@@ -407,3 +407,4 @@ export class VoxelEngine {
       } catch {
         /* capture only keeps a fast drag attached */
       }
+    }
