@@ -71,3 +71,4 @@ export function Footer({ state }: { state: LoadState }) {
         </div>
       </footer>
   )
+}
