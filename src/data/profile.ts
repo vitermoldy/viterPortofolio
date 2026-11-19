@@ -36,3 +36,5 @@ export type Contributions = {
   login: string
   today: string
   days: DayRow[]
+}
+
