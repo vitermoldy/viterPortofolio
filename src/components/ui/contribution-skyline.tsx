@@ -1202,3 +1202,4 @@ export default function ContributionSkyline({
         color: "var(--color-foreground, #171717)",
         borderColor: "var(--color-border, #e5e5e5)",
       }}
+    >
