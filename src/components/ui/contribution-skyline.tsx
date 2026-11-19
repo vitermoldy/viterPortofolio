@@ -923,3 +923,4 @@ export default function ContributionSkyline({
       const next = hovered >= 0 ? hovered : pinned
       if (next === activeIdx) return
       activeIdx = next
+      cfg.current.setActive(next)
