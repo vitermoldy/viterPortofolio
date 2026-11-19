@@ -529,3 +529,4 @@ export default function ContributionSkyline({
     const root = rootRef.current
     const stage = stageRef.current
     const canvas = canvasRef.current
+    const tip = tipRef.current
