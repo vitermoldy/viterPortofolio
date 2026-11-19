@@ -125,3 +125,4 @@ export class VoxelEngine {
   private yaw: number
   private pitch: number
   private yawGoal: number
+  private pitchGoal: number
