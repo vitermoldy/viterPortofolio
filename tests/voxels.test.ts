@@ -4,3 +4,4 @@ import { barHeight, buildGrid, computeStats } from '../src/components/ui/contrib
 
 const grid = (w: number, h: number, px: [number, number, number, number][]): PixelGrid => ({
   w,
+  h,
