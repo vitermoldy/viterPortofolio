@@ -60,3 +60,4 @@ export function PixelArt() {
                   <button
                     type="button"
                     aria-pressed={on}
+                    onClick={() => setId(s.id)}
