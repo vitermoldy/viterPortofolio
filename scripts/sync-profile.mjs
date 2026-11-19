@@ -87,3 +87,4 @@ async function profile() {
         name: r.name,
         description: r.description,
         url: r.html_url,
+        homepage: r.homepage || null,
