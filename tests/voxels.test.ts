@@ -17,3 +17,4 @@ describe('voxelize', () => {
   ])
   const v = voxelize(g, { relief: 0.5, base: 0.6 })
 
+  it('makes one block per pixel, centred, y up', () => {
