@@ -45,3 +45,4 @@ export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
   const dga = new Float32Array(count * 3)
   for (let j = 0; j < h; j++) {
     for (let i = 0; i < w; i++) {
+      const k = j * w + i
