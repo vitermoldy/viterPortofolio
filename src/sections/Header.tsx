@@ -42,3 +42,4 @@ export function Header() {
               <li key={n.href}>
                 <a href={n.href} className="nav-link">
                   {n.label}
+                </a>
