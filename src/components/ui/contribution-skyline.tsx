@@ -1007,3 +1007,4 @@ export default function ContributionSkyline({
 
     const onLeave = () => {
       if (drag) return
+      hovered = -1
