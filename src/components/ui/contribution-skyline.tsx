@@ -996,3 +996,4 @@ export default function ContributionSkyline({
       if (ev.pointerType !== "mouse") hovered = -1
       refreshActive()
       if (i >= 0) {
+        const c = cfg.current.model.cells[i]
