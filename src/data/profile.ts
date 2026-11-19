@@ -88,3 +88,4 @@ export function lastYearTotal(c: Contributions): number {
   return total
 }
 
+export function allTimeTotal(c: Contributions): number {
