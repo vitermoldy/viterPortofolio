@@ -35,3 +35,4 @@ const smooth = (a: number, b: number, x: number) => {
  * behind: lit screens, the moon and the neon stand forward, the night sky stays at the wall.
  * Transparent pixels keep their slot (alpha 0) so two pictures of one size can morph block by block.
  */
+export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
