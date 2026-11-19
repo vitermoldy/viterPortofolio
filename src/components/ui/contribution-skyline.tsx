@@ -639,3 +639,4 @@ export default function ContributionSkyline({
       ctx.font = font
       labelW = Math.ceil(Math.max(20, ...weekdayRows.map((r) => ctx.measureText(r.label).width))) + 8
       const sw = all.map((c) => rgbString(c[0], c[1], c[2]))
+      cfg.current.setTheme((prev) =>
