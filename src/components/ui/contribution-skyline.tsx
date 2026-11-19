@@ -115,3 +115,4 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
  * percentile, so one freak day can't wash every other day out to level 1.
  */
 export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0) => {
+  const counts = new Map<string, number>()
