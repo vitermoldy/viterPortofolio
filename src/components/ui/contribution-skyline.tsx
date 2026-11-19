@@ -1075,3 +1075,4 @@ export default function ContributionSkyline({
     const enter = () => {
       if (entered) return
       entered = true
+      if (reduced) t = cfg.current.target
