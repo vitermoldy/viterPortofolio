@@ -27,3 +27,4 @@ describe('parseCalendar', () => {
   })
 })
 
+const c: Contributions = {
