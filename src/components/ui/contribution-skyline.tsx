@@ -1097,3 +1097,4 @@ export default function ContributionSkyline({
     })
     ro.observe(stage)
 
+    const mo = new MutationObserver(retheme)
