@@ -114,3 +114,4 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
  * Levels 1–4 split the non-zero days by their share of a busy day — the 95th
  * percentile, so one freak day can't wash every other day out to level 1.
  */
+export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0) => {
