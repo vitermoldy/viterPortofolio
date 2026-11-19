@@ -628,3 +628,4 @@ export default function ContributionSkyline({
       bg = b ?? (luminance(fg) > 0.5 ? [10, 10, 10] : BG_FALLBACK)
       isDark = luminance(bg) < 0.45
       font = "400 10px " + (cs.fontFamily || "sans-serif")
+      const pal = resolvePalette(cfg.current.palette, isDark)
