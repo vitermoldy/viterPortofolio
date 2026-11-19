@@ -461,3 +461,4 @@ export default function ContributionSkyline({
   onViewChange,
   palette = "github",
   title,
+  unit = "contribution",
