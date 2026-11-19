@@ -912,3 +912,4 @@ export default function ContributionSkyline({
       if (moving) raf = requestAnimationFrame(tick)
     }
 
+    const kick = () => {
