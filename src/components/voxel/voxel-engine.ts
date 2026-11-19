@@ -41,3 +41,4 @@ void main() {
 
   float a = easeOut(clamp((uAssemble - aRand.x * 0.55) / 0.45, 0.0, 1.0));
   vec3 local = vec3(position.xy * 0.94 * alpha, (position.z + 0.5) * depth * alpha);
+  float ang = (1.0 - a) * (aRand.y * 6.0 - 3.0);
