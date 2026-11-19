@@ -413,3 +413,4 @@ function Stat({
             className="font-semibold tabular-nums transition-colors duration-500 motion-reduce:transition-none"
             style={{ color: accent, fontSize: size, lineHeight: 1, letterSpacing: "-0.02em" }}
           >
+            {value}
