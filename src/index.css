@@ -145,3 +145,4 @@
   }
   .btn-main {
     background: var(--color-amber);
+    border-color: var(--color-amber);
