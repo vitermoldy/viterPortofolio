@@ -4,3 +4,5 @@ import { Contributions } from '@/sections/Contributions'
 import { Header } from '@/sections/Header'
 import { Hero } from '@/sections/Hero'
 import { PixelArt } from '@/sections/PixelArt'
+import { Projects } from '@/sections/Projects'
+
