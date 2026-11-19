@@ -181,3 +181,4 @@ export class VoxelEngine {
     if (same && this.mesh) {
       const g = this.mesh.geometry
       const prev = this.current!
+      ;(g.getAttribute('aColA') as THREE.InstancedBufferAttribute).copyArray(prev.col).needsUpdate = true
