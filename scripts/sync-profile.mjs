@@ -73,3 +73,4 @@ async function profile() {
   }
   return {
     login: u.login,
+    name: u.name,
