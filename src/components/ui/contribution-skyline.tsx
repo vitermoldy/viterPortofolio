@@ -1323,3 +1323,4 @@ export default function ContributionSkyline({
               " "
             )}
             <span
+              aria-hidden="true"
