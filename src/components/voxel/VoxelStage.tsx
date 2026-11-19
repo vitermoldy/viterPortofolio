@@ -155,3 +155,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
           showCanvas ? 'opacity-100' : 'pointer-events-none opacity-0',
         )}
       />
+      {status === 'loading' && (
