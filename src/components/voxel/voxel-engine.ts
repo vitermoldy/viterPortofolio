@@ -33,3 +33,4 @@ void main() {
   float d = clamp(length(aXY - uWaveFrom) / uSpan, 0.0, 1.0);
   float m = easeInOut(clamp(uMorph * 1.6 - d * 0.6, 0.0, 1.0));
   vec3 col = mix(aColA, aColB, m);
+  vec3 dga = mix(aDgaA, aDgaB, m);
