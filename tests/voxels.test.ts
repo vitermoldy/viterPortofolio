@@ -8,3 +8,4 @@ const grid = (w: number, h: number, px: [number, number, number, number][]): Pix
   data: new Uint8ClampedArray(px.flat()),
 })
 
+describe('voxelize', () => {
