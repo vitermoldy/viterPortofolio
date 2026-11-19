@@ -338,3 +338,4 @@ export class VoxelEngine {
   }
 
   private render() {
+    if (!this.current) return
