@@ -146,3 +146,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     expect((await pressed(b)) === 'true', 'legend not pressed')
     await page.mouse.move(0, 0)
   })
+  await check('skyline: year switch', async () => {
