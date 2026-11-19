@@ -109,3 +109,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   await check('hero: "See the commit skyline" scrolls to it', async () => {
     await page.getByRole('link', { name: 'See the commit skyline' }).click()
     await page.waitForTimeout(900)
+    const top = await page.locator('#contributions').evaluate((el) => el.getBoundingClientRect().top)
