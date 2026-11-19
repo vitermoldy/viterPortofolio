@@ -32,3 +32,4 @@ npm run dev          # http://localhost:5189
 npm run sync         # fetch the profile again
 npm test             # data and voxel maths
 npm run build        # dist/, for /viterPortofolio/
+npm run preview      # serve dist/ at http://localhost:5189/viterPortofolio/
