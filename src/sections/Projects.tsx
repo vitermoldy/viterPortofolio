@@ -23,3 +23,4 @@ export function Projects({ state }: { state: LoadState }) {
           </h2>
           <p className="mt-5 mb-0 text-lg">
             The {num(PROJECTS.length)} project cards from my README. Pick another and the same blocks press themselves
+            into the next card, in one wave from the corner.
