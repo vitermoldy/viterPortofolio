@@ -117,3 +117,4 @@ export class VoxelEngine {
   private assembleSeconds: number
   private morphSeconds: number
   private raf = 0
+  private last = 0
