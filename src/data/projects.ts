@@ -121,3 +121,4 @@ export const PROJECTS: Project[] = [
     repos: [{ label: 'Repository', name: 'LandingPage-sitev1' }],
   },
   {
+    id: 'cloudstead',
