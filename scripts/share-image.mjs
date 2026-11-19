@@ -2,3 +2,4 @@
 //   npm run build && node scripts/share-image.mjs && npm run build
 import { chromium } from 'playwright-core'
 import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
