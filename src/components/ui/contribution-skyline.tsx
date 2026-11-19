@@ -320,3 +320,4 @@ const toRGB = (color: string, fallback: RGB | null): RGB | null => {
   if (!probe) {
     const c = document.createElement("canvas")
     c.width = c.height = 1
+    probe = c.getContext("2d", { willReadFrequently: true })
