@@ -164,3 +164,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         <div className="absolute inset-x-3 bottom-3 flex flex-wrap items-center gap-3 bg-ink/90 p-3 text-sm" role="alert">
           <span>The blocks could not be built from this picture.</span>
           <button type="button" className="btn btn-quiet" onClick={() => setAttempt((a) => a + 1)}>
+            Try the picture again
