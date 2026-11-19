@@ -713,3 +713,4 @@ export default function ContributionSkyline({
       const pad = lerp(2, 20, e)
       const left = pad + gutter * (1 - e)
       const top = pad + 20 * (1 - e)
+      const aw = W - left - pad
