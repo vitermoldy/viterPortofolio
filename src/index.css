@@ -36,3 +36,4 @@
     background: var(--color-ink);
     color: var(--color-paper);
     color-scheme: dark;
+    scroll-behavior: smooth;
