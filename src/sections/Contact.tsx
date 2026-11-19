@@ -16,3 +16,4 @@ const FOOTER_ART = {
   src: asset('pixel/footer.svg'),
   w: 240,
   h: 24,
+  alt: 'Pixel grass with fireflies: thanks for stopping by.',
