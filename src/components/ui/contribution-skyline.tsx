@@ -337,3 +337,4 @@ const rgbString = (r: number, g: number, b: number) => "rgb(" + Math.round(r) + 
 const pointInQuad = (p: Float32Array, o: number, x: number, y: number): boolean => {
   let sign = 0
   for (let k = 0; k < 4; k++) {
+    const ax = p[o + k * 2]
