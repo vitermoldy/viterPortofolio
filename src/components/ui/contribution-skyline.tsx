@@ -897,3 +897,4 @@ export default function ContributionSkyline({
         const hg = i === activeIdx ? 1 : 0
         const dg = leg >= 0 && lv[i] !== leg ? 1 : 0
         const h = hover[i]
+        const d = dim[i]
