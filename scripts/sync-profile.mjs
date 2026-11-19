@@ -71,3 +71,4 @@ async function profile() {
     repos.push(...batch)
     if (batch.length < 100) break
   }
+  return {
