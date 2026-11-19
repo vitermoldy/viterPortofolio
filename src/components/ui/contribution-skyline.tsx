@@ -269,3 +269,4 @@ export const resolvePalette = (p: PaletteInput | undefined, dark: boolean): stri
 
 type View = "2d" | "3d"
 
+export interface ContributionSkylineProps {
