@@ -739,3 +739,4 @@ export default function ContributionSkyline({
       const ez = col[2]
 
       for (let k = 0; k < n; k++) {
+        const i = order[k]
