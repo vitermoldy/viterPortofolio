@@ -138,3 +138,4 @@ export class VoxelEngine {
     this.assembleSeconds = opts.assembleSeconds ?? 2.4
     this.morphSeconds = opts.morphSeconds ?? 1.3
     this.base = opts.view ?? DEFAULT_VIEW
+    this.yaw = this.yawGoal = this.base.yaw
