@@ -17,3 +17,5 @@ export const PRIVATE_NOTE = 'Still in development, so the repository is private 
 
 export const CARD_SIZE = { w: 200, h: 136 }
 
+const card = (file: string) => asset(`pixel/card-${file}.svg`)
+
