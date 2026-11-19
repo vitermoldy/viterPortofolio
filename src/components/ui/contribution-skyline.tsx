@@ -887,3 +887,4 @@ export default function ContributionSkyline({
         if (Math.abs(d) > 0.4) {
           col[k] += d * kc
           moving = true
+        } else col[k] = colGoal[k]
