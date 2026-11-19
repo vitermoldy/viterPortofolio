@@ -1119,3 +1119,4 @@ export default function ContributionSkyline({
       kick: () => {
         setTarget()
         kick()
+      },
