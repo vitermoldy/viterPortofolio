@@ -222,3 +222,4 @@ export class VoxelEngine {
 
   reset = () => {
     this.yawGoal = this.base.yaw
+    this.pitchGoal = this.base.pitch
