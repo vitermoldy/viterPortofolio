@@ -208,3 +208,4 @@ export class VoxelEngine {
   }
 
   setVisible(v: boolean) {
+    this.visible = v
