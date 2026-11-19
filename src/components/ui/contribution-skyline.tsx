@@ -861,3 +861,4 @@ export default function ContributionSkyline({
     }
 
     const tick = (now: number) => {
+      raf = 0
