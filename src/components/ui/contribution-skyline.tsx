@@ -623,3 +623,4 @@ export default function ContributionSkyline({
 
     const retheme = () => {
       const cs = getComputedStyle(root)
+      fg = toRGB(cs.color, FG_FALLBACK) ?? FG_FALLBACK
