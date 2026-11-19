@@ -256,3 +256,4 @@ export class VoxelEngine {
       this.mesh.geometry.dispose()
     }
     const g = new THREE.InstancedBufferGeometry()
+    g.index = this.box.index
