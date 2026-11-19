@@ -109,3 +109,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         const engine = engineRef.current
         if (!engine) return
         engine.setVoxels(v, wave)
+        const box = boxRef.current
