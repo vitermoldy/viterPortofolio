@@ -59,3 +59,4 @@ export function Projects({ state }: { state: LoadState }) {
         <div className="lg:col-span-7 lg:col-start-1 lg:row-span-2 lg:row-start-1">
           <div className="stage-frame">
             <VoxelStage picture={picture} options={{ relief: 0.06 }} />
+          </div>
