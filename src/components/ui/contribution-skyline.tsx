@@ -443,3 +443,4 @@ function Stat({
       >
         {value}
       </div>
+      <div className="pb-[0.15em] leading-tight">
