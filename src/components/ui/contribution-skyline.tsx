@@ -1127,3 +1127,4 @@ export default function ContributionSkyline({
       },
       retheme,
       tipWidth: (w: number) => {
+        tipW = w
