@@ -691,3 +691,4 @@ export default function ContributionSkyline({
       H3 = Math.max(Math.min(natural, W * 0.72, 620), Math.min(natural, 240))
       Hmax = Math.ceil(Math.max(H2, H3))
       canvas.width = Math.round(W * dpr)
+      canvas.height = Math.round(Hmax * dpr)
