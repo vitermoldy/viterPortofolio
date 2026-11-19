@@ -680,3 +680,4 @@ export default function ContributionSkyline({
     const relayout = () => {
       const w = Math.round(stage.clientWidth)
       if (!w || !n) return
+      W = w
