@@ -89,3 +89,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 <div className="grid min-h-[380px] place-items-center border-2 border-moss" role="status">
                   <p className="m-0 text-muted">No contributions in this range yet.</p>
                 </div>
+              ) : (
