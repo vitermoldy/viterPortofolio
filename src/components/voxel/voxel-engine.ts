@@ -453,3 +453,4 @@ export class VoxelEngine {
   }
 
   private onLeave = () => {
+    if (this.drag) return
