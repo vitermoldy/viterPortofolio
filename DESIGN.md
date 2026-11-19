@@ -53,3 +53,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 | Pixel art in `public/pixel/` | Copied from `../vitermoldy/assets/pixel` by `npm run sync` |
 | `public/data/*.json` | `npm run sync`; the Pages workflow refreshes them on every build |
 | `public/share.png` | `node scripts/share-image.mjs` after a build |
+| `src/components/ui/contribution-skyline.tsx` | The owner's component, adapted: GitHub levels, log heights, square corners, 44 px controls, copy without dots or dashes |
