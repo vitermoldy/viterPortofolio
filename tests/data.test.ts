@@ -60,3 +60,4 @@ describe('project links', () => {
     const evit = PROJECTS.find((p) => p.id === 'evit')!
     expect(publicLinks(evit, [{ name: 'StudyCabin-v2', url: '' }])).toEqual([])
   })
+  it('has one card per project and no duplicate ids', () => {
