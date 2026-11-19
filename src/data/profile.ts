@@ -92,3 +92,4 @@ export function allTimeTotal(c: Contributions): number {
   return c.days.reduce((s, d) => s + d[1], 0)
 }
 
+/** Years that hold at least one day, newest first. */
