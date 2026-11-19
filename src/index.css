@@ -161,3 +161,4 @@
   }
   .btn-quiet:hover {
     background: var(--color-forest);
+    transform: translate(-1px, -1px);
