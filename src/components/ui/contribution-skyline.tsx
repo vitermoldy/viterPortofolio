@@ -148,3 +148,4 @@ export const levelOf = (count: number, busy: number): number =>
 export const computeStats = (cells: Cell[]): ContributionStats => {
   let total = 0
   let best = 0
+  let bestDate: string | null = null
