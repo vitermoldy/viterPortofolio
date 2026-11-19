@@ -96,3 +96,5 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
       engineRef.current = null
       setEngineReady(false)
     }
+  }, [])
+
