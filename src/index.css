@@ -213,3 +213,4 @@
 
   .link {
     color: var(--color-paper);
+    text-decoration: underline;
