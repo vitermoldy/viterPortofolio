@@ -445,3 +445,5 @@ export class VoxelEngine {
       this.pushDecay = true
       this.kick()
     }
+  }
+
