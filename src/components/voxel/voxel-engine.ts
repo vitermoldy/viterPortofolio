@@ -224,3 +224,5 @@ export class VoxelEngine {
     this.yawGoal = this.base.yaw
     this.pitchGoal = this.base.pitch
     this.kick()
+  }
+
