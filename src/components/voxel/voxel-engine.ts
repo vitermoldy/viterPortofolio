@@ -118,3 +118,4 @@ export class VoxelEngine {
   private morphSeconds: number
   private raf = 0
   private last = 0
+  private visible = true
