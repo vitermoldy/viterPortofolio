@@ -978,3 +978,4 @@ export default function ContributionSkyline({
       const i = hit(x, y)
       if (i !== hovered) {
         hovered = i
+        refreshActive()
