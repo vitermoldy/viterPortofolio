@@ -1380,3 +1380,4 @@ export default function ContributionSkyline({
               {theme.swatches.map((c, i) => (
                 <button
                   key={i}
+                  type="button"
