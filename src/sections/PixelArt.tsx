@@ -70,3 +70,4 @@ export function PixelArt() {
                       <span className={'font-pixel text-xl ' + (on ? 'text-sun' : 'text-paper')}>{s.name}</span>
                       <span className="shrink-0 text-sm text-muted">
                         {s.w} by {s.h}, {num(s.w * s.h)} blocks
+                      </span>
