@@ -1196,3 +1196,4 @@ export default function ContributionSkyline({
   return (
     <section
       ref={rootRef}
+      className={"relative w-full border p-4 font-sans sm:p-5 " + className}
