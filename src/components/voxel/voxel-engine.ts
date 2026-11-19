@@ -316,3 +316,4 @@ export class VoxelEngine {
     const dy = Math.sin(this.pitch)
     const dz = Math.cos(this.yaw) * Math.cos(this.pitch)
     const t = Math.tan((this.camera.fov * Math.PI) / 360)
+    let hi = (Math.max(v.h, v.w / this.camera.aspect) / t) * 1.5 + this.depthMax * 2
