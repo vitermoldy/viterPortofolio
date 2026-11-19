@@ -251,3 +251,4 @@
     color: var(--color-sun);
   }
   .mail-big {
+    background-image: linear-gradient(var(--color-sun), var(--color-sun));
