@@ -161,3 +161,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         </p>
       )}
       {status === 'error' && (
+        <div className="absolute inset-x-3 bottom-3 flex flex-wrap items-center gap-3 bg-ink/90 p-3 text-sm" role="alert">
