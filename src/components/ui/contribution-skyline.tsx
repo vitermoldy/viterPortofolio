@@ -500,3 +500,4 @@ export default function ContributionSkyline({
   })
   const [width, setWidth] = React.useState(0)
   const [active, setActive] = React.useState(-1)
+  const [legendLevel, setLegendLevel] = React.useState(-1)
