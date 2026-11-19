@@ -845,3 +845,5 @@ export default function ContributionSkyline({
           ctx.fillText(m.label, x, py(m.week + 0.5, 7.3, 0) + 2)
           edge = x + ctx.measureText(m.label).width + 10
         }
+      }
+
