@@ -65,3 +65,4 @@ export function PixelArt() {
                       'scene-pick w-full border-2 p-4 text-left transition-colors duration-150 ' +
                       (on ? 'border-leaf bg-forest' : 'border-moss bg-transparent hover:bg-forest/60')
                     }
+                  >
