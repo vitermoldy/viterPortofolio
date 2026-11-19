@@ -334,3 +334,4 @@ const toRGB = (color: string, fallback: RGB | null): RGB | null => {
 
 const rgbString = (r: number, g: number, b: number) => "rgb(" + Math.round(r) + "," + Math.round(g) + "," + Math.round(b) + ")"
 
+const pointInQuad = (p: Float32Array, o: number, x: number, y: number): boolean => {
