@@ -806,3 +806,4 @@ export default function ContributionSkyline({
           ctx.lineWidth = 1
           ctx.stroke()
         }
+        if (hv > 0.02) {
