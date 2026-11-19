@@ -69,3 +69,4 @@ void main() {
   float shade;
   if (n.z > 0.5) {
     shade = 1.0;
+  } else if (n.z < -0.5) {
