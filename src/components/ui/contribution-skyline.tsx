@@ -306,3 +306,4 @@ export interface ContributionSkylineProps {
   footer?: React.ReactNode
   locale?: string
   /** Seed for the generated sample year. */
+  seed?: number
