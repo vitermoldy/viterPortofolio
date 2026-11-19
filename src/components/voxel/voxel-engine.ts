@@ -334,3 +334,4 @@ export class VoxelEngine {
       if (fits(mid)) hi = mid
       else lo = mid
     }
+    fits(hi)
