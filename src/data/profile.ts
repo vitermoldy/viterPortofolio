@@ -23,3 +23,4 @@ export type Profile = {
   blog: string | null
   followers: number
   following: number
+  publicRepos: number
