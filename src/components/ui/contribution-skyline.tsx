@@ -945,3 +945,4 @@ export default function ContributionSkyline({
 
     let drag: { id: number; x: number; y: number; yaw: number; elev: number; moved: boolean; orbit: boolean; mouse: boolean } | null = null
 
+    const onDown = (ev: PointerEvent) => {
