@@ -69,3 +69,4 @@ export function Footer({ state }: { state: LoadState }) {
             Source of this page
           </a>
         </div>
+      </footer>
