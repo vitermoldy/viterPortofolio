@@ -707,3 +707,4 @@ export default function ContributionSkyline({
       if (Math.abs(Hc - lastH) > 0.2) {
         stage.style.height = Hc.toFixed(1) + "px"
         lastH = Hc
+      }
