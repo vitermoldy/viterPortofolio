@@ -54,3 +54,4 @@ export function Header() {
           className="btn btn-quiet md:hidden"
           aria-expanded={open}
           aria-controls="menu"
+          onClick={() => setOpen((o) => !o)}
