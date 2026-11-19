@@ -16,3 +16,4 @@ export type Voxels = {
   dga: Float32Array
 }
 
+export type VoxelOptions = {
