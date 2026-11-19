@@ -403,3 +403,4 @@ export class VoxelEngine {
     this.drag = { id: ev.pointerId, x: ev.clientX, y: ev.clientY, yaw: this.yawGoal, pitch: this.pitchGoal, moved: false, mouse: ev.pointerType === 'mouse' }
     if (ev.pointerType === 'mouse') {
       try {
+        this.canvas.setPointerCapture(ev.pointerId)
