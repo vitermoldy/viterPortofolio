@@ -1172,3 +1172,4 @@ export default function ContributionSkyline({
   }, [active, model])
 
   const { stats } = model
+  const range = (a: string | null, b: string | null, withYear = false) => {
