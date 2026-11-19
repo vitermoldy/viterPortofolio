@@ -123,3 +123,4 @@ export class VoxelEngine {
   private assembling = false
   private morph = 1
   private yaw: number
+  private pitch: number
