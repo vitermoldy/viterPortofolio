@@ -73,3 +73,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   })
   await check('hero: Sunset switches the portrait', async () => {
     const b = page.getByRole('button', { name: 'Sunset', exact: true })
+    await b.click()
