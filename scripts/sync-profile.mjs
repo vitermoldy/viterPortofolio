@@ -120,3 +120,4 @@ function pixel() {
       const res = await fetch(`https://raw.githubusercontent.com/${USER}/${USER}/main/assets/pixel/${file}`, { headers: { 'User-Agent': UA } })
       if (!res.ok) throw new Error(`HTTP ${res.status} for pixel/${file}`)
       writeFileSync(join(out, file), Buffer.from(await res.arrayBuffer()))
+    }),
