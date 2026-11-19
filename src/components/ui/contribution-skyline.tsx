@@ -491,3 +491,4 @@ export default function ContributionSkyline({
   const view = viewProp ?? innerView
   const setView = (v: View) => {
     if (viewProp === undefined) setInnerView(v)
+    onViewChange?.(v)
