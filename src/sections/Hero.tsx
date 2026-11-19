@@ -34,3 +34,5 @@ export function Hero({ state }: { state: LoadState }) {
           <p className="mt-6 mb-0 max-w-[34rem] text-lg text-paper">
             My GitHub profile, built in blocks. The pixel art from my README stands up as voxels, every contribution
             rises into a skyline, and each project card turns into a relief you can turn and press.
+          </p>
+
