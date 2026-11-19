@@ -6,3 +6,4 @@ import { asset } from '@/lib/utils'
 // The same links as the "Connect with me" row of the profile README.
 const LINKS = [
   { label: 'GitHub', value: 'github.com/vitermoldy', href: 'https://github.com/vitermoldy' },
+  { label: 'Portfolio', value: 'vitermoldy.github.io/MyPortofolio', href: 'https://vitermoldy.github.io/MyPortofolio/' },
