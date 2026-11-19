@@ -797,3 +797,4 @@ export default function ContributionSkyline({
           ctx.fillStyle = rgbString(r * 0.68, g * 0.68, bl * 0.68)
           ctx.fill()
         }
+        ctx.beginPath()
