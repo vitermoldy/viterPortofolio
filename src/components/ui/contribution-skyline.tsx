@@ -1333,3 +1333,4 @@ export default function ContributionSkyline({
                 borderTop: "5px solid var(--color-foreground, #171717)",
               }}
             />
+          </div>
