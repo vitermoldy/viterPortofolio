@@ -263,3 +263,4 @@ for (const width of [390, 320]) {
     await check('390: tap targets at least 44px', async () => {
       const small = await page.evaluate(() =>
         [...document.querySelectorAll('a[href], button')]
+          .filter((el) => {
