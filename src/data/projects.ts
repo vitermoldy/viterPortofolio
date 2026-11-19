@@ -6,3 +6,4 @@ import { asset } from '@/lib/utils'
 
 export type Project = {
   id: string
+  name: string
