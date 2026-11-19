@@ -90,3 +90,4 @@ export type EngineOptions = {
   reducedMotion: boolean
   /** Seconds the first picture takes to fly in. */
   assembleSeconds?: number
+  /** Seconds a same-size switch takes. */
