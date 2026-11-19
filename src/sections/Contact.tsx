@@ -66,3 +66,4 @@ export function Footer({ state }: { state: LoadState }) {
             License 1.1.
           </p>
           <a className="link min-h-11 content-center" href="https://github.com/vitermoldy/viterPortofolio" rel="noopener">
+            Source of this page
