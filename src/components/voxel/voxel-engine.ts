@@ -291,3 +291,4 @@ export class VoxelEngine {
     this.assemble = this.reduced ? 1 : 0
     this.assembling = !this.reduced
     this.render()
+    this.kick()
