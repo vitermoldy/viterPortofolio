@@ -17,3 +17,5 @@ const FOOTER_ART = {
   w: 240,
   h: 24,
   alt: 'Pixel grass with fireflies: thanks for stopping by.',
+}
+
