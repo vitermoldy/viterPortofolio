@@ -1150,3 +1150,4 @@ export default function ContributionSkyline({
       engine.current = null
     }
     // The loop reads everything else through cfg; it is built once per mount.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
