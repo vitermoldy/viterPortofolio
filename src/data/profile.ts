@@ -60,3 +60,4 @@ export function useProfileData(): LoadState {
     Promise.all([getJson<Profile>('data/profile.json'), getJson<Contributions>('data/contributions.json')])
       .then(([profile, contributions]) => {
         if (!stale) setState({ status: 'ready', data: { profile, contributions } })
+      })
