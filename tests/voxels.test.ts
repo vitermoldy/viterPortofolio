@@ -50,3 +50,4 @@ describe('skyline with GitHub levels and a log scale', () => {
     )
     expect(cells.find((c) => c.date === '2026-11-18')!.level).toBe(1)
     expect(cells.find((c) => c.date === '2026-11-19')!.level).toBe(1)
+  })
