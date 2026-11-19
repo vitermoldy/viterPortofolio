@@ -9,3 +9,4 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..', 'dist')
 const BASE = '/viterPortofolio/'
+const TYPES = {
