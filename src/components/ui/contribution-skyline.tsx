@@ -319,3 +319,4 @@ let probe: CanvasRenderingContext2D | null = null
 const toRGB = (color: string, fallback: RGB | null): RGB | null => {
   if (!probe) {
     const c = document.createElement("canvas")
+    c.width = c.height = 1
