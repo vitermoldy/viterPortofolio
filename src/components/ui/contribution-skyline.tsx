@@ -1044,3 +1044,4 @@ export default function ContributionSkyline({
       i = Math.max(0, Math.min(n - 1, i))
       pinned = i
       hovered = -1
+      refreshActive()
