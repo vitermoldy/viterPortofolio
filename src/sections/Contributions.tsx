@@ -80,3 +80,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 <button type="button" className="btn btn-quiet" onClick={state.retry}>
                   Load the calendar again
                 </button>
+              </div>
