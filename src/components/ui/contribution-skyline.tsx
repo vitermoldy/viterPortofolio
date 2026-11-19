@@ -511,3 +511,4 @@ export default function ContributionSkyline({
 
   const plural = unitPlural ?? unit + "s"
   const nf = React.useMemo(() => new Intl.NumberFormat(locale), [locale])
+  const df = React.useMemo(() => new Intl.DateTimeFormat(locale, { month: "short", day: "numeric", timeZone: "UTC" }), [locale])
