@@ -38,3 +38,4 @@ export function Contributions({ state }: { state: LoadState }) {
               Every commit, standing up
             </h2>
             {c && view ? (
+              <p className="mt-5 mb-0 max-w-[40rem] text-lg">
