@@ -20,3 +20,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 | GitHub's system font stack for body text | The descriptions are the README's own words and read as they do on github.com |
 | Square corners everywhere, 2 px borders | Pixels have no radius; the profile's stats cards use `border_radius=0` |
 | Hard 4 px shadow under the main button, pressed into on click | Pixel-art depth for the one thing to press first, the profile link |
+| A small three-step voxel before every h2 | The page's motif: one block, the unit everything here is made of |
