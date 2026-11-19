@@ -1151,3 +1151,5 @@ export default function ContributionSkyline({
     }
     // The loop reads everything else through cfg; it is built once per mount.
     // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [locale])
+
