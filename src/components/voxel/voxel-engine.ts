@@ -280,3 +280,4 @@ export class VoxelEngine {
     this.mesh.frustumCulled = false
     this.scene.add(this.mesh)
 
+    const u = this.material.uniforms
