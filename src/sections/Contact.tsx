@@ -65,3 +65,4 @@ export function Footer({ state }: { state: LoadState }) {
             {fetchedAt ? `Numbers from GitHub, read on ${day(fetchedAt)}.` : 'Numbers from GitHub.'} Type: Tiny5, SIL Open Font
             License 1.1.
           </p>
+          <a className="link min-h-11 content-center" href="https://github.com/vitermoldy/viterPortofolio" rel="noopener">
