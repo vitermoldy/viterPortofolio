@@ -75,3 +75,4 @@ void main() {
     shade = n.y > 0.5 ? 0.84 : n.y < -0.5 ? 0.44 : n.x < -0.5 ? 0.66 : 0.54;
     shade *= mix(0.5, 1.0, vZ);
     shade = mix(shade, 1.0, vGlow * 0.85);
+  }
