@@ -39,3 +39,4 @@ export function serve(port = 5189) {
     }
     if (existsSync(file) && statSync(file).isDirectory()) file = join(file, 'index.html')
     if (!existsSync(file)) {
+      res.writeHead(404)
