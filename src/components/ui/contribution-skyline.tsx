@@ -1098,3 +1098,4 @@ export default function ContributionSkyline({
     ro.observe(stage)
 
     const mo = new MutationObserver(retheme)
+    mo.observe(document.documentElement, { attributes: true, attributeFilter: ["class", "style", "data-theme"] })
