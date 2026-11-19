@@ -198,3 +198,4 @@ export class VoxelEngine {
   }
 
   /** Starts the fly-in. Called once the stage scrolls into view, so the arrival is seen. */
+  play() {
