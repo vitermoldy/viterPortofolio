@@ -1149,3 +1149,4 @@ export default function ContributionSkyline({
       canvas.removeEventListener("blur", onBlur)
       engine.current = null
     }
+    // The loop reads everything else through cfg; it is built once per mount.
