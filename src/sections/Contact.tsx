@@ -26,3 +26,4 @@ export function Contact() {
           <h2 id="contact-title" className="h-pixel h-block text-[clamp(2rem,4.5vw,3.25rem)]">
             Write to me
           </h2>
+          <p className="mt-5 mb-0 max-w-[36rem] text-lg">
