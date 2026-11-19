@@ -708,3 +708,4 @@ export default function ContributionSkyline({
         stage.style.height = Hc.toFixed(1) + "px"
         lastH = Hc
       }
+      for (let i = 0; i < n; i++) zs[i] = riseAt(t, wk[i], weeks, dy[i]) * hgt[i]
