@@ -299,3 +299,4 @@
   }
   @keyframes enter {
     from {
+      opacity: 0;
