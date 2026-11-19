@@ -462,3 +462,4 @@ export class VoxelEngine {
     const step = 0.12
     if (ev.key === 'ArrowLeft') this.turn(step, 0)
     else if (ev.key === 'ArrowRight') this.turn(-step, 0)
+    else if (ev.key === 'ArrowUp') this.turn(0, step)
