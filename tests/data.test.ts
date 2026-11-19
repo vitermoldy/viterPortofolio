@@ -13,3 +13,4 @@ const page = `
 <tool-tip for="contribution-day-component-0-2" class="sr-only">1 contribution on November 13th.</tool-tip>
 </tr></tbody></table>`
 
+describe('parseCalendar', () => {
