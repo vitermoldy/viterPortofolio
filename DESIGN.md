@@ -44,3 +44,5 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
   note "Still in development, so the repository is private for now." (the owner's rule of 15 November 2026).
 - Every number on the page comes from GitHub through `scripts/sync-profile.mjs`; no number is typed in.
 - No middle dot between fragments of copy (the owner's rule). The pixel cards themselves still carry the dots
+  drawn by the profile's `tools/pixel.py`.
+
