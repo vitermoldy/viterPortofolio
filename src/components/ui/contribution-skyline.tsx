@@ -995,3 +995,4 @@ export default function ContributionSkyline({
       pinned = i === pinned ? -1 : i
       if (ev.pointerType !== "mouse") hovered = -1
       refreshActive()
+      if (i >= 0) {
