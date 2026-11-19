@@ -61,3 +61,4 @@ describe('project links', () => {
     expect(publicLinks(evit, [{ name: 'StudyCabin-v2', url: '' }])).toEqual([])
   })
   it('has one card per project and no duplicate ids', () => {
+    expect(new Set(PROJECTS.map((p) => p.id)).size).toBe(PROJECTS.length)
