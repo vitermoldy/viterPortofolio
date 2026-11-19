@@ -840,3 +840,4 @@ export default function ContributionSkyline({
         ctx.textBaseline = "top"
         let edge = -Infinity
         for (const m of months) {
+          const x = px(m.week + 0.5, 7.3)
