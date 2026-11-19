@@ -869,3 +869,4 @@ export default function ContributionSkyline({
       if (t !== target) {
         const step = reduced ? 1 : (dt * 1000) / Math.max(1, cfg.current.duration)
         t = target > t ? Math.min(target, t + step) : Math.max(target, t - step)
+        moving = true
