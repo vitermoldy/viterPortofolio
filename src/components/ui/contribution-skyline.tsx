@@ -566,3 +566,4 @@ export default function ContributionSkyline({
     let isDark = false
     // cells
     let n = 0
+    let weeks = 0
