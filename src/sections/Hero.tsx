@@ -17,3 +17,5 @@ const AVATARS: Record<'moon' | 'sunset', VoxelPicture> = {
     h: 64,
     alt: 'Pixel-art portrait of Viter in a green hoodie with headphones round the neck, in front of the sun setting over the forest.',
   },
+}
+
