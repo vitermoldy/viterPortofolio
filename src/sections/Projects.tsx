@@ -32,3 +32,4 @@ export function Projects({ state }: { state: LoadState }) {
           aria-live="polite"
         >
           <h3 className="h-pixel text-3xl">{project.name}</h3>
+          <p className="mt-2 mb-0 text-sm text-leaf">{project.stack}</p>
