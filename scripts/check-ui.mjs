@@ -157,3 +157,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await page.locator('#contributions').screenshot({ path: join(OUT, '1440-skyline-year.png') })
     await years.nth(0).click()
     return title
+  })
