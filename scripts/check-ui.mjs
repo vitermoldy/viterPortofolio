@@ -39,3 +39,4 @@ const expect = (cond, msg) => {
 const browser = await chromium.launch({ executablePath: CHROME, headless: true, args: ['--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })
 
 async function open(viewport) {
+  const context = await browser.newContext({ viewport })
