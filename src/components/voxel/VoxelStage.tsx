@@ -167,3 +167,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
             Try the picture again
           </button>
         </div>
+      )}
