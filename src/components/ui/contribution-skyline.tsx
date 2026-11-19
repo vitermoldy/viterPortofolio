@@ -965,3 +965,4 @@ export default function ContributionSkyline({
         if (drag.moved || Math.hypot(dx, dyy) > 4) {
           drag.moved = true
           yawGoal = Math.min(YAW_RANGE[1] - YAW_3D, Math.max(YAW_RANGE[0] - YAW_3D, drag.yaw + dx * 0.006))
+          if (drag.mouse) elevGoal = Math.min(ELEV_RANGE[1] - ELEV_3D, Math.max(ELEV_RANGE[0] - ELEV_3D, drag.elev + dyy * 0.004))
