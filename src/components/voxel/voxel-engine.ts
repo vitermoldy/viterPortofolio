@@ -201,3 +201,4 @@ export class VoxelEngine {
   play() {
     if (!this.mesh || !this.assembling) return
     if (this.reduced) {
+      this.assemble = 1
