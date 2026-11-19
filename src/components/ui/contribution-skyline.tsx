@@ -1214,3 +1214,4 @@ export default function ContributionSkyline({
         {showToggle && (
           <div
             role="group"
+            aria-label="Chart view"
