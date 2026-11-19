@@ -671,3 +671,4 @@ export default function ContributionSkyline({
         add(x0, y0 + w, 0)
         add(x0 + w, y0, 0)
       }
+      // room for the month labels that run along the front edge in 3D
