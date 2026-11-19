@@ -883,3 +883,4 @@ export default function ContributionSkyline({
 
       const kc = reduced ? 1 : 1 - Math.exp(-dt * 7)
       for (let k = 0; k < 15; k++) {
+        const d = colGoal[k] - col[k]
