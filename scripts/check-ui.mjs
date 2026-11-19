@@ -83,3 +83,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   })
   await check('hero: drag turns the avatar', async () => {
     const box = await page.locator('#top canvas').boundingBox()
+    const before = await page.locator('#top canvas').screenshot()
