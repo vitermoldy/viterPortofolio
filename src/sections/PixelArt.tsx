@@ -59,3 +59,4 @@ export function PixelArt() {
                 <li key={s.id}>
                   <button
                     type="button"
+                    aria-pressed={on}
