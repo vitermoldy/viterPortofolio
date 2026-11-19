@@ -444,3 +444,4 @@ export class VoxelEngine {
       this.pushGoal = 1
       this.pushDecay = true
       this.kick()
+    }
