@@ -45,3 +45,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 {view.busiest ? `, ${num(view.busiest[1])} on ${day(view.busiest[0])}` : ''}.
               </p>
             ) : (
+              <p className="mt-5 mb-0 max-w-[40rem] text-lg">
