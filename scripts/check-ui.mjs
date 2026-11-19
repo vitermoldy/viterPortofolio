@@ -286,3 +286,4 @@ for (const width of [390, 320]) {
     await stageReady(page, '#top')
     await page.waitForTimeout(300)
     await page.locator('#top .stage-frame').screenshot({ path: join(OUT, 'reduced-hero.png') })
+  })
