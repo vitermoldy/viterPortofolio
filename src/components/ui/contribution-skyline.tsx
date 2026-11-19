@@ -332,3 +332,5 @@ const toRGB = (color: string, fallback: RGB | null): RGB | null => {
   return [d[0], d[1], d[2]]
 }
 
+const rgbString = (r: number, g: number, b: number) => "rgb(" + Math.round(r) + "," + Math.round(g) + "," + Math.round(b) + ")"
+
