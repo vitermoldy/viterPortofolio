@@ -17,3 +17,4 @@ import { parseCalendar } from './calendar.mjs'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const arg = (name) => {
+  const i = process.argv.indexOf(name)
