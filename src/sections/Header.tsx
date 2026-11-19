@@ -75,3 +75,4 @@ export function Header() {
               </li>
             ))}
           </ul>
+        </nav>
