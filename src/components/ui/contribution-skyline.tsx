@@ -1181,3 +1181,4 @@ export default function ContributionSkyline({
   const corners = showStats && width >= 560
   const bigSize = Math.round(Math.max(30, Math.min(56, width * 0.058)))
   const statBlocks = [
+    { label: "1 year total", value: nf.format(stats.total), unit: noun(stats.total), sub: range(stats.first, stats.last, true) },
