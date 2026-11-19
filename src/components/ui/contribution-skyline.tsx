@@ -1363,3 +1363,4 @@ export default function ContributionSkyline({
               {hints.map((h) => (
                 <span
                   key={h}
+                  aria-hidden={h !== hint}
