@@ -72,3 +72,4 @@ export const visibleCount = (v: Voxels) => {
 }
 
 /** Draws an image file at its pixel-art size (an SVG at its viewBox, a 64-cell PNG saved at 512) and reads it back. */
+export async function loadPixels(url: string, w: number, h: number): Promise<PixelGrid> {
