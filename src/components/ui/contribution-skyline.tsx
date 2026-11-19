@@ -1003,3 +1003,5 @@ export default function ContributionSkyline({
 
     const onCancel = () => {
       drag = null
+    }
+
