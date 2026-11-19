@@ -17,3 +17,4 @@ const TYPES = {
   '.svg': 'image/svg+xml',
   '.png': 'image/png',
   '.woff': 'font/woff',
+  '.txt': 'text/plain; charset=utf-8',
