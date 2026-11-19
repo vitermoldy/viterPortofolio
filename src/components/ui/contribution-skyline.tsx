@@ -123,3 +123,4 @@ export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0)
     const c = Number(d.count)
     if (!Number.isFinite(ms) || !(c > 0) || !Number.isFinite(c)) continue
     const k = toKey(ms)
+    counts.set(k, (counts.get(k) ?? 0) + c)
