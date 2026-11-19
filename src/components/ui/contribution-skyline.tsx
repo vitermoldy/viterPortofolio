@@ -390,3 +390,4 @@ function Stat({
   value,
   unit,
   sub,
+  accent,
