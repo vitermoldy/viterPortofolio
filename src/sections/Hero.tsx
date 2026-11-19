@@ -54,3 +54,4 @@ export function Hero({ state }: { state: LoadState }) {
             <a className="btn btn-main" href={profile?.url ?? 'https://github.com/vitermoldy'} rel="noopener">
               Open my GitHub profile
             </a>
+            <a className="btn btn-quiet" href="#contributions">
