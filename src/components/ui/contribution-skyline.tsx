@@ -582,3 +582,4 @@ export default function ContributionSkyline({
     // interaction
     let hovered = -1
     let pinned = -1
+    let activeIdx = -1
