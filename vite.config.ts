@@ -7,3 +7,4 @@ import tailwindcss from '@tailwindcss/vite'
 // two copies load and the first hook crashes. Pin the root to one spelling.
 const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d) => d.toUpperCase())
 
+// GitHub Pages serves this repository at https://vitermoldy.github.io/viterPortofolio/.
