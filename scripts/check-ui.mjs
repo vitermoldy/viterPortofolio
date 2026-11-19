@@ -69,3 +69,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   await check('hero: avatar blocks fly in', async () => {
     await stageReady(page, '#top')
     await settle(page)
+    await page.screenshot({ path: join(OUT, '1440-hero.png') })
