@@ -273,3 +273,4 @@
     font-family: var(--font-pixel);
   }
   .skip-link:focus {
+    top: 12px;
