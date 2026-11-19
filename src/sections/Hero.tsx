@@ -25,3 +25,4 @@ export function Hero({ state }: { state: LoadState }) {
   const profile = ready?.profile
 
   return (
+    <section id="top" aria-labelledby="hero-title" className="relative">
