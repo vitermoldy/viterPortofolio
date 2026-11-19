@@ -241,3 +241,4 @@ export const project = (c: Cam, x: number, y: number, z: number): [number, numbe
   (x * c.sn + y * c.cs) * c.se - z * c.ce,
 ]
 
+/** Painter's depth for yaw in [0°, 90°]: larger is nearer the viewer, so draw ascending. */
