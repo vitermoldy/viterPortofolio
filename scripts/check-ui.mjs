@@ -206,3 +206,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     for (const id of ['contributions', 'pixel-art', 'projects', 'contact']) {
       await page.locator(`header nav[aria-label="Sections"] a[href="#${id}"]`).click()
       await page.waitForTimeout(900)
+      const top = await page.locator('#' + id).evaluate((el) => el.getBoundingClientRect().top)
