@@ -189,3 +189,4 @@ export class VoxelEngine {
       u.uWaveFrom.value.set(wave === 'corner' ? -v.w / 2 : 0, wave === 'corner' ? v.h / 2 : 0)
       u.uSpan.value = wave === 'corner' ? Math.hypot(v.w, v.h) : Math.hypot(v.w, v.h) / 2
       this.morph = this.reduced ? 1 : 0
+      this.current = v
