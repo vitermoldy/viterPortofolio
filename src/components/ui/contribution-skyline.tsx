@@ -541,3 +541,4 @@ export default function ContributionSkyline({
     // morph: t is linear time 0 (2D) → 1 (3D); the camera eases it, the bars wave it
     let t = 0
     let target = 0
+    let entered = false
