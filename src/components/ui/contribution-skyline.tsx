@@ -478,3 +478,4 @@ export default function ContributionSkyline({
   onCellClick,
   className = "",
 }: ContributionSkylineProps) {
+  const endKey = endDate == null ? null : dayMs(endDate)
