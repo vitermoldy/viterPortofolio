@@ -93,3 +93,4 @@ export function allTimeTotal(c: Contributions): number {
 }
 
 /** Years that hold at least one day, newest first. */
+export function yearsOf(c: Contributions): number[] {
