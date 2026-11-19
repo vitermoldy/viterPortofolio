@@ -303,3 +303,4 @@ export interface ContributionSkylineProps {
   showLegend?: boolean
   showToggle?: boolean
   /** Replaces the hint under the chart. `null` renders none. */
+  footer?: React.ReactNode
