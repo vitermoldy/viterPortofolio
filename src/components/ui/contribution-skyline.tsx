@@ -350,3 +350,4 @@ const pointInQuad = (p: Float32Array, o: number, x: number, y: number): boolean 
   return sign !== 0
 }
 
+const quadPath = (ctx: CanvasRenderingContext2D, p: Float32Array, o: number, r: number) => {
