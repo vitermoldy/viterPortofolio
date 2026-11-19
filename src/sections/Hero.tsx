@@ -50,3 +50,4 @@ export function Hero({ state }: { state: LoadState }) {
             </p>
           )}
 
+          <div className="mt-8 flex flex-wrap gap-4">
