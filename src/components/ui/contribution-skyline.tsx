@@ -784,3 +784,4 @@ export default function ContributionSkyline({
           r += (fg[0] - r) * m
           g += (fg[1] - g) * m
           bl += (fg[2] - bl) * m
+        }
