@@ -366,3 +366,4 @@ export class VoxelEngine {
     }
     if (this.morph < 1) {
       this.morph = this.reduced ? 1 : Math.min(1, this.morph + dt / this.morphSeconds)
+      moving = true
