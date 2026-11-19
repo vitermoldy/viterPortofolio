@@ -822,3 +822,4 @@ export default function ContributionSkyline({
         ctx.fillStyle = "rgba(" + Math.round(muted[0]) + "," + Math.round(muted[1]) + "," + Math.round(muted[2]) + "," + a2.toFixed(3) + ")"
         ctx.textAlign = "left"
         ctx.textBaseline = "bottom"
+        let edge = -Infinity
