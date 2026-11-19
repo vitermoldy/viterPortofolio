@@ -775,3 +775,4 @@ export default function ContributionSkyline({
         const d = dim[i]
         if (d > 0.002) {
           r += (ex - r) * 0.72 * d
+          g += (ey - g) * 0.72 * d
