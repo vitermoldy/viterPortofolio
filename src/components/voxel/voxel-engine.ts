@@ -433,3 +433,4 @@ export class VoxelEngine {
     }
   }
 
+  private onUp = (ev: PointerEvent) => {
