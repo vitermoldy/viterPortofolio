@@ -56,3 +56,4 @@
   a[href],
   button:not(:disabled),
   summary,
+  label[for],
