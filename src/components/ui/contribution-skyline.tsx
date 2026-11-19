@@ -1141,3 +1141,4 @@ export default function ContributionSkyline({
       darkMq.removeEventListener("change", retheme)
       canvas.removeEventListener("pointerdown", onDown)
       canvas.removeEventListener("pointermove", onMove)
+      canvas.removeEventListener("pointerup", onUp)
