@@ -88,3 +88,4 @@ async function profile() {
         description: r.description,
         url: r.html_url,
         homepage: r.homepage || null,
+        language: r.language,
