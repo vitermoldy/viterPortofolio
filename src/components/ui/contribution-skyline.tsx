@@ -595,3 +595,4 @@ export default function ContributionSkyline({
         wk = new Float32Array(n)
         dy = new Float32Array(n)
         lv = new Uint8Array(n)
+        hgt = new Float32Array(n)
