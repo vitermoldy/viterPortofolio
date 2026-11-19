@@ -75,3 +75,4 @@ export function Hero({ state }: { state: LoadState }) {
             </div>
             <p className="m-0 text-sm text-muted">Drag to turn it. Move across it to press the pins.</p>
           </div>
+        </div>
