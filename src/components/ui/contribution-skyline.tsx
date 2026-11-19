@@ -1085,3 +1085,4 @@ export default function ContributionSkyline({
           if (entries.some((en) => en.isIntersecting)) {
             enter()
             io?.disconnect()
+          }
