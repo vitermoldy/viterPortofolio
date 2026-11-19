@@ -180,3 +180,4 @@
   /* A row of choices where one is picked (aria-pressed). */
   .seg {
     display: inline-flex;
+    flex-wrap: wrap;
