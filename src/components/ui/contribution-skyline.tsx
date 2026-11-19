@@ -1285,3 +1285,4 @@ export default function ContributionSkyline({
                 </div>
                 <div
                   aria-hidden={!is3d}
+                  className="pointer-events-none absolute bottom-1 left-1 flex flex-col items-start gap-5 transition-[opacity,transform] motion-reduce:transition-none"
