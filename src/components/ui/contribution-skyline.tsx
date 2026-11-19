@@ -105,3 +105,4 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
     if (r() < 0.01) count += 18 + Math.floor(r() * 24)
     out.push({ date: toKey(ms), count })
   }
+  return out
