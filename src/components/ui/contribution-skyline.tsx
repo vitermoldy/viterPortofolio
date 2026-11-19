@@ -395,3 +395,4 @@ function Stat({
   align,
 }: {
   label: string
+  value: string
