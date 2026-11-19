@@ -1090,3 +1090,5 @@ export default function ContributionSkyline({
         { threshold: 0.35 },
       )
       io.observe(stage)
+    } else enter()
+
