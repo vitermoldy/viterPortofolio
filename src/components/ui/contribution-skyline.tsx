@@ -92,3 +92,4 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
   let mood = 0.5
   for (let i = 0; i < days; i++) {
     const ms = endMs - (days - 1 - i) * DAY_MS
+    const x = i / Math.max(1, days - 1)
