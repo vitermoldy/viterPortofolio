@@ -62,3 +62,4 @@ export function useProfileData(): LoadState {
         if (!stale) setState({ status: 'ready', data: { profile, contributions } })
       })
       .catch((err: unknown) => {
+        if (stale) return
