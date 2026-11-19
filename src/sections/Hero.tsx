@@ -90,3 +90,4 @@ function Fact({ label, value, state, small }: { label: string; value: string | n
       </dd>
     </div>
   )
+}
