@@ -309,3 +309,4 @@ export class VoxelEngine {
    * fits the frame. Turned pictures pull the camera back instead of losing an edge.
    */
   private place() {
+    const v = this.current
