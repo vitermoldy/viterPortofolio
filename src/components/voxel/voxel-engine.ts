@@ -411,3 +411,4 @@ export class VoxelEngine {
   }
 
   private onMove = (ev: PointerEvent) => {
+    const d = this.drag
