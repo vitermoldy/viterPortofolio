@@ -21,3 +21,4 @@ describe('voxelize', () => {
     expect(v.count).toBe(4)
     expect(Array.from(v.xy)).toEqual([-0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5])
   })
+  it('keeps the exact colour on each block', () => {
