@@ -305,3 +305,4 @@ export class VoxelEngine {
   }
 
   /**
+   * Puts the camera on its orbit at the nearest distance where the whole relief, depth included, still
