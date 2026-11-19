@@ -6,3 +6,4 @@ import { asset } from '@/lib/utils'
 export type Repo = {
   name: string
   description: string | null
+  url: string
