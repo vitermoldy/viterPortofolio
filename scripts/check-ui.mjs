@@ -180,3 +180,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await page.locator('#projects').screenshot({ path: join(OUT, '1440-projects.png') })
     const cards = page.locator('#projects [aria-label="Project cards"] button')
     const n = await cards.count()
+    const seen = []
