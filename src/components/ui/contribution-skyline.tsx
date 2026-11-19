@@ -488,3 +488,4 @@ export default function ContributionSkyline({
   }, [data, endKey, seed, weekStart, locale])
 
   const [innerView, setInnerView] = React.useState<View>(defaultView)
+  const view = viewProp ?? innerView
