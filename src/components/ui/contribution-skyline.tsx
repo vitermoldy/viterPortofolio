@@ -21,3 +21,5 @@ import * as React from "react"
  */
 
 // #region contributions
+// Pure: dates, grid, stats, levels, camera and colour maths. Lifted out and run by the test.
+
