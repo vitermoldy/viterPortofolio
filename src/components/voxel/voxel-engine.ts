@@ -144,3 +144,4 @@ export class VoxelEngine {
     this.renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1))
     this.renderer.setClearColor(0x000000, 0)
     this.material = new THREE.ShaderMaterial({
+      vertexShader: VERT,
