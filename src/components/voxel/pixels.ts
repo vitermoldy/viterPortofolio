@@ -62,3 +62,5 @@ export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
     }
   }
   return { w, h, count, xy, col, dga }
+}
+
