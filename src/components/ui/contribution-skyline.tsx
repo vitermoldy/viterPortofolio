@@ -683,3 +683,4 @@ export default function ContributionSkyline({
       W = w
       // Narrow cards give the weekday names' column to the grid instead; rows get too tight to label.
       gutter = W < 520 ? 0 : labelW
+      dpr = Math.min(2, window.devicePixelRatio || 1)
