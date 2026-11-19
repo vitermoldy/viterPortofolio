@@ -43,3 +43,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 shade for it, and its height follows a log scale, so a day of {plural(view.quietest, 'contribution')} still
                 shows beside the busiest
                 {view.busiest ? `, ${num(view.busiest[1])} on ${day(view.busiest[0])}` : ''}.
+              </p>
