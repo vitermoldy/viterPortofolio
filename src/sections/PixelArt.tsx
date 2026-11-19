@@ -58,3 +58,4 @@ export function PixelArt() {
               return (
                 <li key={s.id}>
                   <button
+                    type="button"
