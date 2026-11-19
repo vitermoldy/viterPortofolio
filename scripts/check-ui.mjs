@@ -43,3 +43,4 @@ async function open(viewport) {
   const page = await context.newPage()
   page.on('console', (m) => m.type() === 'error' && errors.push(`${viewport.width}: ${m.text()}`))
   page.on('pageerror', (e) => errors.push(`${viewport.width}: ${e}`))
+  page.on('response', (r) => r.status() >= 400 && errors.push(`${viewport.width}: HTTP ${r.status()} ${r.url()}`))
