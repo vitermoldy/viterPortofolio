@@ -53,3 +53,4 @@ export function Header() {
           type="button"
           className="btn btn-quiet md:hidden"
           aria-expanded={open}
+          aria-controls="menu"
