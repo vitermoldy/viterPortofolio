@@ -44,3 +44,4 @@ describe('contribution totals', () => {
     // 2025-11-20 is exactly 364 days before 2026-11-19; 2025-11-19 falls outside.
     expect(lastYearTotal(c)).toBe(9)
   })
+  it('sums every day', () => {
