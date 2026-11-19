@@ -655,3 +655,4 @@ export default function ContributionSkyline({
       let maxy = -Infinity
       const add = (x: number, y: number, z: number) => {
         const p = project(cam, x, y, z)
+        if (p[0] < minx) minx = p[0]
