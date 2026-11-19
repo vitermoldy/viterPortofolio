@@ -57,3 +57,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 <button type="button" aria-pressed={range === 'last'} onClick={() => setRange('last')}>
                   Last 12 months
                 </button>
+                {view.pastYears.map((y) => (
