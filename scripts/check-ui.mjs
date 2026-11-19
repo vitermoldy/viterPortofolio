@@ -267,3 +267,4 @@ for (const width of [390, 320]) {
             const r = el.getBoundingClientRect()
             const inText = el.closest('p') && el.tagName === 'A'
             return r.width > 0 && r.height > 0 && !inText && (r.height < 43.5 || r.width < 24)
+          })
