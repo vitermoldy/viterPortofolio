@@ -114,3 +114,4 @@ export class VoxelEngine {
   private base: View
 
   private reduced: boolean
+  private assembleSeconds: number
