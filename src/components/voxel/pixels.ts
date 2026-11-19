@@ -30,3 +30,4 @@ const smooth = (a: number, b: number, x: number) => {
   return t * t * (3 - 2 * t)
 }
 
+/**
