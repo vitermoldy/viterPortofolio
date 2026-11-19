@@ -286,3 +286,4 @@
 /* The page enters once on load: the hero's text rises a little, the stage is the blocks' own fly-in. */
 @media (prefers-reduced-motion: no-preference) {
   [data-enter] > * {
+    animation: enter 700ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
