@@ -112,3 +112,4 @@
   }
   .h-block::before {
     content: '';
+    flex: none;
