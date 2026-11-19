@@ -59,3 +59,4 @@ export function Footer({ state }: { state: LoadState }) {
   const fetchedAt = state.status === 'ready' ? state.data.profile.fetchedAt : null
   return (
       <footer className="border-t-2 border-moss">
+        <div className="wrap flex flex-col gap-2 py-6 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
