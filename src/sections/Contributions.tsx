@@ -60,3 +60,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 {view.pastYears.map((y) => (
                   <button key={y} type="button" aria-pressed={range === y} onClick={() => setRange(y)}>
                     {y}
+                  </button>
