@@ -3,3 +3,4 @@ import type { LoadState } from '@/data/profile'
 import { day } from '@/lib/format'
 import { asset } from '@/lib/utils'
 
+// The same links as the "Connect with me" row of the profile README.
