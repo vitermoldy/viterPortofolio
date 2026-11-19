@@ -156,3 +156,4 @@ export class VoxelEngine {
         uPush: { value: 4 },
         uBump: { value: 3 },
       },
+    })
