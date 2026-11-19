@@ -206,3 +206,5 @@ export const barHeight = (count: number, max: number, scale = 1, curve: HeightCu
   if (!(count > 0 && max > 0)) return 0.2
   const share = curve === "log" ? Math.log1p(count) / Math.log1p(max) : Math.pow(count / max, 0.85)
   return 0.4 + share * 7.2 * scale
+}
+
