@@ -282,3 +282,4 @@ export class VoxelEngine {
 
     const u = this.material.uniforms
     u.uSpan.value = Math.hypot(v.w, v.h)
+    u.uPointerR.value = span * 0.055
