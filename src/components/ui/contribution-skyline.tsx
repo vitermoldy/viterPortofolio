@@ -651,3 +651,4 @@ export default function ContributionSkyline({
       const off = (1 - w) / 2
       let minx = Infinity
       let maxx = -Infinity
+      let miny = Infinity
