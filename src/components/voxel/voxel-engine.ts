@@ -234,3 +234,4 @@ export class VoxelEngine {
   }
 
   dispose() {
+    cancelAnimationFrame(this.raf)
