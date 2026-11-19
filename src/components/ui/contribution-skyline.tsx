@@ -677,3 +677,4 @@ export default function ContributionSkyline({
       return { minx, maxx, miny, maxy }
     }
 
+    const relayout = () => {
