@@ -127,3 +127,4 @@ export class VoxelEngine {
   private yawGoal: number
   private pitchGoal: number
   private push = 0
+  private pushGoal = 0
