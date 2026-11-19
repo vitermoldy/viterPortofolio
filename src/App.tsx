@@ -24,3 +24,4 @@ export function App() {
       <Footer state={state} />
     </>
   )
+}
