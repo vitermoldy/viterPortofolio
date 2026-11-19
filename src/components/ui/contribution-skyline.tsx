@@ -108,3 +108,4 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
   return out
 }
 
+/**
