@@ -113,3 +113,4 @@ async function contributions(createdAt) {
 function pixel() {
   const out = join(root, 'public', 'pixel')
   mkdirSync(out, { recursive: true })
+  const local = join(root, '..', 'vitermoldy', 'assets', 'pixel')
