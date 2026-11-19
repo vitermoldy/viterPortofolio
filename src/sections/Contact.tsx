@@ -29,3 +29,4 @@ export function Contact() {
           <p className="mt-5 mb-0 max-w-[36rem] text-lg">
             For a project, an internship or a question about three.js, Laravel, PHP or MySQL, email reaches me first.
           </p>
+          <a
