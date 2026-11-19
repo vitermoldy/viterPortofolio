@@ -184,3 +184,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     for (let i = 0; i < n; i++) {
       await cards.nth(i).click()
       const name = await page.locator('#projects h3').innerText()
+      const links = await page.locator('#projects [aria-live] a').evaluateAll((as) => as.map((a) => a.href))
