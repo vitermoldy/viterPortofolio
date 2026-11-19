@@ -38,3 +38,4 @@ describe('voxelize', () => {
   })
 })
 
+describe('skyline with GitHub levels and a log scale', () => {
