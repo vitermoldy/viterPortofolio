@@ -959,3 +959,4 @@ export default function ContributionSkyline({
     }
 
     const onMove = (ev: PointerEvent) => {
+      if (drag && drag.orbit && ev.pointerId === drag.id) {
