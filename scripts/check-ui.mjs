@@ -12,3 +12,4 @@ import { serve } from './serve.mjs'
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const server = process.env.SITE_URL ? null : await serve(0)
 const BASE = process.env.SITE_URL ?? `http://localhost:${server.address().port}/viterPortofolio/`
+const OUT = join(root, '.shots')
