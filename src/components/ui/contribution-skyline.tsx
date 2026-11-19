@@ -645,3 +645,4 @@ export default function ContributionSkyline({
       kick()
     }
 
+    // Projected extent of the scene for camera e, with each bar at zOf(i).
