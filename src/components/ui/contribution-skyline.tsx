@@ -479,3 +479,4 @@ export default function ContributionSkyline({
   className = "",
 }: ContributionSkylineProps) {
   const endKey = endDate == null ? null : dayMs(endDate)
+  const model = React.useMemo(() => {
