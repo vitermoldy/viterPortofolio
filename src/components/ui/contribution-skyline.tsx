@@ -576,3 +576,4 @@ export default function ContributionSkyline({
     let dim = new Float32Array(0)
     let polys = new Float32Array(0)
     let faces = new Uint8Array(0)
+    let order: number[] = []
