@@ -168,3 +168,5 @@ export class VoxelEngine {
 
   get isEmpty() {
     return this.current === null
+  }
+
