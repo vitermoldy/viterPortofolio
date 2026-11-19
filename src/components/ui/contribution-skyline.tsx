@@ -91,3 +91,4 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
   const out: ContributionDay[] = []
   let mood = 0.5
   for (let i = 0; i < days; i++) {
+    const ms = endMs - (days - 1 - i) * DAY_MS
