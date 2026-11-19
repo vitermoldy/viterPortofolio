@@ -969,3 +969,4 @@ export default function ContributionSkyline({
           canvas.style.cursor = "grabbing"
           hovered = -1
           refreshActive()
+          kick()
