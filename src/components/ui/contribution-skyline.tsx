@@ -355,3 +355,4 @@ const quadPath = (ctx: CanvasRenderingContext2D, p: Float32Array, o: number, r: 
     ctx.moveTo(p[o], p[o + 1])
     ctx.lineTo(p[o + 2], p[o + 3])
     ctx.lineTo(p[o + 4], p[o + 5])
+    ctx.lineTo(p[o + 6], p[o + 7])
