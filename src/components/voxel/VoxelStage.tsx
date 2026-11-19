@@ -138,3 +138,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         width={picture.w * 4}
         height={picture.h * 4}
         alt={status === 'ready' ? '' : picture.alt}
+        aria-hidden={status === 'ready' ? true : undefined}
