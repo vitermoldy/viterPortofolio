@@ -52,3 +52,4 @@ describe('contribution totals', () => {
   })
 })
 
+describe('project links', () => {
