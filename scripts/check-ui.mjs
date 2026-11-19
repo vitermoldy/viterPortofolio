@@ -142,3 +142,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   })
   await check('skyline: legend isolates a level', async () => {
     const b = page.getByRole('button', { name: 'Highlight heaviest days' })
+    await b.click()
