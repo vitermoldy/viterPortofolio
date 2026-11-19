@@ -8,3 +8,4 @@ import type { Voxels } from './pixels'
 
 const VERT = /* glsl */ `
 attribute vec2 aXY;
+attribute vec3 aColA;
