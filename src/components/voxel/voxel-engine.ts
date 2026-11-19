@@ -27,3 +27,5 @@ varying float vGlow;
 varying float vZ;
 
 float easeOut(float t) { return 1.0 - pow(1.0 - t, 3.0); }
+float easeInOut(float t) { return t < 0.5 ? 4.0 * t * t * t : 1.0 - pow(-2.0 * t + 2.0, 3.0) / 2.0; }
+
