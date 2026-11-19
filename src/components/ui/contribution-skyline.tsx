@@ -518,3 +518,4 @@ export default function ContributionSkyline({
   const describe = (i: number) => {
     const c = model.cells[i]
     if (!c) return ""
+    return (c.count ? nf.format(c.count) + " " + noun(c.count) : "No " + plural) + " on " + dfl.format(dayMs(c.date))
