@@ -221,3 +221,4 @@
   }
   .link:hover {
     color: var(--color-sun);
+    text-decoration-color: var(--color-sun);
