@@ -80,3 +80,4 @@ export function useProfileData(): LoadState {
 export function lastYearTotal(c: Contributions): number {
   const end = Date.parse(c.today + 'T00:00:00Z')
   const start = end - 364 * 86400000
+  let total = 0
