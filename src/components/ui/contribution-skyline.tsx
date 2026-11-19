@@ -132,3 +132,4 @@ export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0)
   const cells: Cell[] = []
   for (let ms = start, i = 0; ms <= endMs; ms += DAY_MS, i++) {
     const date = toKey(ms)
+    cells.push({ date, count: counts.get(date) ?? 0, level: 0, week: Math.floor(i / 7), day: i % 7 })
