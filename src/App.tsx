@@ -17,3 +17,4 @@ export function App() {
       <main id="main" tabIndex={-1} className="outline-none">
         <Hero state={state} />
         <Contributions state={state} />
+        <PixelArt />
