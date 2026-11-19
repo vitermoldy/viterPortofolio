@@ -636,3 +636,4 @@ export default function ContributionSkyline({
         col.set(colGoal)
         colReady = true
       }
+      ctx.font = font
