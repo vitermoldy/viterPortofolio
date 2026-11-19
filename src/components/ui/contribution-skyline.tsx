@@ -973,3 +973,4 @@ export default function ContributionSkyline({
           return
         }
       }
+      if (ev.pointerType !== "mouse") return
