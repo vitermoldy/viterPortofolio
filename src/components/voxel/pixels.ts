@@ -67,3 +67,4 @@ export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
 /** How many blocks actually show. */
 export const visibleCount = (v: Voxels) => {
   let n = 0
+  for (let k = 0; k < v.count; k++) if (v.dga[k * 3 + 2] > 0.5) n++
