@@ -422,3 +422,4 @@ export class VoxelEngine {
         this.canvas.style.cursor = 'grabbing'
         this.pushGoal = 0
         this.kick()
+        return
