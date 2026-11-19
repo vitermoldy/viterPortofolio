@@ -61,3 +61,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   const { context, page } = await open({ width: 1440, height: 900 })
 
   await check('hero: real GitHub numbers', async () => {
+    await page.waitForFunction(() => !document.querySelector('#top dl[aria-busy="true"]'))
