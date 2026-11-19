@@ -308,3 +308,4 @@ export interface ContributionSkylineProps {
   /** Seed for the generated sample year. */
   seed?: number
   onCellClick?: (day: ContributionDay) => void
+  className?: string
