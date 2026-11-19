@@ -463,3 +463,4 @@ export default function ContributionSkyline({
   title,
   unit = "contribution",
   unitPlural,
+  heightScale = 1,
