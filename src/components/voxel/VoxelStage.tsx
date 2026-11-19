@@ -141,3 +141,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         aria-hidden={status === 'ready' ? true : undefined}
         decoding="async"
         className={cn(
+          'pixelated absolute inset-0 h-full w-full object-contain transition-opacity duration-700 motion-reduce:transition-none',
