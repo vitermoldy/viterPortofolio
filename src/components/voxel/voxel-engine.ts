@@ -382,3 +382,4 @@ export class VoxelEngine {
     if (Math.abs(this.pushGoal - this.push) > 1e-3 || (this.pushDecay && this.pushGoal > 0)) moving = true
     else this.push = this.pushGoal
 
+    this.render()
