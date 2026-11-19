@@ -1171,3 +1171,4 @@ export default function ContributionSkyline({
     if (tip && active >= 0) engine.current?.tipWidth(tip.offsetWidth)
   }, [active, model])
 
+  const { stats } = model
