@@ -196,3 +196,4 @@
       color 160ms ease-out;
   }
   .seg > button + button {
+    border-left: 2px solid var(--color-moss);
