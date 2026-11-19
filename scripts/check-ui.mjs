@@ -95,3 +95,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   })
   await check('hero: arrow keys turn it and Home faces it again', async () => {
     const c = page.locator('#top canvas')
+    await c.focus()
