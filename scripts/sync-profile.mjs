@@ -45,3 +45,4 @@ const PIXEL = [
   'card-cloudstead.svg',
 ]
 
+async function get(url, { json = false, tries = 3 } = {}) {
