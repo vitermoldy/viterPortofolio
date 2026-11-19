@@ -462,3 +462,4 @@ export default function ContributionSkyline({
   palette = "github",
   title,
   unit = "contribution",
+  unitPlural,
