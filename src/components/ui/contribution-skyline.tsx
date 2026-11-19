@@ -585,3 +585,5 @@ export default function ContributionSkyline({
     let activeIdx = -1
     let tipW = 0
     let raf = 0
+    let last = 0
+
