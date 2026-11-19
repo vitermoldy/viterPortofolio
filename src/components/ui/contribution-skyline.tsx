@@ -919,3 +919,4 @@ export default function ContributionSkyline({
     }
 
     // The active day is the hovered one, else the pinned one (tap, click or keyboard).
+    const refreshActive = () => {
