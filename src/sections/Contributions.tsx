@@ -112,3 +112,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 Read from github.com/{c.login} on {day(c.fetchedAt)}, and again every day.
               </p>
             </>
+          )}
