@@ -1253,3 +1253,4 @@ export default function ContributionSkyline({
           <div
             ref={stageRef}
             className="relative w-full overflow-hidden outline-offset-4 has-[:focus-visible]:outline-2"
+            style={{ height: 150, outlineColor: "var(--color-foreground, #171717)" }}
