@@ -41,3 +41,4 @@ const c: Contributions = {
 
 describe('contribution totals', () => {
   it('counts the last 365 days like the profile graph', () => {
+    // 2025-11-20 is exactly 364 days before 2026-11-19; 2025-11-19 falls outside.
