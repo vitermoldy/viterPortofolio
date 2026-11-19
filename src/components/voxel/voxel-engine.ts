@@ -139,3 +139,4 @@ export class VoxelEngine {
     this.morphSeconds = opts.morphSeconds ?? 1.3
     this.base = opts.view ?? DEFAULT_VIEW
     this.yaw = this.yawGoal = this.base.yaw
+    this.pitch = this.pitchGoal = this.base.pitch
