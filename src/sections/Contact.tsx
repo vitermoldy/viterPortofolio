@@ -55,3 +55,4 @@ export function Contact() {
   )
 }
 
+export function Footer({ state }: { state: LoadState }) {
