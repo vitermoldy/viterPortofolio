@@ -130,3 +130,5 @@ export class VoxelEngine {
   private pushGoal = 0
   private pushDecay = false
   private drag: { id: number; x: number; y: number; yaw: number; pitch: number; moved: boolean; mouse: boolean } | null = null
+  private canvas: HTMLCanvasElement
+
