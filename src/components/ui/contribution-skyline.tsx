@@ -304,3 +304,4 @@ export interface ContributionSkylineProps {
   showToggle?: boolean
   /** Replaces the hint under the chart. `null` renders none. */
   footer?: React.ReactNode
+  locale?: string
