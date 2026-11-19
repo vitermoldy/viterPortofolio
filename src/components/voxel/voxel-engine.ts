@@ -132,3 +132,4 @@ export class VoxelEngine {
   private drag: { id: number; x: number; y: number; yaw: number; pitch: number; moved: boolean; mouse: boolean } | null = null
   private canvas: HTMLCanvasElement
 
+  constructor(canvas: HTMLCanvasElement, opts: EngineOptions) {
