@@ -14,3 +14,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 
 | Decision | Reason |
 | --- | --- |
+| Hutan palette: ink `#121a14`, greens `#0f3d2e` `#1f6e44` `#52c879`, yellows `#f0b429` `#fff36b`, paper `#eef0e6`, muted `#aab6a5` | The profile's palette, so the 3D page and the README read as one piece |
