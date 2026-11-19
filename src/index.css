@@ -144,3 +144,4 @@
       color 160ms ease-out;
   }
   .btn-main {
+    background: var(--color-amber);
