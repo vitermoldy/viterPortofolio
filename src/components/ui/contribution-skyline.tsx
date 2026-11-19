@@ -625,3 +625,4 @@ export default function ContributionSkyline({
       const cs = getComputedStyle(root)
       fg = toRGB(cs.color, FG_FALLBACK) ?? FG_FALLBACK
       const b = toRGB(cs.backgroundColor, null)
+      bg = b ?? (luminance(fg) > 0.5 ? [10, 10, 10] : BG_FALLBACK)
