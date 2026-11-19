@@ -1005,3 +1005,4 @@ export default function ContributionSkyline({
       drag = null
     }
 
+    const onLeave = () => {
