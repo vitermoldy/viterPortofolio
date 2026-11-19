@@ -16,3 +16,4 @@ export function Header() {
     if (!open) return
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
+        setOpen(false)
