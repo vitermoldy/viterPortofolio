@@ -124,3 +124,4 @@
 
   /* Buttons stand on a hard pixel shadow, step up on hover and press into it on click. */
   .btn {
+    display: inline-flex;
