@@ -94,3 +94,5 @@ async function profile() {
         pushedAt: r.pushed_at,
       })),
   }
+}
+
