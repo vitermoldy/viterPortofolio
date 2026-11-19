@@ -23,3 +23,4 @@ export function App() {
       </main>
       <Footer state={state} />
     </>
+  )
