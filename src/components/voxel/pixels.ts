@@ -25,3 +25,4 @@ export type VoxelOptions = {
 
 export const luma = (r: number, g: number, b: number) => (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255
 
+const smooth = (a: number, b: number, x: number) => {
