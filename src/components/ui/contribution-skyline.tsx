@@ -275,3 +275,4 @@ export interface ContributionSkylineProps {
   /** Last day shown. Defaults to the latest date in `data`, or today. */
   endDate?: string | Date
   /** Controlled view. */
+  view?: View
