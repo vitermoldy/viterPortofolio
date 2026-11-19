@@ -1101,3 +1101,4 @@ export default function ContributionSkyline({
     mo.observe(document.documentElement, { attributes: true, attributeFilter: ["class", "style", "data-theme"] })
     const onReduce = () => {
       reduced = reduceMq.matches
+      kick()
