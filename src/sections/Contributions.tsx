@@ -55,3 +55,4 @@ export function Contributions({ state }: { state: LoadState }) {
             <div className="md:col-span-5 md:justify-self-end">
               <div className="seg" role="group" aria-label="Years shown">
                 <button type="button" aria-pressed={range === 'last'} onClick={() => setRange('last')}>
+                  Last 12 months
