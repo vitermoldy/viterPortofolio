@@ -299,3 +299,4 @@ export interface ContributionSkylineProps {
   weekStart?: 0 | 1
   /** Drag to orbit in 3D. */
   orbit?: boolean
+  showStats?: boolean
