@@ -292,3 +292,5 @@ export class VoxelEngine {
     this.assembling = !this.reduced
     this.render()
     this.kick()
+  }
+
