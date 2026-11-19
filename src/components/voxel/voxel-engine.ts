@@ -323,3 +323,4 @@ export class VoxelEngine {
       this.camera.position.set(this.target.x + dx * d, this.target.y + dy * d, this.target.z + dz * d)
       this.camera.lookAt(this.target)
       this.camera.updateMatrixWorld()
+      for (const c of this.corners) {
