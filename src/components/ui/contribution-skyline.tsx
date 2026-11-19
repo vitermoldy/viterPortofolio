@@ -129,3 +129,4 @@ export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0)
   }
   let start = endMs - 364 * DAY_MS
   start -= ((new Date(start).getUTCDay() - weekStart + 7) % 7) * DAY_MS
+  const cells: Cell[] = []
