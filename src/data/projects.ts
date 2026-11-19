@@ -64,3 +64,4 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    id: 'agentic-factory',
