@@ -306,3 +306,4 @@ export class VoxelEngine {
 
   /**
    * Puts the camera on its orbit at the nearest distance where the whole relief, depth included, still
+   * fits the frame. Turned pictures pull the camera back instead of losing an edge.
