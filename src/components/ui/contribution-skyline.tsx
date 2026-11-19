@@ -1234,3 +1234,4 @@ export default function ContributionSkyline({
                 aria-pressed={view === v}
                 aria-label={v === "2d" ? "Flat heat map" : "3D skyline"}
                 title={v === "2d" ? "Flat heat map" : "3D skyline"}
+                onClick={() => setView(v)}
