@@ -26,3 +26,4 @@ const UA = 'viterPortofolio-sync'
 
 const PIXEL = [
   'avatar.png',
+  'avatar-sunset.png',
