@@ -30,3 +30,4 @@ export function Contributions({ state }: { state: LoadState }) {
   }, [c, range])
 
   return (
+    <section id="contributions" aria-labelledby="contributions-title" className="border-t-2 border-forest py-20 md:py-28">
