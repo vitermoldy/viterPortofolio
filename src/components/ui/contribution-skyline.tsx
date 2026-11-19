@@ -720,3 +720,4 @@ export default function ContributionSkyline({
       const s = Math.min(aw / bw, ah / bh)
       const ox = left + (aw - bw * s) / 2 - b.minx * s
       const oy = top + (ah - bh * s) / 2 - b.miny * s
+      const { cs, sn, se, ce } = cam
