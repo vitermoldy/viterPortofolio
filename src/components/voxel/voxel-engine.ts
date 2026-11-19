@@ -470,3 +470,4 @@ export class VoxelEngine {
   }
 }
 
+const clamp = (v: number, [a, b]: [number, number]) => Math.min(b, Math.max(a, v))
