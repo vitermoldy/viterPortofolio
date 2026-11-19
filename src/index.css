@@ -173,3 +173,4 @@
     .btn:hover,
     .btn:active {
       transition: none;
+      transform: none;
