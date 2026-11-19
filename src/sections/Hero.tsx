@@ -86,3 +86,4 @@ function Fact({ label, value, state, small }: { label: string; value: string | n
     <div className="min-w-0">
       <dt className="text-xs leading-snug text-muted sm:text-sm">{label}</dt>
       <dd className={'m-0 mt-1 font-pixel leading-none text-sun ' + (small ? 'text-lg sm:text-xl' : 'text-2xl sm:text-3xl')}>
+        {value ?? <span className="text-base text-muted">{state === 'loading' ? 'Loading' : 'Not loaded'}</span>}
