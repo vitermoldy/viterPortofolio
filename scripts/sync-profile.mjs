@@ -132,3 +132,4 @@ writeFileSync(join(root, 'public', 'data', 'profile.json'), JSON.stringify({ fet
 writeFileSync(join(root, 'public', 'data', 'contributions.json'), JSON.stringify({ fetchedAt, login: p.login, today: c.today, days: c.days }) + '\n')
 const total = c.days.reduce((s, d) => s + d[1], 0)
 console.log(`${p.login}: ${p.repos.length} public repositories, ${c.days.length} days, ${total.toLocaleString('en-US')} contributions since ${p.createdAt.slice(0, 10)}`)
+if (!SKIP_PIXEL) console.log(`pixel art: ${PIXEL.length} files ${await pixel()}`)
