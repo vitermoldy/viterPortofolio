@@ -33,3 +33,4 @@ describe('voxelize', () => {
     expect(depth(2)).toBeGreaterThan(depth(0))
   })
   it('keeps transparent pixels as hidden slots so two pictures can morph', () => {
+    expect(v.dga[3 * 3 + 2]).toBe(0)
