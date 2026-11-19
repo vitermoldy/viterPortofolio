@@ -182,3 +182,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
 
 /** A label on each week whose first day starts a new month; a cramped first label is dropped. */
 export const monthLabels = (cells: Cell[], weeks: number, locale = "en-US") => {
+  const fmt = new Intl.DateTimeFormat(locale, { month: "short", timeZone: "UTC" })
