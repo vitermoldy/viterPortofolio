@@ -373,3 +373,4 @@ const GridIcon = () => (
     <rect x="9" y="1.5" width="5.5" height="5.5" rx="1" fill="currentColor" />
     <rect x="1.5" y="9" width="5.5" height="5.5" rx="1" fill="currentColor" />
     <rect x="9" y="9" width="5.5" height="5.5" rx="1" fill="currentColor" />
+  </svg>
