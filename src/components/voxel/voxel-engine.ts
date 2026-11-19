@@ -237,3 +237,4 @@ export class VoxelEngine {
     cancelAnimationFrame(this.raf)
     this.raf = 0
     const c = this.canvas
+    c.removeEventListener('pointerdown', this.onDown)
