@@ -92,3 +92,4 @@ export type EngineOptions = {
   assembleSeconds?: number
   /** Seconds a same-size switch takes. */
   morphSeconds?: number
+  view?: View
