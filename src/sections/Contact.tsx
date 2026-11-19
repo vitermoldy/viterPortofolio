@@ -34,3 +34,5 @@ export function Contact() {
             className="mail-big mt-8 inline-flex min-h-11 items-center font-pixel text-[clamp(1.6rem,6.2vw,4.5rem)] leading-none break-all text-sun no-underline"
           >
             {EMAIL}
+          </a>
+
