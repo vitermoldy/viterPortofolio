@@ -575,3 +575,4 @@ export default function ContributionSkyline({
     let hover = new Float32Array(0)
     let dim = new Float32Array(0)
     let polys = new Float32Array(0)
+    let faces = new Uint8Array(0)
