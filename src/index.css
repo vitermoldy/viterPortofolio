@@ -152,3 +152,4 @@
   .btn-main:hover {
     transform: translate(-1px, -1px);
     box-shadow: 5px 5px 0 var(--color-moss);
+    background: var(--color-sun);
