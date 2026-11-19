@@ -15,3 +15,4 @@ export default defineConfig(({ command }) => ({
   preview: { port: 5189, strictPort: true },
   plugins: [react(), tailwindcss()],
   resolve: {
+    alias: { '@': root + 'src' },
