@@ -587,3 +587,4 @@ export default function ContributionSkyline({
     let raf = 0
     let last = 0
 
+    const load = () => {
