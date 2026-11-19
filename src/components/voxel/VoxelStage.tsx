@@ -173,3 +173,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
           This browser has no WebGL, so the picture stays flat.
         </p>
       )}
+    </div>
