@@ -1177,3 +1177,4 @@ export default function ContributionSkyline({
     const f = withYear ? dfy : df
     return a === b ? f.format(dayMs(a)) : f.format(dayMs(a)) + " to " + f.format(dayMs(b))
   }
+  const is3d = view === "3d"
