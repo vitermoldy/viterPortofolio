@@ -13,3 +13,4 @@ const LINKS = [
 const EMAIL = 'vitermoldy@gmail.com'
 
 const FOOTER_ART = {
+  src: asset('pixel/footer.svg'),
