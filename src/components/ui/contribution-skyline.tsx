@@ -1275,3 +1275,4 @@ export default function ContributionSkyline({
                   style={{
                     opacity: is3d ? 1 : 0,
                     transform: is3d ? "translateY(0)" : "translateY(-10px)",
+                    transitionDuration: is3d ? "600ms" : "300ms",
