@@ -32,3 +32,4 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b-2 border-moss bg-ink/95">
       <div className="wrap flex h-16 items-center justify-between gap-4">
         <a href="#top" className="flex min-h-11 items-center gap-3 text-paper no-underline" onClick={() => setOpen(false)}>
+          <img src={asset('pixel/avatar.png')} width={32} height={32} alt="" className="pixelated h-8 w-8" />
