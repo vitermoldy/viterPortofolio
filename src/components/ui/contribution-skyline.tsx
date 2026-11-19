@@ -31,3 +31,4 @@ export type ContributionStats = {
   total: number
   first: string | null
   last: string | null
+  busiest: { count: number; date: string | null }
