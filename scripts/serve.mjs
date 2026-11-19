@@ -1,3 +1,4 @@
 // Serves the built site (dist/) at /viterPortofolio/, the same path GitHub Pages uses.
 //   npm run build && npm run preview      then open http://localhost:5189/viterPortofolio/
 // Used instead of `vite preview`, which on Vite 8 answers 404 to the browser's module script request
+// (any request carrying "Sec-Fetch-Dest: script"), so the built page stays blank there.
