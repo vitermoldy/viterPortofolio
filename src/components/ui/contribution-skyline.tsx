@@ -202,3 +202,4 @@ export type HeightCurve = "power" | "log"
  * Box height in grid units. Empty days are thin slabs; the busiest day is ~7.6 cells tall.
  * "log" keeps a quiet day visible beside a day thousands of times busier.
  */
+export const barHeight = (count: number, max: number, scale = 1, curve: HeightCurve = "power"): number => {
