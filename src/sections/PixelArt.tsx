@@ -25,3 +25,4 @@ const SCENES: Scene[] = [
     text: 'The profile banner: the glass cabin lit from inside, chimney smoke, an aurora and stars, a doe by the pond and fireflies.',
     alt: 'Pixel art: a StudyCabin at night with lit windows, chimney smoke, an aurora, stars, a doe by the pond and fireflies.',
   },
+  {
