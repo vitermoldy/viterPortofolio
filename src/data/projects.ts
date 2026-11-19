@@ -5,3 +5,4 @@ import { asset } from '@/lib/utils'
 // README's note that it is private for now, so nothing leads to a page a visitor cannot open.
 
 export type Project = {
+  id: string
