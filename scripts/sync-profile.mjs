@@ -115,3 +115,4 @@ function pixel() {
   mkdirSync(out, { recursive: true })
   const local = join(root, '..', 'vitermoldy', 'assets', 'pixel')
   return Promise.all(
+    PIXEL.map(async (file) => {
