@@ -274,3 +274,5 @@ for (const width of [390, 320]) {
     })
   }
   await context.close()
+}
+
