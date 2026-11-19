@@ -15,3 +15,4 @@ const attr = (tag, name) => {
 export function parseCalendar(html) {
   const tips = new Map()
   for (const [, id, text] of html.matchAll(TIP)) {
+    const m = /([\d,]+)\s+contribution/.exec(text)
