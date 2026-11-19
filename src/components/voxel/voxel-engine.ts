@@ -452,3 +452,4 @@ export class VoxelEngine {
     this.canvas.style.cursor = ''
   }
 
+  private onLeave = () => {
