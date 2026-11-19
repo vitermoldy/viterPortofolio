@@ -505,3 +505,4 @@ export default function ContributionSkyline({
 
   const rootRef = React.useRef<HTMLElement>(null)
   const stageRef = React.useRef<HTMLDivElement>(null)
+  const canvasRef = React.useRef<HTMLCanvasElement>(null)
