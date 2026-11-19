@@ -3,3 +3,4 @@ import { visibleCount, voxelize, type PixelGrid } from '../src/components/voxel/
 import { barHeight, buildGrid, computeStats } from '../src/components/ui/contribution-skyline'
 
 const grid = (w: number, h: number, px: [number, number, number, number][]): PixelGrid => ({
+  w,
