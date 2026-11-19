@@ -7,3 +7,4 @@ import type { Voxels } from './pixels'
 // exact colour, so seen head-on the relief is the original pixel art.
 
 const VERT = /* glsl */ `
+attribute vec2 aXY;
