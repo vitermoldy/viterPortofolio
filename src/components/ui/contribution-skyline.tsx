@@ -1103,3 +1103,4 @@ export default function ContributionSkyline({
       reduced = reduceMq.matches
       kick()
     }
+    reduceMq.addEventListener("change", onReduce)
