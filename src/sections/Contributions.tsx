@@ -14,3 +14,4 @@ export function Contributions({ state }: { state: LoadState }) {
 
   const view = React.useMemo(() => {
     if (!c) return null
+    const thisYear = Number(c.today.slice(0, 4))
