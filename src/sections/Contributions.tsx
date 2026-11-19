@@ -25,3 +25,4 @@ export function Contributions({ state }: { state: LoadState }) {
     for (const [d, n] of c.days) {
       if (n > 0 && n < quietest) quietest = n
       if (n > 0 && (!busiest || n > busiest[1])) busiest = [d, n]
+    }
