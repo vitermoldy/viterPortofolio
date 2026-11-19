@@ -516,3 +516,4 @@ export default function ContributionSkyline({
   const dfl = React.useMemo(() => new Intl.DateTimeFormat(locale, { weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }), [locale])
   const noun = (n: number) => (n === 1 ? unit : plural)
   const describe = (i: number) => {
+    const c = model.cells[i]
