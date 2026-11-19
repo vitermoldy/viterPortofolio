@@ -8,3 +8,4 @@ import tailwindcss from '@tailwindcss/vite'
 const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d) => d.toUpperCase())
 
 // GitHub Pages serves this repository at https://vitermoldy.github.io/viterPortofolio/.
+export default defineConfig(({ command }) => ({
