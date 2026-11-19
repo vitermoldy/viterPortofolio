@@ -68,3 +68,4 @@ export const PROJECTS: Project[] = [
     name: 'Agentic Factory',
     stack: 'three.js and React',
     card: card('agentic-factory'),
+    text: 'An idle game on a 3D machine: five production lines run by agents, from a video studio to an e-book publisher. Every product you add builds its own plate beside the others, and the slowest station sets the pace.',
