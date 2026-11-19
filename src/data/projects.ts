@@ -13,3 +13,5 @@ export type Project = {
   repos: { label: string; name: string }[]
 }
 
+export const PRIVATE_NOTE = 'Still in development, so the repository is private for now.'
+
