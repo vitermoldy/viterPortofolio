@@ -85,3 +85,4 @@ export async function loadPixels(url: string, w: number, h: number): Promise<Pix
   ctx.imageSmoothingEnabled = false
   ctx.drawImage(img, 0, 0, w, h)
   return { w, h, data: ctx.getImageData(0, 0, w, h).data }
+}
