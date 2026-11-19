@@ -573,3 +573,4 @@ export default function ContributionSkyline({
     let hgt = new Float32Array(0)
     let zs = new Float32Array(0)
     let hover = new Float32Array(0)
+    let dim = new Float32Array(0)
