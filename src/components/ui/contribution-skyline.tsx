@@ -792,3 +792,4 @@ export default function ContributionSkyline({
           ctx.fill()
         }
         if (f & 2) {
+          ctx.beginPath()
