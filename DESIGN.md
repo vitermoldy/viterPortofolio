@@ -22,3 +22,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 | Hard 4 px shadow under the main button, pressed into on click | Pixel-art depth for the one thing to press first, the profile link |
 | A small three-step voxel before every h2 | The page's motif: one block, the unit everything here is made of |
 | Hot yellow only for headings and big numbers, amber only on the main button | One accent with a clear job; green carries everything else |
+| Soft light pool behind each 3D stage | The dark sides of the blocks need a slightly lighter ground to read as depth |
