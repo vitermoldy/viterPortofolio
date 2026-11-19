@@ -5,3 +5,4 @@ const monthYear = new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numer
 
 const toMs = (iso: string) => Date.parse(iso.length === 10 ? iso + 'T00:00:00Z' : iso)
 
+export const num = (n: number) => nf.format(n)
