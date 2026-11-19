@@ -79,3 +79,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
           },
           { threshold: 0.25 },
         )
+        io.observe(box)
