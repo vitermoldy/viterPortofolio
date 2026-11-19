@@ -42,3 +42,4 @@ async function open(viewport) {
   const context = await browser.newContext({ viewport })
   const page = await context.newPage()
   page.on('console', (m) => m.type() === 'error' && errors.push(`${viewport.width}: ${m.text()}`))
+  page.on('pageerror', (e) => errors.push(`${viewport.width}: ${e}`))
