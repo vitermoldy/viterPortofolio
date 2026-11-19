@@ -415,3 +415,4 @@ export class VoxelEngine {
     if (d && ev.pointerId === d.id) {
       const dx = ev.clientX - d.x
       const dy = ev.clientY - d.y
+      if (d.moved || Math.hypot(dx, dy) > 4) {
