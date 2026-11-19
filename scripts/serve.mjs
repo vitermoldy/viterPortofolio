@@ -46,3 +46,5 @@ export function serve(port = 5189) {
     createReadStream(file).pipe(res)
   })
   return new Promise((resolve) => server.listen(port, 'localhost', () => resolve(server)))
+}
+
