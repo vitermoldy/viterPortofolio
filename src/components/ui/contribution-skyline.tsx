@@ -1260,3 +1260,4 @@ export default function ContributionSkyline({
               tabIndex={0}
               role="img"
               aria-label={
+                nf.format(stats.total) + " " + noun(stats.total) + " between " + range(stats.first, stats.last, true) +
