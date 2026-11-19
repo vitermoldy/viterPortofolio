@@ -15,3 +15,4 @@ export function Projects({ state }: { state: LoadState }) {
   )
 
   return (
+    <section id="projects" aria-labelledby="projects-title" className="border-t-2 border-forest py-20 md:py-28">
