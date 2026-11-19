@@ -71,3 +71,4 @@ export function Header() {
               <li key={n.href}>
                 <a href={n.href} className="flex min-h-14 items-center border-b-2 border-forest font-pixel text-3xl text-paper no-underline hover:text-sun" onClick={() => setOpen(false)}>
                   {n.label}
+                </a>
