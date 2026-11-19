@@ -26,3 +26,4 @@ export function parseCalendar(html) {
     days.set(date, [tips.get(attr(tag, 'id') ?? '') ?? 0, level])
   }
   return days
+}
