@@ -67,3 +67,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     return facts.join(' | ')
   })
   await check('hero: avatar blocks fly in', async () => {
+    await stageReady(page, '#top')
