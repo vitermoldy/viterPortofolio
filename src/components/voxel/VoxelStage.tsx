@@ -148,3 +148,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
       <canvas
         ref={canvasRef}
         tabIndex={showCanvas ? 0 : -1}
+        role="img"
