@@ -1122,3 +1122,4 @@ export default function ContributionSkyline({
       },
       load: () => {
         load()
+        retheme()
