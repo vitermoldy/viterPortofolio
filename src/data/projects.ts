@@ -90,3 +90,4 @@ export const PROJECTS: Project[] = [
     text: 'A glowing CRT TV in a 3D forest clearing that plays your YouTube queue, under the time of day and season you pick.',
     repos: [
       { label: 'v1 repository', name: 'SongPlay-v1' },
+      { label: 'v2 repository', name: 'SongPlay-v2' },
