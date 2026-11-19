@@ -1076,3 +1076,4 @@ export default function ContributionSkyline({
       if (entered) return
       entered = true
       if (reduced) t = cfg.current.target
+      setTarget()
