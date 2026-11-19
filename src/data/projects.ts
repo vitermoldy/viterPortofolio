@@ -101,3 +101,4 @@ export const PROJECTS: Project[] = [
     text: 'A portfolio template where the cursor leaves a trail of pixels that cool from lime to navy.',
     repos: [
       { label: 'v1 repository', name: 'PixelFolio' },
+      { label: 'v2 repository', name: 'PixelFoliov2' },
