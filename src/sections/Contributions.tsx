@@ -93,3 +93,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 <ContributionSkyline
                   key={String(range)}
                   data={view.data}
+                  endDate={view.endDate}
