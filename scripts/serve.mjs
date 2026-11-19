@@ -54,3 +54,4 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
     process.exit(1)
   }
   const port = Number(process.env.PORT ?? 5189)
+  await serve(port)
