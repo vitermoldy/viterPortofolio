@@ -981,3 +981,5 @@ export default function ContributionSkyline({
         refreshActive()
       }
       canvas.style.cursor = cfg.current.orbit && target === 1 ? "grab" : i >= 0 ? "pointer" : "default"
+    }
+
