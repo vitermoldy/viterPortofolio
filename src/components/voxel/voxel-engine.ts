@@ -260,3 +260,4 @@ export class VoxelEngine {
     g.setAttribute('position', this.box.getAttribute('position'))
     g.setAttribute('normal', this.box.getAttribute('normal'))
     const rand = new Float32Array(v.count * 4)
+    for (let k = 0; k < rand.length; k++) rand[k] = Math.random()
