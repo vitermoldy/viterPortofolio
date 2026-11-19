@@ -1216,3 +1216,4 @@ export default function ContributionSkyline({
             role="group"
             aria-label="Chart view"
             className="relative inline-flex border p-0.5"
+            style={{ borderColor: "var(--color-border, #e5e5e5)" }}
