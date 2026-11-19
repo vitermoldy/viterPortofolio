@@ -1406,3 +1406,4 @@ export default function ContributionSkyline({
 
       <p aria-live="polite" className="sr-only">
         {announce}
+      </p>
