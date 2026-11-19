@@ -183,3 +183,4 @@ export class VoxelEngine {
       const prev = this.current!
       ;(g.getAttribute('aColA') as THREE.InstancedBufferAttribute).copyArray(prev.col).needsUpdate = true
       ;(g.getAttribute('aDgaA') as THREE.InstancedBufferAttribute).copyArray(prev.dga).needsUpdate = true
+      ;(g.getAttribute('aColB') as THREE.InstancedBufferAttribute).copyArray(v.col).needsUpdate = true
