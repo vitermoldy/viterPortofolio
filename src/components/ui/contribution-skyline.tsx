@@ -63,3 +63,4 @@ export const dayMs = (v: string | number | Date): number => {
   if (typeof v === "number") return Math.floor(v / DAY_MS) * DAY_MS
   if (typeof v === "string") {
     const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(v)
+    if (m) return Date.UTC(+m[1], +m[2] - 1, +m[3])
