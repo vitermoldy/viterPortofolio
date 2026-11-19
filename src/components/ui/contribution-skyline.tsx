@@ -1104,3 +1104,5 @@ export default function ContributionSkyline({
       kick()
     }
     reduceMq.addEventListener("change", onReduce)
+    darkMq.addEventListener("change", retheme)
+
