@@ -47,3 +47,4 @@ describe('contribution totals', () => {
   it('sums every day', () => {
     expect(allTimeTotal(c)).toBe(23)
   })
+  it('lists the years newest first', () => {
