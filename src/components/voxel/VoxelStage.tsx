@@ -119,3 +119,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
       })
       .catch(() => {
         if (!stale) setStatus('error')
+      })
