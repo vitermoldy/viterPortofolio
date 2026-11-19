@@ -1058,3 +1058,4 @@ export default function ContributionSkyline({
       if (!entered) return
       if (goal !== target) {
         target = goal
+        if (goal === 0) {
