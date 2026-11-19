@@ -33,3 +33,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 - The hero text rises once on load; each stage's blocks fly in the first time it scrolls into view.
 - Switching a picture of the same size is a wave from a corner (cards) or the centre (portrait).
 - The skyline folds up from the flat heat map when it first shows.
+- Pointer: drag turns a stage, moving across it presses the pins, a tap presses and springs back.
