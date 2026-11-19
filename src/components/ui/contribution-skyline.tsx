@@ -163,3 +163,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
       run++
       if (run > longest.days) longest = { days: run, start: runStart, end: c.date }
     } else run = 0
+  }
