@@ -19,3 +19,4 @@ describe('parseCalendar', () => {
     expect([...days.entries()]).toEqual([
       ['2026-11-11', [5246, 4]],
       ['2026-11-12', [0, 0]],
+      ['2026-11-13', [1, 1]],
