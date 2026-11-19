@@ -196,3 +196,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   await check('contact: links and footer art', async () => {
     await page.locator('#contact').scrollIntoViewIfNeeded()
     await settle(page)
+    const hrefs = await page.locator('#contact a').evaluateAll((as) => as.map((a) => a.getAttribute('href')))
