@@ -103,3 +103,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
     if (!engineReady) return
     let stale = false
     loadPixels(picture.src, picture.w, picture.h)
+      .then((grid) => {
