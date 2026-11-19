@@ -11,3 +11,4 @@ attribute vec2 aXY;
 attribute vec3 aColA;
 attribute vec3 aColB;
 attribute vec3 aDgaA;
+attribute vec3 aDgaB;
