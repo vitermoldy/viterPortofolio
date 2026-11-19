@@ -31,3 +31,4 @@ const smooth = (a: number, b: number, x: number) => {
 }
 
 /**
+ * Every pixel becomes a block whose depth follows its brightness, like a pin-art toy pressed from
