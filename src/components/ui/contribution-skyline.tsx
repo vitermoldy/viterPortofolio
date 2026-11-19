@@ -814,3 +814,4 @@ export default function ContributionSkyline({
       }
 
       // Labels: along the top and left in 2D, along the front edge in 3D. They fade, never pop.
+      const muted = mixRGB(bg, fg, 0.55)
