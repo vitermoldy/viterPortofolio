@@ -116,3 +116,4 @@ export const PROJECTS: Project[] = [
     id: 'lanskara',
     name: 'Lanskara',
     stack: 'HTML, CSS and JavaScript',
+    card: card('lanskara'),
