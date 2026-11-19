@@ -34,3 +34,4 @@ const reducedQuery = '(prefers-reduced-motion: reduce)'
  */
 export function VoxelStage({ picture, options, wave = 'corner', view, className, onVoxels }: Props) {
   const boxRef = React.useRef<HTMLDivElement>(null)
+  const canvasRef = React.useRef<HTMLCanvasElement>(null)
