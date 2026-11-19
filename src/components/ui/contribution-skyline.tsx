@@ -1312,3 +1312,4 @@ export default function ContributionSkyline({
               color: "var(--color-background, #ffffff)",
             }}
           >
+            {active >= 0 && model.cells[active] ? (
