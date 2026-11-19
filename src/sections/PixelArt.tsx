@@ -53,3 +53,4 @@ export function PixelArt() {
           </p>
 
           <ul className="mt-8 mb-0 flex list-none flex-col gap-3 p-0" aria-label="Pictures">
+            {SCENES.map((s) => {
