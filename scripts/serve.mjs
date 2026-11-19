@@ -7,3 +7,4 @@ import { createReadStream, existsSync, statSync } from 'node:fs'
 import { dirname, extname, join, normalize } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 
+const root = join(dirname(fileURLToPath(import.meta.url)), '..', 'dist')
