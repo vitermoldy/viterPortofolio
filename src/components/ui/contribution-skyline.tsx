@@ -619,3 +619,5 @@ export default function ContributionSkyline({
       }
       if (hovered >= n) hovered = -1
       if (pinned >= n) pinned = -1
+    }
+
