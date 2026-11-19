@@ -27,3 +27,5 @@ export function Contributions({ state }: { state: LoadState }) {
       if (n > 0 && (!busiest || n > busiest[1])) busiest = [d, n]
     }
     return { pastYears, data, endDate, total, busiest, quietest: Number.isFinite(quietest) ? quietest : 0 }
+  }, [c, range])
+
