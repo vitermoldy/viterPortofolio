@@ -456,3 +456,5 @@ export class VoxelEngine {
     if (this.drag) return
     this.pushGoal = 0
     this.kick()
+  }
+
