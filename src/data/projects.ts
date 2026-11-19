@@ -112,3 +112,4 @@ export const PROJECTS: Project[] = [
     text: 'A salon search and booking site: search, salon pages with a Leaflet map and a three-step booking flow.',
     repos: [{ label: 'Repository', name: 'Viygo-Salon-Web' }],
   },
+  {
