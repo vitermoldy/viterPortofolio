@@ -495,3 +495,4 @@ export default function ContributionSkyline({
   }
 
   const [theme, setTheme] = React.useState<{ dark: boolean; swatches: string[]; accent: string }>(() => {
+    const p = resolvePalette(palette, false)
