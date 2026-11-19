@@ -277,3 +277,4 @@ export interface ContributionSkylineProps {
   /** Controlled view. */
   view?: View
   /** Uncontrolled starting view. The 3D view rises out of the flat one when it first scrolls into sight. */
+  defaultView?: View
