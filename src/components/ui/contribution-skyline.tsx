@@ -948,3 +948,4 @@ export default function ContributionSkyline({
     const onDown = (ev: PointerEvent) => {
       if (ev.button !== 0) return
       const can = cfg.current.orbit && target === 1
+      drag = { id: ev.pointerId, x: ev.clientX, y: ev.clientY, yaw: yawGoal, elev: elevGoal, moved: false, orbit: can, mouse: ev.pointerType === "mouse" }
