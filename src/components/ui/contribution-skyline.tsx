@@ -1154,3 +1154,4 @@ export default function ContributionSkyline({
   }, [locale])
 
   React.useEffect(() => {
+    engine.current?.kick()
