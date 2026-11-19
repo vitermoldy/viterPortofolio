@@ -61,3 +61,4 @@ describe('skyline with GitHub levels and a log scale', () => {
   it('counts the streak that reaches today', () => {
     const { cells } = buildGrid(
       [
+        { date: '2026-11-17', count: 3 },
