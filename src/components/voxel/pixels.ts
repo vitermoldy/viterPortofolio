@@ -13,3 +13,4 @@ export type Voxels = {
   count: number
   xy: Float32Array
   col: Float32Array
+  dga: Float32Array
