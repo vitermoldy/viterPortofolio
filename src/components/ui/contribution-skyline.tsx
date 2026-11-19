@@ -218,3 +218,4 @@ export const riseAt = (t: number, week: number, weeks: number, day: number): num
 }
 
 export const YAW_3D = Math.PI / 4
+export const ELEV_3D = (34 * Math.PI) / 180
