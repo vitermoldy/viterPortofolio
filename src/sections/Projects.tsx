@@ -38,3 +38,4 @@ export function Projects({ state }: { state: LoadState }) {
             {state.status === 'loading' && <p className="m-0 text-sm text-muted">Checking the repository on GitHub</p>}
             {state.status === 'error' && (
               <p className="m-0 text-sm text-muted">GitHub&rsquo;s list of repositories did not load.</p>
+            )}
