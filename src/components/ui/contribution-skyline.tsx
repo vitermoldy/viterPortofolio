@@ -721,3 +721,4 @@ export default function ContributionSkyline({
       const ox = left + (aw - bw * s) / 2 - b.minx * s
       const oy = top + (ah - bh * s) / 2 - b.miny * s
       const { cs, sn, se, ce } = cam
+      const px = (x: number, y: number) => ox + (x * cs - y * sn) * s
