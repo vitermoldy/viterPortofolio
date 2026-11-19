@@ -309,3 +309,5 @@ export interface ContributionSkylineProps {
   seed?: number
   onCellClick?: (day: ContributionDay) => void
   className?: string
+}
+
