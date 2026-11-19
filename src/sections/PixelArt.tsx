@@ -72,3 +72,4 @@ export function PixelArt() {
                         {s.w} by {s.h}, {num(s.w * s.h)} blocks
                       </span>
                     </span>
+                    <span className="mt-2 block text-sm leading-relaxed text-muted">{s.text}</span>
