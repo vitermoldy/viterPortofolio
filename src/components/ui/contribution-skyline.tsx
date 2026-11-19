@@ -694,3 +694,4 @@ export default function ContributionSkyline({
       canvas.height = Math.round(Hmax * dpr)
       canvas.style.width = W + "px"
       canvas.style.height = Hmax + "px"
+      lastH = -1
