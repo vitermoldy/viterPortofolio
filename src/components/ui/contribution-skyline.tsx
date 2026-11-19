@@ -86,3 +86,4 @@ export const rng = (seed: number) => {
  * drifts week to week, and the odd enormous day.
  */
 export const generateContributions = (endMs: number, seed = 7, days = 371): ContributionDay[] => {
+  const r = rng(seed)
