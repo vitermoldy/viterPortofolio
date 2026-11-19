@@ -593,3 +593,4 @@ export default function ContributionSkyline({
       weeks = m.weeks
       if (wk.length !== n) {
         wk = new Float32Array(n)
+        dy = new Float32Array(n)
