@@ -25,3 +25,4 @@ export const PROJECTS: Project[] = [
     name: 'eVit',
     stack: 'React, WebGL and PyTorch',
     card: card('evit'),
+    text: 'A layer-based photo editor in the browser: masks, blend modes, curves and levels, five kinds of selection, healing, clone stamp, text and export to PSD. Its AI picks objects, removes backgrounds and objects, and fills or extends a photo with SDXL, all on the laptop’s own GPU, so no photo leaves the machine.',
