@@ -264,3 +264,4 @@ for (const width of [390, 320]) {
       const small = await page.evaluate(() =>
         [...document.querySelectorAll('a[href], button')]
           .filter((el) => {
+            const r = el.getBoundingClientRect()
