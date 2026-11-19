@@ -1327,3 +1327,4 @@ export default function ContributionSkyline({
               className="absolute top-full h-0 w-0"
               style={{
                 left: "var(--arrow, 50%)",
+                marginLeft: -5,
