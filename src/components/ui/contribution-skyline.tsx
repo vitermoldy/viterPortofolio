@@ -29,3 +29,4 @@ export type Cell = { date: string; count: number; level: number; week: number; d
 export type Streak = { days: number; start: string | null; end: string | null }
 export type ContributionStats = {
   total: number
+  first: string | null
