@@ -14,3 +14,4 @@ export function App() {
         Skip to the profile
       </a>
       <Header />
+      <main id="main" tabIndex={-1} className="outline-none">
