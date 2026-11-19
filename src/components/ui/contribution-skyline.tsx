@@ -39,3 +39,4 @@ export type RGB = [number, number, number]
 
 export const DAY_MS = 86400000
 
+export const clamp01 = (v: number): number => (v > 0 ? (v < 1 ? v : 1) : 0)
