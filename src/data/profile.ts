@@ -64,3 +64,4 @@ export function useProfileData(): LoadState {
       .catch((err: unknown) => {
         if (stale) return
         setState({
+          status: 'error',
