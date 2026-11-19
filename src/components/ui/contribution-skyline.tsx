@@ -267,3 +267,5 @@ export const resolvePalette = (p: PaletteInput | undefined, dark: boolean): stri
 }
 // #endregion
 
+type View = "2d" | "3d"
+
