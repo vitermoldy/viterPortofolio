@@ -95,3 +95,4 @@ export type EngineOptions = {
   view?: View
 }
 
+export class VoxelEngine {
