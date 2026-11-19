@@ -828,3 +828,4 @@ export default function ContributionSkyline({
           const tw = ctx.measureText(m.label).width
           if (x < edge || x + tw > W) continue
           ctx.fillText(m.label, x, py(m.week + off, -0.3, 0) - 3)
+          edge = x + tw + 6
