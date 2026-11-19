@@ -1024,3 +1024,4 @@ export default function ContributionSkyline({
       if (ev.key === "Escape") {
         pinned = -1
         hovered = -1
+        refreshActive()
