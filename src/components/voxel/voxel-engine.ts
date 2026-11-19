@@ -384,3 +384,5 @@ export class VoxelEngine {
 
     this.render()
     if (moving && this.visible) this.raf = requestAnimationFrame(this.tick)
+  }
+
