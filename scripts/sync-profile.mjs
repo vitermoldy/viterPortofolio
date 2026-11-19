@@ -33,3 +33,4 @@ const PIXEL = [
   'footer.svg',
   'card-evit.svg',
   'card-convertion.svg',
+  'card-mixer.svg',
