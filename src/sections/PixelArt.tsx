@@ -26,3 +26,4 @@ const SCENES: Scene[] = [
     alt: 'Pixel art: a StudyCabin at night with lit windows, chimney smoke, an aurora, stars, a doe by the pond and fireflies.',
   },
   {
+    id: 'field',
