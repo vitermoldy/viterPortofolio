@@ -51,3 +51,4 @@ export function Hero({ state }: { state: LoadState }) {
           )}
 
           <div className="mt-8 flex flex-wrap gap-4">
+            <a className="btn btn-main" href={profile?.url ?? 'https://github.com/vitermoldy'} rel="noopener">
