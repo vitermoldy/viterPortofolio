@@ -240,3 +240,4 @@ for (const width of [390, 320]) {
     )
     expect(wide.length === 0, wide.join(', '))
   })
+  if (width === 390) {
