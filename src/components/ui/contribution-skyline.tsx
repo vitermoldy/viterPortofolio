@@ -866,3 +866,4 @@ export default function ContributionSkyline({
       last = now
       let moving = false
 
+      if (t !== target) {
