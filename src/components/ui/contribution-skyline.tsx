@@ -847,3 +847,4 @@ export default function ContributionSkyline({
         }
       }
 
+      // Tooltip rides the active cell through morphs and orbits.
