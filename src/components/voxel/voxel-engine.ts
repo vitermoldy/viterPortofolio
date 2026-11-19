@@ -286,3 +286,4 @@ export class VoxelEngine {
     u.uPush.value = span * 0.06
     u.uBump.value = span * 0.035
     this.current = v
+    this.measure(v)
