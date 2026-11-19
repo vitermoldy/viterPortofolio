@@ -1274,3 +1274,4 @@ export default function ContributionSkyline({
                   className="pointer-events-none absolute top-1 right-1 flex flex-col items-end gap-5 transition-[opacity,transform] motion-reduce:transition-none"
                   style={{
                     opacity: is3d ? 1 : 0,
+                    transform: is3d ? "translateY(0)" : "translateY(-10px)",
