@@ -408,3 +408,4 @@ function Stat({
         <div className="text-[13px] leading-tight" style={{ color: MUTED }}>
           {label}
         </div>
+        <div className="mt-1 flex flex-wrap items-baseline gap-x-1.5">
