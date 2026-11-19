@@ -435,3 +435,4 @@ export class VoxelEngine {
 
   private onUp = (ev: PointerEvent) => {
     const d = this.drag
+    if (!d || ev.pointerId !== d.id) return
