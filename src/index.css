@@ -247,3 +247,4 @@
   .contact-link > span:first-child {
     transition: color 160ms ease-out;
   }
+  .contact-link:hover > span:first-child {
