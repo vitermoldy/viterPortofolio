@@ -14,3 +14,4 @@ export type Repo = {
   pushedAt: string
 }
 
+export type Profile = {
