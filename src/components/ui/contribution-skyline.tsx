@@ -1163,3 +1163,5 @@ export default function ContributionSkyline({
 
   React.useEffect(() => {
     engine.current?.retheme()
+  }, [palette])
+
