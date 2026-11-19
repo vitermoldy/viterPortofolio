@@ -891,3 +891,4 @@ export default function ContributionSkyline({
       }
 
       const kh = reduced ? 1 : 1 - Math.exp(-dt * 16)
+      const kd = reduced ? 1 : 1 - Math.exp(-dt * 10)
