@@ -294,3 +294,4 @@ export class VoxelEngine {
     this.kick()
   }
 
+  private measure(v: Voxels) {
