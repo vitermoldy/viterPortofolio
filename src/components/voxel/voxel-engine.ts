@@ -214,3 +214,4 @@ export class VoxelEngine {
 
   resize(w: number, h: number) {
     if (w < 2 || h < 2) return
+    this.renderer.setSize(w, h, false)
