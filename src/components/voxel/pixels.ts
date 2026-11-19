@@ -17,3 +17,4 @@ export type Voxels = {
 }
 
 export type VoxelOptions = {
+  /** Deepest block, as a share of the picture's longer side. */
