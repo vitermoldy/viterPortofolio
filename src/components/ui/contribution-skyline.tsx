@@ -1294,3 +1294,4 @@ export default function ContributionSkyline({
                     transitionTimingFunction: ease,
                   }}
                 >
+                  <Stat {...statBlocks[2]} accent={accent ?? theme.accent} size={bigSize} align="start" />
