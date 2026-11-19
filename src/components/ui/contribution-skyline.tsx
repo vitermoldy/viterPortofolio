@@ -521,3 +521,4 @@ export default function ContributionSkyline({
     return (c.count ? nf.format(c.count) + " " + noun(c.count) : "No " + plural) + " on " + dfl.format(dayMs(c.date))
   }
 
+  // Everything the render loop reads, refreshed every render so the loop never closes over stale props.
