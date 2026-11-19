@@ -1050,3 +1050,4 @@ export default function ContributionSkyline({
 
     const onBlur = () => {
       pinned = -1
+      refreshActive()
