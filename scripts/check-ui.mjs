@@ -182,3 +182,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     const n = await cards.count()
     const seen = []
     for (let i = 0; i < n; i++) {
+      await cards.nth(i).click()
