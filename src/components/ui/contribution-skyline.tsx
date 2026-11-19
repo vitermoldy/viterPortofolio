@@ -152,3 +152,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
   let run = 0
   let runStart: string | null = null
   let longest: Streak = { days: 0, start: null, end: null }
+  for (const c of cells) {
