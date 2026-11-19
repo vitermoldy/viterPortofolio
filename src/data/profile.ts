@@ -73,3 +73,4 @@ export function useProfileData(): LoadState {
       stale = true
     }
   }, [attempt])
+  return state
