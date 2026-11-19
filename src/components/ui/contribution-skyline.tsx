@@ -343,3 +343,4 @@ const pointInQuad = (p: Float32Array, o: number, x: number, y: number): boolean 
     const by = p[o + ((k + 1) % 4) * 2 + 1]
     const cross = (bx - ax) * (y - ay) - (by - ay) * (x - ax)
     if (Math.abs(cross) < 1e-9) continue
+    const s = cross > 0 ? 1 : -1
