@@ -1116,3 +1116,4 @@ export default function ContributionSkyline({
     canvas.addEventListener("blur", onBlur)
 
     engine.current = {
+      kick: () => {
