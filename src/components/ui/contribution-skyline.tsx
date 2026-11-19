@@ -1063,3 +1063,4 @@ export default function ContributionSkyline({
           elevGoal = 0
         }
         canvas.style.cursor = cfg.current.orbit && target === 1 ? "grab" : "default"
+        kick()
