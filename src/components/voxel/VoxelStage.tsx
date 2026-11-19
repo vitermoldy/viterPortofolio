@@ -70,3 +70,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         const fit = () => engine.resize(Math.round(box.clientWidth), Math.round(box.clientHeight))
         fit()
         ro = new ResizeObserver(fit)
+        ro.observe(box)
