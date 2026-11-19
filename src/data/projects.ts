@@ -93,3 +93,4 @@ export const PROJECTS: Project[] = [
       { label: 'v2 repository', name: 'SongPlay-v2' },
     ],
   },
+  {
