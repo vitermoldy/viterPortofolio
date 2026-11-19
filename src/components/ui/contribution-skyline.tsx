@@ -1166,3 +1166,4 @@ export default function ContributionSkyline({
   }, [palette])
 
   // The tooltip's width is needed to keep it inside the card; measure it when its text changes.
+  React.useLayoutEffect(() => {
