@@ -73,3 +73,4 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'studycabin',
+    name: 'StudyCabin',
