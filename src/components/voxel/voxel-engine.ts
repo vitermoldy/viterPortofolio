@@ -105,3 +105,4 @@ export class VoxelEngine {
   private current: Voxels | null = null
   private raycaster = new THREE.Raycaster()
   private plane = new THREE.Plane(new THREE.Vector3(0, 0, 1), 0)
+  private hitPoint = new THREE.Vector3()
