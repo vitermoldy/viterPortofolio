@@ -351,3 +351,4 @@ const pointInQuad = (p: Float32Array, o: number, x: number, y: number): boolean 
 }
 
 const quadPath = (ctx: CanvasRenderingContext2D, p: Float32Array, o: number, r: number) => {
+  if (r < 0.3) {
