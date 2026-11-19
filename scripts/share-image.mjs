@@ -16,3 +16,4 @@ await page.waitForFunction(() => {
   return c && getComputedStyle(c).opacity === '1'
 })
 await page.waitForTimeout(3500)
+await page.screenshot({ path: join(root, 'public', 'share.png') })
