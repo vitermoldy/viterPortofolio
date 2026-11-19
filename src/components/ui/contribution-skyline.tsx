@@ -591,3 +591,4 @@ export default function ContributionSkyline({
       const m = cfg.current.model
       n = m.cells.length
       weeks = m.weeks
+      if (wk.length !== n) {
