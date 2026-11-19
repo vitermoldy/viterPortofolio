@@ -158,3 +158,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
       best = c.count
       bestDate = c.date
     }
+    if (c.count > 0) {
