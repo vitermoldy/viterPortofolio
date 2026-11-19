@@ -246,3 +246,4 @@ export class VoxelEngine {
     c.removeEventListener('keydown', this.onKey)
     this.mesh?.geometry.dispose()
     this.box.dispose()
+    this.material.dispose()
