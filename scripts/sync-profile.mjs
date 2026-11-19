@@ -41,3 +41,4 @@ const PIXEL = [
   'card-songplay.svg',
   'card-pixelfolio.svg',
   'card-viygo.svg',
+  'card-lanskara.svg',
