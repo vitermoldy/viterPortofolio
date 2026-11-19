@@ -71,3 +71,4 @@ export function Projects({ state }: { state: LoadState }) {
                     aria-label={`${p.name}, ${p.stack}`}
                     onClick={() => setId(p.id)}
                     className={
+                      'card-pick block w-full border-2 bg-transparent p-1 transition-[border-color,transform] duration-150 hover:-translate-y-0.5 motion-reduce:transform-none ' +
