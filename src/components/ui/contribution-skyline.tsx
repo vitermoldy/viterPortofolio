@@ -1074,3 +1074,4 @@ export default function ContributionSkyline({
     // The 3D view rises out of the flat one the first time it is seen.
     const enter = () => {
       if (entered) return
+      entered = true
