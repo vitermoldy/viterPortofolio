@@ -1188,3 +1188,5 @@ export default function ContributionSkyline({
   ]
   const showRow = showStats && !(is3d && corners)
   const ease = "cubic-bezier(0.65, 0, 0.35, 1)"
+  const levelNames = ["No " + plural, "Light", "Moderate", "Heavy", "Heaviest"]
+
