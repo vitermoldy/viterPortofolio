@@ -95,3 +95,4 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
     const x = i / Math.max(1, days - 1)
     const dow = new Date(ms).getUTCDay()
     const weekend = dow === 0 || dow === 6
+    let heat = 0.2
