@@ -25,3 +25,4 @@ const log = (name, ok, detail = '') => {
 const check = async (name, fn) => {
   try {
     let timer
+    const limit = new Promise((_, reject) => (timer = setTimeout(() => reject(new Error('took over 60 s')), 60000)))
