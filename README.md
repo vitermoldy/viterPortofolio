@@ -22,3 +22,5 @@ from GitHub and writes them to `public/data/`. The pixel art is copied from the 
 ([vitermoldy/vitermoldy](https://github.com/vitermoldy/vitermoldy)). The Pages workflow runs the sync before
 every build and once a day, so the skyline grows on its own.
 
+## Run it
+
