@@ -299,3 +299,4 @@ export class VoxelEngine {
     for (let k = 0; k < v.count; k++) if (v.dga[k * 3 + 2] > 0.5 && v.dga[k * 3] > deepest) deepest = v.dga[k * 3]
     this.depthMax = deepest
     const x = v.w / 2
+    const y = v.h / 2
