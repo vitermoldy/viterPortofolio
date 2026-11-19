@@ -17,3 +17,4 @@ import * as React from "react"
  * Palette and theme changes blend rather than flip.
  *
  * Canvas + DOM, React is the only import. Pass `data` as `{ date, count }[]`;
+ * without it a seeded, believable year is generated so the demo is never empty.
