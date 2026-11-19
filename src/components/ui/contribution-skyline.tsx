@@ -236,3 +236,4 @@ export const camera = (e: number, dYaw = 0, dElev = 0): Cam => {
 }
 
 /** World (x = week, y = weekday, z = up) → screen, before scale/offset. */
+export const project = (c: Cam, x: number, y: number, z: number): [number, number] => [
