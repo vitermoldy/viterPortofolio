@@ -84,3 +84,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         setEngineReady(true)
       })
       .catch(() => {
+        if (!disposed) setStatus('flat')
