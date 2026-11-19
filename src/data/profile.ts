@@ -55,3 +55,4 @@ export function useProfileData(): LoadState {
   const [attempt, setAttempt] = React.useState(0)
   const [state, setState] = React.useState<LoadState>({ status: 'loading' })
   React.useEffect(() => {
+    let stale = false
