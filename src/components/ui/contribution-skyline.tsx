@@ -415,3 +415,4 @@ function Stat({
           >
             {value}
           </span>
+          <span className="text-[14px]">{unit}</span>
