@@ -29,3 +29,5 @@ export type Profile = {
 }
 
 /** One row per day: date, count, and GitHub's own shade for it (0 to 4). */
+export type DayRow = [date: string, count: number, level: number]
+
