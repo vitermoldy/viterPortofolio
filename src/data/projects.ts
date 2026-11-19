@@ -97,3 +97,4 @@ export const PROJECTS: Project[] = [
     id: 'pixelfolio',
     name: 'PixelFolio',
     stack: 'Astro and TypeScript',
+    card: card('pixelfolio'),
