@@ -59,3 +59,4 @@ describe('skyline with GitHub levels and a log scale', () => {
     expect(barHeight(2, 23752, 1, 'power')).toBeLessThan(0.41)
   })
   it('counts the streak that reaches today', () => {
+    const { cells } = buildGrid(
