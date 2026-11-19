@@ -25,3 +25,4 @@ export type Profile = {
   following: number
   publicRepos: number
   createdAt: string
+  repos: Repo[]
