@@ -13,3 +13,4 @@ import * as React from "react"
  * flat heat map visibly becomes the skyline — nothing is swapped or cut.
  *
  * Hover or tap a day for its count, arrow keys walk the grid, hover a legend
+ * swatch to isolate that level, and in 3D drag to orbit (double-click resets).
