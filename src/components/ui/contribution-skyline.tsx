@@ -786,3 +786,4 @@ export default function ContributionSkyline({
           bl += (fg[2] - bl) * m
         }
         if (f & 1) {
+          ctx.beginPath()
