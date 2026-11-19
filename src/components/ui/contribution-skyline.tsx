@@ -1025,3 +1025,4 @@ export default function ContributionSkyline({
         pinned = -1
         hovered = -1
         refreshActive()
+        return
