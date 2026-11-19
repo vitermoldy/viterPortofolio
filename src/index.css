@@ -234,3 +234,4 @@
     color: var(--color-muted);
     text-decoration: none;
     background-image: linear-gradient(var(--color-sun), var(--color-sun));
+    background-size: 0 2px;
