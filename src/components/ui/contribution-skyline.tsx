@@ -1387,3 +1387,4 @@ export default function ContributionSkyline({
                   onMouseEnter={() => setLegendLevel(i)}
                   onFocus={() => setLegendLevel(i)}
                   onBlur={() => setLegendLevel(-1)}
+                  onClick={() => setLegendLevel(i)}
