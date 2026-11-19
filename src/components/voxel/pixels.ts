@@ -61,3 +61,4 @@ export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
       dga[k * 3 + 2] = a >= 128 ? 1 : 0
     }
   }
+  return { w, h, count, xy, col, dga }
