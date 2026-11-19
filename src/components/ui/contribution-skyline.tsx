@@ -348,3 +348,5 @@ const pointInQuad = (p: Float32Array, o: number, x: number, y: number): boolean 
     else if (s !== sign) return false
   }
   return sign !== 0
+}
+
