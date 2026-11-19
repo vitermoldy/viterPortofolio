@@ -79,3 +79,5 @@ export function Hero({ state }: { state: LoadState }) {
       </div>
     </section>
   )
+}
+
