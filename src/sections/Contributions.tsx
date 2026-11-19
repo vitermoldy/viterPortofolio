@@ -22,3 +22,4 @@ export function Contributions({ state }: { state: LoadState }) {
     const total = range === 'last' ? lastYearTotal(c) : rows.reduce((s, r) => s + r[1], 0)
     let busiest: [string, number] | null = null
     let quietest = Infinity
+    for (const [d, n] of c.days) {
