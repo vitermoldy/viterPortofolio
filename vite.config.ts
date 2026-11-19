@@ -26,3 +26,4 @@ export default defineConfig(({ command }) => ({
     environment: 'node',
     include: ['tests/**/*.test.ts'],
   },
+}))
