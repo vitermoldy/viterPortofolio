@@ -54,3 +54,4 @@
     overflow-x: clip;
   }
   a[href],
+  button:not(:disabled),
