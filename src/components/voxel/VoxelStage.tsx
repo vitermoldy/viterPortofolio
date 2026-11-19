@@ -68,3 +68,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         }
         engineRef.current = engine
         const fit = () => engine.resize(Math.round(box.clientWidth), Math.round(box.clientHeight))
+        fit()
