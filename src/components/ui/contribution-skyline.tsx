@@ -1203,3 +1203,4 @@ export default function ContributionSkyline({
         borderColor: "var(--color-border, #e5e5e5)",
       }}
     >
+      <header className="mb-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
