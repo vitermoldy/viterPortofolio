@@ -1366,3 +1366,4 @@ export default function ContributionSkyline({
                   aria-hidden={h !== hint}
                   className="[grid-area:1/1] transition-opacity duration-500 motion-reduce:transition-none"
                   style={{ opacity: h === hint ? 1 : 0 }}
+                >
