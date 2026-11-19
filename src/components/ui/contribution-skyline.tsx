@@ -664,3 +664,4 @@ export default function ContributionSkyline({
         const x0 = wk[i] + off
         const y0 = dy[i] + off
         const z = full ? hgt[i] * e : zs[i]
+        add(x0, y0, z)
