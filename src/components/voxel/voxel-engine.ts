@@ -45,3 +45,5 @@ void main() {
   mat2 R = mat2(cos(ang), -sin(ang), sin(ang), cos(ang));
   local.xz = R * local.xz;
   vec3 n = normal;
+  n.xz = R * n.xz;
+
