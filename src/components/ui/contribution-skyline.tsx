@@ -507,3 +507,5 @@ export default function ContributionSkyline({
   const stageRef = React.useRef<HTMLDivElement>(null)
   const canvasRef = React.useRef<HTMLCanvasElement>(null)
   const tipRef = React.useRef<HTMLDivElement>(null)
+  const engine = React.useRef<{ kick: () => void; load: () => void; retheme: () => void; tipWidth: (w: number) => void } | null>(null)
+
