@@ -456,3 +456,4 @@ function Stat({
 export default function ContributionSkyline({
   data,
   endDate,
+  view: viewProp,
