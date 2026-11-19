@@ -28,3 +28,4 @@ export function serve(port = 5189) {
       return res.end()
     }
     if (!url.pathname.startsWith(BASE)) {
+      res.writeHead(404)
