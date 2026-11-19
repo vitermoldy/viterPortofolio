@@ -877,3 +877,4 @@ export default function ContributionSkyline({
       elev += (elevGoal - elev) * ko
       if (Math.abs(yawGoal - yaw) > 1e-4 || Math.abs(elevGoal - elev) > 1e-4) moving = true
       else {
+        yaw = yawGoal
