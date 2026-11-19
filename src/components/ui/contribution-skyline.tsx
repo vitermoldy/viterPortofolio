@@ -24,3 +24,4 @@ import * as React from "react"
 // Pure: dates, grid, stats, levels, camera and colour maths. Lifted out and run by the test.
 
 /** `level` (0 to 4) is optional: when the data carries GitHub's own shades, they are used as given. */
+export type ContributionDay = { date: string; count: number; level?: number }
