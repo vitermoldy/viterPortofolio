@@ -294,3 +294,4 @@ export interface ContributionSkylineProps {
   /** Colour of the big stat numbers. Defaults to the heaviest palette colour. */
   accent?: string
   /** Morph length, ms. */
+  duration?: number
