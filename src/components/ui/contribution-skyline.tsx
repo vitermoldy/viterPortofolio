@@ -1384,3 +1384,4 @@ export default function ContributionSkyline({
                   aria-label={"Highlight " + levelNames[i].toLowerCase() + " days"}
                   aria-pressed={legendLevel === i}
                   title={levelNames[i]}
+                  onMouseEnter={() => setLegendLevel(i)}
