@@ -1315,3 +1315,4 @@ export default function ContributionSkyline({
             {active >= 0 && model.cells[active] ? (
               <>
                 <strong className="font-semibold">
+                  {model.cells[active].count ? nf.format(model.cells[active].count) + " " + noun(model.cells[active].count) : "No " + plural}
