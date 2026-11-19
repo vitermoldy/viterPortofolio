@@ -242,3 +242,4 @@ export class VoxelEngine {
     c.removeEventListener('pointerup', this.onUp)
     c.removeEventListener('pointercancel', this.onCancel)
     c.removeEventListener('pointerleave', this.onLeave)
+    c.removeEventListener('dblclick', this.reset)
