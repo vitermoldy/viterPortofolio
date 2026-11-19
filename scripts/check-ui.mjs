@@ -188,3 +188,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
       const note = await page.locator('#projects [aria-live] p.text-muted').allInnerTexts()
       expect(links.length > 0 || note.some((t) => /private for now/.test(t)), name + ': no link and no note')
       seen.push(`${name} ${links.length ? links.length + ' link' : 'private'}`)
+    }
