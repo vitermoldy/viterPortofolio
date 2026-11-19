@@ -207,3 +207,4 @@ export class VoxelEngine {
     this.kick()
   }
 
+  setVisible(v: boolean) {
