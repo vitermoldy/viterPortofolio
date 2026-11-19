@@ -158,3 +158,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
       {status === 'loading' && (
         <p className="absolute bottom-3 left-3 m-0 bg-ink/85 px-2 py-1 text-xs text-muted" role="status">
           Reading the pixels
+        </p>
