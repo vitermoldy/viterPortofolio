@@ -170,3 +170,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
   while (j >= 0 && cells[j].count > 0) j--
   const days = endAt - j
   const current: Streak = days > 0 ? { days, start: cells[j + 1].date, end: cells[endAt].date } : { days: 0, start: null, end: null }
+  return {
