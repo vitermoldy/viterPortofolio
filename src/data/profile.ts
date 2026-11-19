@@ -56,3 +56,4 @@ export function useProfileData(): LoadState {
   const [state, setState] = React.useState<LoadState>({ status: 'loading' })
   React.useEffect(() => {
     let stale = false
+    setState({ status: 'loading' })
