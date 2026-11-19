@@ -762,3 +762,4 @@ export default function ContributionSkyline({
         polys[o + 20] = polys[o + 4]; polys[o + 21] = polys[o + 5]
         polys[o + 22] = polys[o + 2]; polys[o + 23] = polys[o + 3]
 
+        const tall = z * ce * s
