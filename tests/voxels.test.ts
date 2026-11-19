@@ -36,3 +36,5 @@ describe('voxelize', () => {
     expect(v.dga[3 * 3 + 2]).toBe(0)
     expect(visibleCount(v)).toBe(3)
   })
+})
+
