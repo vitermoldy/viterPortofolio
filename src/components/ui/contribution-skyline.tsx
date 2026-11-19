@@ -1115,3 +1115,4 @@ export default function ContributionSkyline({
     canvas.addEventListener("keydown", onKey)
     canvas.addEventListener("blur", onBlur)
 
+    engine.current = {
