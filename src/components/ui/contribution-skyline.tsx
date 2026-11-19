@@ -955,3 +955,4 @@ export default function ContributionSkyline({
         } catch {
           /* capture is a nicety */
         }
+      }
