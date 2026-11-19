@@ -37,3 +37,4 @@ const SCENES: Scene[] = [
 ]
 
 export function PixelArt() {
+  const [id, setId] = React.useState(SCENES[0].id)
