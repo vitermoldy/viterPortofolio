@@ -704,3 +704,4 @@ export default function ContributionSkyline({
       const e = easeInOutCubic(t)
       const cam = camera(e, yaw, elev)
       const Hc = lerp(H2, H3, e)
+      if (Math.abs(Hc - lastH) > 0.2) {
