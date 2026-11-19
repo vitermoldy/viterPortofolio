@@ -305,3 +305,4 @@ export interface ContributionSkylineProps {
   /** Replaces the hint under the chart. `null` renders none. */
   footer?: React.ReactNode
   locale?: string
+  /** Seed for the generated sample year. */
