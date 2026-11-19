@@ -1027,3 +1027,4 @@ export default function ContributionSkyline({
         refreshActive()
         return
       }
+      let i = pinned >= 0 ? pinned : activeIdx >= 0 ? activeIdx : n - 1
