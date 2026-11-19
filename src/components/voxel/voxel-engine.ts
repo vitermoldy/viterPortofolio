@@ -360,3 +360,4 @@ export class VoxelEngine {
     let moving = false
 
     if (this.assembling) {
+      this.assemble = Math.min(1, this.assemble + dt / this.assembleSeconds)
