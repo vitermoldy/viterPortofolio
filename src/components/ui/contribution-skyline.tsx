@@ -1263,3 +1263,4 @@ export default function ContributionSkyline({
                 nf.format(stats.total) + " " + noun(stats.total) + " between " + range(stats.first, stats.last, true) +
                 ", shown as a " + (is3d ? "3D skyline" : "heat map") + ". Use the arrow keys to read individual days."
               }
+              className="absolute top-0 left-0 block outline-none"
