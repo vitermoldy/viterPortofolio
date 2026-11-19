@@ -375,3 +375,4 @@ export class VoxelEngine {
     else {
       this.yaw = this.yawGoal
       this.pitch = this.pitchGoal
+    }
