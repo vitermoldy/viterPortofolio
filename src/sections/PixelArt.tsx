@@ -31,3 +31,4 @@ const SCENES: Scene[] = [
     src: asset('pixel/character.svg'),
     w: 128,
     h: 96,
+    text: 'From the About section: photographing the sunset in a flower field while the wind lifts the hair, the hood and the camera strap.',
