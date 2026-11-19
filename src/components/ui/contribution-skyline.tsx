@@ -621,3 +621,4 @@ export default function ContributionSkyline({
       if (pinned >= n) pinned = -1
     }
 
+    const retheme = () => {
