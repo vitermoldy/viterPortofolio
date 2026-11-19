@@ -590,3 +590,4 @@ export default function ContributionSkyline({
     const load = () => {
       const m = cfg.current.model
       n = m.cells.length
+      weeks = m.weeks
