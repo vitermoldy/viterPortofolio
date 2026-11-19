@@ -11,3 +11,4 @@ export function App() {
   return (
     <>
       <a className="skip-link" href="#main">
+        Skip to the profile
