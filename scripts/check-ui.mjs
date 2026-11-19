@@ -158,3 +158,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await years.nth(0).click()
     return title
   })
+  await check('pixel art: the room in blocks', async () => {
