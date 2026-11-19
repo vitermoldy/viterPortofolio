@@ -35,3 +35,4 @@ export type Contributions = {
   fetchedAt: string
   login: string
   today: string
+  days: DayRow[]
