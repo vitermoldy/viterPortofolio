@@ -160,3 +160,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
     }
     if (c.count > 0) {
       if (run === 0) runStart = c.date
+      run++
