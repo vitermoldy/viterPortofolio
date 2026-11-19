@@ -534,3 +534,4 @@ export default function ContributionSkyline({
     const ctx = canvas.getContext("2d")
     if (!ctx) return
 
+    const reduceMq = window.matchMedia("(prefers-reduced-motion: reduce)")
