@@ -279,3 +279,4 @@ export interface ContributionSkylineProps {
   /** Uncontrolled starting view. The 3D view rises out of the flat one when it first scrolls into sight. */
   defaultView?: View
   onViewChange?: (view: View) => void
+  /** A preset, four colours, or `{ light, dark }` sets of four. */
