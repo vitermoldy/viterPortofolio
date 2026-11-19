@@ -26,3 +26,4 @@ varying vec3 vNormal;
 varying float vGlow;
 varying float vZ;
 
+float easeOut(float t) { return 1.0 - pow(1.0 - t, 3.0); }
