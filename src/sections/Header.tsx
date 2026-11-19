@@ -66,3 +66,4 @@ export function Header() {
         className={cn('fixed inset-x-0 top-16 bottom-0 z-40 bg-ink md:hidden')}
       >
         <nav aria-label="Sections, menu" className="wrap pt-6">
+          <ul className="m-0 flex list-none flex-col gap-2 p-0">
