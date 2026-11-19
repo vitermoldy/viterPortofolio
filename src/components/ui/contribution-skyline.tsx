@@ -292,3 +292,4 @@ export interface ContributionSkylineProps {
   /** How a count becomes a height: "power" (default) or "log" for data with a few enormous days. */
   heightCurve?: HeightCurve
   /** Colour of the big stat numbers. Defaults to the heaviest palette colour. */
+  accent?: string
