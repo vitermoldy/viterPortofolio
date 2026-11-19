@@ -49,3 +49,4 @@ export function Header() {
         </nav>
 
         <button
+          ref={toggleRef}
