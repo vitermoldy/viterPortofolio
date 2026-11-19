@@ -343,3 +343,4 @@ export class VoxelEngine {
     u.uAssemble.value = this.assemble
     u.uMorph.value = this.morph
     u.uPointer.value.z = this.push
+    this.place()
