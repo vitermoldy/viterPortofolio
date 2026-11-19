@@ -28,3 +28,4 @@ type Props = {
 
 const reducedQuery = '(prefers-reduced-motion: reduce)'
 
+/**
