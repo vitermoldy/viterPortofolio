@@ -362,3 +362,4 @@ const quadPath = (ctx: CanvasRenderingContext2D, p: Float32Array, o: number, r: 
   ctx.moveTo((p[o + 6] + p[o]) / 2, (p[o + 7] + p[o + 1]) / 2)
   for (let k = 0; k < 4; k++) {
     const b = (k + 1) % 4
+    ctx.arcTo(p[o + k * 2], p[o + k * 2 + 1], p[o + b * 2], p[o + b * 2 + 1], r)
