@@ -244,3 +244,4 @@ for (const width of [390, 320]) {
     await check('390: menu opens, links land, Escape closes', async () => {
       const toggle = page.getByRole('button', { name: 'Menu' })
       await toggle.click()
+      expect((await toggle.getAttribute('aria-expanded')) === 'true', 'not expanded')
