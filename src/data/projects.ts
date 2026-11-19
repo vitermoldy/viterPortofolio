@@ -39,3 +39,4 @@ export const PROJECTS: Project[] = [
   {
     id: 'mixer',
     name: 'Mixer Simulation',
+    stack: 'Web Audio and PyTorch',
