@@ -31,3 +31,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 ## Motion (MOTION 3)
 
 - The hero text rises once on load; each stage's blocks fly in the first time it scrolls into view.
+- Switching a picture of the same size is a wave from a corner (cards) or the centre (portrait).
