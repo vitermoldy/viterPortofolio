@@ -839,3 +839,4 @@ export default function ContributionSkyline({
         ctx.textAlign = "left"
         ctx.textBaseline = "top"
         let edge = -Infinity
+        for (const m of months) {
