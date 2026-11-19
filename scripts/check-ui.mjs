@@ -228,3 +228,4 @@ for (const width of [390, 320]) {
     expect(over <= 0, 'overflow ' + over + 'px')
     await page.screenshot({ path: join(OUT, `${width}-hero.png`), fullPage: false })
   })
+  await check(`${width}: nothing wider than the screen`, async () => {
