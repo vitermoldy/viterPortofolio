@@ -20,3 +20,4 @@ export type VoxelOptions = {
   /** Deepest block, as a share of the picture's longer side. */
   relief?: number
   /** Depth every visible block keeps, in cells. */
+  base?: number
