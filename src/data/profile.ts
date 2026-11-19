@@ -22,3 +22,4 @@ export type Profile = {
   url: string
   blog: string | null
   followers: number
+  following: number
