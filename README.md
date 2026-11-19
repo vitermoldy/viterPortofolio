@@ -39,3 +39,4 @@ npm run check:ui     # click through the built page in Chrome, screenshots in .s
 ## Built with
 
 React 19, TypeScript, Tailwind CSS 4 (shadcn structure), three.js for the blocks (one instanced box per pixel,
+drawn by a small shader) and the Contribution Skyline component (canvas, in `src/components/ui`). Type: Tiny5,
