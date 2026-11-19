@@ -83,3 +83,4 @@ export const rng = (seed: number) => {
 
 /**
  * A believable year for demos: quiet weekends, a few busy seasons, a mood that
+ * drifts week to week, and the odd enormous day.
