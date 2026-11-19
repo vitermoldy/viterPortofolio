@@ -239,3 +239,4 @@ for (const width of [390, 320]) {
         .slice(0, 5),
     )
     expect(wide.length === 0, wide.join(', '))
+  })
