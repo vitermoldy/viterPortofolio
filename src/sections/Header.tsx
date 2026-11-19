@@ -34,3 +34,5 @@ export function Header() {
         <a href="#top" className="flex min-h-11 items-center gap-3 text-paper no-underline" onClick={() => setOpen(false)}>
           <img src={asset('pixel/avatar.png')} width={32} height={32} alt="" className="pixelated h-8 w-8" />
           <span className="font-pixel text-xl leading-none">vitermoldy</span>
+        </a>
+
