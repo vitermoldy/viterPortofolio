@@ -72,3 +72,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await page.screenshot({ path: join(OUT, '1440-hero.png') })
   })
   await check('hero: Sunset switches the portrait', async () => {
+    const b = page.getByRole('button', { name: 'Sunset', exact: true })
