@@ -70,3 +70,4 @@ async function profile() {
     const batch = await get(`https://api.github.com/users/${USER}/repos?per_page=100&type=owner&sort=pushed&page=${page}`, { json: true })
     repos.push(...batch)
     if (batch.length < 100) break
+  }
