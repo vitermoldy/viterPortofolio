@@ -1213,3 +1213,4 @@ export default function ContributionSkyline({
         </h3>
         {showToggle && (
           <div
+            role="group"
