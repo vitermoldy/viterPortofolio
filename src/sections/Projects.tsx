@@ -87,3 +87,4 @@ export function Projects({ state }: { state: LoadState }) {
                   </button>
                 </li>
               )
+            })}
