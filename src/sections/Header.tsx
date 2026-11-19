@@ -36,3 +36,4 @@ export function Header() {
           <span className="font-pixel text-xl leading-none">vitermoldy</span>
         </a>
 
+        <nav aria-label="Sections" className="hidden md:block">
