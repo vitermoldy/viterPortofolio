@@ -414,3 +414,4 @@ export class VoxelEngine {
     const d = this.drag
     if (d && ev.pointerId === d.id) {
       const dx = ev.clientX - d.x
+      const dy = ev.clientY - d.y
