@@ -60,3 +60,4 @@
   [role='button'],
   [role='tab'],
   [role='switch'] {
+    cursor: pointer;
