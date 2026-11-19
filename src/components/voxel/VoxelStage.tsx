@@ -160,3 +160,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
           Reading the pixels
         </p>
       )}
+      {status === 'error' && (
