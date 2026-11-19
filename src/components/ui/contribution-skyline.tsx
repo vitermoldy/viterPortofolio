@@ -118,3 +118,4 @@ export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0)
   const counts = new Map<string, number>()
   const given = new Map<string, number>()
   for (const d of data) {
+    if (!d || typeof d.date !== "string") continue
