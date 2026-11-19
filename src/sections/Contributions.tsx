@@ -107,3 +107,4 @@ export function Contributions({ state }: { state: LoadState }) {
                   locale="en-GB"
                   className="bg-ink"
                 />
+              )}
