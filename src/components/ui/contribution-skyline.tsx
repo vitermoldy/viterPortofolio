@@ -369,3 +369,4 @@ const quadPath = (ctx: CanvasRenderingContext2D, p: Float32Array, o: number, r: 
 
 const GridIcon = () => (
   <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" style={{ maxWidth: "none" }}>
+    <rect x="1.5" y="1.5" width="5.5" height="5.5" rx="1" fill="currentColor" />
