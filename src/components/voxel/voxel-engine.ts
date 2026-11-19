@@ -302,3 +302,5 @@ export class VoxelEngine {
     const y = v.h / 2
     let i = 0
     for (const sx of [-x, x]) for (const sy of [-y, y]) for (const sz of [0, deepest]) this.corners[i++].set(sx, sy, sz)
+  }
+
