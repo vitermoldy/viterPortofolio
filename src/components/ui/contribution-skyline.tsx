@@ -1328,3 +1328,4 @@ export default function ContributionSkyline({
               style={{
                 left: "var(--arrow, 50%)",
                 marginLeft: -5,
+                borderLeft: "5px solid transparent",
