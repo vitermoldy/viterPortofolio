@@ -24,3 +24,4 @@ describe('parseCalendar', () => {
   })
   it('returns nothing for a page without a calendar', () => {
     expect(parseCalendar('<html></html>').size).toBe(0)
+  })
