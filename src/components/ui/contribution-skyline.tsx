@@ -1360,3 +1360,4 @@ export default function ContributionSkyline({
         <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 px-3 pt-3 pb-3 text-[12px] sm:px-4" style={{ color: MUTED }}>
           {footer === undefined ? (
             <span className="relative grid min-w-[13rem] flex-1">
+              {hints.map((h) => (
