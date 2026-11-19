@@ -12,3 +12,5 @@ export function Projects({ state }: { state: LoadState }) {
   const picture = React.useMemo(
     () => ({ src: project.card, ...CARD_SIZE, alt: `Pixel card: ${project.name}, ${project.stack}.` }),
     [project],
+  )
+
