@@ -58,3 +58,5 @@ export function Header() {
         >
           {open ? 'Close menu' : 'Menu'}
         </button>
+      </div>
+
