@@ -1405,3 +1405,4 @@ export default function ContributionSkyline({
       </div>
 
       <p aria-live="polite" className="sr-only">
+        {announce}
