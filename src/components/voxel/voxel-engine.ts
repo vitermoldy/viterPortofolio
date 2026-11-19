@@ -402,3 +402,4 @@ export class VoxelEngine {
     if (ev.button !== 0) return
     this.drag = { id: ev.pointerId, x: ev.clientX, y: ev.clientY, yaw: this.yawGoal, pitch: this.pitchGoal, moved: false, mouse: ev.pointerType === 'mouse' }
     if (ev.pointerType === 'mouse') {
+      try {
