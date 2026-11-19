@@ -62,3 +62,4 @@ export function Header() {
 
       <div
         id="menu"
+        hidden={!open}
