@@ -1145,3 +1145,4 @@ export default function ContributionSkyline({
       canvas.removeEventListener("pointercancel", onCancel)
       canvas.removeEventListener("pointerleave", onLeave)
       canvas.removeEventListener("dblclick", onDbl)
+      canvas.removeEventListener("keydown", onKey)
