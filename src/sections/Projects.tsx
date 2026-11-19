@@ -21,3 +21,4 @@ export function Projects({ state }: { state: LoadState }) {
           <h2 id="projects-title" className="h-pixel h-block text-[clamp(2rem,4.5vw,3.25rem)]">
             Projects, card by card
           </h2>
+          <p className="mt-5 mb-0 text-lg">
