@@ -110,3 +110,4 @@ export function Contributions({ state }: { state: LoadState }) {
               )}
               <p className="mt-4 mb-0 text-sm text-muted">
                 Read from github.com/{c.login} on {day(c.fetchedAt)}, and again every day.
+              </p>
