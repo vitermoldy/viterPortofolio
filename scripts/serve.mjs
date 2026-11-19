@@ -36,3 +36,4 @@ export function serve(port = 5189) {
     if (!file.startsWith(root)) {
       res.writeHead(403)
       return res.end()
+    }
