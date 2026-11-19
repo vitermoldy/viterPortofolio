@@ -29,3 +29,4 @@ describe('voxelize', () => {
     const depth = (k: number) => v.dga[k * 3]
     expect(depth(0)).toBeCloseTo(0.6)
     expect(depth(1)).toBeCloseTo(0.6 + 0.5 * 2)
+    expect(depth(1)).toBeGreaterThan(depth(2))
