@@ -295,3 +295,4 @@ await browser.close()
 server?.close()
 const failed = results.filter((r) => !r.ok).length
 console.log(`\n${results.length - failed}/${results.length} passed. Screenshots in ${OUT}`)
+process.exit(failed ? 1 : 0)
