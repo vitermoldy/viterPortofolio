@@ -51,3 +51,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
     const box = boxRef.current
     if (!canvas || !box) return
     let disposed = false
+    let ro: ResizeObserver | null = null
