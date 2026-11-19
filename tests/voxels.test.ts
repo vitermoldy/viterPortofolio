@@ -57,3 +57,4 @@ describe('skyline with GitHub levels and a log scale', () => {
     expect(big).toBeCloseTo(7.6)
     expect(small).toBeGreaterThan(1)
     expect(barHeight(2, 23752, 1, 'power')).toBeLessThan(0.41)
+  })
