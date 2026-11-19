@@ -89,3 +89,4 @@ async function profile() {
         url: r.html_url,
         homepage: r.homepage || null,
         language: r.language,
+        stars: r.stargazers_count,
