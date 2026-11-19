@@ -1246,3 +1246,5 @@ export default function ContributionSkyline({
             ))}
           </div>
         )}
+      </header>
+
