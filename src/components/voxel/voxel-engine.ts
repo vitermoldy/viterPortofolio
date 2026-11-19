@@ -162,3 +162,4 @@ export class VoxelEngine {
     canvas.addEventListener('pointerup', this.onUp)
     canvas.addEventListener('pointercancel', this.onCancel)
     canvas.addEventListener('pointerleave', this.onLeave)
+    canvas.addEventListener('dblclick', this.reset)
