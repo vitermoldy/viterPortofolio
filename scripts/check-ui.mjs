@@ -127,3 +127,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await page.getByRole('button', { name: '3D skyline' }).click()
     await page.waitForTimeout(1600)
   })
+  await check('skyline: hover a day shows its count', async () => {
