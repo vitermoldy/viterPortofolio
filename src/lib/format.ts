@@ -8,3 +8,4 @@ const toMs = (iso: string) => Date.parse(iso.length === 10 ? iso + 'T00:00:00Z' 
 export const num = (n: number) => nf.format(n)
 export const day = (iso: string) => longDate.format(toMs(iso))
 export const month = (iso: string) => monthYear.format(toMs(iso))
+export const plural = (n: number, one: string, many = one + 's') => `${num(n)} ${n === 1 ? one : many}`
