@@ -641,3 +641,4 @@ export default function ContributionSkyline({
       const sw = all.map((c) => rgbString(c[0], c[1], c[2]))
       cfg.current.setTheme((prev) =>
         prev.dark === isDark && prev.swatches.join() === sw.join() ? prev : { dark: isDark, swatches: sw, accent: sw[4] },
+      )
