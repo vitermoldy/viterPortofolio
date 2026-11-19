@@ -20,3 +20,4 @@ export function App() {
         <PixelArt />
         <Projects state={state} />
         <Contact />
+      </main>
