@@ -404,3 +404,4 @@ function Stat({
 }) {
   if (align === "stack") {
     return (
+      <div className="min-w-0">
