@@ -457,3 +457,4 @@ export default function ContributionSkyline({
   data,
   endDate,
   view: viewProp,
+  defaultView = "3d",
