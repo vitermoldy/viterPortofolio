@@ -993,3 +993,4 @@ export default function ContributionSkyline({
       const [x, y] = local(ev)
       const i = hit(x, y)
       pinned = i === pinned ? -1 : i
+      if (ev.pointerType !== "mouse") hovered = -1
