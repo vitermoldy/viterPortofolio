@@ -427,3 +427,4 @@ export class VoxelEngine {
     }
     if (ev.pointerType !== 'mouse') return
     if (this.aim(ev)) {
+      this.pushDecay = false
