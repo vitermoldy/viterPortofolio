@@ -1126,3 +1126,4 @@ export default function ContributionSkyline({
         relayout()
       },
       retheme,
+      tipWidth: (w: number) => {
