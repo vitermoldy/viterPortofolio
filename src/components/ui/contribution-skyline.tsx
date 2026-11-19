@@ -1232,3 +1232,4 @@ export default function ContributionSkyline({
                 key={v}
                 type="button"
                 aria-pressed={view === v}
+                aria-label={v === "2d" ? "Flat heat map" : "3D skyline"}
