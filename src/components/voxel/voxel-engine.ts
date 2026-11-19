@@ -136,3 +136,4 @@ export class VoxelEngine {
     this.canvas = canvas
     this.reduced = opts.reducedMotion
     this.assembleSeconds = opts.assembleSeconds ?? 2.4
+    this.morphSeconds = opts.morphSeconds ?? 1.3
