@@ -93,3 +93,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
       io?.disconnect()
       mq.removeEventListener('change', onReduce)
       engineRef.current?.dispose()
+      engineRef.current = null
