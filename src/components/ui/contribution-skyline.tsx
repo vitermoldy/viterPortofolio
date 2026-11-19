@@ -392,3 +392,4 @@ function Stat({
   sub,
   accent,
   size,
+  align,
