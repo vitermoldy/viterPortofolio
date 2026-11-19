@@ -3,3 +3,5 @@ import { VoxelStage, type VoxelPicture } from '@/components/voxel/VoxelStage'
 import { num } from '@/lib/format'
 import { asset } from '@/lib/utils'
 
+type Scene = VoxelPicture & { id: string; name: string; text: string }
+
