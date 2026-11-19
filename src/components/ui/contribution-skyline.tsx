@@ -695,3 +695,4 @@ export default function ContributionSkyline({
       canvas.style.width = W + "px"
       canvas.style.height = Hmax + "px"
       lastH = -1
+      cfg.current.setWidth(W)
