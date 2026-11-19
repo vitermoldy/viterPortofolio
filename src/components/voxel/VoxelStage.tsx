@@ -8,3 +8,4 @@ export type VoxelPicture = {
   src: string
   /** Pixel-art size: the SVG's viewBox, or the PNG's cell count. */
   w: number
+  h: number
