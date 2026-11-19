@@ -165,3 +165,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await page.locator('#pixel-art').screenshot({ path: join(OUT, '1440-room.png') })
   })
   for (const name of ['StudyCabin at night', 'Sunset field', 'The room']) {
+    await check(`pixel art: ${name}`, async () => {
