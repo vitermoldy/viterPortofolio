@@ -8,3 +8,4 @@ export type PixelGrid = { w: number; h: number; data: Uint8ClampedArray | Uint8A
  * `col` its sRGB colour (0 to 1), `dga` its depth, glow and alpha.
  */
 export type Voxels = {
+  w: number
