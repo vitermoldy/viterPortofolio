@@ -531,3 +531,4 @@ export default function ContributionSkyline({
     const canvas = canvasRef.current
     const tip = tipRef.current
     if (!root || !stage || !canvas || !tip) return
+    const ctx = canvas.getContext("2d")
