@@ -102,3 +102,4 @@ async function contributions(createdAt) {
   const days = new Map()
   for (let year = Number(today.slice(0, 4)); year >= first; year--) {
     const html = await get(`https://github.com/users/${USER}/contributions?from=${year}-01-01&to=${year}-12-31`)
+    const part = parseCalendar(html)
