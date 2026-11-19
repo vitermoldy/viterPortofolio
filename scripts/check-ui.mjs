@@ -194,3 +194,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     return seen.join(', ')
   })
   await check('contact: links and footer art', async () => {
+    await page.locator('#contact').scrollIntoViewIfNeeded()
