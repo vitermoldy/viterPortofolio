@@ -1194,3 +1194,4 @@ export default function ContributionSkyline({
   const hint = hints[is3d && orbit ? 1 : 0]
 
   return (
+    <section
