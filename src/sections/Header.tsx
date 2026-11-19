@@ -52,3 +52,4 @@ export function Header() {
           ref={toggleRef}
           type="button"
           className="btn btn-quiet md:hidden"
+          aria-expanded={open}
