@@ -1342,3 +1342,4 @@ export default function ContributionSkyline({
             className="grid transition-[grid-template-rows,opacity] motion-reduce:transition-none"
             style={{
               gridTemplateRows: showRow ? "1fr" : "0fr",
+              opacity: showRow ? 1 : 0,
