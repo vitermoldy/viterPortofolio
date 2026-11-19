@@ -85,3 +85,4 @@ export function lastYearTotal(c: Contributions): number {
     const t = Date.parse(date + 'T00:00:00Z')
     if (t >= start && t <= end) total += count
   }
+  return total
