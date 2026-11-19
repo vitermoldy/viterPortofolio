@@ -76,3 +76,4 @@ export function Contributions({ state }: { state: LoadState }) {
           {state.status === 'error' && (
             <div className="grid min-h-[380px] place-items-center border-2 border-moss p-6 text-center" role="alert">
               <div>
+                <p className="mt-0 mb-4">The contribution calendar did not load ({state.message}).</p>
