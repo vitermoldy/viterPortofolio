@@ -498,3 +498,4 @@ export default function ContributionSkyline({
     const p = resolvePalette(palette, false)
     return { dark: false, swatches: ["#ebedf0", ...p], accent: p[3] }
   })
+  const [width, setWidth] = React.useState(0)
