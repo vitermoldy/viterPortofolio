@@ -71,3 +71,4 @@ export function Hero({ state }: { state: LoadState }) {
               </button>
               <button type="button" aria-pressed={sky === 'sunset'} onClick={() => setSky('sunset')}>
                 Sunset
+              </button>
