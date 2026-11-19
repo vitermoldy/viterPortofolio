@@ -37,3 +37,4 @@ const PIXEL = [
   'card-netsim.svg',
   'card-nyxborne.svg',
   'card-agentic-factory.svg',
+  'card-studycabin.svg',
