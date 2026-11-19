@@ -1347,3 +1347,4 @@ export default function ContributionSkyline({
               transitionTimingFunction: ease,
             }}
           >
+            <div className="min-h-0 overflow-hidden">
