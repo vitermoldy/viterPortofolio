@@ -290,3 +290,4 @@ export interface ContributionSkylineProps {
   /** Multiplies bar heights in 3D. */
   heightScale?: number
   /** How a count becomes a height: "power" (default) or "log" for data with a few enormous days. */
+  heightCurve?: HeightCurve
