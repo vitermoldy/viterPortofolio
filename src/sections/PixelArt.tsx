@@ -85,3 +85,4 @@ export function PixelArt() {
             <VoxelStage picture={scene} options={{ relief: 0.075 }} />
           </div>
           <p className="mt-4 mb-0 text-sm text-muted">Drag to turn it, double-click to face it again.</p>
+        </div>
