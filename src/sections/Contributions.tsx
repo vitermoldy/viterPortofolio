@@ -56,3 +56,4 @@ export function Contributions({ state }: { state: LoadState }) {
               <div className="seg" role="group" aria-label="Years shown">
                 <button type="button" aria-pressed={range === 'last'} onClick={() => setRange('last')}>
                   Last 12 months
+                </button>
