@@ -301,3 +301,4 @@ export interface ContributionSkylineProps {
   orbit?: boolean
   showStats?: boolean
   showLegend?: boolean
+  showToggle?: boolean
