@@ -89,3 +89,4 @@ const PITCH_LIMIT: [number, number] = [-0.45, 0.8]
 export type EngineOptions = {
   reducedMotion: boolean
   /** Seconds the first picture takes to fly in. */
+  assembleSeconds?: number
