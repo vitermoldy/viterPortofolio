@@ -769,3 +769,4 @@ export default function ContributionSkyline({
         faces[i] = f
 
         const L = lv[i] * 3
+        let r = col[L]
