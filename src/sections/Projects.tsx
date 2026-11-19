@@ -47,3 +47,4 @@ export function Projects({ state }: { state: LoadState }) {
                       <a className="btn btn-quiet" href={l.url} rel="noopener">
                         Open the {project.name} {l.label.toLowerCase()}
                       </a>
+                    </li>
