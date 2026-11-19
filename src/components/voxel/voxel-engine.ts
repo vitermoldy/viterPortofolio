@@ -37,3 +37,5 @@ void main() {
   float alpha = step(0.5, dga.z);
 
   vec2 dp = aXY - uPointer.xy;
+  float depth = dga.x + sin(m * 3.14159265) * uBump + uPointer.z * uPush * exp(-dot(dp, dp) / (uPointerR * uPointerR));
+
