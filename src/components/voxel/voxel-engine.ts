@@ -274,3 +274,4 @@ export class VoxelEngine {
     g.setAttribute('aDgaB', new THREE.InstancedBufferAttribute(v.dga.slice(), 3))
     g.setAttribute('aRand', new THREE.InstancedBufferAttribute(rand, 4))
     g.instanceCount = v.count
+    const span = Math.max(v.w, v.h)
