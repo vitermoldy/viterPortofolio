@@ -56,3 +56,5 @@ void main() {
   vZ = position.z + 0.5;
   gl_Position = projectionMatrix * modelViewMatrix * vec4(world, 1.0);
 }
+`
+
