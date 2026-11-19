@@ -888,3 +888,5 @@ export default function ContributionSkyline({
           col[k] += d * kc
           moving = true
         } else col[k] = colGoal[k]
+      }
+
