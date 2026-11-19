@@ -14,3 +14,4 @@ await page.goto(`http://localhost:${server.address().port}/viterPortofolio/`, { 
 await page.waitForFunction(() => {
   const c = document.querySelector('#top canvas')
   return c && getComputedStyle(c).opacity === '1'
+})
