@@ -1305,3 +1305,4 @@ export default function ContributionSkyline({
             ref={tipRef}
             role="tooltip"
             aria-hidden={active < 0}
+            className="pointer-events-none absolute top-3 left-3 z-20 whitespace-nowrap px-2.5 py-1.5 text-[12px] leading-none shadow-lg transition-opacity duration-150 sm:top-4 sm:left-4 motion-reduce:transition-none"
