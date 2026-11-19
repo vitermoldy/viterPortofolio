@@ -144,3 +144,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
           'pixelated absolute inset-0 h-full w-full object-contain transition-opacity duration-700 motion-reduce:transition-none',
           showCanvas ? 'opacity-0' : status === 'loading' ? 'opacity-60' : 'opacity-100',
         )}
+      />
