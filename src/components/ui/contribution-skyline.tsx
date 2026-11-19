@@ -886,3 +886,4 @@ export default function ContributionSkyline({
         const d = colGoal[k] - col[k]
         if (Math.abs(d) > 0.4) {
           col[k] += d * kc
+          moving = true
