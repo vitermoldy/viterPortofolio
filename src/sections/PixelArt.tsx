@@ -52,3 +52,4 @@ export function PixelArt() {
             the lit screens, the windows and the sun come forward and the night stays at the wall.
           </p>
 
+          <ul className="mt-8 mb-0 flex list-none flex-col gap-3 p-0" aria-label="Pictures">
