@@ -146,3 +146,4 @@ export class VoxelEngine {
     this.material = new THREE.ShaderMaterial({
       vertexShader: VERT,
       fragmentShader: FRAG,
+      uniforms: {
