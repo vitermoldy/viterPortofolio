@@ -54,3 +54,4 @@ export const smoothstep = (a: number, b: number, x: number): number => {
 /** UTC midnight → "YYYY-MM-DD". */
 export const toKey = (ms: number): string => new Date(ms).toISOString().slice(0, 10)
 
+/**
