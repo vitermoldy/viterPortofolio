@@ -42,3 +42,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
   const onVoxelsRef = React.useRef(onVoxels)
   onVoxelsRef.current = onVoxels
   const viewRef = React.useRef(view)
+  const relief = options?.relief
