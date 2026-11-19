@@ -27,3 +27,4 @@ const SCENES: Scene[] = [
   },
   {
     id: 'field',
+    name: 'Sunset field',
