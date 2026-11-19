@@ -66,3 +66,4 @@ export function Projects({ state }: { state: LoadState }) {
               return (
                 <li key={p.id}>
                   <button
+                    type="button"
