@@ -817,3 +817,4 @@ export default function ContributionSkyline({
       const muted = mixRGB(bg, fg, 0.55)
       ctx.font = font
       const a2 = 1 - smoothstep(0, 0.4, e)
+      const a3 = smoothstep(0.62, 1, e)
