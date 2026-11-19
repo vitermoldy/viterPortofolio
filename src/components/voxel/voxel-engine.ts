@@ -148,3 +148,4 @@ export class VoxelEngine {
       fragmentShader: FRAG,
       uniforms: {
         uAssemble: { value: 1 },
+        uMorph: { value: 1 },
