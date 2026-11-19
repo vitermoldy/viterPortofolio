@@ -27,3 +27,4 @@ import * as React from "react"
 export type ContributionDay = { date: string; count: number; level?: number }
 export type Cell = { date: string; count: number; level: number; week: number; day: number }
 export type Streak = { days: number; start: string | null; end: string | null }
+export type ContributionStats = {
