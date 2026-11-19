@@ -1392,3 +1392,4 @@ export default function ContributionSkyline({
                   style={{ outlineColor: "var(--color-foreground, #171717)" }}
                 >
                   <span
+                    aria-hidden="true"
