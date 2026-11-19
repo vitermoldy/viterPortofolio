@@ -49,3 +49,4 @@ export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
       const r = data[k * 4]
       const g = data[k * 4 + 1]
       const b = data[k * 4 + 2]
+      const a = data[k * 4 + 3]
