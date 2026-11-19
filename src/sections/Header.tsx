@@ -13,3 +13,4 @@ export function Header() {
   const toggleRef = React.useRef<HTMLButtonElement>(null)
 
   React.useEffect(() => {
+    if (!open) return
