@@ -10,3 +10,4 @@ export function App() {
   const state = useProfileData()
   return (
     <>
+      <a className="skip-link" href="#main">
