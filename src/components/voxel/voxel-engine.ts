@@ -22,3 +22,4 @@ uniform float uPointerR;
 uniform float uPush;
 uniform float uBump;
 varying vec3 vColor;
+varying vec3 vNormal;
