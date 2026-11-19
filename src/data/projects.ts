@@ -136,3 +136,4 @@ export function publicLinks(p: Project, repos: { name: string; url: string }[]) 
   return p.repos.flatMap((r) => {
     const url = byName.get(r.name.toLowerCase())
     return url ? [{ label: r.label, url }] : []
+  })
