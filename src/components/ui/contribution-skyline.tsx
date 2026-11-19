@@ -536,3 +536,5 @@ export default function ContributionSkyline({
 
     const reduceMq = window.matchMedia("(prefers-reduced-motion: reduce)")
     const darkMq = window.matchMedia("(prefers-color-scheme: dark)")
+    let reduced = reduceMq.matches
+
