@@ -264,3 +264,4 @@ export class VoxelEngine {
     // The fly-in sweeps roughly top-left to bottom-right, with some scatter so it never looks mechanical.
     for (let k = 0; k < v.count; k++) {
       const x = (v.xy[k * 2] + v.w / 2) / v.w
+      const y = (v.h / 2 - v.xy[k * 2 + 1]) / v.h
