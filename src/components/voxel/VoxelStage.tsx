@@ -115,3 +115,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
           if (r.bottom > 0 && r.top < window.innerHeight) engine.play()
         }
         onVoxelsRef.current?.(v)
+        setStatus('ready')
