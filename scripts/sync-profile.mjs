@@ -98,3 +98,4 @@ async function profile() {
 
 async function contributions(createdAt) {
   const today = new Date().toISOString().slice(0, 10)
+  const first = Number(createdAt.slice(0, 4))
