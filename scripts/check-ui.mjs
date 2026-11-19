@@ -17,3 +17,4 @@ const CHROME = process.env.CHROME ?? 'C:/Program Files/Google/Chrome/Application
 mkdirSync(OUT, { recursive: true })
 
 const results = []
+const errors = []
