@@ -3,3 +3,4 @@
 // Used instead of `vite preview`, which on Vite 8 answers 404 to the browser's module script request
 // (any request carrying "Sec-Fetch-Dest: script"), so the built page stays blank there.
 import { createServer } from 'node:http'
+import { createReadStream, existsSync, statSync } from 'node:fs'
