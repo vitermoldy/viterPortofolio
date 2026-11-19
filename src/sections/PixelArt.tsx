@@ -36,3 +36,4 @@ const SCENES: Scene[] = [
   },
 ]
 
+export function PixelArt() {
