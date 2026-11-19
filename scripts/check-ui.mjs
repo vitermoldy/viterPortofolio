@@ -81,3 +81,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await settle(page, 1500)
     await page.locator('#top .stage-frame').screenshot({ path: join(OUT, '1440-hero-sunset.png') })
   })
+  await check('hero: drag turns the avatar', async () => {
