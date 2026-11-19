@@ -37,3 +37,4 @@ export const PROJECTS: Project[] = [
     repos: [{ label: 'Repository', name: 'Convertion-Web' }],
   },
   {
+    id: 'mixer',
