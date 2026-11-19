@@ -8,3 +8,5 @@ pixel, commit, intinya profil GitHub-ku bisa 3D." The owner supplied the Contrib
 (`../vitermoldy/DESIGN.md`), because this site is that profile seen in 3D.
 
 **Design Read.** Reading this as: the owner's GitHub profile as a 3D page for classmates, lecturers and
+recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **ENERGY 3 / RHYTHM 2 / MOTION 3**.
+
