@@ -39,3 +39,4 @@ const PIXEL = [
   'card-agentic-factory.svg',
   'card-studycabin.svg',
   'card-songplay.svg',
+  'card-pixelfolio.svg',
