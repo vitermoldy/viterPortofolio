@@ -18,3 +18,5 @@ const TYPES = {
   '.png': 'image/png',
   '.woff': 'font/woff',
   '.txt': 'text/plain; charset=utf-8',
+}
+
