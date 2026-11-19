@@ -38,3 +38,4 @@ const smooth = (a: number, b: number, x: number) => {
 export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
   const { w, h, data } = grid
   const relief = (opts.relief ?? 0.07) * Math.max(w, h)
+  const base = opts.base ?? 0.6
