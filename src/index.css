@@ -172,3 +172,4 @@
     .btn,
     .btn:hover,
     .btn:active {
+      transition: none;
