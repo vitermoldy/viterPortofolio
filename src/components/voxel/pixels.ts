@@ -53,3 +53,4 @@ export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
       xy[k * 2] = i - w / 2 + 0.5
       xy[k * 2 + 1] = h / 2 - j - 0.5
       col[k * 3] = r / 255
+      col[k * 3 + 1] = g / 255
