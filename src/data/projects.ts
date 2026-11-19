@@ -31,3 +31,4 @@ export const PROJECTS: Project[] = [
   {
     id: 'convertion',
     name: 'Convertion',
+    stack: 'React, Python and PyMuPDF',
