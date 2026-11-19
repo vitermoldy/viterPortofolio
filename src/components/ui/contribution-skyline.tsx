@@ -393,3 +393,4 @@ function Stat({
   accent,
   size,
   align,
+}: {
