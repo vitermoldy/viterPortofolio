@@ -776,3 +776,4 @@ export default function ContributionSkyline({
         if (d > 0.002) {
           r += (ex - r) * 0.72 * d
           g += (ey - g) * 0.72 * d
+          bl += (ez - bl) * 0.72 * d
