@@ -69,3 +69,4 @@ export const dayMs = (v: string | number | Date): number => {
   return Date.UTC(v.getFullYear(), v.getMonth(), v.getDate())
 }
 
+/** mulberry32 — small, fast, deterministic. */
