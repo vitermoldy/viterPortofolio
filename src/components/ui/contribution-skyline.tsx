@@ -1379,3 +1379,4 @@ export default function ContributionSkyline({
               <span className="mr-1">Less</span>
               {theme.swatches.map((c, i) => (
                 <button
+                  key={i}
