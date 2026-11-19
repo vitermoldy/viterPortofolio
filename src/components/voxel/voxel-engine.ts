@@ -376,3 +376,4 @@ export class VoxelEngine {
       this.yaw = this.yawGoal
       this.pitch = this.pitchGoal
     }
+    if (this.pushDecay && this.pushGoal > 0) this.pushGoal = Math.max(0, this.pushGoal - dt * 1.4)
