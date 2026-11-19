@@ -22,3 +22,4 @@ export default defineConfig(({ command }) => ({
     chunkSizeWarningLimit: 900,
   },
   test: {
+    root,
