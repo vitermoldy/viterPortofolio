@@ -8,3 +8,4 @@ const AVATARS: Record<'moon' | 'sunset', VoxelPicture> = {
   moon: {
     src: asset('pixel/avatar.png'),
     w: 64,
+    h: 64,
