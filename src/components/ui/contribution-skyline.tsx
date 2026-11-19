@@ -551,3 +551,4 @@ export default function ContributionSkyline({
     let W = 0
     let H2 = 0
     let H3 = 0
+    let Hmax = 0
