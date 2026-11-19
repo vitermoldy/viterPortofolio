@@ -41,3 +41,4 @@ export function serve(port = 5189) {
     if (!existsSync(file)) {
       res.writeHead(404)
       return res.end('Not found')
+    }
