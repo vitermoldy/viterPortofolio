@@ -253,3 +253,4 @@
   .mail-big {
     background-image: linear-gradient(var(--color-sun), var(--color-sun));
     background-size: 0 4px;
+    background-position: 0 100%;
