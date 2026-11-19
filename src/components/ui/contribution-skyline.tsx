@@ -606,3 +606,4 @@ export default function ContributionSkyline({
       for (let i = 0; i < n; i++) {
         const c = m.cells[i]
         wk[i] = c.week
+        dy[i] = c.day
