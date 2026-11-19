@@ -421,3 +421,4 @@ export class VoxelEngine {
         if (d.mouse) this.pitchGoal = clamp(d.pitch + dy * 0.004, PITCH_LIMIT)
         this.canvas.style.cursor = 'grabbing'
         this.pushGoal = 0
+        this.kick()
