@@ -681,3 +681,4 @@ export default function ContributionSkyline({
       const w = Math.round(stage.clientWidth)
       if (!w || !n) return
       W = w
+      // Narrow cards give the weekday names' column to the grid instead; rows get too tight to label.
