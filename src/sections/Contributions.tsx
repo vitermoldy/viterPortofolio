@@ -108,3 +108,4 @@ export function Contributions({ state }: { state: LoadState }) {
                   className="bg-ink"
                 />
               )}
+              <p className="mt-4 mb-0 text-sm text-muted">
