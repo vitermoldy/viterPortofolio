@@ -818,3 +818,4 @@ export default function ContributionSkyline({
       ctx.font = font
       const a2 = 1 - smoothstep(0, 0.4, e)
       const a3 = smoothstep(0.62, 1, e)
+      if (a2 > 0.004) {
