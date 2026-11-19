@@ -473,3 +473,4 @@ export default function ContributionSkyline({
   showLegend = true,
   showToggle = true,
   footer,
+  locale = "en-US",
