@@ -88,3 +88,4 @@ export const rng = (seed: number) => {
 export const generateContributions = (endMs: number, seed = 7, days = 371): ContributionDay[] => {
   const r = rng(seed)
   const bursts = Array.from({ length: 4 }, () => ({ at: r(), width: 0.035 + r() * 0.07, gain: 0.6 + r() * 1.1 }))
+  const out: ContributionDay[] = []
