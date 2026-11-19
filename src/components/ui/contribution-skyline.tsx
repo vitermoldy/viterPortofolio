@@ -297,3 +297,4 @@ export interface ContributionSkylineProps {
   duration?: number
   /** 0 puts Sunday on the top row, 1 puts Monday there. */
   weekStart?: 0 | 1
+  /** Drag to orbit in 3D. */
