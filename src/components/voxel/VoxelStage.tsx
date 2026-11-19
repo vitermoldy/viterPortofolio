@@ -53,3 +53,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
     let disposed = false
     let ro: ResizeObserver | null = null
     let io: IntersectionObserver | null = null
+    const mq = window.matchMedia(reducedQuery)
