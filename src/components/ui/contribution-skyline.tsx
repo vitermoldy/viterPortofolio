@@ -796,3 +796,4 @@ export default function ContributionSkyline({
           quadPath(ctx, polys, o + 16, 0)
           ctx.fillStyle = rgbString(r * 0.68, g * 0.68, bl * 0.68)
           ctx.fill()
+        }
