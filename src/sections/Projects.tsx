@@ -44,3 +44,4 @@ export function Projects({ state }: { state: LoadState }) {
                 <ul className="m-0 flex list-none flex-wrap gap-3 p-0">
                   {links.map((l) => (
                     <li key={l.url}>
+                      <a className="btn btn-quiet" href={l.url} rel="noopener">
