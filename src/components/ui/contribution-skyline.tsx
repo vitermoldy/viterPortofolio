@@ -556,3 +556,4 @@ export default function ContributionSkyline({
     let dpr = 1
     let gutter = 30
     let labelW = 30
+    let font = "10px sans-serif"
