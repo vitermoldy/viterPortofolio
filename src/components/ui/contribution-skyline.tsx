@@ -1176,3 +1176,4 @@ export default function ContributionSkyline({
     if (!a || !b) return "None"
     const f = withYear ? dfy : df
     return a === b ? f.format(dayMs(a)) : f.format(dayMs(a)) + " to " + f.format(dayMs(b))
+  }
