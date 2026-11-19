@@ -225,3 +225,4 @@ for (const width of [390, 320]) {
   await check(`${width}: no sideways scroll`, async () => {
     await settle(page)
     const over = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)
+    expect(over <= 0, 'overflow ' + over + 'px')
