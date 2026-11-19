@@ -21,3 +21,5 @@ export type VoxelOptions = {
   relief?: number
   /** Depth every visible block keeps, in cells. */
   base?: number
+}
+
