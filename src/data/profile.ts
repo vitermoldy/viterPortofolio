@@ -15,3 +15,4 @@ export type Repo = {
 }
 
 export type Profile = {
+  fetchedAt: string
