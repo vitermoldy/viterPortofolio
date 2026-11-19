@@ -53,3 +53,4 @@ describe('contribution totals', () => {
 })
 
 describe('project links', () => {
+  it('links only repositories GitHub lists as public', () => {
