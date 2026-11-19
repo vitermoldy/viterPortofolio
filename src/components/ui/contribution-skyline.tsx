@@ -428,3 +428,4 @@ function Stat({
       {align === "end" ? (
         <>
           <div className="text-right text-[13px] leading-tight" style={{ color: MUTED }}>
+            {label}
