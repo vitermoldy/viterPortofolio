@@ -376,3 +376,4 @@ const GridIcon = () => (
   </svg>
 )
 
+const CubeIcon = () => (
