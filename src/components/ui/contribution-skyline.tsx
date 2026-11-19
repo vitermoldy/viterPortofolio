@@ -185,3 +185,4 @@ export const monthLabels = (cells: Cell[], weeks: number, locale = "en-US") => {
   const fmt = new Intl.DateTimeFormat(locale, { month: "short", timeZone: "UTC" })
   const out: { week: number; label: string }[] = []
   let prev = -1
+  for (let w = 0; w < weeks; w++) {
