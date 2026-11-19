@@ -326,3 +326,4 @@ export class VoxelEngine {
       for (const c of this.corners) {
         this.probe.copy(c).project(this.camera)
         if (this.probe.z > 1 || Math.abs(this.probe.x) > limit || Math.abs(this.probe.y) > limit) return false
+      }
