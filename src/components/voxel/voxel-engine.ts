@@ -355,3 +355,4 @@ export class VoxelEngine {
 
   private tick = (now: number) => {
     this.raf = 0
+    const dt = Math.min(0.05, Math.max(0, (now - this.last) / 1000))
