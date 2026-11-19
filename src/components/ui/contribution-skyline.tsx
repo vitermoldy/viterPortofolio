@@ -581,3 +581,4 @@ export default function ContributionSkyline({
     let weekdayRows: { day: number; label: string }[] = []
     // interaction
     let hovered = -1
+    let pinned = -1
