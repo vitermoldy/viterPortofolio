@@ -35,3 +35,4 @@ export function serve(port = 5189) {
     let file = normalize(join(root, rel))
     if (!file.startsWith(root)) {
       res.writeHead(403)
+      return res.end()
