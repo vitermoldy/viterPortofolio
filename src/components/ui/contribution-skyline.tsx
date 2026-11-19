@@ -1314,3 +1314,4 @@ export default function ContributionSkyline({
           >
             {active >= 0 && model.cells[active] ? (
               <>
+                <strong className="font-semibold">
