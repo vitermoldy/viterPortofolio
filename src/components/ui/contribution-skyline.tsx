@@ -468,3 +468,4 @@ export default function ContributionSkyline({
   accent,
   duration = 1300,
   weekStart = 0,
+  orbit = true,
