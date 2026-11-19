@@ -1242,3 +1242,4 @@ export default function ContributionSkyline({
                 }}
               >
                 {v === "2d" ? <GridIcon /> : <CubeIcon />}
+              </button>
