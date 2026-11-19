@@ -284,3 +284,4 @@ export class VoxelEngine {
     u.uSpan.value = Math.hypot(v.w, v.h)
     u.uPointerR.value = span * 0.055
     u.uPush.value = span * 0.06
+    u.uBump.value = span * 0.035
