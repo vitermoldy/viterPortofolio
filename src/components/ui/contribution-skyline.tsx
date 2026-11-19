@@ -135,3 +135,4 @@ export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0)
     cells.push({ date, count: counts.get(date) ?? 0, level: 0, week: Math.floor(i / 7), day: i % 7 })
   }
   const nz = cells.map((c) => c.count).filter((c) => c > 0).sort((a, b) => a - b)
+  const busy = nz.length ? nz[Math.floor(0.95 * (nz.length - 1))] : 0
