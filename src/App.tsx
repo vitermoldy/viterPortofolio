@@ -8,3 +8,4 @@ import { Projects } from '@/sections/Projects'
 
 export function App() {
   const state = useProfileData()
+  return (
