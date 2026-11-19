@@ -146,3 +146,4 @@ export const levelOf = (count: number, busy: number): number =>
 
 /** Total, busiest day, longest run, and the run that reaches today (or yesterday — today isn't over). */
 export const computeStats = (cells: Cell[]): ContributionStats => {
+  let total = 0
