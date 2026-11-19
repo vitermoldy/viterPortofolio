@@ -40,3 +40,4 @@ export function Contact() {
             {LINKS.map((l) => (
               <li key={l.label} className="border-b-2 border-forest">
                 <a href={l.href} rel="noopener" className="contact-link flex min-h-16 flex-col justify-center gap-1 py-4 pr-4 no-underline">
+                  <span className="font-pixel text-xl text-paper">{l.label}</span>
