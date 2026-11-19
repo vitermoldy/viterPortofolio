@@ -56,3 +56,4 @@ export function Hero({ state }: { state: LoadState }) {
             </a>
             <a className="btn btn-quiet" href="#contributions">
               See the commit skyline
+            </a>
