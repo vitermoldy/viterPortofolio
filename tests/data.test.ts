@@ -31,3 +31,4 @@ const c: Contributions = {
   fetchedAt: '2026-11-19T12:00:00Z',
   login: 'someone',
   today: '2026-11-19',
+  days: [
