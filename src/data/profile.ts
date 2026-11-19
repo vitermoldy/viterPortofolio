@@ -10,3 +10,4 @@ export type Repo = {
   homepage: string | null
   language: string | null
   stars: number
+  forks: number
