@@ -29,3 +29,4 @@ const PIXEL = [
   'avatar-sunset.png',
   'room.svg',
   'banner.svg',
+  'character.svg',
