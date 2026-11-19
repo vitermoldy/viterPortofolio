@@ -7,3 +7,4 @@ pixel, commit, intinya profil GitHub-ku bisa 3D." The owner supplied the Contrib
 (`Prompt.txt`) for the commits. Everything else follows the profile README's own design
 (`../vitermoldy/DESIGN.md`), because this site is that profile seen in 3D.
 
+**Design Read.** Reading this as: the owner's GitHub profile as a 3D page for classmates, lecturers and
