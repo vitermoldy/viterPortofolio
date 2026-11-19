@@ -249,3 +249,4 @@ for (const width of [390, 320]) {
       await page.keyboard.press('Escape')
       expect(await page.locator('#menu').isHidden(), 'menu still open after Escape')
       await page.getByRole('button', { name: 'Menu' }).click()
+      await page.locator('#menu a[href="#projects"]').click()
