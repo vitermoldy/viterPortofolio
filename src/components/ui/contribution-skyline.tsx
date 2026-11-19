@@ -567,3 +567,4 @@ export default function ContributionSkyline({
     // cells
     let n = 0
     let weeks = 0
+    let wk = new Float32Array(0)
