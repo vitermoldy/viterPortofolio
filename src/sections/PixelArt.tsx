@@ -33,3 +33,4 @@ const SCENES: Scene[] = [
     h: 96,
     text: 'From the About section: photographing the sunset in a flower field while the wind lifts the hair, the hood and the camera strap.',
     alt: 'Pixel art: Viter in a green hoodie, seen from behind, photographing the sunset in a flower field while the wind lifts the hair, the hood and the camera strap.',
+  },
