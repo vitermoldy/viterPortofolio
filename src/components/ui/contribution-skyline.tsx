@@ -740,3 +740,4 @@ export default function ContributionSkyline({
 
       for (let k = 0; k < n; k++) {
         const i = order[k]
+        const x0 = wk[i] + off
