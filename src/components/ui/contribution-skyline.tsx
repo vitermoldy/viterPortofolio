@@ -1193,3 +1193,4 @@ export default function ContributionSkyline({
   const hints = ["Hover a day for its count, or walk the days with the arrow keys", "Drag to orbit, double-click to reset"]
   const hint = hints[is3d && orbit ? 1 : 0]
 
+  return (
