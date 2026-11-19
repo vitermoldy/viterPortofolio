@@ -1054,3 +1054,4 @@ export default function ContributionSkyline({
     }
 
     const setTarget = () => {
+      const goal = cfg.current.target
