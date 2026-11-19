@@ -204,3 +204,4 @@ export class VoxelEngine {
       this.assemble = 1
       this.assembling = false
     }
+    this.kick()
