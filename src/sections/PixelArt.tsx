@@ -55,3 +55,4 @@ export function PixelArt() {
           <ul className="mt-8 mb-0 flex list-none flex-col gap-3 p-0" aria-label="Pictures">
             {SCENES.map((s) => {
               const on = s.id === scene.id
+              return (
