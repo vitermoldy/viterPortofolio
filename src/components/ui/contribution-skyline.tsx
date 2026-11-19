@@ -1125,3 +1125,4 @@ export default function ContributionSkyline({
         retheme()
         relayout()
       },
+      retheme,
