@@ -316,3 +316,4 @@ const BG_FALLBACK: RGB = [255, 255, 255]
 
 // Any CSS colour → sRGB, by letting the browser paint it. Handles oklch, color-mix, names…
 let probe: CanvasRenderingContext2D | null = null
+const toRGB = (color: string, fallback: RGB | null): RGB | null => {
