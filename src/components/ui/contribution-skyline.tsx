@@ -1048,3 +1048,4 @@ export default function ContributionSkyline({
       cfg.current.setAnnounce(cfg.current.describe(i))
     }
 
+    const onBlur = () => {
