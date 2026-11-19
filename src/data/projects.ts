@@ -8,3 +8,4 @@ export type Project = {
   id: string
   name: string
   stack: string
+  card: string
