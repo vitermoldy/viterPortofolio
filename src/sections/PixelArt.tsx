@@ -19,3 +19,4 @@ const SCENES: Scene[] = [
   {
     id: 'cabin',
     name: 'StudyCabin at night',
+    src: asset('pixel/banner.svg'),
