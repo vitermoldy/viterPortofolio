@@ -43,3 +43,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 - A repository is linked only when GitHub lists it public (`profile.json`); a private one shows the README's
   note "Still in development, so the repository is private for now." (the owner's rule of 15 November 2026).
 - Every number on the page comes from GitHub through `scripts/sync-profile.mjs`; no number is typed in.
+- No middle dot between fragments of copy (the owner's rule). The pixel cards themselves still carry the dots
