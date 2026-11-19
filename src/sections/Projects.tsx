@@ -83,3 +83,4 @@ export function Projects({ state }: { state: LoadState }) {
                       loading="lazy"
                       decoding="async"
                       className="pixelated block h-auto w-full"
+                    />
