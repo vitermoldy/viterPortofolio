@@ -121,3 +121,4 @@ export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0)
     if (!d || typeof d.date !== "string") continue
     const ms = dayMs(d.date)
     const c = Number(d.count)
+    if (!Number.isFinite(ms) || !(c > 0) || !Number.isFinite(c)) continue
