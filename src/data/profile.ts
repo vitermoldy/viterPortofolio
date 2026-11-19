@@ -12,3 +12,5 @@ export type Repo = {
   stars: number
   forks: number
   pushedAt: string
+}
+
