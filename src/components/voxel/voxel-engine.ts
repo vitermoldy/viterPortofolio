@@ -143,3 +143,4 @@ export class VoxelEngine {
     this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: 'high-performance' })
     this.renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1))
     this.renderer.setClearColor(0x000000, 0)
+    this.material = new THREE.ShaderMaterial({
