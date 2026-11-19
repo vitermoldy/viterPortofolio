@@ -359,3 +359,4 @@ export class VoxelEngine {
     this.last = now
     let moving = false
 
+    if (this.assembling) {
