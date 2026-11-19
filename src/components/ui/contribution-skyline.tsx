@@ -1174,3 +1174,4 @@ export default function ContributionSkyline({
   const { stats } = model
   const range = (a: string | null, b: string | null, withYear = false) => {
     if (!a || !b) return "None"
+    const f = withYear ? dfy : df
