@@ -1373,3 +1373,4 @@ export default function ContributionSkyline({
             </span>
           ) : (
             <span className="flex-1">{footer}</span>
+          )}
