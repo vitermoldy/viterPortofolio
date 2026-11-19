@@ -255,3 +255,4 @@ for (const width of [390, 320]) {
     })
     for (const id of ['contributions', 'pixel-art', 'projects', 'contact']) {
       await check(`390: ${id} shot`, async () => {
+        await page.locator('#' + id).scrollIntoViewIfNeeded()
