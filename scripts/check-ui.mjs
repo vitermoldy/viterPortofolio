@@ -40,3 +40,4 @@ const browser = await chromium.launch({ executablePath: CHROME, headless: true, 
 
 async function open(viewport) {
   const context = await browser.newContext({ viewport })
+  const page = await context.newPage()
