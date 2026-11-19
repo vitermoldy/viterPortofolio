@@ -100,3 +100,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
 
   // Every new picture is read pixel by pixel and handed to the engine.
   React.useEffect(() => {
+    if (!engineReady) return
