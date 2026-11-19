@@ -101,3 +101,4 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
     heat *= 0.55 + mood * 0.9
     const pActive = Math.min(0.94, (weekend ? 0.22 : 0.5) + heat * 0.4)
     let count = 0
+    if (r() < pActive) count = 1 + Math.floor(-Math.log(1 - r()) * (1.2 + heat * 7) * (weekend ? 0.5 : 1))
