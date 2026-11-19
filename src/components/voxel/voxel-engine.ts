@@ -128,3 +128,4 @@ export class VoxelEngine {
   private pitchGoal: number
   private push = 0
   private pushGoal = 0
+  private pushDecay = false
