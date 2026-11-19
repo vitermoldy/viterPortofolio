@@ -72,3 +72,4 @@ export const PROJECTS: Project[] = [
     repos: [{ label: 'Repository', name: 'idle-Agent-factory' }],
   },
   {
+    id: 'studycabin',
