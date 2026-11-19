@@ -23,3 +23,4 @@ export function Contact() {
   return (
       <section id="contact" aria-labelledby="contact-title" className="border-t-2 border-forest pt-20 md:pt-28">
         <div className="wrap">
+          <h2 id="contact-title" className="h-pixel h-block text-[clamp(2rem,4.5vw,3.25rem)]">
