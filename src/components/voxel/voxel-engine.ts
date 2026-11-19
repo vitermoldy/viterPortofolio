@@ -82,3 +82,4 @@ void main() {
 
 /** The resting view: a little from the right and above, so the relief reads as depth before anyone drags. */
 export type View = { yaw: number; pitch: number }
+const DEFAULT_VIEW: View = { yaw: -0.34, pitch: 0.2 }
