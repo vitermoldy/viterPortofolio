@@ -78,3 +78,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
             if (on) engine.play()
           },
           { threshold: 0.25 },
+        )
