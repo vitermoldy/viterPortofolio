@@ -135,3 +135,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
       await page.mouse.move(box.x + box.width * (0.2 + (i % 8) * 0.08), box.y + box.height * (0.3 + Math.floor(i / 8) * 0.1))
       await page.waitForTimeout(60)
       const t = await page.locator('#contributions [role=tooltip]').innerText()
+      if (/ on /.test(t)) found = t
