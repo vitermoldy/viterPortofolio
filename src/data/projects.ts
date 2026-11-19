@@ -42,3 +42,4 @@ export const PROJECTS: Project[] = [
     stack: 'Web Audio and PyTorch',
     card: card('mixer'),
     text: 'A mixing desk to learn on, with four consoles that work like a Midas M32, a Yamaha TF, an Allen & Heath SQ and an analog board. Load stems or split any song into vocals, drums, bass and the rest with Demucs, then set gain, EQ, gate, compressor, sends and faders while nine lessons read your meters.',
+    repos: [{ label: 'Repository', name: 'Mixer-Simulation' }],
