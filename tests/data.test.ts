@@ -49,3 +49,4 @@ describe('contribution totals', () => {
   })
   it('lists the years newest first', () => {
     expect(yearsOf(c)).toEqual([2026, 2025])
+  })
