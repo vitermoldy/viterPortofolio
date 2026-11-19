@@ -109,3 +109,4 @@ export const PROJECTS: Project[] = [
     name: 'Viygo',
     stack: 'Laravel 12 and MySQL',
     card: card('viygo'),
+    text: 'A salon search and booking site: search, salon pages with a Leaflet map and a three-step booking flow.',
