@@ -300,3 +300,4 @@ export class VoxelEngine {
     this.depthMax = deepest
     const x = v.w / 2
     const y = v.h / 2
+    let i = 0
