@@ -220,3 +220,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
 }
 
 // Phone
+for (const width of [390, 320]) {
