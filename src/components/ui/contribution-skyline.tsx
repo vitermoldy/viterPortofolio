@@ -1398,3 +1398,4 @@ export default function ContributionSkyline({
                   />
                 </button>
               ))}
+              <span className="ml-1">More</span>
