@@ -211,3 +211,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     }
   })
   await check('keyboard: Tab reaches the skip link first', async () => {
+    await page.goto(BASE, { waitUntil: 'networkidle' })
