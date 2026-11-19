@@ -885,3 +885,4 @@ export default function ContributionSkyline({
       for (let k = 0; k < 15; k++) {
         const d = colGoal[k] - col[k]
         if (Math.abs(d) > 0.4) {
+          col[k] += d * kc
