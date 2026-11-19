@@ -296,3 +296,4 @@ export interface ContributionSkylineProps {
   /** Morph length, ms. */
   duration?: number
   /** 0 puts Sunday on the top row, 1 puts Monday there. */
+  weekStart?: 0 | 1
