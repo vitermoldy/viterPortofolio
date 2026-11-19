@@ -10,3 +10,4 @@ const CHROME = process.env.CHROME ?? 'C:/Program Files/Google/Chrome/Application
 const server = await serve(0)
 const browser = await chromium.launch({ executablePath: CHROME, headless: true, args: ['--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })
 const page = await browser.newPage({ viewport: { width: 1200, height: 630 } })
+await page.goto(`http://localhost:${server.address().port}/viterPortofolio/`, { waitUntil: 'networkidle' })
