@@ -396,3 +396,5 @@ export class VoxelEngine {
       return true
     }
     return false
+  }
+
