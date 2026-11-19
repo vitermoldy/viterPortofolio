@@ -909,3 +909,4 @@ export default function ContributionSkyline({
       }
 
       draw()
+      if (moving) raf = requestAnimationFrame(tick)
