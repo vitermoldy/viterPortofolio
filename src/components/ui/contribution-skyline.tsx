@@ -1060,3 +1060,4 @@ export default function ContributionSkyline({
         target = goal
         if (goal === 0) {
           yawGoal = 0
+          elevGoal = 0
