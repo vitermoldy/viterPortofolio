@@ -777,3 +777,4 @@ export default function ContributionSkyline({
           r += (ex - r) * 0.72 * d
           g += (ey - g) * 0.72 * d
           bl += (ez - bl) * 0.72 * d
+        }
