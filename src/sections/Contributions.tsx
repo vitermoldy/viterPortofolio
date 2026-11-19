@@ -10,3 +10,5 @@ type Range = 'last' | number
 
 export function Contributions({ state }: { state: LoadState }) {
   const [range, setRange] = React.useState<Range>('last')
+  const c = state.status === 'ready' ? state.data.contributions : null
+
