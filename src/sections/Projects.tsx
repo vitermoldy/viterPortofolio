@@ -19,3 +19,4 @@ export function Projects({ state }: { state: LoadState }) {
       <div className="wrap grid gap-10 lg:grid-cols-12 lg:gap-x-8 lg:gap-y-8">
         <div className="lg:col-span-5 lg:col-start-8 lg:row-start-1">
           <h2 id="projects-title" className="h-pixel h-block text-[clamp(2rem,4.5vw,3.25rem)]">
+            Projects, card by card
