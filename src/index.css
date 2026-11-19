@@ -106,3 +106,4 @@
     text-wrap: balance;
   }
   .h-block {
+    display: flex;
