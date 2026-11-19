@@ -170,3 +170,4 @@ export class VoxelEngine {
     return this.current === null
   }
 
+  setReducedMotion(v: boolean) {
