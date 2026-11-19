@@ -23,3 +23,4 @@ export default defineConfig(({ command }) => ({
   },
   test: {
     root,
+    environment: 'node',
