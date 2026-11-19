@@ -1302,3 +1302,4 @@ export default function ContributionSkyline({
           </div>
 
           <div
+            ref={tipRef}
