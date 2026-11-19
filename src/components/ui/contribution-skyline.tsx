@@ -260,3 +260,4 @@ export const PALETTES: Record<PaletteName, { light: string[]; dark: string[] }> 
   mono: { light: ["#d4d4d4", "#a3a3a3", "#525252", "#171717"], dark: ["#333333", "#5c5c5c", "#a3a3a3", "#fafafa"] },
 }
 
+export const resolvePalette = (p: PaletteInput | undefined, dark: boolean): string[] => {
