@@ -52,3 +52,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 | --- | --- |
 | Pixel art in `public/pixel/` | Copied from `../vitermoldy/assets/pixel` by `npm run sync` |
 | `public/data/*.json` | `npm run sync`; the Pages workflow refreshes them on every build |
+| `public/share.png` | `node scripts/share-image.mjs` after a build |
