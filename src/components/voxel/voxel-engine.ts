@@ -261,3 +261,4 @@ export class VoxelEngine {
     g.setAttribute('normal', this.box.getAttribute('normal'))
     const rand = new Float32Array(v.count * 4)
     for (let k = 0; k < rand.length; k++) rand[k] = Math.random()
+    // The fly-in sweeps roughly top-left to bottom-right, with some scatter so it never looks mechanical.
