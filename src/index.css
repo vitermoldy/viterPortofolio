@@ -111,3 +111,4 @@
     gap: 0.45em;
   }
   .h-block::before {
+    content: '';
