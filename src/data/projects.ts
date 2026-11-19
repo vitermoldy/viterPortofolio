@@ -55,3 +55,4 @@ export const PROJECTS: Project[] = [
   {
     id: 'nyxborne',
     name: 'Nyxborne v2',
+    stack: 'React, canvas and MySQL',
