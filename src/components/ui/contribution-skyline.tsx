@@ -1338,3 +1338,4 @@ export default function ContributionSkyline({
 
         {showStats && (
           <div
+            aria-hidden={!showRow}
