@@ -239,3 +239,4 @@ export class VoxelEngine {
     const c = this.canvas
     c.removeEventListener('pointerdown', this.onDown)
     c.removeEventListener('pointermove', this.onMove)
+    c.removeEventListener('pointerup', this.onUp)
