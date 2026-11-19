@@ -38,3 +38,4 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'mixer',
+    name: 'Mixer Simulation',
