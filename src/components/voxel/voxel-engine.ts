@@ -348,3 +348,4 @@ export class VoxelEngine {
   }
 
   private kick() {
+    if (this.raf || !this.visible) return
