@@ -409,3 +409,4 @@ function Stat({
           {label}
         </div>
         <div className="mt-1 flex flex-wrap items-baseline gap-x-1.5">
+          <span
