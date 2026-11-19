@@ -373,3 +373,4 @@ export class VoxelEngine {
     this.pitch += (this.pitchGoal - this.pitch) * k
     if (Math.abs(this.yawGoal - this.yaw) > 1e-4 || Math.abs(this.pitchGoal - this.pitch) > 1e-4) moving = true
     else {
+      this.yaw = this.yawGoal
