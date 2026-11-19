@@ -191,3 +191,4 @@ export const monthLabels = (cells: Cell[], weeks: number, locale = "en-US") => {
     const m = +c.date.slice(5, 7)
     if (m !== prev) out.push({ week: w, label: fmt.format(dayMs(c.date)) })
     prev = m
+  }
