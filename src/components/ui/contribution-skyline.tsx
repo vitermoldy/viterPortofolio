@@ -399,3 +399,4 @@ function Stat({
   unit: string
   sub: string
   accent: string
+  size: number
