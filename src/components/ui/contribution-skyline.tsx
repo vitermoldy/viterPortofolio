@@ -248,3 +248,5 @@ export const mixRGB = (a: RGB, b: RGB, t: number): RGB => [a[0] + (b[0] - a[0]) 
 export const luminance = (c: RGB): number => (0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2]) / 255
 
 export type PaletteName = "github" | "halloween" | "ocean" | "ember" | "grape" | "mono"
+export type PaletteInput = PaletteName | string[] | { light: string[]; dark: string[] }
+
