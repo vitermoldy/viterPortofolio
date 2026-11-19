@@ -40,3 +40,4 @@ void main() {
   float depth = dga.x + sin(m * 3.14159265) * uBump + uPointer.z * uPush * exp(-dot(dp, dp) / (uPointerR * uPointerR));
 
   float a = easeOut(clamp((uAssemble - aRand.x * 0.55) / 0.45, 0.0, 1.0));
+  vec3 local = vec3(position.xy * 0.94 * alpha, (position.z + 0.5) * depth * alpha);
