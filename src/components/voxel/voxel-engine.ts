@@ -263,3 +263,4 @@ export class VoxelEngine {
     for (let k = 0; k < rand.length; k++) rand[k] = Math.random()
     // The fly-in sweeps roughly top-left to bottom-right, with some scatter so it never looks mechanical.
     for (let k = 0; k < v.count; k++) {
+      const x = (v.xy[k * 2] + v.w / 2) / v.w
