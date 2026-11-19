@@ -1308,3 +1308,4 @@ export default function ContributionSkyline({
             className="pointer-events-none absolute top-3 left-3 z-20 whitespace-nowrap px-2.5 py-1.5 text-[12px] leading-none shadow-lg transition-opacity duration-150 sm:top-4 sm:left-4 motion-reduce:transition-none"
             style={{
               opacity: active >= 0 ? 1 : 0,
+              background: "var(--color-foreground, #171717)",
