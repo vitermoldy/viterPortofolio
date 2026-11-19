@@ -105,3 +105,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
     loadPixels(picture.src, picture.w, picture.h)
       .then((grid) => {
         if (stale) return
+        const v = voxelize(grid, { relief, base })
