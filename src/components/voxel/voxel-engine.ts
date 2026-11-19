@@ -313,3 +313,4 @@ export class VoxelEngine {
     if (!v) return
     this.target.set(0, 0, this.depthMax * 0.5)
     const dx = Math.sin(this.yaw) * Math.cos(this.pitch)
+    const dy = Math.sin(this.pitch)
