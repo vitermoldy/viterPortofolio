@@ -173,3 +173,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
       await page.locator('#pixel-art .stage-frame').screenshot({ path: join(OUT, `1440-scene-${name.split(' ')[0].toLowerCase()}.png`) })
     })
   }
+  await check('projects: every card picks and its links are right', async () => {
