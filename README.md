@@ -13,3 +13,5 @@ My GitHub profile in 3D: **https://vitermoldy.github.io/viterPortofolio/**
   relief you can turn.
 - **Every project card** from the README as a relief. Public repositories get their links; private ones say so.
 
+Drag to turn any of them, double-click to face it again, or focus it and use the arrow keys.
+
