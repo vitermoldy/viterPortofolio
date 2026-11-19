@@ -8,3 +8,4 @@ export type Repo = {
   description: string | null
   url: string
   homepage: string | null
+  language: string | null
