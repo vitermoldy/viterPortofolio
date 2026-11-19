@@ -11,3 +11,4 @@ import * as React from "react"
  * corner. Switching views swings one camera between the two while each week's
  * bars rise (or settle) in a wave from the oldest week to the newest, so the
  * flat heat map visibly becomes the skyline — nothing is swapped or cut.
+ *
