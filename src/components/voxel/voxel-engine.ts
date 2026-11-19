@@ -173,3 +173,5 @@ export class VoxelEngine {
   setReducedMotion(v: boolean) {
     this.reduced = v
     this.kick()
+  }
+
