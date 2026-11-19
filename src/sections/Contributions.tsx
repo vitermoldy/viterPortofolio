@@ -41,3 +41,4 @@ export function Contributions({ state }: { state: LoadState }) {
               <p className="mt-5 mb-0 max-w-[40rem] text-lg">
                 {num(allTimeTotal(c))} contributions since {day(c.days[0][0])}. Each day is one block in GitHub&rsquo;s own
                 shade for it, and its height follows a log scale, so a day of {plural(view.quietest, 'contribution')} still
+                shows beside the busiest
