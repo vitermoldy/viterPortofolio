@@ -56,3 +56,4 @@ export function Header() {
           aria-controls="menu"
           onClick={() => setOpen((o) => !o)}
         >
+          {open ? 'Close menu' : 'Menu'}
