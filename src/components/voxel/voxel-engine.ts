@@ -186,3 +186,4 @@ export class VoxelEngine {
       ;(g.getAttribute('aColB') as THREE.InstancedBufferAttribute).copyArray(v.col).needsUpdate = true
       ;(g.getAttribute('aDgaB') as THREE.InstancedBufferAttribute).copyArray(v.dga).needsUpdate = true
       const u = this.material.uniforms
+      u.uWaveFrom.value.set(wave === 'corner' ? -v.w / 2 : 0, wave === 'corner' ? v.h / 2 : 0)
