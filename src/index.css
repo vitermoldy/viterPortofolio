@@ -40,3 +40,4 @@
     scroll-padding-top: 5rem;
     -webkit-text-size-adjust: 100%;
   }
+  @media (prefers-reduced-motion: reduce) {
