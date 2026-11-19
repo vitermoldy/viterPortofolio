@@ -730,3 +730,4 @@ export default function ContributionSkyline({
       order.sort((a, c) => (wk[a] + 0.5) * sn + (dy[a] + 0.5) * cs - ((wk[c] + 0.5) * sn + (dy[c] + 0.5) * cs))
 
       const w = lerp(0.78, 0.9, e)
+      const off = (1 - w) / 2
