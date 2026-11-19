@@ -293,3 +293,4 @@ export interface ContributionSkylineProps {
   heightCurve?: HeightCurve
   /** Colour of the big stat numbers. Defaults to the heaviest palette colour. */
   accent?: string
+  /** Morph length, ms. */
