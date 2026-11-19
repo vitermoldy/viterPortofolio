@@ -115,3 +115,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   await check('skyline: draws the real calendar', async () => {
     await page.waitForTimeout(2600)
     const title = await page.locator('#contributions h3').innerText()
+    expect(/\d/.test(title), 'title ' + title)
