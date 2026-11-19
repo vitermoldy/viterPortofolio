@@ -29,3 +29,4 @@ type Props = {
 const reducedQuery = '(prefers-reduced-motion: reduce)'
 
 /**
+ * A pixel-art picture as a relief of blocks. The flat picture shows first (it is the loading state and
