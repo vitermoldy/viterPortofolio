@@ -66,3 +66,4 @@ export function Hero({ state }: { state: LoadState }) {
           </div>
           <div className="mx-auto mt-4 flex w-full max-w-[600px] flex-wrap items-center justify-between gap-3">
             <div className="seg" role="group" aria-label="Sky behind the portrait">
+              <button type="button" aria-pressed={sky === 'moon'} onClick={() => setSky('moon')}>
