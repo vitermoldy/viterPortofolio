@@ -418,3 +418,4 @@ export class VoxelEngine {
       if (d.moved || Math.hypot(dx, dy) > 4) {
         d.moved = true
         this.yawGoal = clamp(d.yaw - dx * 0.006, YAW_LIMIT)
+        if (d.mouse) this.pitchGoal = clamp(d.pitch + dy * 0.004, PITCH_LIMIT)
