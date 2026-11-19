@@ -1348,3 +1348,4 @@ export default function ContributionSkyline({
             }}
           >
             <div className="min-h-0 overflow-hidden">
+              <div className="grid grid-cols-2 gap-x-4 gap-y-4 px-3 pt-4 pb-1 sm:px-4 md:grid-cols-4">
