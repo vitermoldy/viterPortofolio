@@ -55,3 +55,4 @@ export function Hero({ state }: { state: LoadState }) {
               Open my GitHub profile
             </a>
             <a className="btn btn-quiet" href="#contributions">
+              See the commit skyline
