@@ -1102,3 +1102,4 @@ export default function ContributionSkyline({
     const onReduce = () => {
       reduced = reduceMq.matches
       kick()
+    }
