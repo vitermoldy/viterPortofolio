@@ -770,3 +770,4 @@ export default function ContributionSkyline({
 
         const L = lv[i] * 3
         let r = col[L]
+        let g = col[L + 1]
