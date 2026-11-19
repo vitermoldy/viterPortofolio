@@ -980,3 +980,4 @@ export default function ContributionSkyline({
         hovered = i
         refreshActive()
       }
+      canvas.style.cursor = cfg.current.orbit && target === 1 ? "grab" : i >= 0 ? "pointer" : "default"
