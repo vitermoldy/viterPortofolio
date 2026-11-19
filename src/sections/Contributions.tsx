@@ -53,3 +53,4 @@ export function Contributions({ state }: { state: LoadState }) {
           </div>
           {view && view.pastYears.length > 0 && (
             <div className="md:col-span-5 md:justify-self-end">
+              <div className="seg" role="group" aria-label="Years shown">
