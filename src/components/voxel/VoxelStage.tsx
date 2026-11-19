@@ -132,3 +132,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
       ref={boxRef}
       className={cn('voxel-stage relative w-full overflow-hidden', className)}
       style={{ aspectRatio: `${picture.w} / ${picture.h}` }}
+    >
