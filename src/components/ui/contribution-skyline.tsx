@@ -177,3 +177,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
     busiest: { count: best, date: bestDate },
     longest,
     current,
+  }
