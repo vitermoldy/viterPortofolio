@@ -475,3 +475,4 @@ export default function ContributionSkyline({
   footer,
   locale = "en-US",
   seed = 7,
+  onCellClick,
