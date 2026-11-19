@@ -744,3 +744,4 @@ export default function ContributionSkyline({
         const y0 = dy[i] + off
         const x1 = x0 + w
         const y1 = y0 + w
+        const z = zs[i] + hover[i] * lift
