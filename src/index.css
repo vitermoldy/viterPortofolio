@@ -259,3 +259,4 @@
     transition: background-size 260ms ease-out;
   }
   .mail-big:hover {
+    background-size: 100% 4px;
