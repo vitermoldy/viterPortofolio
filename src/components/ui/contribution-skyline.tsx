@@ -176,3 +176,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
     last: cells.length ? cells[cells.length - 1].date : null,
     busiest: { count: best, date: bestDate },
     longest,
+    current,
