@@ -54,3 +54,5 @@ const stageReady = (page, sel) =>
     const c = document.querySelector(s + ' canvas')
     return c && getComputedStyle(c).opacity === '1'
   }, sel, { timeout: 20000 })
+const settle = (page, ms = 3200) => page.waitForTimeout(ms)
+
