@@ -1256,3 +1256,4 @@ export default function ContributionSkyline({
             style={{ height: 150, outlineColor: "var(--color-foreground, #171717)" }}
           >
             <canvas
+              ref={canvasRef}
