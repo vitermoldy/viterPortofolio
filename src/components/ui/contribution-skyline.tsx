@@ -697,3 +697,5 @@ export default function ContributionSkyline({
       lastH = -1
       cfg.current.setWidth(W)
       draw()
+    }
+
