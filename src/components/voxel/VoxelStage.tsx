@@ -26,3 +26,5 @@ type Props = {
   onVoxels?: (v: Voxels) => void
 }
 
+const reducedQuery = '(prefers-reduced-motion: reduce)'
+
