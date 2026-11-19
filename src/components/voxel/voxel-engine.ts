@@ -393,3 +393,4 @@ export class VoxelEngine {
     if (this.raycaster.ray.intersectPlane(this.plane, this.hitPoint)) {
       this.material.uniforms.uPointer.value.x = this.hitPoint.x
       this.material.uniforms.uPointer.value.y = this.hitPoint.y
+      return true
