@@ -568,3 +568,4 @@ export default function ContributionSkyline({
     let n = 0
     let weeks = 0
     let wk = new Float32Array(0)
+    let dy = new Float32Array(0)
