@@ -117,3 +117,4 @@ export const generateContributions = (endMs: number, seed = 7, days = 371): Cont
 export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0) => {
   const counts = new Map<string, number>()
   const given = new Map<string, number>()
+  for (const d of data) {
