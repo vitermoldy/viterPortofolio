@@ -116,3 +116,4 @@ function pixel() {
   const local = join(root, '..', 'vitermoldy', 'assets', 'pixel')
   return Promise.all(
     PIXEL.map(async (file) => {
+      if (existsSync(join(local, file))) return copyFileSync(join(local, file), join(out, file))
