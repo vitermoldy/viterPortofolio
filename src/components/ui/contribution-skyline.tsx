@@ -549,3 +549,4 @@ export default function ContributionSkyline({
     let elevGoal = 0
     // layout
     let W = 0
+    let H2 = 0
