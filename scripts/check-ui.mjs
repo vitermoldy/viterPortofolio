@@ -208,3 +208,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
       await page.waitForTimeout(900)
       const top = await page.locator('#' + id).evaluate((el) => el.getBoundingClientRect().top)
       expect(Math.abs(top) < 140 || id === 'contact', `${id} top at ${top}`)
+    }
