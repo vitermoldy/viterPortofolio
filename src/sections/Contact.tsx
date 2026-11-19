@@ -48,3 +48,4 @@ export function Contact() {
           </ul>
         </div>
 
+        <div className="mt-16">
