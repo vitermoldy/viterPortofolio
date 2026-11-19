@@ -76,3 +76,4 @@ export function Projects({ state }: { state: LoadState }) {
                     }
                   >
                     <img
+                      src={p.card}
