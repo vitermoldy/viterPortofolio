@@ -1368,3 +1368,4 @@ export default function ContributionSkyline({
                   style={{ opacity: h === hint ? 1 : 0 }}
                 >
                   {h}
+                </span>
