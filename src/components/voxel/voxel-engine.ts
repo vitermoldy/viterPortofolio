@@ -231,3 +231,5 @@ export class VoxelEngine {
     this.yawGoal = clamp(this.yawGoal + dYaw, YAW_LIMIT)
     this.pitchGoal = clamp(this.pitchGoal + dPitch, PITCH_LIMIT)
     this.kick()
+  }
+
