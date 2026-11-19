@@ -24,3 +24,4 @@ export function Hero({ state }: { state: LoadState }) {
   const ready = state.status === 'ready' ? state.data : null
   const profile = ready?.profile
 
+  return (
