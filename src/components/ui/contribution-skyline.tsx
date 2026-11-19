@@ -1087,3 +1087,4 @@ export default function ContributionSkyline({
             io?.disconnect()
           }
         },
+        { threshold: 0.35 },
