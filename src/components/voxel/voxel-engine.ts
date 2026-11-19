@@ -439,3 +439,4 @@ export class VoxelEngine {
     this.drag = null
     if (this.canvas.hasPointerCapture(ev.pointerId)) this.canvas.releasePointerCapture(ev.pointerId)
     this.canvas.style.cursor = ''
+    // A tap on a touch screen presses the pins where it lands, then lets them spring back.
