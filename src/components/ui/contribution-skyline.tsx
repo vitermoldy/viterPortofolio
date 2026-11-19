@@ -527,3 +527,4 @@ export default function ContributionSkyline({
 
   React.useEffect(() => {
     const root = rootRef.current
+    const stage = stageRef.current
