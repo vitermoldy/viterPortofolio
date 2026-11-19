@@ -113,3 +113,4 @@ export class VoxelEngine {
   private depthMax = 1
   private base: View
 
+  private reduced: boolean
