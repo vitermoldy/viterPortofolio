@@ -987,3 +987,4 @@ export default function ContributionSkyline({
       if (!drag || ev.pointerId !== drag.id) return
       const wasMoved = drag.moved
       drag = null
+      if (canvas.hasPointerCapture(ev.pointerId)) canvas.releasePointerCapture(ev.pointerId)
