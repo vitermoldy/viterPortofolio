@@ -30,3 +30,4 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'convertion',
+    name: 'Convertion',
