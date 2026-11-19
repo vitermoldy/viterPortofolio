@@ -634,3 +634,4 @@ export default function ContributionSkyline({
       for (let k = 0; k < 5; k++) for (let ch = 0; ch < 3; ch++) colGoal[k * 3 + ch] = all[k][ch]
       if (!colReady || reduced) {
         col.set(colGoal)
+        colReady = true
