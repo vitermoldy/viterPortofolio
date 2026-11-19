@@ -7,3 +7,4 @@ import { asset } from '@/lib/utils'
 const LINKS = [
   { label: 'GitHub', value: 'github.com/vitermoldy', href: 'https://github.com/vitermoldy' },
   { label: 'Portfolio', value: 'vitermoldy.github.io/MyPortofolio', href: 'https://vitermoldy.github.io/MyPortofolio/' },
+  { label: 'LinkedIn', value: 'Viter M.', href: 'https://www.linkedin.com/in/viter-m-6bb859303/' },
