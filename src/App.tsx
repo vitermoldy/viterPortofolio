@@ -18,3 +18,4 @@ export function App() {
         <Hero state={state} />
         <Contributions state={state} />
         <PixelArt />
+        <Projects state={state} />
