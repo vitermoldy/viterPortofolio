@@ -142,3 +142,5 @@ export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0)
 
 /** 0 for an empty day, else 1–4 by quarters of `busy`. Anything at or past `busy` is 4. */
 export const levelOf = (count: number, busy: number): number =>
+  count <= 0 ? 0 : busy <= 0 ? 4 : 1 + Math.min(3, Math.floor((count / busy) * 4))
+
