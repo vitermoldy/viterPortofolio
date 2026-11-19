@@ -6,3 +6,4 @@ import { Hero } from '@/sections/Hero'
 import { PixelArt } from '@/sections/PixelArt'
 import { Projects } from '@/sections/Projects'
 
+export function App() {
