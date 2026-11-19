@@ -604,3 +604,4 @@ export default function ContributionSkyline({
         order = Array.from({ length: n }, (_, i) => i)
       }
       for (let i = 0; i < n; i++) {
+        const c = m.cells[i]
