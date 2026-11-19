@@ -1267,3 +1267,4 @@ export default function ContributionSkyline({
               style={{ maxWidth: "none", touchAction: is3d && orbit ? "pan-y" : "auto" }}
             />
 
+            {showStats && corners && (
