@@ -76,3 +76,4 @@ async function profile() {
     name: u.name,
     bio: u.bio,
     url: u.html_url,
+    blog: u.blog || null,
