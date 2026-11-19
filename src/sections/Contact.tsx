@@ -51,3 +51,4 @@ export function Contact() {
         <div className="mt-16">
           <VoxelStage picture={FOOTER_ART} options={{ relief: 0.05, base: 0.4 }} view={{ yaw: 0, pitch: 0.3 }} />
         </div>
+      </section>
