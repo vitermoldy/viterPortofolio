@@ -11,3 +11,5 @@ export type Project = {
   card: string
   text: string
   repos: { label: string; name: string }[]
+}
+
