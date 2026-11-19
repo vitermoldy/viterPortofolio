@@ -32,3 +32,4 @@ export function Contributions({ state }: { state: LoadState }) {
   return (
     <section id="contributions" aria-labelledby="contributions-title" className="border-t-2 border-forest py-20 md:py-28">
       <div className="wrap">
+        <div className="grid gap-6 md:grid-cols-12 md:items-end">
