@@ -629,3 +629,4 @@ export default function ContributionSkyline({
       isDark = luminance(bg) < 0.45
       font = "400 10px " + (cs.fontFamily || "sans-serif")
       const pal = resolvePalette(cfg.current.palette, isDark)
+      const empty = mixRGB(bg, fg, isDark ? 0.11 : 0.075)
