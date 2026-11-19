@@ -13,3 +13,4 @@ const page = await browser.newPage({ viewport: { width: 1200, height: 630 } })
 await page.goto(`http://localhost:${server.address().port}/viterPortofolio/`, { waitUntil: 'networkidle' })
 await page.waitForFunction(() => {
   const c = document.querySelector('#top canvas')
+  return c && getComputedStyle(c).opacity === '1'
