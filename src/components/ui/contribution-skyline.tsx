@@ -208,3 +208,4 @@ export const barHeight = (count: number, max: number, scale = 1, curve: HeightCu
   return 0.4 + share * 7.2 * scale
 }
 
+/** Share of the morph each bar spends waiting — the wave sweeps oldest week → newest. */
