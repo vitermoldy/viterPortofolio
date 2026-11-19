@@ -10,3 +10,5 @@ const LINKS = [
   { label: 'LinkedIn', value: 'Viter M.', href: 'https://www.linkedin.com/in/viter-m-6bb859303/' },
   { label: 'Instagram', value: '@vitermk_', href: 'https://www.instagram.com/vitermk_/' },
 ]
+const EMAIL = 'vitermoldy@gmail.com'
+
