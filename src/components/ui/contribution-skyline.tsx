@@ -1168,3 +1168,4 @@ export default function ContributionSkyline({
   // The tooltip's width is needed to keep it inside the card; measure it when its text changes.
   React.useLayoutEffect(() => {
     const tip = tipRef.current
+    if (tip && active >= 0) engine.current?.tipWidth(tip.offsetWidth)
