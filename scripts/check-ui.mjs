@@ -31,3 +31,4 @@ const check = async (name, fn) => {
   } catch (err) {
     log(name, false, String(err?.message ?? err).split('\n')[0])
   }
+}
