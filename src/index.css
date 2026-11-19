@@ -244,3 +244,4 @@
     background-size: calc(100% - 1.6rem) 2px;
   }
 
+  .contact-link > span:first-child {
