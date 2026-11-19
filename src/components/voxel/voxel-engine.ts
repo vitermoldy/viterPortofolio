@@ -202,3 +202,4 @@ export class VoxelEngine {
     if (!this.mesh || !this.assembling) return
     if (this.reduced) {
       this.assemble = 1
+      this.assembling = false
