@@ -968,3 +968,4 @@ export default function ContributionSkyline({
           if (drag.mouse) elevGoal = Math.min(ELEV_RANGE[1] - ELEV_3D, Math.max(ELEV_RANGE[0] - ELEV_3D, drag.elev + dyy * 0.004))
           canvas.style.cursor = "grabbing"
           hovered = -1
+          refreshActive()
