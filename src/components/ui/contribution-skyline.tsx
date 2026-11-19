@@ -1138,3 +1138,4 @@ export default function ContributionSkyline({
       ro.disconnect()
       mo.disconnect()
       reduceMq.removeEventListener("change", onReduce)
+      darkMq.removeEventListener("change", retheme)
