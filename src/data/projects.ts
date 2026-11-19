@@ -124,3 +124,4 @@ export const PROJECTS: Project[] = [
     id: 'cloudstead',
     name: 'CloudStead',
     stack: 'three.js and TypeScript',
+    card: card('cloudstead'),
