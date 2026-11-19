@@ -396,3 +396,4 @@ function Stat({
 }: {
   label: string
   value: string
+  unit: string
