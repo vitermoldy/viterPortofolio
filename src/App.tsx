@@ -12,3 +12,4 @@ export function App() {
     <>
       <a className="skip-link" href="#main">
         Skip to the profile
+      </a>
