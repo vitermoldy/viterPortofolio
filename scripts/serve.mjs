@@ -34,3 +34,4 @@ export function serve(port = 5189) {
     let rel = decodeURIComponent(url.pathname.slice(BASE.length)) || 'index.html'
     let file = normalize(join(root, rel))
     if (!file.startsWith(root)) {
+      res.writeHead(403)
