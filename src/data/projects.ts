@@ -53,3 +53,4 @@ export const PROJECTS: Project[] = [
     repos: [{ label: 'Repository', name: 'Network-Simulation' }],
   },
   {
+    id: 'nyxborne',
