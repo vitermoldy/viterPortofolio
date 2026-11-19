@@ -764,3 +764,4 @@ export default function ContributionSkyline({
 
         const tall = z * ce * s
         let f = 0
+        if (tall > 0.35 && w * cs * s > 0.35) f |= 1
