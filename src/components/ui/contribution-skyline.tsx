@@ -398,3 +398,4 @@ function Stat({
   value: string
   unit: string
   sub: string
+  accent: string
