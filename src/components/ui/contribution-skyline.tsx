@@ -538,3 +538,4 @@ export default function ContributionSkyline({
     const darkMq = window.matchMedia("(prefers-color-scheme: dark)")
     let reduced = reduceMq.matches
 
+    // morph: t is linear time 0 (2D) → 1 (3D); the camera eases it, the bars wave it
