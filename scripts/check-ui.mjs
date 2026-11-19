@@ -167,3 +167,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
   for (const name of ['StudyCabin at night', 'Sunset field', 'The room']) {
     await check(`pixel art: ${name}`, async () => {
       const b = page.locator('#pixel-art button', { hasText: name })
+      await b.click()
