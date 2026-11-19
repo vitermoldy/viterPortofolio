@@ -288,3 +288,4 @@ export class VoxelEngine {
     this.current = v
     this.measure(v)
     this.morph = 1
+    this.assemble = this.reduced ? 1 : 0
