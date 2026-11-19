@@ -1078,3 +1078,4 @@ export default function ContributionSkyline({
       if (reduced) t = cfg.current.target
       setTarget()
     }
+    let io: IntersectionObserver | null = null
