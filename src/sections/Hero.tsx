@@ -65,3 +65,4 @@ export function Hero({ state }: { state: LoadState }) {
             <VoxelStage picture={AVATARS[sky]} options={{ relief: 0.09 }} wave="centre" />
           </div>
           <div className="mx-auto mt-4 flex w-full max-w-[600px] flex-wrap items-center justify-between gap-3">
+            <div className="seg" role="group" aria-label="Sky behind the portrait">
