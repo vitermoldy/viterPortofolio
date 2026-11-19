@@ -48,3 +48,4 @@ async function open(viewport) {
   return { context, page }
 }
 
+const pressed = (loc) => loc.getAttribute('aria-pressed')
