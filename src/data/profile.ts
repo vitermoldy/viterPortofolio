@@ -38,3 +38,5 @@ export type Contributions = {
   days: DayRow[]
 }
 
+export type ProfileData = { profile: Profile; contributions: Contributions }
+
