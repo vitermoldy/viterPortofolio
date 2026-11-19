@@ -1056,3 +1056,4 @@ export default function ContributionSkyline({
     const setTarget = () => {
       const goal = cfg.current.target
       if (!entered) return
+      if (goal !== target) {
