@@ -52,3 +52,4 @@ async function getJson<T>(path: string): Promise<T> {
 }
 
 export function useProfileData(): LoadState {
+  const [attempt, setAttempt] = React.useState(0)
