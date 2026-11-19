@@ -90,3 +90,4 @@ export function Contributions({ state }: { state: LoadState }) {
                   <p className="m-0 text-muted">No contributions in this range yet.</p>
                 </div>
               ) : (
+                <ContributionSkyline
