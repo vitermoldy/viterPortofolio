@@ -100,3 +100,4 @@ export const PROJECTS: Project[] = [
     card: card('pixelfolio'),
     text: 'A portfolio template where the cursor leaves a trail of pixels that cool from lime to navy.',
     repos: [
+      { label: 'v1 repository', name: 'PixelFolio' },
