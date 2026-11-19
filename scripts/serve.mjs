@@ -42,3 +42,4 @@ export function serve(port = 5189) {
       res.writeHead(404)
       return res.end('Not found')
     }
+    res.writeHead(200, { 'Content-Type': TYPES[extname(file)] ?? 'application/octet-stream', 'Cache-Control': 'no-cache' })
