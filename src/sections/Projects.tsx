@@ -8,3 +8,4 @@ export function Projects({ state }: { state: LoadState }) {
   const [id, setId] = React.useState(PROJECTS[0].id)
   const project = PROJECTS.find((p) => p.id === id) ?? PROJECTS[0]
   const repos = state.status === 'ready' ? state.data.profile.repos : null
+  const links = repos ? publicLinks(project, repos) : []
