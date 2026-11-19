@@ -51,3 +51,4 @@ async function get(url, { json = false, tries = 3 } = {}) {
     headers.Accept = 'application/vnd.github+json'
     if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`
   }
+  for (let attempt = 1; ; attempt++) {
