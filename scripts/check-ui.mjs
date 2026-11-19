@@ -44,3 +44,4 @@ async function open(viewport) {
   page.on('console', (m) => m.type() === 'error' && errors.push(`${viewport.width}: ${m.text()}`))
   page.on('pageerror', (e) => errors.push(`${viewport.width}: ${e}`))
   page.on('response', (r) => r.status() >= 400 && errors.push(`${viewport.width}: HTTP ${r.status()} ${r.url()}`))
+  await page.goto(BASE, { waitUntil: 'networkidle' })
