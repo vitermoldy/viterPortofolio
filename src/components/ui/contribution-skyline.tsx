@@ -196,3 +196,5 @@ export const monthLabels = (cells: Cell[], weeks: number, locale = "en-US") => {
   return out
 }
 
+export type HeightCurve = "power" | "log"
+
