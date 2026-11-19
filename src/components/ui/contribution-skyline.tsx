@@ -733,3 +733,4 @@ export default function ContributionSkyline({
       const off = (1 - w) / 2
       const radius = lerp(0.04, 0.02, e) * s
       const outline = (1 - e) * 0.07
+      const lift = 0.7 * e
