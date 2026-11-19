@@ -9,3 +9,4 @@ type Scene = VoxelPicture & { id: string; name: string; text: string }
 const SCENES: Scene[] = [
   {
     id: 'room',
+    name: 'The room',
