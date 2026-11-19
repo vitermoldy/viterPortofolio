@@ -31,3 +31,4 @@ describe('voxelize', () => {
     expect(depth(1)).toBeCloseTo(0.6 + 0.5 * 2)
     expect(depth(1)).toBeGreaterThan(depth(2))
     expect(depth(2)).toBeGreaterThan(depth(0))
+  })
