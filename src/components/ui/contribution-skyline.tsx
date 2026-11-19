@@ -613,3 +613,4 @@ export default function ContributionSkyline({
       months = m.months
       const wf = new Intl.DateTimeFormat(locale, { weekday: "short", timeZone: "UTC" })
       weekdayRows = []
+      for (let d = 0; d < 7 && d < n; d++) {
