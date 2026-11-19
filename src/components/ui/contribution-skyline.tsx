@@ -649,3 +649,4 @@ export default function ContributionSkyline({
     const extent = (cam: Cam, e: number, full: boolean) => {
       const w = lerp(0.78, 0.9, e)
       const off = (1 - w) / 2
+      let minx = Infinity
