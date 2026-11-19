@@ -1309,3 +1309,4 @@ export default function ContributionSkyline({
             style={{
               opacity: active >= 0 ? 1 : 0,
               background: "var(--color-foreground, #171717)",
+              color: "var(--color-background, #ffffff)",
