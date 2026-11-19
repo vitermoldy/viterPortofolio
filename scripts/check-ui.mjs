@@ -168,3 +168,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await check(`pixel art: ${name}`, async () => {
       const b = page.locator('#pixel-art button', { hasText: name })
       await b.click()
+      expect((await pressed(b)) === 'true', 'not pressed')
