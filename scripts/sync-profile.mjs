@@ -55,3 +55,4 @@ async function get(url, { json = false, tries = 3 } = {}) {
     try {
       const res = await fetch(url, { headers })
       if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`)
+      return json ? res.json() : res.text()
