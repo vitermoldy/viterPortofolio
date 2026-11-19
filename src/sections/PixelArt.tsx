@@ -28,3 +28,4 @@ const SCENES: Scene[] = [
   {
     id: 'field',
     name: 'Sunset field',
+    src: asset('pixel/character.svg'),
