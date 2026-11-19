@@ -1396,3 +1396,4 @@ export default function ContributionSkyline({
                     className="block h-3 w-3 transition-[background-color,transform] duration-500 group-hover:scale-125 motion-reduce:transition-none"
                     style={{ background: c, boxShadow: "inset 0 0 0 1px rgba(127,127,127,0.12)" }}
                   />
+                </button>
