@@ -75,3 +75,4 @@ export function Contributions({ state }: { state: LoadState }) {
           )}
           {state.status === 'error' && (
             <div className="grid min-h-[380px] place-items-center border-2 border-moss p-6 text-center" role="alert">
+              <div>
