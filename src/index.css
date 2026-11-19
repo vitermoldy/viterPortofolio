@@ -87,3 +87,4 @@
   }
   @media (min-width: 640px) {
     .wrap {
+      padding-inline: 32px;
