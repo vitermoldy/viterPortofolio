@@ -133,3 +133,4 @@ export const PROJECTS: Project[] = [
 /** The repositories of a project that GitHub lists as public, with their real URLs. */
 export function publicLinks(p: Project, repos: { name: string; url: string }[]) {
   const byName = new Map(repos.map((r) => [r.name.toLowerCase(), r.url]))
+  return p.repos.flatMap((r) => {
