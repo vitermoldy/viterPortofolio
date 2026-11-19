@@ -77,3 +77,4 @@ export function Contributions({ state }: { state: LoadState }) {
             <div className="grid min-h-[380px] place-items-center border-2 border-moss p-6 text-center" role="alert">
               <div>
                 <p className="mt-0 mb-4">The contribution calendar did not load ({state.message}).</p>
+                <button type="button" className="btn btn-quiet" onClick={state.retry}>
