@@ -635,3 +635,4 @@ export default function ContributionSkyline({
       if (!colReady || reduced) {
         col.set(colGoal)
         colReady = true
+      }
