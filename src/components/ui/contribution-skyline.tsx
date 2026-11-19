@@ -1093,3 +1093,4 @@ export default function ContributionSkyline({
     } else enter()
 
     const ro = new ResizeObserver(() => {
+      if (Math.round(stage.clientWidth) !== W) relayout()
