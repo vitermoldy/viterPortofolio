@@ -48,3 +48,5 @@ export function Hero({ state }: { state: LoadState }) {
                 Load them again
               </button>
             </p>
+          )}
+
