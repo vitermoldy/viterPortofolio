@@ -41,3 +41,4 @@ export function Header() {
             {NAV.map((n) => (
               <li key={n.href}>
                 <a href={n.href} className="nav-link">
+                  {n.label}
