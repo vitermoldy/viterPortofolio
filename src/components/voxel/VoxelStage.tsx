@@ -9,3 +9,4 @@ export type VoxelPicture = {
   /** Pixel-art size: the SVG's viewBox, or the PNG's cell count. */
   w: number
   h: number
+  /** Read out for screen readers; the same words as the picture's alt text on the profile. */
