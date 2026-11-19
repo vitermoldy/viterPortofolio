@@ -471,3 +471,4 @@ export default function ContributionSkyline({
   orbit = true,
   showStats = true,
   showLegend = true,
+  showToggle = true,
