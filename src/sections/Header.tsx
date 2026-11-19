@@ -24,3 +24,4 @@ export function Header() {
     document.body.style.overflow = 'hidden'
     return () => {
       document.removeEventListener('keydown', onKey)
+      document.body.style.overflow = ''
