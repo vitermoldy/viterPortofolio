@@ -140,3 +140,4 @@ export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0)
   return { cells, weeks: cells.length ? cells[cells.length - 1].week + 1 : 0, max: nz.length ? nz[nz.length - 1] : 0 }
 }
 
+/** 0 for an empty day, else 1–4 by quarters of `busy`. Anything at or past `busy` is 4. */
