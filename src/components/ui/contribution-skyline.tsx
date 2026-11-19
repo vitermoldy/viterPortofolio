@@ -753,3 +753,4 @@ export default function ContributionSkyline({
         polys[o + 6] = px(x0, y1); polys[o + 7] = py(x0, y1, z)
         // +y face (left on screen)
         polys[o + 8] = px(x0, y1); polys[o + 9] = py(x0, y1, 0)
+        polys[o + 10] = px(x1, y1); polys[o + 11] = py(x1, y1, 0)
