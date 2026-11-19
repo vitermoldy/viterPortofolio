@@ -121,3 +121,4 @@ function pixel() {
       if (!res.ok) throw new Error(`HTTP ${res.status} for pixel/${file}`)
       writeFileSync(join(out, file), Buffer.from(await res.arrayBuffer()))
     }),
+  ).then(() => (existsSync(local) ? 'copied from ../vitermoldy' : 'downloaded from GitHub'))
