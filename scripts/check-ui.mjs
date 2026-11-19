@@ -253,3 +253,4 @@ for (const width of [390, 320]) {
       await page.waitForTimeout(900)
       expect(await page.locator('#menu').isHidden(), 'menu still open after a link')
     })
+    for (const id of ['contributions', 'pixel-art', 'projects', 'contact']) {
