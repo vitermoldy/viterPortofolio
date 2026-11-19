@@ -153,3 +153,4 @@ export class VoxelEngine {
         uWaveFrom: { value: new THREE.Vector2() },
         uPointer: { value: new THREE.Vector3(0, 0, 0) },
         uPointerR: { value: 4 },
+        uPush: { value: 4 },
