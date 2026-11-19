@@ -785,3 +785,4 @@ export default function ContributionSkyline({
           g += (fg[1] - g) * m
           bl += (fg[2] - bl) * m
         }
+        if (f & 1) {
