@@ -15,3 +15,5 @@ export type Project = {
 
 export const PRIVATE_NOTE = 'Still in development, so the repository is private for now.'
 
+export const CARD_SIZE = { w: 200, h: 136 }
+
