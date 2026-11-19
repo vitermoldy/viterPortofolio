@@ -256,3 +256,4 @@
     background-position: 0 100%;
     background-repeat: no-repeat;
     padding-bottom: 0.12em;
+    transition: background-size 260ms ease-out;
