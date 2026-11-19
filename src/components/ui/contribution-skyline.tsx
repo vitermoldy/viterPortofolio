@@ -1092,3 +1092,4 @@ export default function ContributionSkyline({
       io.observe(stage)
     } else enter()
 
+    const ro = new ResizeObserver(() => {
