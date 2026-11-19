@@ -75,3 +75,4 @@ export const visibleCount = (v: Voxels) => {
 export async function loadPixels(url: string, w: number, h: number): Promise<PixelGrid> {
   const img = new Image()
   img.decoding = 'async'
+  img.src = url
