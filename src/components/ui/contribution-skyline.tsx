@@ -1099,3 +1099,4 @@ export default function ContributionSkyline({
 
     const mo = new MutationObserver(retheme)
     mo.observe(document.documentElement, { attributes: true, attributeFilter: ["class", "style", "data-theme"] })
+    const onReduce = () => {
