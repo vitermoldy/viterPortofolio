@@ -135,3 +135,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
     >
       <img
         src={picture.src}
+        width={picture.w * 4}
