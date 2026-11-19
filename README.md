@@ -20,3 +20,5 @@ Drag to turn any of them, double-click to face it again, or focus it and use the
 `scripts/sync-profile.mjs` reads the account, its public repositories and the public contribution calendar
 from GitHub and writes them to `public/data/`. The pixel art is copied from the profile repository
 ([vitermoldy/vitermoldy](https://github.com/vitermoldy/vitermoldy)). The Pages workflow runs the sync before
+every build and once a day, so the skyline grows on its own.
+
