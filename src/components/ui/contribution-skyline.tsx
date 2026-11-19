@@ -543,3 +543,4 @@ export default function ContributionSkyline({
     let target = 0
     let entered = false
     // orbit offsets, eased toward their goals
+    let yaw = 0
