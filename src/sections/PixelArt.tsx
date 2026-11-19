@@ -21,3 +21,4 @@ const SCENES: Scene[] = [
     name: 'StudyCabin at night',
     src: asset('pixel/banner.svg'),
     w: 240,
+    h: 96,
