@@ -465,3 +465,4 @@ export default function ContributionSkyline({
   unitPlural,
   heightScale = 1,
   heightCurve = "power",
+  accent,
