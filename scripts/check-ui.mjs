@@ -231,3 +231,4 @@ for (const width of [390, 320]) {
   await check(`${width}: nothing wider than the screen`, async () => {
     const wide = await page.evaluate(() =>
       [...document.querySelectorAll('main *')]
+        .filter((el) => {
