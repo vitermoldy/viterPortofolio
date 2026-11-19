@@ -989,3 +989,4 @@ export default function ContributionSkyline({
       drag = null
       if (canvas.hasPointerCapture(ev.pointerId)) canvas.releasePointerCapture(ev.pointerId)
       canvas.style.cursor = cfg.current.orbit && target === 1 ? "grab" : "default"
+      if (wasMoved) return
