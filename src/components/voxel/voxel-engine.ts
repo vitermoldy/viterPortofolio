@@ -342,3 +342,4 @@ export class VoxelEngine {
     const u = this.material.uniforms
     u.uAssemble.value = this.assemble
     u.uMorph.value = this.morph
+    u.uPointer.value.z = this.push
