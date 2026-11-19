@@ -24,3 +24,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 | Hot yellow only for headings and big numbers, amber only on the main button | One accent with a clear job; green carries everything else |
 | Soft light pool behind each 3D stage | The dark sides of the blocks need a slightly lighter ground to read as depth |
 | Block depth follows pixel brightness | Lit screens, the moon and the neon come forward; the night stays at the wall. Seen head-on, the front faces are the exact pixel art |
+| Skyline heights on a log scale, colours from GitHub's own levels | The calendar spans 1 to 23,752 a day; linear heights would hide every quiet day. The shades match the profile page exactly |
