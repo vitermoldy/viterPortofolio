@@ -787,3 +787,4 @@ export default function ContributionSkyline({
         }
         if (f & 1) {
           ctx.beginPath()
+          quadPath(ctx, polys, o + 8, 0)
