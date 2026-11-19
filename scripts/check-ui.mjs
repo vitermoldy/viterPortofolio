@@ -10,3 +10,4 @@ import { fileURLToPath } from 'node:url'
 import { serve } from './serve.mjs'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
+const server = process.env.SITE_URL ? null : await serve(0)
