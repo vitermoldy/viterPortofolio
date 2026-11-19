@@ -20,3 +20,4 @@ const FOOTER_ART = {
 }
 
 export function Contact() {
+  return (
