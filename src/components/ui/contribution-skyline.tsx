@@ -610,3 +610,4 @@ export default function ContributionSkyline({
         lv[i] = c.level
         hgt[i] = barHeight(c.count, m.max, cfg.current.heightScale, cfg.current.heightCurve)
       }
+      months = m.months
