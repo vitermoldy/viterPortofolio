@@ -8,3 +8,4 @@ const HUTAN = { light: ['#a9cf9a', '#2f8a55', '#1f6e44', '#0f3d2e'], dark: ['#17
 
 type Range = 'last' | number
 
+export function Contributions({ state }: { state: LoadState }) {
