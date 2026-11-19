@@ -1080,3 +1080,4 @@ export default function ContributionSkyline({
     }
     let io: IntersectionObserver | null = null
     if ("IntersectionObserver" in window) {
+      io = new IntersectionObserver(
