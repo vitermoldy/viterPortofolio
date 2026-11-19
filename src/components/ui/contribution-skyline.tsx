@@ -647,3 +647,4 @@ export default function ContributionSkyline({
 
     // Projected extent of the scene for camera e, with each bar at zOf(i).
     const extent = (cam: Cam, e: number, full: boolean) => {
+      const w = lerp(0.78, 0.9, e)
