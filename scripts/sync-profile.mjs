@@ -75,3 +75,4 @@ async function profile() {
     login: u.login,
     name: u.name,
     bio: u.bio,
+    url: u.html_url,
