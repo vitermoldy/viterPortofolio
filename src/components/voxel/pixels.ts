@@ -60,3 +60,4 @@ export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
       dga[k * 3 + 1] = smooth(0.62, 0.95, Math.max(r, g, b) / 255) * smooth(0.45, 0.8, l)
       dga[k * 3 + 2] = a >= 128 ? 1 : 0
     }
+  }
