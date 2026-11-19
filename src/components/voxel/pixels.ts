@@ -10,3 +10,4 @@ export type PixelGrid = { w: number; h: number; data: Uint8ClampedArray | Uint8A
 export type Voxels = {
   w: number
   h: number
+  count: number
