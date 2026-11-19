@@ -21,3 +21,4 @@ const arg = (name) => {
   return i > 0 ? process.argv[i + 1] : undefined
 }
 const USER = arg('--user') ?? 'vitermoldy'
+const SKIP_PIXEL = process.argv.includes('--skip-pixel')
