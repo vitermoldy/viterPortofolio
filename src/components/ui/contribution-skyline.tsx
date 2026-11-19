@@ -1295,3 +1295,4 @@ export default function ContributionSkyline({
                   }}
                 >
                   <Stat {...statBlocks[2]} accent={accent ?? theme.accent} size={bigSize} align="start" />
+                  <Stat {...statBlocks[3]} accent={accent ?? theme.accent} size={bigSize} align="start" />
