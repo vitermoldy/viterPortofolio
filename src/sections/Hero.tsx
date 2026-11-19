@@ -22,3 +22,5 @@ const AVATARS: Record<'moon' | 'sunset', VoxelPicture> = {
 export function Hero({ state }: { state: LoadState }) {
   const [sky, setSky] = React.useState<'moon' | 'sunset'>('moon')
   const ready = state.status === 'ready' ? state.data : null
+  const profile = ready?.profile
+
