@@ -144,3 +144,4 @@ export const buildGrid = (data: ContributionDay[], endMs: number, weekStart = 0)
 export const levelOf = (count: number, busy: number): number =>
   count <= 0 ? 0 : busy <= 0 ? 4 : 1 + Math.min(3, Math.floor((count / busy) * 4))
 
+/** Total, busiest day, longest run, and the run that reaches today (or yesterday — today isn't over). */
