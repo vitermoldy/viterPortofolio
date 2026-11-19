@@ -220,3 +220,4 @@ export class VoxelEngine {
     this.render()
   }
 
+  reset = () => {
