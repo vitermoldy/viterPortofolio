@@ -115,3 +115,4 @@ export class VoxelEngine {
 
   private reduced: boolean
   private assembleSeconds: number
+  private morphSeconds: number
