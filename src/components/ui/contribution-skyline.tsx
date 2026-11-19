@@ -15,3 +15,4 @@ import * as React from "react"
  * Hover or tap a day for its count, arrow keys walk the grid, hover a legend
  * swatch to isolate that level, and in 3D drag to orbit (double-click resets).
  * Palette and theme changes blend rather than flip.
+ *
