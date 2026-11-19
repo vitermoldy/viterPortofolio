@@ -66,3 +66,4 @@ export function PixelArt() {
                       (on ? 'border-leaf bg-forest' : 'border-moss bg-transparent hover:bg-forest/60')
                     }
                   >
+                    <span className="flex items-baseline justify-between gap-3">
