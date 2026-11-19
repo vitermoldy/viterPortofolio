@@ -15,3 +15,4 @@ await page.waitForFunction(() => {
   const c = document.querySelector('#top canvas')
   return c && getComputedStyle(c).opacity === '1'
 })
+await page.waitForTimeout(3500)
