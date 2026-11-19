@@ -717,3 +717,4 @@ export default function ContributionSkyline({
       const ah = Hc - top - pad
       const bw = Math.max(1e-6, b.maxx - b.minx)
       const bh = Math.max(1e-6, b.maxy - b.miny)
+      const s = Math.min(aw / bw, ah / bh)
