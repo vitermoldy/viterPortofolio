@@ -423,3 +423,4 @@ export class VoxelEngine {
         this.pushGoal = 0
         this.kick()
         return
+      }
