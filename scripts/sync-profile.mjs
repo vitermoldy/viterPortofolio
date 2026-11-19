@@ -111,3 +111,4 @@ async function contributions(createdAt) {
 }
 
 function pixel() {
+  const out = join(root, 'public', 'pixel')
