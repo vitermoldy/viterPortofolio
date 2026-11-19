@@ -35,3 +35,5 @@ export type ContributionStats = {
   longest: Streak
   current: Streak
 }
+export type RGB = [number, number, number]
+
