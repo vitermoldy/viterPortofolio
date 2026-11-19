@@ -459,3 +459,4 @@ export class VoxelEngine {
   }
 
   private onKey = (ev: KeyboardEvent) => {
+    const step = 0.12
