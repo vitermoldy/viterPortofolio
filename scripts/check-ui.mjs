@@ -200,3 +200,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     expect(hrefs.includes('mailto:vitermoldy@gmail.com'), 'no mail link')
     await page.screenshot({ path: join(OUT, '1440-contact.png') })
     return hrefs.length + ' links'
+  })
