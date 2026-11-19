@@ -570,3 +570,4 @@ export default function ContributionSkyline({
     let wk = new Float32Array(0)
     let dy = new Float32Array(0)
     let lv = new Uint8Array(0)
+    let hgt = new Float32Array(0)
