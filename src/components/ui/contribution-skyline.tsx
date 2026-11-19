@@ -992,3 +992,4 @@ export default function ContributionSkyline({
       if (wasMoved) return
       const [x, y] = local(ev)
       const i = hit(x, y)
+      pinned = i === pinned ? -1 : i
