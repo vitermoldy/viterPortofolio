@@ -233,3 +233,4 @@ export class VoxelEngine {
     this.kick()
   }
 
+  dispose() {
