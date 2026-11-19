@@ -1,0 +1,62 @@
+name: Build and publish to GitHub Pages
+
+# Reads the profile from GitHub (account, public repositories, contribution calendar), builds the site and
+# publishes it to https://vitermoldy.github.io/viterPortofolio/. It runs on every push to main and once a
+# day, so the skyline gains each new day without anyone touching the repository. The main branch is never
+# written to: the fresh numbers only go into the published build.
+# One-time setup: Settings > Pages > Build and deployment > Source: GitHub Actions.
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '23 0 * * *' # every day at 00:23 UTC, 07:23 in Jakarta
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Fresh numbers from GitHub. If GitHub cannot be read the script stops before writing,
+      # and the build goes on with the numbers already in the repository.
+      - name: Read the profile from GitHub
+        run: node scripts/sync-profile.mjs --user ${{ github.repository_owner }} --skip-pixel || echo "Sync failed, building with the saved numbers."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: npm test
+
+      - run: npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
