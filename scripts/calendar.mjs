@@ -25,3 +25,4 @@ export function parseCalendar(html) {
     const level = Math.max(0, Math.min(4, Number(attr(tag, 'data-level') ?? 0) || 0))
     days.set(date, [tips.get(attr(tag, 'id') ?? '') ?? 0, level])
   }
+  return days
