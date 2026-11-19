@@ -702,3 +702,4 @@ export default function ContributionSkyline({
     const draw = () => {
       if (!W || !n) return
       const e = easeInOutCubic(t)
+      const cam = camera(e, yaw, elev)
