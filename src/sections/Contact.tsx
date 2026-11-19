@@ -44,3 +44,4 @@ export function Contact() {
                   <span className="text-sm break-all text-muted">{l.value}</span>
                 </a>
               </li>
+            ))}
