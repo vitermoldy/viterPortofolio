@@ -467,3 +467,4 @@ export class VoxelEngine {
     else if (ev.key === 'Home' || ev.key === 'Escape') this.reset()
     else return
     ev.preventDefault()
+  }
