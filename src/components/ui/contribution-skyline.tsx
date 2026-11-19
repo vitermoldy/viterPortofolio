@@ -1169,3 +1169,5 @@ export default function ContributionSkyline({
   React.useLayoutEffect(() => {
     const tip = tipRef.current
     if (tip && active >= 0) engine.current?.tipWidth(tip.offsetWidth)
+  }, [active, model])
+
