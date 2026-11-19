@@ -53,3 +53,4 @@ void main() {
   vColor = col;
   vNormal = n;
   vGlow = dga.y;
+  vZ = position.z + 0.5;
