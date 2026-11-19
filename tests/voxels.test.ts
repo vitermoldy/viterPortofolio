@@ -15,3 +15,5 @@ describe('voxelize', () => {
     [255, 0, 0, 255],
     [10, 20, 30, 0],
   ])
+  const v = voxelize(g, { relief: 0.5, base: 0.6 })
+
