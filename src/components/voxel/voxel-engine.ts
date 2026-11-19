@@ -463,3 +463,4 @@ export class VoxelEngine {
     if (ev.key === 'ArrowLeft') this.turn(step, 0)
     else if (ev.key === 'ArrowRight') this.turn(-step, 0)
     else if (ev.key === 'ArrowUp') this.turn(0, step)
+    else if (ev.key === 'ArrowDown') this.turn(0, -step)
