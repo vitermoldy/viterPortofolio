@@ -99,3 +99,4 @@ export function Contributions({ state }: { state: LoadState }) {
                   heightCurve="log"
                   heightScale={1.15}
                   title={
+                    <>
