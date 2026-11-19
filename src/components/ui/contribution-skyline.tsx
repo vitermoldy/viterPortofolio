@@ -229,3 +229,4 @@ export type Cam = { cs: number; sn: number; se: number; ce: number }
  * invisible — a plain heat map. e=1 is the isometric corner view. Orbit
  * offsets only apply in proportion to e, so the flat view never tilts.
  */
+export const camera = (e: number, dYaw = 0, dElev = 0): Cam => {
