@@ -199,3 +199,4 @@
     border-left: 2px solid var(--color-moss);
   }
   .seg > button:hover {
+    color: var(--color-paper);
