@@ -637,3 +637,4 @@ export default function ContributionSkyline({
         colReady = true
       }
       ctx.font = font
+      labelW = Math.ceil(Math.max(20, ...weekdayRows.map((r) => ctx.measureText(r.label).width))) + 8
