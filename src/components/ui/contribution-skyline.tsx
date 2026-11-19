@@ -864,3 +864,5 @@ export default function ContributionSkyline({
       raf = 0
       const dt = Math.min(0.05, Math.max(0, (now - last) / 1000))
       last = now
+      let moving = false
+
