@@ -100,3 +100,4 @@ async function contributions(createdAt) {
   const today = new Date().toISOString().slice(0, 10)
   const first = Number(createdAt.slice(0, 4))
   const days = new Map()
+  for (let year = Number(today.slice(0, 4)); year >= first; year--) {
