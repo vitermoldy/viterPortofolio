@@ -300,3 +300,4 @@ export interface ContributionSkylineProps {
   /** Drag to orbit in 3D. */
   orbit?: boolean
   showStats?: boolean
+  showLegend?: boolean
