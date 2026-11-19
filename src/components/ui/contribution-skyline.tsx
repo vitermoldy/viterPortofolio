@@ -1159,3 +1159,5 @@ export default function ContributionSkyline({
 
   React.useEffect(() => {
     engine.current?.load()
+  }, [model, heightScale, heightCurve])
+
