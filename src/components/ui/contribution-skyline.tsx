@@ -155,3 +155,4 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
   for (const c of cells) {
     total += c.count
     if (c.count > best) {
+      best = c.count
