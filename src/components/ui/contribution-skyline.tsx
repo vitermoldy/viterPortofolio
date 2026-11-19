@@ -287,3 +287,4 @@ export interface ContributionSkylineProps {
   unit?: string
   /** Plural noun. Defaults to `unit + "s"`. */
   unitPlural?: string
+  /** Multiplies bar heights in 3D. */
