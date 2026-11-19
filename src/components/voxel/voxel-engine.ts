@@ -164,3 +164,5 @@ export class VoxelEngine {
     canvas.addEventListener('pointerleave', this.onLeave)
     canvas.addEventListener('dblclick', this.reset)
     canvas.addEventListener('keydown', this.onKey)
+  }
+
