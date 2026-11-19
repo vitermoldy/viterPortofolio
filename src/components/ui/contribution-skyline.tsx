@@ -324,3 +324,4 @@ const toRGB = (color: string, fallback: RGB | null): RGB | null => {
   }
   if (!probe) return fallback
   probe.clearRect(0, 0, 1, 1)
+  probe.fillStyle = "rgba(0,0,0,0)"
