@@ -203,3 +203,4 @@ export type HeightCurve = "power" | "log"
  * "log" keeps a quiet day visible beside a day thousands of times busier.
  */
 export const barHeight = (count: number, max: number, scale = 1, curve: HeightCurve = "power"): number => {
+  if (!(count > 0 && max > 0)) return 0.2
