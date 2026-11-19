@@ -425,3 +425,4 @@ export class VoxelEngine {
         return
       }
     }
+    if (ev.pointerType !== 'mouse') return
