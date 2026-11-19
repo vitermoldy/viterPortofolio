@@ -282,3 +282,4 @@ for (const width of [390, 320]) {
   const page = await context.newPage()
   page.on('pageerror', (e) => errors.push(`reduced: ${e}`))
   await page.goto(BASE, { waitUntil: 'networkidle' })
+  await check('reduced motion: avatar shows at once', async () => {
