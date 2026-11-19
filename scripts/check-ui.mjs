@@ -136,3 +136,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
       await page.waitForTimeout(60)
       const t = await page.locator('#contributions [role=tooltip]').innerText()
       if (/ on /.test(t)) found = t
+    }
