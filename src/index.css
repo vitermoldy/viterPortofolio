@@ -170,3 +170,4 @@
   }
   @media (prefers-reduced-motion: reduce) {
     .btn,
+    .btn:hover,
