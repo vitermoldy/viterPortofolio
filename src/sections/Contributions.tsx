@@ -73,3 +73,4 @@ export function Contributions({ state }: { state: LoadState }) {
               <p className="m-0 text-muted">Reading the contribution calendar</p>
             </div>
           )}
+          {state.status === 'error' && (
