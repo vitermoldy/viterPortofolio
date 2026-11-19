@@ -17,3 +17,4 @@ const SCENES: Scene[] = [
     alt: 'Pixel art: Viter at the desk at night, coding on the main screen, a video edit on the second screen and a photo grid on the laptop, a camera on a tripod, a softbox, an event staff pass and a StudyCabin poster, under a neon sign.',
   },
   {
+    id: 'cabin',
