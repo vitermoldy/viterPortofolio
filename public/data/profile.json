@@ -1,0 +1,254 @@
+{
+ "fetchedAt": "2026-11-19T13:01:49.218Z",
+ "login": "vitermoldy",
+ "name": "Viter Moldy Kesuma",
+ "bio": null,
+ "url": "https://github.com/vitermoldy",
+ "blog": null,
+ "followers": 1,
+ "following": 1,
+ "publicRepos": 24,
+ "createdAt": "2025-08-31T08:25:25Z",
+ "repos": [
+  {
+   "name": "vitermoldy",
+   "description": "My Github",
+   "url": "https://github.com/vitermoldy/vitermoldy",
+   "homepage": null,
+   "language": "Python",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-19T12:58:14Z"
+  },
+  {
+   "name": "viterPortofolio",
+   "description": "My Portofolio",
+   "url": "https://github.com/vitermoldy/viterPortofolio",
+   "homepage": null,
+   "language": null,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-11-19T12:29:44Z"
+  },
+  {
+   "name": "ScamTrace",
+   "description": "AI agent that traces online scam sites in Indonesia: investigates them like a victim, extracts mule bank accounts, e-wallets and QRIS, maps scam networks, and generates evidence reports. Built on Huawei Cloud (MaaS, openJiuwen, RDS, DCS for Redis).",
+   "url": "https://github.com/vitermoldy/ScamTrace",
+   "homepage": null,
+   "language": null,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-11-19T11:06:32Z"
+  },
+  {
+   "name": "msbd-2026",
+   "description": "Kelompok 5 Tubes MSBD",
+   "url": "https://github.com/vitermoldy/msbd-2026",
+   "homepage": null,
+   "language": "PLpgSQL",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-18T16:00:33Z"
+  },
+  {
+   "name": "Network-Simulation",
+   "description": null,
+   "url": "https://github.com/vitermoldy/Network-Simulation",
+   "homepage": null,
+   "language": "TypeScript",
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-11-14T18:04:47Z"
+  },
+  {
+   "name": "idle-Agent-factory",
+   "description": "Idle/incremental game: build and upgrade a procedural 3D factory run by AI agents.",
+   "url": "https://github.com/vitermoldy/idle-Agent-factory",
+   "homepage": null,
+   "language": "TypeScript",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-14T16:03:42Z"
+  },
+  {
+   "name": "StudyCabin-v2",
+   "description": null,
+   "url": "https://github.com/vitermoldy/StudyCabin-v2",
+   "homepage": null,
+   "language": "JavaScript",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-14T16:03:31Z"
+  },
+  {
+   "name": "StudyCabin-v1",
+   "description": " Safety Study Cabin for accompany your studies",
+   "url": "https://github.com/vitermoldy/StudyCabin-v1",
+   "homepage": null,
+   "language": "JavaScript",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-14T16:03:12Z"
+  },
+  {
+   "name": "SongPlay-v2",
+   "description": "Song Playlist For Learning Website v2",
+   "url": "https://github.com/vitermoldy/SongPlay-v2",
+   "homepage": null,
+   "language": "JavaScript",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-14T16:02:57Z"
+  },
+  {
+   "name": "SongPlay-v1",
+   "description": "Modern Website",
+   "url": "https://github.com/vitermoldy/SongPlay-v1",
+   "homepage": null,
+   "language": "JavaScript",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-14T16:02:46Z"
+  },
+  {
+   "name": "CloudStead",
+   "description": "A learning platform where your progress builds a home above the clouds.",
+   "url": "https://github.com/vitermoldy/CloudStead",
+   "homepage": null,
+   "language": "TypeScript",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-14T16:02:36Z"
+  },
+  {
+   "name": "LandingPage-sitev1",
+   "description": "Landing Page Template",
+   "url": "https://github.com/vitermoldy/LandingPage-sitev1",
+   "homepage": null,
+   "language": "CSS",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-10T19:44:49Z"
+  },
+  {
+   "name": "SongPlaylist-ForLearning",
+   "description": "Song Playlist For Learning Website",
+   "url": "https://github.com/vitermoldy/SongPlaylist-ForLearning",
+   "homepage": null,
+   "language": null,
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-07T21:39:01Z"
+  },
+  {
+   "name": "Product-Website-v",
+   "description": "Product Website",
+   "url": "https://github.com/vitermoldy/Product-Website-v",
+   "homepage": null,
+   "language": "JavaScript",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-07T21:24:01Z"
+  },
+  {
+   "name": "PixelFoliov2",
+   "description": "Pixel Portofolio version 2",
+   "url": "https://github.com/vitermoldy/PixelFoliov2",
+   "homepage": null,
+   "language": "JavaScript",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-07T05:44:36Z"
+  },
+  {
+   "name": "PixelFolio",
+   "description": "Pixel Portofolio ",
+   "url": "https://github.com/vitermoldy/PixelFolio",
+   "homepage": null,
+   "language": "Astro",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-07T03:53:09Z"
+  },
+  {
+   "name": "Modern-Portofolio-Template",
+   "description": "Modern Portofolio Template",
+   "url": "https://github.com/vitermoldy/Modern-Portofolio-Template",
+   "homepage": null,
+   "language": "CSS",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-07T03:13:15Z"
+  },
+  {
+   "name": "Formal-Portofolio-Template",
+   "description": "Portofolio",
+   "url": "https://github.com/vitermoldy/Formal-Portofolio-Template",
+   "homepage": null,
+   "language": "CSS",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-06T16:12:00Z"
+  },
+  {
+   "name": "Viygo-Salon-Web",
+   "description": "Web Salon",
+   "url": "https://github.com/vitermoldy/Viygo-Salon-Web",
+   "homepage": null,
+   "language": "PHP",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-05T10:49:09Z"
+  },
+  {
+   "name": "Tubes-Proweb",
+   "description": "Tugas Besar Pemrograman Web",
+   "url": "https://github.com/vitermoldy/Tubes-Proweb",
+   "homepage": null,
+   "language": "CSS",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-05T10:13:41Z"
+  },
+  {
+   "name": "MyPortofolio",
+   "description": null,
+   "url": "https://github.com/vitermoldy/MyPortofolio",
+   "homepage": "https://vitermoldy.github.io/MyPortofolio/",
+   "language": "CSS",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-02-08T20:30:43Z"
+  },
+  {
+   "name": "Praktikum-4",
+   "description": "RAWRRR",
+   "url": "https://github.com/vitermoldy/Praktikum-4",
+   "homepage": null,
+   "language": "HTML",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2025-10-20T12:00:54Z"
+  },
+  {
+   "name": "webcalculator",
+   "description": null,
+   "url": "https://github.com/vitermoldy/webcalculator",
+   "homepage": null,
+   "language": "HTML",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2025-09-25T13:33:02Z"
+  },
+  {
+   "name": "JujutsuWebTheme-VM",
+   "description": "A \"Jujutsu Kaisen\" web portal is a comprehensive digital hub for fans. It provides detailed character profiles. ",
+   "url": "https://github.com/vitermoldy/JujutsuWebTheme-VM",
+   "homepage": "https://vitermoldy.github.io/JujutsuWebTheme-VM/",
+   "language": "HTML",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2025-09-18T15:11:55Z"
+  }
+ ]
+}
