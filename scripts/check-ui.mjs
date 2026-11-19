@@ -36,3 +36,5 @@ const expect = (cond, msg) => {
   if (!cond) throw new Error(msg)
 }
 
+const browser = await chromium.launch({ executablePath: CHROME, headless: true, args: ['--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })
+
