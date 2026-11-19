@@ -113,3 +113,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     expect(Math.abs(top) < 120, 'section top at ' + top)
   })
   await check('skyline: draws the real calendar', async () => {
+    await page.waitForTimeout(2600)
