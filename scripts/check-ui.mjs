@@ -141,3 +141,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     return found.replace(/\s+/g, ' ')
   })
   await check('skyline: legend isolates a level', async () => {
+    const b = page.getByRole('button', { name: 'Highlight heaviest days' })
