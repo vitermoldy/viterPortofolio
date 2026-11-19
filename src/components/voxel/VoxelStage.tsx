@@ -129,3 +129,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
 
   return (
     <div
+      ref={boxRef}
