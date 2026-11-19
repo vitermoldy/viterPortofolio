@@ -191,3 +191,4 @@ export class VoxelEngine {
       this.morph = this.reduced ? 1 : 0
       this.current = v
       this.measure(v)
+      this.kick()
