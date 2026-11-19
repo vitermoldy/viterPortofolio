@@ -100,3 +100,4 @@ export function Contributions({ state }: { state: LoadState }) {
                   heightScale={1.15}
                   title={
                     <>
+                      <span className="font-semibold tabular-nums">{num(view.total)}</span>{' '}
