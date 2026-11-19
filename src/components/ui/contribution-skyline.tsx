@@ -483,3 +483,4 @@ export default function ContributionSkyline({
     const dates = (data ?? []).map((d) => dayMs(d.date)).filter(Number.isFinite)
     const end = endKey ?? (dates.length ? Math.max(...dates) : dayMs(new Date()))
     const days = data ?? generateContributions(end, seed)
+    const grid = buildGrid(days, end, weekStart)
