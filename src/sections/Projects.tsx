@@ -70,3 +70,4 @@ export function Projects({ state }: { state: LoadState }) {
                     aria-pressed={on}
                     aria-label={`${p.name}, ${p.stack}`}
                     onClick={() => setId(p.id)}
+                    className={
