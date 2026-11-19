@@ -104,3 +104,4 @@ export class VoxelEngine {
   private box = new THREE.BoxGeometry(1, 1, 1)
   private current: Voxels | null = null
   private raycaster = new THREE.Raycaster()
+  private plane = new THREE.Plane(new THREE.Vector3(0, 0, 1), 0)
