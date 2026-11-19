@@ -614,3 +614,4 @@ export default function ContributionSkyline({
       const wf = new Intl.DateTimeFormat(locale, { weekday: "short", timeZone: "UTC" })
       weekdayRows = []
       for (let d = 0; d < 7 && d < n; d++) {
+        const dow = new Date(dayMs(m.cells[d].date)).getUTCDay()
