@@ -35,3 +35,4 @@ const PIXEL = [
   'card-convertion.svg',
   'card-mixer.svg',
   'card-netsim.svg',
+  'card-nyxborne.svg',
