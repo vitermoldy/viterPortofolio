@@ -442,3 +442,4 @@ export class VoxelEngine {
     // A tap on a touch screen presses the pins where it lands, then lets them spring back.
     if (!d.moved && ev.pointerType !== 'mouse' && this.aim(ev)) {
       this.pushGoal = 1
+      this.pushDecay = true
