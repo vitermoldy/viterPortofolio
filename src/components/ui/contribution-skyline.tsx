@@ -930,3 +930,4 @@ export default function ContributionSkyline({
     const hit = (x: number, y: number): number => {
       for (let k = n - 1; k >= 0; k--) {
         const i = order[k]
+        const o = i * 24
