@@ -41,3 +41,4 @@ export function Hero({ state }: { state: LoadState }) {
             <Fact label="Public repositories" value={profile ? num(profile.publicRepos) : null} state={state.status} />
             <Fact label="On GitHub since" value={profile ? month(profile.createdAt) : null} state={state.status} small />
           </dl>
+          {state.status === 'error' && (
