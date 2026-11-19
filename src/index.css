@@ -206,3 +206,4 @@
     color: var(--color-ink);
     background: var(--color-leaf);
   }
+  .seg > button:focus-visible {
