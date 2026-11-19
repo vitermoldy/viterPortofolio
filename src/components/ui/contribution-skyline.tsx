@@ -931,3 +931,4 @@ export default function ContributionSkyline({
       for (let k = n - 1; k >= 0; k--) {
         const i = order[k]
         const o = i * 24
+        if (pointInQuad(polys, o, x, y)) return i
