@@ -43,3 +43,4 @@ export function Contact() {
                   <span className="font-pixel text-xl text-paper">{l.label}</span>
                   <span className="text-sm break-all text-muted">{l.value}</span>
                 </a>
+              </li>
