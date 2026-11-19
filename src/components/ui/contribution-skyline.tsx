@@ -1033,3 +1033,4 @@ export default function ContributionSkyline({
         cfg.current.onCellClick?.({ date: c.date, count: c.count })
         return
       }
+      if (pinned >= 0 || activeIdx >= 0) {
