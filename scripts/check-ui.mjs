@@ -137,3 +137,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
       const t = await page.locator('#contributions [role=tooltip]').innerText()
       if (/ on /.test(t)) found = t
     }
+    expect(found, 'no tooltip')
