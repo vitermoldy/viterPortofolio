@@ -1382,3 +1382,4 @@ export default function ContributionSkyline({
                   key={i}
                   type="button"
                   aria-label={"Highlight " + levelNames[i].toLowerCase() + " days"}
+                  aria-pressed={legendLevel === i}
