@@ -19,3 +19,4 @@ export function parseCalendar(html) {
     tips.set(id, m ? Number(m[1].replace(/,/g, '')) : 0)
   }
   const days = new Map()
+  for (const [tag] of html.matchAll(DAY)) {
