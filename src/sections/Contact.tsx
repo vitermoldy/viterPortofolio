@@ -63,3 +63,4 @@ export function Footer({ state }: { state: LoadState }) {
           <p className="m-0">
             Pixel art and code by Viter Moldy Kesuma.{' '}
             {fetchedAt ? `Numbers from GitHub, read on ${day(fetchedAt)}.` : 'Numbers from GitHub.'} Type: Tiny5, SIL Open Font
+            License 1.1.
