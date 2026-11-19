@@ -1241,3 +1241,4 @@ export default function ContributionSkyline({
                   outlineColor: "var(--color-foreground, #171717)",
                 }}
               >
+                {v === "2d" ? <GridIcon /> : <CubeIcon />}
