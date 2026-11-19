@@ -62,3 +62,4 @@ export function Footer({ state }: { state: LoadState }) {
         <div className="wrap flex flex-col gap-2 py-6 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
           <p className="m-0">
             Pixel art and code by Viter Moldy Kesuma.{' '}
+            {fetchedAt ? `Numbers from GitHub, read on ${day(fetchedAt)}.` : 'Numbers from GitHub.'} Type: Tiny5, SIL Open Font
