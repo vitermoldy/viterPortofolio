@@ -85,3 +85,4 @@ export const PROJECTS: Project[] = [
   {
     id: 'songplay',
     name: 'SongPlay',
+    stack: 'three.js and YouTube',
