@@ -10,3 +10,4 @@ export type Project = {
   stack: string
   card: string
   text: string
+  repos: { label: string; name: string }[]
