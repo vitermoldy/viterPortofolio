@@ -194,3 +194,4 @@ export class VoxelEngine {
       this.kick()
       return
     }
+    this.build(v)
