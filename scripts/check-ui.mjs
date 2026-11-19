@@ -18,3 +18,4 @@ mkdirSync(OUT, { recursive: true })
 
 const results = []
 const errors = []
+const log = (name, ok, detail = '') => {
