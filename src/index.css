@@ -37,3 +37,4 @@
     color: var(--color-paper);
     color-scheme: dark;
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
