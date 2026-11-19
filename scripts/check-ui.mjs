@@ -272,3 +272,4 @@ for (const width of [390, 320]) {
       )
       expect(small.length === 0, small.slice(0, 6).join('; '))
     })
+  }
