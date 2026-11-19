@@ -24,3 +24,4 @@ const log = (name, ok, detail = '') => {
 }
 const check = async (name, fn) => {
   try {
+    let timer
