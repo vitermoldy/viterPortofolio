@@ -33,3 +33,4 @@ export type ContributionStats = {
   last: string | null
   busiest: { count: number; date: string | null }
   longest: Streak
+  current: Streak
