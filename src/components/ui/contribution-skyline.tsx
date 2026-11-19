@@ -517,3 +517,4 @@ export default function ContributionSkyline({
   const noun = (n: number) => (n === 1 ? unit : plural)
   const describe = (i: number) => {
     const c = model.cells[i]
+    if (!c) return ""
