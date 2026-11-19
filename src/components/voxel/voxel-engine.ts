@@ -345,3 +345,5 @@ export class VoxelEngine {
     u.uPointer.value.z = this.push
     this.place()
     this.renderer.render(this.scene, this.camera)
+  }
+
