@@ -126,3 +126,4 @@ export const PROJECTS: Project[] = [
     stack: 'three.js and TypeScript',
     card: card('cloudstead'),
     text: 'A study island above the clouds: while your focus timer runs, VMK hauls up new cells, plants and builds, from 9 cells to 37 over 23 hours of focus, with your own YouTube music.',
+    repos: [{ label: 'Repository', name: 'CloudStead' }],
