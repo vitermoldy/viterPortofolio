@@ -48,3 +48,4 @@ export const easeInOutCubic = (x: number): number => {
 export const easeOutCubic = (x: number): number => 1 - Math.pow(1 - clamp01(x), 3)
 export const smoothstep = (a: number, b: number, x: number): number => {
   const t = clamp01((x - a) / (b - a))
+  return t * t * (3 - 2 * t)
