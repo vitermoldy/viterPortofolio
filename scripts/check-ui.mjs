@@ -147,3 +147,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     await page.mouse.move(0, 0)
   })
   await check('skyline: year switch', async () => {
+    const years = page.locator('#contributions [aria-label="Years shown"] button')
