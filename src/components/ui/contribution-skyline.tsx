@@ -913,3 +913,4 @@ export default function ContributionSkyline({
     }
 
     const kick = () => {
+      if (raf) return
