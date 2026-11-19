@@ -84,3 +84,4 @@ async function profile() {
     repos: repos
       .filter((r) => !r.fork)
       .map((r) => ({
+        name: r.name,
