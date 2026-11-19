@@ -611,3 +611,4 @@ export default function ContributionSkyline({
         hgt[i] = barHeight(c.count, m.max, cfg.current.heightScale, cfg.current.heightCurve)
       }
       months = m.months
+      const wf = new Intl.DateTimeFormat(locale, { weekday: "short", timeZone: "UTC" })
