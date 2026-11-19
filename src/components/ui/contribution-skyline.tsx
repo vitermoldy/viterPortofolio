@@ -302,3 +302,4 @@ export interface ContributionSkylineProps {
   showStats?: boolean
   showLegend?: boolean
   showToggle?: boolean
+  /** Replaces the hint under the chart. `null` renders none. */
