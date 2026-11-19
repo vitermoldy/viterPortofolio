@@ -220,3 +220,5 @@ export const riseAt = (t: number, week: number, weeks: number, day: number): num
 export const YAW_3D = Math.PI / 4
 export const ELEV_3D = (34 * Math.PI) / 180
 export const YAW_RANGE: [number, number] = [(8 * Math.PI) / 180, (82 * Math.PI) / 180]
+export const ELEV_RANGE: [number, number] = [(18 * Math.PI) / 180, (62 * Math.PI) / 180]
+
