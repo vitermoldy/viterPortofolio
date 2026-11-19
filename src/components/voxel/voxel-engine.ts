@@ -253,3 +253,4 @@ export class VoxelEngine {
   private build(v: Voxels) {
     if (this.mesh) {
       this.scene.remove(this.mesh)
+      this.mesh.geometry.dispose()
