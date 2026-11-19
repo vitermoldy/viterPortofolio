@@ -1208,3 +1208,4 @@ export default function ContributionSkyline({
           {title ?? (
             <>
               <span className="font-semibold tabular-nums">{nf.format(stats.total)}</span> {noun(stats.total)} in the last year
+            </>
