@@ -266,3 +266,4 @@ export class VoxelEngine {
       const x = (v.xy[k * 2] + v.w / 2) / v.w
       const y = (v.h / 2 - v.xy[k * 2 + 1]) / v.h
       rand[k * 4] = Math.min(1, (x * 0.55 + y * 0.45) * 0.7 + rand[k * 4] * 0.3)
+    }
