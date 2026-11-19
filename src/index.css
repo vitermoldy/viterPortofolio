@@ -266,3 +266,4 @@
     position: absolute;
     left: 16px;
     top: -100px;
+    z-index: 60;
