@@ -30,3 +30,4 @@ const PIXEL = [
   'room.svg',
   'banner.svg',
   'character.svg',
+  'footer.svg',
