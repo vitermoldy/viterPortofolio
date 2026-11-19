@@ -350,3 +350,4 @@ export class VoxelEngine {
   private kick() {
     if (this.raf || !this.visible) return
     this.last = performance.now()
+    this.raf = requestAnimationFrame(this.tick)
