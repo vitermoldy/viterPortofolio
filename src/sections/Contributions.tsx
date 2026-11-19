@@ -37,3 +37,4 @@ export function Contributions({ state }: { state: LoadState }) {
             <h2 id="contributions-title" className="h-pixel h-block text-[clamp(2rem,4.5vw,3.25rem)]">
               Every commit, standing up
             </h2>
+            {c && view ? (
