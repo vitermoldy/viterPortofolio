@@ -79,3 +79,4 @@ async function profile() {
     blog: u.blog || null,
     followers: u.followers,
     following: u.following,
+    publicRepos: u.public_repos,
