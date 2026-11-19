@@ -108,3 +108,4 @@ export class VoxelEngine {
   private hitPoint = new THREE.Vector3()
   private ndc = new THREE.Vector2()
   private corners = Array.from({ length: 8 }, () => new THREE.Vector3())
+  private probe = new THREE.Vector3()
