@@ -1339,3 +1339,4 @@ export default function ContributionSkyline({
         {showStats && (
           <div
             aria-hidden={!showRow}
+            className="grid transition-[grid-template-rows,opacity] motion-reduce:transition-none"
