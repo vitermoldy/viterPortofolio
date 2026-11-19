@@ -85,3 +85,4 @@ export function Contributions({ state }: { state: LoadState }) {
           )}
           {c && view && (
             <>
+              {view.data.every((d) => d.count === 0) ? (
