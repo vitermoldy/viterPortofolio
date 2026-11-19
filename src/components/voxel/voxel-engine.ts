@@ -129,3 +129,4 @@ export class VoxelEngine {
   private push = 0
   private pushGoal = 0
   private pushDecay = false
+  private drag: { id: number; x: number; y: number; yaw: number; pitch: number; moved: boolean; mouse: boolean } | null = null
