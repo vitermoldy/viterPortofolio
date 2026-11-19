@@ -318,3 +318,4 @@ export class VoxelEngine {
     const t = Math.tan((this.camera.fov * Math.PI) / 360)
     let hi = (Math.max(v.h, v.w / this.camera.aspect) / t) * 1.5 + this.depthMax * 2
     let lo = (Math.min(v.h, v.w / this.camera.aspect) / 2 / t) * 0.8
+    const limit = 0.92
