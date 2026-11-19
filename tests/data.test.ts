@@ -14,3 +14,4 @@ const page = `
 </tr></tbody></table>`
 
 describe('parseCalendar', () => {
+  it('reads count and GitHub level per day, with thousands separators', () => {
