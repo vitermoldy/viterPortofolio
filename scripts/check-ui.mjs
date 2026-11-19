@@ -22,3 +22,4 @@ const log = (name, ok, detail = '') => {
   results.push({ name, ok })
   console.log(`${ok ? 'PASS' : 'FAIL'}  ${name}${detail ? `: ${detail}` : ''}`)
 }
+const check = async (name, fn) => {
