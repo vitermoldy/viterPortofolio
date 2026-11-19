@@ -41,3 +41,4 @@ export function PixelArt() {
   const scene = SCENES.find((s) => s.id === id) ?? SCENES[0]
 
   return (
+    <section id="pixel-art" aria-labelledby="pixel-title" className="border-t-2 border-forest bg-ink-2 py-20 md:py-28">
