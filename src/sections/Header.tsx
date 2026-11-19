@@ -37,3 +37,4 @@ export function Header() {
         </a>
 
         <nav aria-label="Sections" className="hidden md:block">
+          <ul className="m-0 flex list-none items-center gap-1 p-0">
