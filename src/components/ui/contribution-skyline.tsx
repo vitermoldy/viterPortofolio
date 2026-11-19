@@ -1137,3 +1137,4 @@ export default function ContributionSkyline({
       io?.disconnect()
       ro.disconnect()
       mo.disconnect()
+      reduceMq.removeEventListener("change", onReduce)
