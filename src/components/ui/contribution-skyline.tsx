@@ -367,3 +367,4 @@ const quadPath = (ctx: CanvasRenderingContext2D, p: Float32Array, o: number, r: 
   ctx.closePath()
 }
 
+const GridIcon = () => (
