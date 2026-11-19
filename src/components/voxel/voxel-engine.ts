@@ -257,3 +257,4 @@ export class VoxelEngine {
     }
     const g = new THREE.InstancedBufferGeometry()
     g.index = this.box.index
+    g.setAttribute('position', this.box.getAttribute('position'))
