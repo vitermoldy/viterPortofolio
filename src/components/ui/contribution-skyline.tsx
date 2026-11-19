@@ -807,3 +807,4 @@ export default function ContributionSkyline({
           ctx.stroke()
         }
         if (hv > 0.02) {
+          ctx.strokeStyle = "rgba(" + fg[0] + "," + fg[1] + "," + fg[2] + "," + (0.85 * hv).toFixed(3) + ")"
