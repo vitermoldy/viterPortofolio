@@ -922,3 +922,4 @@ export default function ContributionSkyline({
     const refreshActive = () => {
       const next = hovered >= 0 ? hovered : pinned
       if (next === activeIdx) return
+      activeIdx = next
