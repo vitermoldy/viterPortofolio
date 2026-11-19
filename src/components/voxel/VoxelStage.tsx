@@ -17,3 +17,4 @@ type Status = 'loading' | 'ready' | 'flat' | 'error'
 
 type Props = {
   picture: VoxelPicture
+  options?: VoxelOptions
