@@ -67,3 +67,4 @@ varying float vZ;
 void main() {
   vec3 n = normalize(vNormal);
   float shade;
+  if (n.z > 0.5) {
