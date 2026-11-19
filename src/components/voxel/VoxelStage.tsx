@@ -134,3 +134,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
       style={{ aspectRatio: `${picture.w} / ${picture.h}` }}
     >
       <img
+        src={picture.src}
