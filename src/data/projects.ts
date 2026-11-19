@@ -87,3 +87,4 @@ export const PROJECTS: Project[] = [
     name: 'SongPlay',
     stack: 'three.js and YouTube',
     card: card('songplay'),
+    text: 'A glowing CRT TV in a 3D forest clearing that plays your YouTube queue, under the time of day and season you pick.',
