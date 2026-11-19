@@ -953,3 +953,4 @@ export default function ContributionSkyline({
         try {
           canvas.setPointerCapture(ev.pointerId)
         } catch {
+          /* capture is a nicety */
