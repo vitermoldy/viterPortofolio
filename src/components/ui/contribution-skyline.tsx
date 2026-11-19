@@ -592,3 +592,4 @@ export default function ContributionSkyline({
       n = m.cells.length
       weeks = m.weeks
       if (wk.length !== n) {
+        wk = new Float32Array(n)
