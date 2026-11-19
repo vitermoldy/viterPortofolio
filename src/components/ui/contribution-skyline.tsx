@@ -747,3 +747,4 @@ export default function ContributionSkyline({
         const z = zs[i] + hover[i] * lift
         const o = i * 24
         // top
+        polys[o] = px(x0, y0); polys[o + 1] = py(x0, y0, z)
