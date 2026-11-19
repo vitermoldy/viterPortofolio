@@ -1251,3 +1251,4 @@ export default function ContributionSkyline({
       <div className="relative border" style={{ borderColor: "var(--color-border, #e5e5e5)" }}>
         <div className="relative px-3 pt-3 sm:px-4 sm:pt-4">
           <div
+            ref={stageRef}
