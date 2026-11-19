@@ -16,3 +16,4 @@ import * as React from "react"
  * swatch to isolate that level, and in 3D drag to orbit (double-click resets).
  * Palette and theme changes blend rather than flip.
  *
+ * Canvas + DOM, React is the only import. Pass `data` as `{ date, count }[]`;
