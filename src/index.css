@@ -220,3 +220,4 @@
     transition: text-decoration-color 160ms ease-out, color 160ms ease-out;
   }
   .link:hover {
+    color: var(--color-sun);
