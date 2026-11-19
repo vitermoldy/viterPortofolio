@@ -97,3 +97,4 @@ export function yearsOf(c: Contributions): number[] {
   const years = new Set<number>()
   for (const [date] of c.days) years.add(Number(date.slice(0, 4)))
   return [...years].sort((a, b) => b - a)
+}
