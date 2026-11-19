@@ -14,3 +14,5 @@ export type Voxels = {
   xy: Float32Array
   col: Float32Array
   dga: Float32Array
+}
+
