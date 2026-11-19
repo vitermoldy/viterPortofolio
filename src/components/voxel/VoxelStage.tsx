@@ -112,3 +112,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         const box = boxRef.current
         if (box) {
           const r = box.getBoundingClientRect()
+          if (r.bottom > 0 && r.top < window.innerHeight) engine.play()
