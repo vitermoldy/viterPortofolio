@@ -21,3 +21,4 @@ export function App() {
         <Projects state={state} />
         <Contact />
       </main>
+      <Footer state={state} />
