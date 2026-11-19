@@ -17,3 +17,4 @@ Drag to turn any of them, double-click to face it again, or focus it and use the
 
 ## How the numbers stay current
 
+`scripts/sync-profile.mjs` reads the account, its public repositories and the public contribution calendar
