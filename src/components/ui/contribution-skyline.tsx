@@ -947,3 +947,4 @@ export default function ContributionSkyline({
 
     const onDown = (ev: PointerEvent) => {
       if (ev.button !== 0) return
+      const can = cfg.current.orbit && target === 1
