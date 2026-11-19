@@ -69,3 +69,4 @@ export function Header() {
           <ul className="m-0 flex list-none flex-col gap-2 p-0">
             {NAV.map((n) => (
               <li key={n.href}>
+                <a href={n.href} className="flex min-h-14 items-center border-b-2 border-forest font-pixel text-3xl text-paper no-underline hover:text-sun" onClick={() => setOpen(false)}>
