@@ -121,3 +121,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         if (!stale) setStatus('error')
       })
     return () => {
+      stale = true
