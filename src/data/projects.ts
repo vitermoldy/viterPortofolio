@@ -122,3 +122,4 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'cloudstead',
+    name: 'CloudStead',
