@@ -15,3 +15,4 @@ export function Header() {
   React.useEffect(() => {
     if (!open) return
     const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
