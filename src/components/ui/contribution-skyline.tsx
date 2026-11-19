@@ -901,3 +901,4 @@ export default function ContributionSkyline({
         if (h !== hg) {
           hover[i] = Math.abs(hg - h) < 0.003 ? hg : h + (hg - h) * kh
           moving = true
+        }
