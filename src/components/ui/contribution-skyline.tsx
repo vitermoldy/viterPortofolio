@@ -499,3 +499,4 @@ export default function ContributionSkyline({
     return { dark: false, swatches: ["#ebedf0", ...p], accent: p[3] }
   })
   const [width, setWidth] = React.useState(0)
+  const [active, setActive] = React.useState(-1)
