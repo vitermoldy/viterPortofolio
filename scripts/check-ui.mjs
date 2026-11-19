@@ -117,3 +117,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     const title = await page.locator('#contributions h3').innerText()
     expect(/\d/.test(title), 'title ' + title)
     await page.locator('#contributions').screenshot({ path: join(OUT, '1440-skyline-3d.png') })
+    return title
