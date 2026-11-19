@@ -277,3 +277,4 @@ for (const width of [390, 320]) {
 }
 
 // Reduced motion: everything rests, nothing stays hidden.
+{
