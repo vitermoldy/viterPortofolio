@@ -1045,3 +1045,4 @@ export default function ContributionSkyline({
       pinned = i
       hovered = -1
       refreshActive()
+      cfg.current.setAnnounce(cfg.current.describe(i))
