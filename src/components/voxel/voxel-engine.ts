@@ -72,3 +72,4 @@ void main() {
   } else if (n.z < -0.5) {
     shade = 0.3;
   } else {
+    shade = n.y > 0.5 ? 0.84 : n.y < -0.5 ? 0.44 : n.x < -0.5 ? 0.66 : 0.54;
