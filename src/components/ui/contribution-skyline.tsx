@@ -801,3 +801,4 @@ export default function ContributionSkyline({
         quadPath(ctx, polys, o, radius)
         ctx.fillStyle = rgbString(r, g, bl)
         ctx.fill()
+        if (outline > 0.004) {
