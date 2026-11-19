@@ -65,3 +65,4 @@ export function Projects({ state }: { state: LoadState }) {
               const on = p.id === project.id
               return (
                 <li key={p.id}>
+                  <button
