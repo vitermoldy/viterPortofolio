@@ -59,3 +59,4 @@ export const toKey = (ms: number): string => new Date(ms).toISOString().slice(0,
  * are read literally (no timezone drift), Date objects by their local day,
  * numbers as UTC timestamps.
  */
+export const dayMs = (v: string | number | Date): number => {
