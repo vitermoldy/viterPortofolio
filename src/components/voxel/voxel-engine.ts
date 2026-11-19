@@ -320,3 +320,4 @@ export class VoxelEngine {
     let lo = (Math.min(v.h, v.w / this.camera.aspect) / 2 / t) * 0.8
     const limit = 0.92
     const fits = (d: number) => {
+      this.camera.position.set(this.target.x + dx * d, this.target.y + dy * d, this.target.z + dz * d)
