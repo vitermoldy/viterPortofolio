@@ -879,3 +879,5 @@ export default function ContributionSkyline({
       else {
         yaw = yawGoal
         elev = elevGoal
+      }
+
