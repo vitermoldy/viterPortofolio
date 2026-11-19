@@ -45,3 +45,4 @@ export const easeInOutCubic = (x: number): number => {
   const t = clamp01(x)
   return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2
 }
+export const easeOutCubic = (x: number): number => 1 - Math.pow(1 - clamp01(x), 3)
