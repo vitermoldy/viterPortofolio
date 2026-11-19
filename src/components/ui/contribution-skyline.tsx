@@ -1187,3 +1187,4 @@ export default function ContributionSkyline({
     { label: "Current streak", value: nf.format(stats.current.days), unit: stats.current.days === 1 ? "day" : "days", sub: range(stats.current.start, stats.current.end) },
   ]
   const showRow = showStats && !(is3d && corners)
+  const ease = "cubic-bezier(0.65, 0, 0.35, 1)"
