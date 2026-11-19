@@ -19,3 +19,4 @@ export function Contributions({ state }: { state: LoadState }) {
     const rows = range === 'last' ? c.days : c.days.filter(([d]) => d.startsWith(String(range)))
     const data: ContributionDay[] = rows.map(([date, count, level]) => ({ date, count, level }))
     const endDate = range === 'last' ? c.today : `${range}-12-31`
+    const total = range === 'last' ? lastYearTotal(c) : rows.reduce((s, r) => s + r[1], 0)
