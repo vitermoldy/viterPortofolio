@@ -70,3 +70,4 @@ export function Contributions({ state }: { state: LoadState }) {
         <div className="mt-10">
           {state.status === 'loading' && (
             <div className="grid min-h-[380px] place-items-center border-2 border-moss" role="status">
+              <p className="m-0 text-muted">Reading the contribution calendar</p>
