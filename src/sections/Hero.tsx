@@ -47,3 +47,4 @@ export function Hero({ state }: { state: LoadState }) {
               <button type="button" className="link border-0 bg-transparent p-0 text-sm" onClick={state.retry}>
                 Load them again
               </button>
+            </p>
