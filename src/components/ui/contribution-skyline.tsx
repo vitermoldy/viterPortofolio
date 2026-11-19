@@ -643,3 +643,5 @@ export default function ContributionSkyline({
         prev.dark === isDark && prev.swatches.join() === sw.join() ? prev : { dark: isDark, swatches: sw, accent: sw[4] },
       )
       kick()
+    }
+
