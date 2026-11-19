@@ -61,3 +61,4 @@ void main() {
 const FRAG = /* glsl */ `
 varying vec3 vColor;
 varying vec3 vNormal;
+varying float vGlow;
