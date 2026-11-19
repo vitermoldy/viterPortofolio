@@ -160,3 +160,4 @@
     box-shadow: 1px 1px 0 var(--color-moss);
   }
   .btn-quiet:hover {
+    background: var(--color-forest);
