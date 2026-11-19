@@ -617,3 +617,4 @@ export default function ContributionSkyline({
         const dow = new Date(dayMs(m.cells[d].date)).getUTCDay()
         if (dow === 1 || dow === 3 || dow === 5) weekdayRows.push({ day: d, label: wf.format(dayMs(m.cells[d].date)) })
       }
+      if (hovered >= n) hovered = -1
