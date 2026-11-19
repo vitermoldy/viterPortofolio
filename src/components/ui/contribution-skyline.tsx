@@ -230,3 +230,4 @@ export type Cam = { cs: number; sn: number; se: number; ce: number }
  * offsets only apply in proportion to e, so the flat view never tilts.
  */
 export const camera = (e: number, dYaw = 0, dElev = 0): Cam => {
+  const yaw = Math.min(YAW_RANGE[1], Math.max(0, lerp(0, YAW_3D + dYaw, e)))
