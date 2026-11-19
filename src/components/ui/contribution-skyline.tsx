@@ -37,3 +37,5 @@ export type ContributionStats = {
 }
 export type RGB = [number, number, number]
 
+export const DAY_MS = 86400000
+
