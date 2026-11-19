@@ -295,3 +295,4 @@
     animation-delay: 160ms;
   }
   [data-enter] > *:nth-child(4) {
+    animation-delay: 240ms;
