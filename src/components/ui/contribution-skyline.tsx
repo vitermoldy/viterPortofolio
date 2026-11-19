@@ -420,3 +420,4 @@ function Stat({
         <div className="mt-0.5 truncate text-[12px]" style={{ color: MUTED }}>
           {sub}
         </div>
+      </div>
