@@ -858,3 +858,5 @@ export default function ContributionSkyline({
         tip.style.transform = "translate(" + (cx - half).toFixed(1) + "px," + (ty - 8).toFixed(1) + "px) translateY(-100%)"
         tip.style.setProperty("--arrow", (tx - cx + half).toFixed(1) + "px")
       }
+    }
+
