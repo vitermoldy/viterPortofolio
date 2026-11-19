@@ -314,3 +314,4 @@ export interface ContributionSkylineProps {
 const FG_FALLBACK: RGB = [23, 23, 23]
 const BG_FALLBACK: RGB = [255, 255, 255]
 
+// Any CSS colour → sRGB, by letting the browser paint it. Handles oklch, color-mix, names…
