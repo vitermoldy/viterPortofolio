@@ -975,3 +975,4 @@ export default function ContributionSkyline({
       }
       if (ev.pointerType !== "mouse") return
       const [x, y] = local(ev)
+      const i = hit(x, y)
