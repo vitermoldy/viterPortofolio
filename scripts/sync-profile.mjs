@@ -124,3 +124,4 @@ function pixel() {
   ).then(() => (existsSync(local) ? 'copied from ../vitermoldy' : 'downloaded from GitHub'))
 }
 
+const p = await profile()
