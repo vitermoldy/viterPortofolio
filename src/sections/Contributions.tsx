@@ -68,3 +68,4 @@ export function Contributions({ state }: { state: LoadState }) {
         </div>
 
         <div className="mt-10">
+          {state.status === 'loading' && (
