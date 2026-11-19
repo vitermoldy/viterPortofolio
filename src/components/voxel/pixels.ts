@@ -7,3 +7,4 @@ export type PixelGrid = { w: number; h: number; data: Uint8ClampedArray | Uint8A
  * One block per pixel. `xy` is the block's centre on the wall (y up, the picture centred on 0),
  * `col` its sRGB colour (0 to 1), `dga` its depth, glow and alpha.
  */
+export type Voxels = {
