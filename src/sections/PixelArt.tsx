@@ -18,3 +18,4 @@ const SCENES: Scene[] = [
   },
   {
     id: 'cabin',
+    name: 'StudyCabin at night',
