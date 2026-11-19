@@ -233,3 +233,4 @@ for (const width of [390, 320]) {
       [...document.querySelectorAll('main *')]
         .filter((el) => {
           const r = el.getBoundingClientRect()
+          return r.width > 0 && (r.right > window.innerWidth + 1 || r.left < -1)
