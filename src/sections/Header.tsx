@@ -6,3 +6,5 @@ const NAV = [
   { href: '#pixel-art', label: 'Pixel art' },
   { href: '#projects', label: 'Projects' },
   { href: '#contact', label: 'Contact' },
+]
+
