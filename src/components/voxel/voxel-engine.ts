@@ -437,3 +437,4 @@ export class VoxelEngine {
     const d = this.drag
     if (!d || ev.pointerId !== d.id) return
     this.drag = null
+    if (this.canvas.hasPointerCapture(ev.pointerId)) this.canvas.releasePointerCapture(ev.pointerId)
