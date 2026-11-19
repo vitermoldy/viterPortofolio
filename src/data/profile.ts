@@ -46,3 +46,4 @@ export type LoadState =
   | { status: 'ready'; data: ProfileData }
 
 async function getJson<T>(path: string): Promise<T> {
+  const res = await fetch(asset(path), { cache: 'no-cache' })
