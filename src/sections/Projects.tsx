@@ -31,3 +31,4 @@ export function Projects({ state }: { state: LoadState }) {
           className="border-2 border-moss p-5 lg:col-span-5 lg:col-start-8 lg:row-start-2 lg:self-start"
           aria-live="polite"
         >
+          <h3 className="h-pixel text-3xl">{project.name}</h3>
