@@ -659,3 +659,4 @@ export default function ContributionSkyline({
         if (p[0] > maxx) maxx = p[0]
         if (p[1] < miny) miny = p[1]
         if (p[1] > maxy) maxy = p[1]
+      }
