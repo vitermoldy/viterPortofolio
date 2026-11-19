@@ -487,3 +487,4 @@ export default function ContributionSkyline({
     return { ...grid, stats: computeStats(grid.cells), months: monthLabels(grid.cells, grid.weeks, locale) }
   }, [data, endKey, seed, weekStart, locale])
 
+  const [innerView, setInnerView] = React.useState<View>(defaultView)
