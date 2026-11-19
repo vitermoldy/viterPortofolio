@@ -56,3 +56,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
     const mq = window.matchMedia(reducedQuery)
     const onReduce = () => engineRef.current?.setReducedMotion(mq.matches)
 
+    import('./voxel-engine')
