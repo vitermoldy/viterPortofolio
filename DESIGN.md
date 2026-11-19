@@ -46,3 +46,5 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 - No middle dot between fragments of copy (the owner's rule). The pixel cards themselves still carry the dots
   drawn by the profile's `tools/pixel.py`.
 
+## Files
+
