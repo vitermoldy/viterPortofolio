@@ -364,3 +364,4 @@ export class VoxelEngine {
       if (this.assemble >= 1) this.assembling = false
       moving = true
     }
+    if (this.morph < 1) {
