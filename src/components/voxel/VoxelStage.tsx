@@ -18,3 +18,4 @@ type Status = 'loading' | 'ready' | 'flat' | 'error'
 type Props = {
   picture: VoxelPicture
   options?: VoxelOptions
+  /** Where a same-size switch starts its wave. */
