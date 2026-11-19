@@ -295,3 +295,4 @@ export interface ContributionSkylineProps {
   accent?: string
   /** Morph length, ms. */
   duration?: number
+  /** 0 puts Sunday on the top row, 1 puts Monday there. */
