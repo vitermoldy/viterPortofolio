@@ -5,3 +5,4 @@ import { month, num } from '@/lib/format'
 import { asset } from '@/lib/utils'
 
 const AVATARS: Record<'moon' | 'sunset', VoxelPicture> = {
+  moon: {
