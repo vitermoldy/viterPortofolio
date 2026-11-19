@@ -224,3 +224,4 @@ export const ELEV_RANGE: [number, number] = [(18 * Math.PI) / 180, (62 * Math.PI
 
 export type Cam = { cs: number; sn: number; se: number; ce: number }
 
+/**
