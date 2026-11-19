@@ -539,3 +539,4 @@ export default function ContributionSkyline({
     let reduced = reduceMq.matches
 
     // morph: t is linear time 0 (2D) → 1 (3D); the camera eases it, the bars wave it
+    let t = 0
