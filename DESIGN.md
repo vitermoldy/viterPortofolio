@@ -39,3 +39,4 @@ recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **
 
 ## Rules kept on purpose
 
+- English copy, like every text on the profile.
