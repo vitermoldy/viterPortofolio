@@ -1284,3 +1284,4 @@ export default function ContributionSkyline({
                   <Stat {...statBlocks[1]} accent={accent ?? theme.accent} size={bigSize} align="end" />
                 </div>
                 <div
+                  aria-hidden={!is3d}
