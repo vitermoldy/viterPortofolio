@@ -97,3 +97,4 @@ export function Contributions({ state }: { state: LoadState }) {
                   palette={HUTAN}
                   accent="#fff36b"
                   heightCurve="log"
+                  heightScale={1.15}
