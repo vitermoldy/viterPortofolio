@@ -137,3 +137,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         src={picture.src}
         width={picture.w * 4}
         height={picture.h * 4}
+        alt={status === 'ready' ? '' : picture.alt}
