@@ -958,3 +958,4 @@ export default function ContributionSkyline({
       }
     }
 
+    const onMove = (ev: PointerEvent) => {
