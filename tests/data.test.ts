@@ -22,3 +22,4 @@ describe('parseCalendar', () => {
       ['2026-11-13', [1, 1]],
     ])
   })
+  it('returns nothing for a page without a calendar', () => {
