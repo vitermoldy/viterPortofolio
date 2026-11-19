@@ -335,3 +335,5 @@ export class VoxelEngine {
       else lo = mid
     }
     fits(hi)
+  }
+
