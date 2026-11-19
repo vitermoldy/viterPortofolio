@@ -295,3 +295,4 @@ export class VoxelEngine {
   }
 
   private measure(v: Voxels) {
+    let deepest = 0
