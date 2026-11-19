@@ -103,3 +103,4 @@ export function Contributions({ state }: { state: LoadState }) {
                       <span className="font-semibold tabular-nums">{num(view.total)}</span>{' '}
                       {view.total === 1 ? 'contribution' : 'contributions'} {range === 'last' ? 'in the last 12 months' : `in ${range}`}
                     </>
+                  }
