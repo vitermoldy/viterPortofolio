@@ -405,3 +405,4 @@ export class VoxelEngine {
       try {
         this.canvas.setPointerCapture(ev.pointerId)
       } catch {
+        /* capture only keeps a fast drag attached */
