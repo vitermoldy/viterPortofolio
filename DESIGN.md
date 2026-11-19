@@ -10,3 +10,5 @@ pixel, commit, intinya profil GitHub-ku bisa 3D." The owner supplied the Contrib
 **Design Read.** Reading this as: the owner's GitHub profile as a 3D page for classmates, lecturers and
 recruiters, in the profile's pixel-art "Hutan" style turned into voxels, dial **ENERGY 3 / RHYTHM 2 / MOTION 3**.
 
+## Decisions and their reasons
+
