@@ -1049,3 +1049,4 @@ export default function ContributionSkyline({
     }
 
     const onBlur = () => {
+      pinned = -1
