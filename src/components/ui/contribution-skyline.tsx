@@ -472,3 +472,4 @@ export default function ContributionSkyline({
   showStats = true,
   showLegend = true,
   showToggle = true,
+  footer,
