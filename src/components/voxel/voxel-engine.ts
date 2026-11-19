@@ -333,3 +333,4 @@ export class VoxelEngine {
       const mid = (lo + hi) / 2
       if (fits(mid)) hi = mid
       else lo = mid
+    }
