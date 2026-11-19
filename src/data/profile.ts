@@ -57,3 +57,4 @@ export function useProfileData(): LoadState {
   React.useEffect(() => {
     let stale = false
     setState({ status: 'loading' })
+    Promise.all([getJson<Profile>('data/profile.json'), getJson<Contributions>('data/contributions.json')])
