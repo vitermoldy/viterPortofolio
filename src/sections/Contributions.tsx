@@ -81,3 +81,4 @@ export function Contributions({ state }: { state: LoadState }) {
                   Load the calendar again
                 </button>
               </div>
+            </div>
