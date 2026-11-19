@@ -25,3 +25,4 @@ import * as React from "react"
 
 /** `level` (0 to 4) is optional: when the data carries GitHub's own shades, they are used as given. */
 export type ContributionDay = { date: string; count: number; level?: number }
+export type Cell = { date: string; count: number; level: number; week: number; day: number }
