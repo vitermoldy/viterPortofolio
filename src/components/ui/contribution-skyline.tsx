@@ -979,3 +979,4 @@ export default function ContributionSkyline({
       if (i !== hovered) {
         hovered = i
         refreshActive()
+      }
