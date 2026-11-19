@@ -64,3 +64,4 @@ varying vec3 vNormal;
 varying float vGlow;
 varying float vZ;
 
+void main() {
