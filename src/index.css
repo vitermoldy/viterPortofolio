@@ -110,3 +110,4 @@
     align-items: baseline;
     gap: 0.45em;
   }
+  .h-block::before {
