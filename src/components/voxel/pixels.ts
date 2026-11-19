@@ -56,3 +56,4 @@ export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
       col[k * 3 + 1] = g / 255
       col[k * 3 + 2] = b / 255
       const l = luma(r, g, b)
+      dga[k * 3] = base + relief * Math.pow(l, 1.15)
