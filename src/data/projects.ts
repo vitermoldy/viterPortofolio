@@ -19,3 +19,4 @@ export const CARD_SIZE = { w: 200, h: 136 }
 
 const card = (file: string) => asset(`pixel/card-${file}.svg`)
 
+export const PROJECTS: Project[] = [
