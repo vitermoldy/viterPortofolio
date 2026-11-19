@@ -1224,3 +1224,4 @@ export default function ContributionSkyline({
               style={{
                 background: "var(--color-foreground, #171717)",
                 transform: is3d ? "translateX(100%)" : "translateX(0)",
+                transitionTimingFunction: ease,
