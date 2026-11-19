@@ -181,3 +181,4 @@ const settle = (page, ms = 3200) => page.waitForTimeout(ms)
     const cards = page.locator('#projects [aria-label="Project cards"] button')
     const n = await cards.count()
     const seen = []
+    for (let i = 0; i < n; i++) {
