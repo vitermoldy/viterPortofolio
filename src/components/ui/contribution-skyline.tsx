@@ -1072,3 +1072,4 @@ export default function ContributionSkyline({
     relayout()
 
     // The 3D view rises out of the flat one the first time it is seen.
+    const enter = () => {
