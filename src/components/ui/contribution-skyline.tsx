@@ -327,3 +327,4 @@ const toRGB = (color: string, fallback: RGB | null): RGB | null => {
   probe.fillStyle = "rgba(0,0,0,0)"
   probe.fillStyle = color
   probe.fillRect(0, 0, 1, 1)
+  const d = probe.getImageData(0, 0, 1, 1).data
