@@ -3,3 +3,4 @@
 // <tool-tip for="<id>"> that follows ("12 contributions on November 3rd." or "No contributions on ...").
 // The level (0 to 4) is GitHub's own shade for that day, so the site can colour days exactly as the
 // profile page does.
+const DAY = /<td\b[^>]*\bContributionCalendar-day\b[^>]*>/g
