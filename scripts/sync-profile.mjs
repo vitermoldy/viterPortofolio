@@ -122,3 +122,5 @@ function pixel() {
       writeFileSync(join(out, file), Buffer.from(await res.arrayBuffer()))
     }),
   ).then(() => (existsSync(local) ? 'copied from ../vitermoldy' : 'downloaded from GitHub'))
+}
+
