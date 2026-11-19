@@ -283,3 +283,4 @@ export interface ContributionSkylineProps {
   palette?: PaletteInput
   /** Heading. Defaults to "{total} contributions in the last year". */
   title?: React.ReactNode
+  /** Singular noun for a unit of activity. */
