@@ -145,3 +145,4 @@ export class VoxelEngine {
     this.renderer.setClearColor(0x000000, 0)
     this.material = new THREE.ShaderMaterial({
       vertexShader: VERT,
+      fragmentShader: FRAG,
