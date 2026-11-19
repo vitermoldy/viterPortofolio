@@ -279,3 +279,4 @@ for (const width of [390, 320]) {
 // Reduced motion: everything rests, nothing stays hidden.
 {
   const context = await browser.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce' })
+  const page = await context.newPage()
