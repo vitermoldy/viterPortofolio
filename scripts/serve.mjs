@@ -49,3 +49,4 @@ export function serve(port = 5189) {
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  if (!existsSync(join(root, 'index.html'))) {
