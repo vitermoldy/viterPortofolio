@@ -28,3 +28,4 @@ export function Projects({ state }: { state: LoadState }) {
         </div>
 
         <div
+          className="border-2 border-moss p-5 lg:col-span-5 lg:col-start-8 lg:row-start-2 lg:self-start"
