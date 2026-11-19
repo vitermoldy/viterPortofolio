@@ -250,3 +250,4 @@ export class VoxelEngine {
     this.renderer.dispose()
   }
 
+  private build(v: Voxels) {
