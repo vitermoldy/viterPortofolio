@@ -1042,3 +1042,4 @@ export default function ContributionSkyline({
         if (ev.key === "End") i = n - 1
       }
       i = Math.max(0, Math.min(n - 1, i))
+      pinned = i
