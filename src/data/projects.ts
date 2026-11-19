@@ -130,3 +130,4 @@ export const PROJECTS: Project[] = [
   },
 ]
 
+/** The repositories of a project that GitHub lists as public, with their real URLs. */
