@@ -36,3 +36,4 @@ void main() {
   vec3 dga = mix(aDgaA, aDgaB, m);
   float alpha = step(0.5, dga.z);
 
+  vec2 dp = aXY - uPointer.xy;
