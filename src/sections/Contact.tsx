@@ -45,3 +45,4 @@ export function Contact() {
                 </a>
               </li>
             ))}
+          </ul>
