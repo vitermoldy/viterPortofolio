@@ -108,3 +108,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         const v = voxelize(grid, { relief, base })
         const engine = engineRef.current
         if (!engine) return
+        engine.setVoxels(v, wave)
