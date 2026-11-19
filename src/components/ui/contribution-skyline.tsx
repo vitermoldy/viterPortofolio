@@ -1158,3 +1158,4 @@ export default function ContributionSkyline({
   }, [view, legendLevel])
 
   React.useEffect(() => {
+    engine.current?.load()
