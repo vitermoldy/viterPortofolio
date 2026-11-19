@@ -58,3 +58,4 @@ void main() {
 }
 `
 
+const FRAG = /* glsl */ `
