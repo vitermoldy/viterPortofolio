@@ -178,3 +178,5 @@ export const computeStats = (cells: Cell[]): ContributionStats => {
     longest,
     current,
   }
+}
+
