@@ -956,3 +956,5 @@ export default function ContributionSkyline({
           /* capture is a nicety */
         }
       }
+    }
+
