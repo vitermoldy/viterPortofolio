@@ -23,3 +23,4 @@ type Props = {
   /** Resting camera angle, in radians. */
   view?: View
   className?: string
+  onVoxels?: (v: Voxels) => void
