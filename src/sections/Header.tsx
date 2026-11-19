@@ -10,3 +10,5 @@ const NAV = [
 
 export function Header() {
   const [open, setOpen] = React.useState(false)
+  const toggleRef = React.useRef<HTMLButtonElement>(null)
+
