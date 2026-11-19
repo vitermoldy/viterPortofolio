@@ -13,3 +13,4 @@ export function Contributions({ state }: { state: LoadState }) {
   const c = state.status === 'ready' ? state.data.contributions : null
 
   const view = React.useMemo(() => {
+    if (!c) return null
