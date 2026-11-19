@@ -615,3 +615,4 @@ export default function ContributionSkyline({
       weekdayRows = []
       for (let d = 0; d < 7 && d < n; d++) {
         const dow = new Date(dayMs(m.cells[d].date)).getUTCDay()
+        if (dow === 1 || dow === 3 || dow === 5) weekdayRows.push({ day: d, label: wf.format(dayMs(m.cells[d].date)) })
