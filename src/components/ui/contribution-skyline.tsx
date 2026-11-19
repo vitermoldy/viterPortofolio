@@ -548,3 +548,4 @@ export default function ContributionSkyline({
     let yawGoal = 0
     let elevGoal = 0
     // layout
+    let W = 0
