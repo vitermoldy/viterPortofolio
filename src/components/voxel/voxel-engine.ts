@@ -324,3 +324,4 @@ export class VoxelEngine {
       this.camera.lookAt(this.target)
       this.camera.updateMatrixWorld()
       for (const c of this.corners) {
+        this.probe.copy(c).project(this.camera)
