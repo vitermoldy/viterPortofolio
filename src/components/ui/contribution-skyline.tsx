@@ -1178,3 +1178,4 @@ export default function ContributionSkyline({
     return a === b ? f.format(dayMs(a)) : f.format(dayMs(a)) + " to " + f.format(dayMs(b))
   }
   const is3d = view === "3d"
+  const corners = showStats && width >= 560
