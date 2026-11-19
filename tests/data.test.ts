@@ -54,3 +54,4 @@ describe('contribution totals', () => {
 
 describe('project links', () => {
   it('links only repositories GitHub lists as public', () => {
+    const studycabin = PROJECTS.find((p) => p.id === 'studycabin')!
