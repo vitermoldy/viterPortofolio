@@ -122,3 +122,4 @@ export class VoxelEngine {
   private assemble = 1
   private assembling = false
   private morph = 1
+  private yaw: number
