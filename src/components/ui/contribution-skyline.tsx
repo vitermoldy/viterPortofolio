@@ -580,3 +580,4 @@ export default function ContributionSkyline({
     let months: { week: number; label: string }[] = []
     let weekdayRows: { day: number; label: string }[] = []
     // interaction
+    let hovered = -1
