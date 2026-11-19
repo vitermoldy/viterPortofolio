@@ -285,3 +285,4 @@ export interface ContributionSkylineProps {
   title?: React.ReactNode
   /** Singular noun for a unit of activity. */
   unit?: string
+  /** Plural noun. Defaults to `unit + "s"`. */
