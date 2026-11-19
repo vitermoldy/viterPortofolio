@@ -20,3 +20,4 @@ type Props = {
   options?: VoxelOptions
   /** Where a same-size switch starts its wave. */
   wave?: 'corner' | 'centre'
+  /** Resting camera angle, in radians. */
