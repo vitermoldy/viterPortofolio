@@ -330,3 +330,4 @@ export class VoxelEngine {
       return true
     }
     for (let i = 0; i < 16; i++) {
+      const mid = (lo + hi) / 2
