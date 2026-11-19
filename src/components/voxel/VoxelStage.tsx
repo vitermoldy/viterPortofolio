@@ -72,3 +72,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         ro = new ResizeObserver(fit)
         ro.observe(box)
         io = new IntersectionObserver(
+          (entries) => {
