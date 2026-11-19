@@ -307,3 +307,4 @@ export interface ContributionSkylineProps {
   locale?: string
   /** Seed for the generated sample year. */
   seed?: number
+  onCellClick?: (day: ContributionDay) => void
