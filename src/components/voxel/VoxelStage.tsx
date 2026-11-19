@@ -169,3 +169,4 @@ export function VoxelStage({ picture, options, wave = 'corner', view, className,
         </div>
       )}
       {status === 'flat' && (
+        <p className="absolute bottom-3 left-3 m-0 bg-ink/85 px-2 py-1 text-xs text-muted">
