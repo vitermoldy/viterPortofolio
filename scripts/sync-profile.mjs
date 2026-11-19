@@ -31,3 +31,4 @@ const PIXEL = [
   'banner.svg',
   'character.svg',
   'footer.svg',
+  'card-evit.svg',
