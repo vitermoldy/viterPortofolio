@@ -1344,3 +1344,4 @@ export default function ContributionSkyline({
               gridTemplateRows: showRow ? "1fr" : "0fr",
               opacity: showRow ? 1 : 0,
               transitionDuration: duration + "ms",
+              transitionTimingFunction: ease,
