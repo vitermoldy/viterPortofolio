@@ -126,3 +126,4 @@ function pixel() {
 
 const p = await profile()
 const c = await contributions(p.createdAt)
+const fetchedAt = new Date().toISOString()
