@@ -42,3 +42,4 @@ export function Contributions({ state }: { state: LoadState }) {
                 {num(allTimeTotal(c))} contributions since {day(c.days[0][0])}. Each day is one block in GitHub&rsquo;s own
                 shade for it, and its height follows a log scale, so a day of {plural(view.quietest, 'contribution')} still
                 shows beside the busiest
+                {view.busiest ? `, ${num(view.busiest[1])} on ${day(view.busiest[0])}` : ''}.
