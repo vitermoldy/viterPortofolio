@@ -1252,3 +1252,4 @@ export default function ContributionSkyline({
         <div className="relative px-3 pt-3 sm:px-4 sm:pt-4">
           <div
             ref={stageRef}
+            className="relative w-full overflow-hidden outline-offset-4 has-[:focus-visible]:outline-2"
