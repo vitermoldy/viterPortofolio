@@ -101,3 +101,4 @@ export class VoxelEngine {
   private camera = new THREE.PerspectiveCamera(32, 1, 0.5, 5000)
   private material: THREE.ShaderMaterial
   private mesh: THREE.Mesh<THREE.InstancedBufferGeometry, THREE.ShaderMaterial> | null = null
+  private box = new THREE.BoxGeometry(1, 1, 1)
