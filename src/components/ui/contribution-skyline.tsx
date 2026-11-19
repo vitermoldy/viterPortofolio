@@ -712,3 +712,4 @@ export default function ContributionSkyline({
       const b = extent(cam, e, false)
       const pad = lerp(2, 20, e)
       const left = pad + gutter * (1 - e)
+      const top = pad + 20 * (1 - e)
