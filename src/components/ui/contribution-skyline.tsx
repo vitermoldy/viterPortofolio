@@ -630,3 +630,4 @@ export default function ContributionSkyline({
       font = "400 10px " + (cs.fontFamily || "sans-serif")
       const pal = resolvePalette(cfg.current.palette, isDark)
       const empty = mixRGB(bg, fg, isDark ? 0.11 : 0.075)
+      const all: RGB[] = [empty, ...pal.map((c) => toRGB(c, FG_FALLBACK) ?? FG_FALLBACK)]
