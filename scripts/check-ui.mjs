@@ -34,3 +34,5 @@ const check = async (name, fn) => {
 }
 const expect = (cond, msg) => {
   if (!cond) throw new Error(msg)
+}
+
