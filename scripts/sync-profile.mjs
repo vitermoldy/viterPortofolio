@@ -16,3 +16,4 @@ import { fileURLToPath } from 'node:url'
 import { parseCalendar } from './calendar.mjs'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
+const arg = (name) => {
