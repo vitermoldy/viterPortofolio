@@ -1032,3 +1032,4 @@ export default function ContributionSkyline({
         const c = cfg.current.model.cells[i]
         cfg.current.onCellClick?.({ date: c.date, count: c.count })
         return
+      }
