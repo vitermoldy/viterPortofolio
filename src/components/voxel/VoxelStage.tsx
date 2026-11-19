@@ -22,3 +22,4 @@ type Props = {
   wave?: 'corner' | 'centre'
   /** Resting camera angle, in radians. */
   view?: View
+  className?: string
