@@ -51,3 +51,4 @@ export function Header() {
         <button
           ref={toggleRef}
           type="button"
+          className="btn btn-quiet md:hidden"
