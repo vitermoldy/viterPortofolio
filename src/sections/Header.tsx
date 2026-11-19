@@ -20,3 +20,4 @@ export function Header() {
         toggleRef.current?.focus()
       }
     }
+    document.addEventListener('keydown', onKey)
