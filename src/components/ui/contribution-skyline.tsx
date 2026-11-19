@@ -618,3 +618,4 @@ export default function ContributionSkyline({
         if (dow === 1 || dow === 3 || dow === 5) weekdayRows.push({ day: d, label: wf.format(dayMs(m.cells[d].date)) })
       }
       if (hovered >= n) hovered = -1
+      if (pinned >= n) pinned = -1
