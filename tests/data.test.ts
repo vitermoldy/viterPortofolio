@@ -16,3 +16,4 @@ const page = `
 describe('parseCalendar', () => {
   it('reads count and GitHub level per day, with thousands separators', () => {
     const days = parseCalendar(page)
+    expect([...days.entries()]).toEqual([
