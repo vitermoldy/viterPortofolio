@@ -84,3 +84,4 @@ export function Hero({ state }: { state: LoadState }) {
 function Fact({ label, value, state, small }: { label: string; value: string | null; state: LoadState['status']; small?: boolean }) {
   return (
     <div className="min-w-0">
+      <dt className="text-xs leading-snug text-muted sm:text-sm">{label}</dt>
