@@ -46,3 +46,4 @@ describe('contribution totals', () => {
   })
   it('sums every day', () => {
     expect(allTimeTotal(c)).toBe(23)
+  })
