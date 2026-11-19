@@ -1136,3 +1136,4 @@ export default function ContributionSkyline({
       if (raf) cancelAnimationFrame(raf)
       io?.disconnect()
       ro.disconnect()
+      mo.disconnect()
