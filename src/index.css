@@ -225,3 +225,4 @@
   }
 
   .nav-link {
+    display: inline-flex;
