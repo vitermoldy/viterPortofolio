@@ -107,3 +107,4 @@ async function contributions(createdAt) {
     for (const [date, cl] of part) if (date <= today && date >= createdAt.slice(0, 10)) days.set(date, cl)
   }
   const sorted = [...days.entries()].sort((a, b) => (a[0] < b[0] ? -1 : 1)).map(([date, [count, level]]) => [date, count, level])
+  return { today, days: sorted }
