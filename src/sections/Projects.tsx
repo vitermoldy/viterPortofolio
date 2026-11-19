@@ -43,3 +43,4 @@ export function Projects({ state }: { state: LoadState }) {
               (links.length ? (
                 <ul className="m-0 flex list-none flex-wrap gap-3 p-0">
                   {links.map((l) => (
+                    <li key={l.url}>
