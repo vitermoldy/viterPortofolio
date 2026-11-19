@@ -188,3 +188,4 @@ export const monthLabels = (cells: Cell[], weeks: number, locale = "en-US") => {
   for (let w = 0; w < weeks; w++) {
     const c = cells[w * 7]
     if (!c) break
+    const m = +c.date.slice(5, 7)
