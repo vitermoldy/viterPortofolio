@@ -687,3 +687,4 @@ export default function ContributionSkyline({
       const b2 = extent(camera(0), 0, true)
       H2 = 20 + 4 + ((b2.maxy - b2.miny) / (b2.maxx - b2.minx)) * (W - gutter - 4)
       const b3 = extent(camera(1), 1, true)
+      const natural = ((b3.maxy - b3.miny) / (b3.maxx - b3.minx)) * (W - 40) + 40
