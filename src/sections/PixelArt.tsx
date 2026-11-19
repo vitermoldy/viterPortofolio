@@ -22,3 +22,4 @@ const SCENES: Scene[] = [
     src: asset('pixel/banner.svg'),
     w: 240,
     h: 96,
+    text: 'The profile banner: the glass cabin lit from inside, chimney smoke, an aurora and stars, a doe by the pond and fireflies.',
