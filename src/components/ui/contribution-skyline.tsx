@@ -584,3 +584,4 @@ export default function ContributionSkyline({
     let pinned = -1
     let activeIdx = -1
     let tipW = 0
+    let raf = 0
