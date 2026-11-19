@@ -61,3 +61,4 @@ export const toKey = (ms: number): string => new Date(ms).toISOString().slice(0,
  */
 export const dayMs = (v: string | number | Date): number => {
   if (typeof v === "number") return Math.floor(v / DAY_MS) * DAY_MS
+  if (typeof v === "string") {
