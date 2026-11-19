@@ -872,3 +872,4 @@ export default function ContributionSkyline({
         moving = true
       }
 
+      const ko = reduced ? 1 : 1 - Math.exp(-dt * 12)
