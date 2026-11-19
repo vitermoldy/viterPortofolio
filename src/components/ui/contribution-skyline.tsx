@@ -8,3 +8,4 @@ import * as React from "react"
  *
  * It is one scene, not two charts. Every day is a box on a grid; the 2D view
  * is that grid seen straight down, the 3D view is the same grid seen from the
+ * corner. Switching views swings one camera between the two while each week's
