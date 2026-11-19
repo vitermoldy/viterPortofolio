@@ -193,3 +193,4 @@ export const monthLabels = (cells: Cell[], weeks: number, locale = "en-US") => {
     prev = m
   }
   if (out.length > 1 && out[1].week - out[0].week < 3) out.shift()
+  return out
