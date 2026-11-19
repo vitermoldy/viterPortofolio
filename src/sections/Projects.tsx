@@ -64,3 +64,4 @@ export function Projects({ state }: { state: LoadState }) {
             {PROJECTS.map((p) => {
               const on = p.id === project.id
               return (
+                <li key={p.id}>
