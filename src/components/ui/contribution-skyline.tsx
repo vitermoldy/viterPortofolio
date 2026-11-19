@@ -736,3 +736,5 @@ export default function ContributionSkyline({
       const lift = 0.7 * e
       const ex = col[0]
       const ey = col[1]
+      const ez = col[2]
+
