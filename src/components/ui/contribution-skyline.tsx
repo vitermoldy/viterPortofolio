@@ -1293,3 +1293,4 @@ export default function ContributionSkyline({
                     transitionDelay: is3d ? Math.round(duration * 0.65) + "ms" : "0ms",
                     transitionTimingFunction: ease,
                   }}
+                >
