@@ -63,3 +63,4 @@ async function get(url, { json = false, tries = 3 } = {}) {
   }
 }
 
+async function profile() {
