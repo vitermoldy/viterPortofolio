@@ -10,3 +10,4 @@ const root = fileURLToPath(new URL('.', import.meta.url)).replace(/^[a-z]:/, (d)
 // GitHub Pages serves this repository at https://vitermoldy.github.io/viterPortofolio/.
 export default defineConfig(({ command }) => ({
   root,
+  base: command === 'build' ? (process.env.SITE_BASE ?? '/viterPortofolio/') : '/',
