@@ -46,3 +46,4 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'netsim',
+    name: 'Network Simulation',
