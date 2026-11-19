@@ -1303,3 +1303,4 @@ export default function ContributionSkyline({
 
           <div
             ref={tipRef}
+            role="tooltip"
