@@ -98,3 +98,4 @@ export function Contributions({ state }: { state: LoadState }) {
                   accent="#fff36b"
                   heightCurve="log"
                   heightScale={1.15}
+                  title={
