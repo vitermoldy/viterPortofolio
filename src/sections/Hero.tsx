@@ -64,3 +64,4 @@ export function Hero({ state }: { state: LoadState }) {
           <div className="stage-frame mx-auto w-full max-w-[600px]">
             <VoxelStage picture={AVATARS[sky]} options={{ relief: 0.09 }} wave="centre" />
           </div>
+          <div className="mx-auto mt-4 flex w-full max-w-[600px] flex-wrap items-center justify-between gap-3">
