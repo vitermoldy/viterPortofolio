@@ -1015,3 +1015,5 @@ export default function ContributionSkyline({
       yawGoal = 0
       elevGoal = 0
       kick()
+    }
+
