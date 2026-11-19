@@ -602,3 +602,4 @@ export default function ContributionSkyline({
         polys = new Float32Array(n * 24)
         faces = new Uint8Array(n)
         order = Array.from({ length: n }, (_, i) => i)
+      }
