@@ -66,3 +66,4 @@ export function voxelize(grid: PixelGrid, opts: VoxelOptions = {}): Voxels {
 
 /** How many blocks actually show. */
 export const visibleCount = (v: Voxels) => {
+  let n = 0
