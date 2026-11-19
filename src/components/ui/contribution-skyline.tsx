@@ -1261,3 +1261,4 @@ export default function ContributionSkyline({
               role="img"
               aria-label={
                 nf.format(stats.total) + " " + noun(stats.total) + " between " + range(stats.first, stats.last, true) +
+                ", shown as a " + (is3d ? "3D skyline" : "heat map") + ". Use the arrow keys to read individual days."
