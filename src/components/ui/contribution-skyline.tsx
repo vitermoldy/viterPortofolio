@@ -1330,3 +1330,4 @@ export default function ContributionSkyline({
                 marginLeft: -5,
                 borderLeft: "5px solid transparent",
                 borderRight: "5px solid transparent",
+                borderTop: "5px solid var(--color-foreground, #171717)",
