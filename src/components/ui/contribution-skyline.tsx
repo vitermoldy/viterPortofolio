@@ -673,3 +673,4 @@ export default function ContributionSkyline({
       }
       // room for the month labels that run along the front edge in 3D
       add(0, 7 + 1.5 * e, 0)
+      add(weeks, 7 + 1.5 * e, 0)
