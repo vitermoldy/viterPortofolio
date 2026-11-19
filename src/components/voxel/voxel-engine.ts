@@ -417,3 +417,4 @@ export class VoxelEngine {
       const dy = ev.clientY - d.y
       if (d.moved || Math.hypot(dx, dy) > 4) {
         d.moved = true
+        this.yawGoal = clamp(d.yaw - dx * 0.006, YAW_LIMIT)
