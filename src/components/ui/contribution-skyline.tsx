@@ -1180,3 +1180,4 @@ export default function ContributionSkyline({
   const is3d = view === "3d"
   const corners = showStats && width >= 560
   const bigSize = Math.round(Math.max(30, Math.min(56, width * 0.058)))
+  const statBlocks = [
