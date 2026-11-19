@@ -389,3 +389,4 @@ export class VoxelEngine {
   private aim(ev: PointerEvent) {
     const r = this.canvas.getBoundingClientRect()
     this.ndc.set(((ev.clientX - r.left) / r.width) * 2 - 1, -((ev.clientY - r.top) / r.height) * 2 + 1)
+    this.raycaster.setFromCamera(this.ndc, this.camera)
