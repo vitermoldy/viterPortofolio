@@ -245,3 +245,4 @@ for (const width of [390, 320]) {
       const toggle = page.getByRole('button', { name: 'Menu' })
       await toggle.click()
       expect((await toggle.getAttribute('aria-expanded')) === 'true', 'not expanded')
+      await page.screenshot({ path: join(OUT, '390-menu.png') })
