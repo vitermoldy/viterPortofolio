@@ -30,6 +30,8 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'viterportofolio',
+    name: 'viterPortofolio',
+    stack: 'three.js and React',
   {
     id: 'evit',
     name: 'eVit',
