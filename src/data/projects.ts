@@ -29,6 +29,8 @@ export const PROJECTS: Project[] = [
     repos: [{ label: 'Repository', name: 'FoodRolling' }],
   },
   {
+    id: 'viterportofolio',
+  {
     id: 'evit',
     name: 'eVit',
     stack: 'React, WebGL and PyTorch',
