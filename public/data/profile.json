@@ -14,6 +14,8 @@
    "name": "FoodRolling",
    "description": "Food Roll game",
    "url": "https://github.com/vitermoldy/FoodRolling",
+   "homepage": null,
+   "language": "TypeScript",
   {
    "name": "vitermoldy",
    "description": "My Github",
