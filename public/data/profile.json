@@ -35,7 +35,7 @@
    "description": "My Portofolio",
    "url": "https://github.com/vitermoldy/viterPortofolio",
    "homepage": null,
-   "language": null,
+   "language": "TypeScript",
    "stars": 0,
    "forks": 0,
    "pushedAt": "2026-11-19T12:29:44Z"
