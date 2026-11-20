@@ -24,6 +24,8 @@ export const PROJECTS: Project[] = [
     id: 'foodrolling',
     name: 'FoodRolling',
     stack: 'React, canvas and Zustand',
+    card: card('foodrolling'),
+    text: 'An idle restaurant game on a conveyor belt: chefs cook in the middle, plates roll past the stools and customers pay for every plate they empty. Raise income, speed, chefs and seats, then buy the next restaurant, six in all from a Japanese kaiten bar to a Paris bistro, each room drawn in its country’s style.',
   {
     id: 'evit',
     name: 'eVit',
