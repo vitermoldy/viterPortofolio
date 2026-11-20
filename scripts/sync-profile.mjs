@@ -31,6 +31,8 @@ const PIXEL = [
   'banner.svg',
   'character.svg',
   'footer.svg',
+  'card-foodrolling.svg',
+  'card-viterportofolio.svg',
   'card-evit.svg',
   'card-convertion.svg',
   'card-mixer.svg',
