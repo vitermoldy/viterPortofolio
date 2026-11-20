@@ -32,6 +32,8 @@ export const PROJECTS: Project[] = [
     id: 'viterportofolio',
     name: 'viterPortofolio',
     stack: 'three.js and React',
+    card: card('viterportofolio'),
+    text: 'This profile in 3D: the pixel-art portrait stands up as 4,096 blocks, every contribution rises into a skyline in GitHub’s own shades, and each project card turns into a relief you can turn and press.',
   {
     id: 'evit',
     name: 'eVit',
