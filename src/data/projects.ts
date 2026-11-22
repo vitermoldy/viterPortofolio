@@ -30,6 +30,8 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'coffeestatus',
+    name: 'CoffeeStatus',
+    stack: 'React, SVG and Motion',
   {
     id: 'foodrolling',
     name: 'FoodRolling',
