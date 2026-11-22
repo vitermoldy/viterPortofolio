@@ -26,26 +26,6 @@
    "url": "https://github.com/vitermoldy/SongPlaylist-ForLearning",
    "homepage": null,
    "language": "TypeScript",
-   "stars": 0,
-   "forks": 0,
-   "pushedAt": "2026-11-19T13:27:36Z"
-  },
-  {
-   "name": "ScamTrace",
-   "description": "AI agent that traces online scam sites in Indonesia: investigates them like a victim, extracts mule bank accounts, e-wallets and QRIS, maps scam networks, and generates evidence reports. Built on Huawei Cloud (MaaS, openJiuwen, RDS, DCS for Redis).",
-   "url": "https://github.com/vitermoldy/ScamTrace",
-   "homepage": null,
-   "language": null,
-   "stars": 0,
-   "forks": 0,
-   "pushedAt": "2026-11-19T11:06:32Z"
-  },
-  {
-   "name": "msbd-2026",
-   "description": "Kelompok 5 Tubes MSBD",
-   "url": "https://github.com/vitermoldy/msbd-2026",
-   "homepage": null,
-   "language": "PLpgSQL",
    "stars": 1,
    "forks": 0,
    "pushedAt": "2026-11-18T16:00:33Z"
