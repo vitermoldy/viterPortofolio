@@ -32,6 +32,8 @@ export const PROJECTS: Project[] = [
     id: 'coffeestatus',
     name: 'CoffeeStatus',
     stack: 'React, SVG and Motion',
+    card: card('coffeestatus'),
+    text: 'A drink menu that pours: pick a coffee, juice, tea or soda, the glass on stage is tossed away, a new one slides in and the drink fills layer by layer while the recipe card counts every millilitre. Every cup and liquid is SVG drawn in code, on Aakash Mehra’s coffee-pour-menu.',
   {
     id: 'foodrolling',
     name: 'FoodRolling',
