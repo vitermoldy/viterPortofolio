@@ -29,6 +29,8 @@ export const PROJECTS: Project[] = [
     repos: [{ label: 'Repository', name: 'SongPlaylist-ForLearning' }],
   },
   {
+    id: 'coffeestatus',
+  {
     id: 'foodrolling',
     name: 'FoodRolling',
     stack: 'React, canvas and Zustand',
