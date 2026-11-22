@@ -81,7 +81,7 @@ export const PROJECTS: Project[] = [
     name: 'Network Simulation',
     stack: 'three.js and MySQL',
     card: card('netsim'),
-    text: 'A 3D network lab in the spirit of Packet Tracer: follow one web request from a laptop through a switch, routers and a DNS server, plug and pull cables, switch a router off and watch the others find a new path, with an IOS-style CLI and runs kept in MySQL.',
+    text: 'A 3D network lab in the spirit of Packet Tracer: follow one web request from a laptop through a switch, routers and a DNS server, plug and pull cables, switch a router off and watch the others find a new path, with an IOS-style CLI and your runs and saved designs kept with your account in MySQL.',
     repos: [{ label: 'Repository', name: 'Network-Simulation' }],
   },
   {
