@@ -24,6 +24,8 @@ export const PROJECTS: Project[] = [
     id: 'songplaylist',
     name: 'SongPlaylist',
     stack: 'React, YouTube and MySQL',
+    card: card('songplaylist'),
+    text: 'A study playlist dealt like a deck of cards: paste YouTube links and every song becomes a card, the top card plays its video, and changing songs deals the next card in. Save the list as named playlists, kept with your account in MySQL. The card motion comes from Aakash Mehra’s Project Deck.',
   {
     id: 'foodrolling',
     name: 'FoodRolling',
