@@ -133,6 +133,7 @@
   {
    "name": "ScamTrace",
    "description": "AI agent that traces online scam sites in Indonesia: investigates them like a victim, extracts mule bank accounts, e-wallets and QRIS, maps scam networks, and generates evidence reports. Built on Huawei Cloud (MaaS, openJiuwen, RDS, DCS for Redis).",
+   "url": "https://github.com/vitermoldy/ScamTrace",
    "homepage": null,
    "language": null,
    "stars": 1,
