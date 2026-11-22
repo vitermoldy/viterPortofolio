@@ -154,6 +154,8 @@
    "name": "LandingPage-sitev1",
    "description": "Landing Page Template",
    "url": "https://github.com/vitermoldy/LandingPage-sitev1",
+   "homepage": null,
+   "language": "CSS",
    "stars": 1,
    "forks": 0,
    "pushedAt": "2026-11-07T21:39:01Z"
