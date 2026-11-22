@@ -144,6 +144,8 @@
    "name": "msbd-2026",
    "description": "Kelompok 5 Tubes MSBD",
    "url": "https://github.com/vitermoldy/msbd-2026",
+   "homepage": null,
+   "language": "PLpgSQL",
    "stars": 1,
    "forks": 0,
    "pushedAt": "2026-11-07T21:39:01Z"
