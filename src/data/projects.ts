@@ -21,6 +21,8 @@ const card = (file: string) => asset(`pixel/card-${file}.svg`)
 
 export const PROJECTS: Project[] = [
   {
+    id: 'songplaylist',
+  {
     id: 'foodrolling',
     name: 'FoodRolling',
     stack: 'React, canvas and Zustand',
