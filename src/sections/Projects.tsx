@@ -45,7 +45,8 @@ export function Projects({ state }: { state: LoadState }) {
                   {links.map((l) => (
                     <li key={l.url}>
                       <a className="btn btn-quiet" href={l.url} rel="noopener">
-                        Open the {project.name} {l.label.toLowerCase()}
+                        {/* only the first letter drops to lower case, so names inside a label (Easy) keep theirs */}
+                        Open the {project.name} {l.label.charAt(0).toLowerCase() + l.label.slice(1)}
                       </a>
                     </li>
                   ))}
