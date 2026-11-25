@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-22T11:48:22.943Z",
+ "fetchedAt": "2026-11-25T20:54:52.587Z",
  "login": "vitermoldy",
  "name": "Viter Moldy Kesuma",
  "bio": null,
@@ -7,9 +7,59 @@
  "blog": null,
  "followers": 1,
  "following": 1,
- "publicRepos": 26,
+ "publicRepos": 29,
  "createdAt": "2025-08-31T08:25:25Z",
  "repos": [
+  {
+   "name": "WitchRPG-v2-Easy-",
+   "description": "Witch RPG game easy mode",
+   "url": "https://github.com/vitermoldy/WitchRPG-v2-Easy-",
+   "homepage": null,
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-11-25T20:45:42Z"
+  },
+  {
+   "name": "WitchRPG-v2",
+   "description": "Witch RPG game",
+   "url": "https://github.com/vitermoldy/WitchRPG-v2",
+   "homepage": null,
+   "language": "TypeScript",
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-11-25T20:28:14Z"
+  },
+  {
+   "name": "vitermoldy",
+   "description": "My Github",
+   "url": "https://github.com/vitermoldy/vitermoldy",
+   "homepage": null,
+   "language": "Python",
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-25T19:55:37Z"
+  },
+  {
+   "name": "WitchRPG",
+   "description": "First person RPG game as a witch",
+   "url": "https://github.com/vitermoldy/WitchRPG",
+   "homepage": null,
+   "language": "TypeScript",
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-11-23T16:34:03Z"
+  },
+  {
+   "name": "viterPortofolio",
+   "description": "My Portofolio",
+   "url": "https://github.com/vitermoldy/viterPortofolio",
+   "homepage": null,
+   "language": "TypeScript",
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-11-22T12:02:12Z"
+  },
   {
    "name": "Network-Simulation",
    "description": null,
@@ -91,16 +141,6 @@
    "pushedAt": "2026-11-22T11:35:42Z"
   },
   {
-   "name": "vitermoldy",
-   "description": "My Github",
-   "url": "https://github.com/vitermoldy/vitermoldy",
-   "homepage": null,
-   "language": "Python",
-   "stars": 1,
-   "forks": 0,
-   "pushedAt": "2026-11-22T11:14:28Z"
-  },
-  {
    "name": "CoffeeStatus",
    "description": "How to make coffee",
    "url": "https://github.com/vitermoldy/CoffeeStatus",
@@ -109,16 +149,6 @@
    "stars": 0,
    "forks": 0,
    "pushedAt": "2026-11-21T06:38:29Z"
-  },
-  {
-   "name": "viterPortofolio",
-   "description": "My Portofolio",
-   "url": "https://github.com/vitermoldy/viterPortofolio",
-   "homepage": null,
-   "language": "TypeScript",
-   "stars": 0,
-   "forks": 0,
-   "pushedAt": "2026-11-20T16:43:42Z"
   },
   {
    "name": "FoodRolling",
