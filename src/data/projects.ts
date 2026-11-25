@@ -21,6 +21,25 @@ const card = (file: string) => asset(`pixel/card-${file}.svg`)
 
 export const PROJECTS: Project[] = [
   {
+    id: 'witchrpg-v2',
+    name: 'WitchRPG v2',
+    stack: 'three.js and MySQL',
+    card: card('witchrpg-v2'),
+    text: 'Crimson Sovereign: Hutan, a third-person action RPG in an open forest valley. Block, parry and execute with a staff, bend reality with Chaos magic and raise the fallen into a shadow army of hundreds, then fly across five zones to a three-phase Hydra and six more bosses, with your witch kept with your account in MySQL. Every creature was blocked out in Blender first, and an Easy version lets every fallen enemy rise.',
+    repos: [
+      { label: 'Repository', name: 'WitchRPG-v2' },
+      { label: 'Repository of the Easy version', name: 'WitchRPG-v2-Easy-' },
+    ],
+  },
+  {
+    id: 'witchrpg',
+    name: 'WitchRPG',
+    stack: 'three.js and MySQL',
+    card: card('witchrpg'),
+    text: 'Crimson Sovereign, a first-person witch RPG in the browser: the left hand bends reality with Chaos magic, the right raises fallen enemies into an army of shadows. Close Rifts across five tiers, fly over an open city and bring down The Hollow Warden in its three phases, with your witch and Rift history kept with your account in MySQL.',
+    repos: [{ label: 'Repository', name: 'WitchRPG' }],
+  },
+  {
     id: 'songplaylist',
     name: 'SongPlaylist',
     stack: 'React, YouTube and MySQL',
